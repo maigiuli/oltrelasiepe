@@ -71,47 +71,40 @@ nav li {
     margin: 0 10px; /* Aggiunge un po' di margine tra gli elementi del menu */
 }
 
-.container {
-        display: flex; 
-        background-color: #DEDEDE; 
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        align-items: stretch;
-}
-.container2{
+
+.container, .container2 {
     display: flex; 
-    background-color: #4DA69A; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     align-items: stretch;
+    height: 400px; /* Una altezza fissa. Regolala in base alle tue esigenze. */
 }
 
-.image-container {
-    flex: 1; /* Fai sì che entrambi i contenitori occupino metà dello spazio disponibile */
-    padding: 0px; /* Aggiungi un po' di spazio attorno al contenuto */
+.container {
+    background-color: #DEDEDE;
 }
-.text-container {
+
+.container2 {
+    background-color: #4DA69A;
+}
+
+.image-container, .text-container {
     flex: 1; 
-    margin-top: 80px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 80px;
+}
+
+.text-container {
+    margin: 20px 80px; 
     font-family: 'Questrial';
     font-size: 16px;
     text-align: justify;
     letter-spacing: 0.5px;
     word-spacing: 1px;
     line-height: 1.5;
-
 }
 
 .image-container img {
-    width: 100%; /* Fai sì che l'immagine si adatti completamente al suo contenitore */
-    height: auto; /* Mantieni il rapporto d'aspetto dell'immagine */
+    width: 100%;
+    height: auto;
 }
 
-header h2{
+header h2 {
     text-align: center;
 }
