@@ -143,4 +143,15 @@ nav li {
     color: #FFD0E8;
 }
 
+.mail a {
+    color: #FFD0E8;       
+    text-decoration: none; 
+}
+
+.mail a:hover {
+    color: #FFB0D8;         
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
 
