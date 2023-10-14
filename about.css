@@ -10,8 +10,8 @@ header {
     display: flex;
     flex-direction: column; /* allinea i figli (il logo e l'h1) verticalmente */
     align-items: center; /* centra i figli orizzontalmente */
-
 }
+
 
 header h1 {
     font-size: 2.5em;
@@ -19,12 +19,12 @@ header h1 {
     color: #FFD0E8;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 30px;
 }
 
 #logo, header h1 {
     display: block;
     text-align: center;
+    margin-bottom: 0px;
     margin-top: 20px;
 }
 
@@ -63,7 +63,6 @@ nav ul {
 nav li {
     margin: 0 10px; /* Aggiunge un po' di margine tra gli elementi del menu */
 }
-
 
 .container {
         display: flex; 
