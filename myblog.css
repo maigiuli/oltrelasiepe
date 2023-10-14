@@ -92,11 +92,10 @@ nav li {
     transform: translateY(-50%);
 }
 
-.text1:hover ~ .frodo {
+.text1:hover + .frodo {
     display: block;
 }
-
-.text2:hover ~ .gandalf {
+.text2:hover + .gandalf {
     display: block;
 }
 
