@@ -1,110 +1,86 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
+<!DOCTYPE html>
 
-header {
-    background-color: rgb(13, 29, 70);
-    display: flex;
-    flex-direction: column; /* Per allineare i figli verticalmente */
-    align-items: center; /* Per centrarli orizzontalmente */
-    justify-content: center; /* Opzionale, per centrarli verticalmente se necessario */
-}
+<html>
+    <head>
+        <meta charset=""utf-8"/>
+        <title>
+            Oltrelasiepe
+        </title>
+        <link rel="stylesheet" type="text/css" href="about.css" />
+    </head>
 
-.main_title {
-    display: flex;
-    flex-direction: column; /* allinea i figli (il logo e l'h1) verticalmente */
-    align-items: center; /* centra i figli orizzontalmente */
-}
+    <body>
+        <!-- Header Content Area -->
+        <div>
+            
+    <header>
+            <div class="main_title">
+                <img src="images/duck_edited_edited_edited.png" width="100px" id="logo"/>
+                <h1> Oltrelasiepe </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href='index.html'> Home </a></li> 
+                    <li> <a href='about.html'> About </a></li>
+                    <li> <a href='letture.html'> Letture </a></li>
+                    <li> <a href='articoli.html'>Articoli </a></li>
+                    <li> <a href='random.html'>Random </a></li>
+                    <li> <a href='deutsch.html'> Deutsch </a></li>
+                </ul>
+            </nav>
+    </header>
 
+    <div class="container">
+        <div class="image-container">
+            <img src="images/arco.jpg" alt="Descrizione dell'immagine">
+        </div>
+        
+        <div class="text-container">
+            <h2> About the blog </h2>
+            <p> "Perchè?" 
+                E' da sempre la mia domanda preferita, nonostante non si possa più attribuire la colpa all'età infantile. La curiosità è il motore di ricerca più antico e più efficace: è sufficiente guardarsi attorno per aprire le porte di nuovi mondi. Oltrelasiepe è un modo per condividere parte di ciò che esploro, ciò che mi sembra interessante, ciò che mi piace</p>
+        </div>
+   </div>
 
-header h1 {
-    font-size: 2.5em;
-    font-weight: normal;
-    color: #FFD0E8;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+   <div class="container2">
+    <div class="text-container">
+        <h2> About Oltrelasiepe </h2>
+        <p>
+            Per Leopardi, la siepe è un ostacolo che impedisce di vedere nella sua interezza il panorama. Dà fastidio perchè non permette di scorgere l'orizzonte. Eppure allo stesso tempo scatena la fantasia, libera l'immaginazione. Forse per il poeta la siepe era davvero un cespuglio sul colle di Recanati. Oggi ognuno ha la sua siepe e nella maggior parte dei casi non è un groviglio arboreo. L'importante è saper convivere con la propria siepe: ripararsi dietro essa, potarne i rami e soprattutto, guardare oltre. Magari c'è il buio, magari no. Val la pena andare a vedere. 
+        </p> 
+    </div>
+    <div class="image-container">
+        <img src="images/oltre.jpg" alt="Descrizione dell'immagine">
+    </div>
+</div>
 
-#logo, header h1 {
-    display: block;
-    text-align: center;
-    margin-bottom: 0px;
-    margin-top: 20px;
-}
-
-/* Navigation Style */
-nav {
-    display: flex; 
-    justify-content: center; /* Centra gli elementi orizzontalmente */
-    width: 100%;
-    color: #FFD0E8;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+<div class="container">
+    <div class="image-container">
+        <img src="images/paes.png.jpg" alt="Descrizione dell'immagine">
+    </div>
     
-nav a {
-    color: #FFD0E8; 
-    padding-bottom: 5px;
-    text-decoration: none;
-    padding: 0 15px; /* Aggiunto un po' di padding per separare gli elementi del menu */
-}
+    <div class="text-container">
+        <h2> About me </h2>
+        <p> 
+            Giù di qua, fermati lì, eccoci qua. Di nome e di fatto, sono sempre attiva, tra passeggiate in montagna, nuotate in piscina e città da visitare. Viaggiare è il modo migliore per conoscere e conoscere è importante per capire chi siamo. Quando invece sono a casa, molto probabilmente ho un libro in mano...
 
-nav a:hover {
-  /*  color: rgb(242, 40, 218);*/
-    color: #FFD0E8; 
-    font-weight: bold; /* Aggiunto per rendere l'elemento bold al passaggio del mouse */
-}
+        </p>
+      </div>
+</div>
 
-nav ul {
-    list-style-type: none; /* Rimuove i punti degli elenchi */
-    padding: 0; /* Rimuove il padding predefinito */
-    margin: 0; /* Rimuove il margine predefinito */
-    display: flex; /* Fa sì che gli elementi li si allineino orizzontalmente */
-    justify-content: center; /* Centra gli elementi orizzontalmente */
-}
+<div class="container2">
+    
+    
+    <div class="text-container">
+        <h2> About my studies </h2>
+        <p>
+            Nel tentativo di trovare una risposta ai miei tanti "come mai", studio Fisica all'Università degli Studi di Milano. Cercare di capire in che modo funziona il mondo in cui viviamo è una sfida. Appassionante. Sorprendente. Stimolante. 
+        </p> 
+    </div>
+    <div class="image-container">
+        <img src="images/luce.png.jpg" alt="Descrizione dell'immagine">
+    </div>
+</div>
 
-nav li {
-    margin: 0 10px; /* Aggiunge un po' di margine tra gli elementi del menu */
-}
-
-
-.container, .container2 {
-    display: flex; 
-    align-items: stretch;
-    height: 400px; /* Una altezza fissa. Regolala in base alle tue esigenze. */
-}
-
-.container {
-    background-color: #DEDEDE;
-}
-
-.container2 {
-    background-color: #4DA69A;
-}
-
-.image-container, .text-container {
-    flex: 1; 
-}
-
-.text-container {
-    margin: 20px 80px; 
-    font-family: 'Questrial';
-    font-size: 16px;
-    text-align: justify;
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
-    line-height: 1.5;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-}
-
-header h2 {
-    text-align: center;
-}
+</body>
+</html>
