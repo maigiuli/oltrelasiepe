@@ -31,6 +31,7 @@ header h1 {
     display: block;
     text-align: center;
     margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 /* Navigation Style */
@@ -41,6 +42,7 @@ nav {
     color: #FFD0E8;
     text-align: center;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
     
 nav a {
@@ -98,10 +100,11 @@ nav li {
     transform: translateY(-50%);
 }
 
-.text1:hover + .frodo {
+.text1:hover ~ .frodo {
     display: block;
 }
-.text2:hover + .gandalf {
+
+.text2:hover ~ .gandalf {
     display: block;
 }
 
@@ -147,17 +150,6 @@ nav li {
     text-align: center; /* Centra le icone orizzontalmente */
     margin-top: 0px;
     color: #FFD0E8;
-}
-
-.mail a {
-    color: #FFD0E8;       
-    text-decoration: none; 
-}
-
-.mail a:hover {
-    color: #FFB0D8;         
-    text-decoration: underline; 
-    font-weight: bold;
 }
 
 
