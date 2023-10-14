@@ -1,0 +1,64 @@
+header {
+    background-color: rgb(13, 29, 70);
+    display: flex;
+    flex-direction: column; /* Per allineare i figli verticalmente */
+    align-items: center; /* Per centrarli orizzontalmente */
+    justify-content: center; /* Opzionale, per centrarli verticalmente se necessario */
+}
+
+.main_title {
+    display: flex;
+    flex-direction: column; /* allinea i figli (il logo e l'h1) verticalmente */
+    align-items: center; /* centra i figli orizzontalmente */
+
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #FFD0E8;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+#logo, header h1 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex; 
+        background-color: burlywood; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+}
+
+.image-container {
+    flex: 1; /* Fai sì che entrambi i contenitori occupino metà dello spazio disponibile */
+    padding: 0px; /* Aggiungi un po' di spazio attorno al contenuto */
+}
+.text-container {
+    flex: 1; /* Fai sì che entrambi i contenitori occupino metà dello spazio disponibile */
+     /* Aggiungi un po' di spazio attorno al contenuto */
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-family: 'Questrial';
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 1.5;
+
+}
+
+
+.image-container img {
+    width: 100%; /* Fai sì che l'immagine si adatti completamente al suo contenitore */
+    height: auto; /* Mantieni il rapporto d'aspetto dell'immagine */
+}
+
