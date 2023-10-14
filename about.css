@@ -29,11 +29,12 @@ header h1 {
 }
 
 .container {
-    display: flex; 
+        display: flex; 
         background-color: burlywood; 
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        align-items: stretch;
 }
 
 .image-container {
@@ -41,14 +42,13 @@ header h1 {
     padding: 0px; /* Aggiungi un po' di spazio attorno al contenuto */
 }
 .text-container {
-    flex: 1; /* Fai sì che entrambi i contenitori occupino metà dello spazio disponibile */
-     /* Aggiungi un po' di spazio attorno al contenuto */
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 10px;
+    flex: 1; 
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
     font-family: 'Questrial';
-    font-size: 15px;
+    font-size: 16px;
     text-align: justify;
     letter-spacing: 0.5px;
     word-spacing: 1px;
@@ -62,3 +62,6 @@ header h1 {
     height: auto; /* Mantieni il rapporto d'aspetto dell'immagine */
 }
 
+header h2{
+    text-align: center;
+}
