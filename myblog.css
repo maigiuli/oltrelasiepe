@@ -135,7 +135,7 @@ nav li {
 }
 
 .social-strip img {
-    width: 30px; /* O qualsiasi altra dimensione desideri per le icone */
+    width: 50px; /* O qualsiasi altra dimensione desideri per le icone */
     height: auto;
     transition: 0.3s; /* Effetto di transizione per l'hover */
 }
