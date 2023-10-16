@@ -73,7 +73,9 @@ nav li {
 
 
 .container, .container2 {
-    display: flex; 
+     display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    
     align-items: stretch;
     height: 400px; /* Una altezza fissa. Regolala in base alle tue esigenze. */
 }
@@ -108,7 +110,6 @@ header h2 {
 
 .image-container, .text-container {
     flex: none;  /* Rimuove la proprietà flex: 1; così che non si estendano dinamicamente. */
-    width: 50%;  /* Imposta entrambi i contenitori a occupare esattamente metà dello spazio. */
     box-sizing: border-box; /* Fa sì che padding e bordi non aggiungano alla larghezza totale. */
 }
 
@@ -119,35 +120,5 @@ header h2 {
     height: 100%; /* L'immagine occuperà l'intera altezza del contenitore. */
     object-fit: cover; /* L'immagine coprirà l'intero contenitore, ma manterrà le sue proporzioni. */
     object-position: center; /* L'immagine verrà centrata nel suo contenitore. */
-}
-
-   
-.social-strip {
-    background-color: rgb(13, 29, 70);
-      padding: 20px 0;
-    text-align: center; /* Centra le icone orizzontalmente */
-}
-
-.social-strip a {
-    margin: 0 10px; /* Aggiunge un po' di spazio tra le icone */
-    display: inline-block; /* Rende le icone allineate orizzontalmente */
-}
-
-.social-strip img {
-    width: 50px; /* O qualsiasi altra dimensione desideri per le icone */
-    height: auto;
-    transition: 0.3s; /* Effetto di transizione per l'hover */
-}
-
-.social-strip img:hover {
-    opacity: 0.7; /* Rende le icone leggermente trasparenti quando si passa il mouse sopra */
-}
-
-.mail {
-    background-color: rgb(13, 29, 70);
-    padding: 20px 0;
-    text-align: center; /* Centra le icone orizzontalmente */
-    margin-top: 0px;
-    color: #FFD0E8;
 }
 
