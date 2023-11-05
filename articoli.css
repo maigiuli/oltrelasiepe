@@ -75,13 +75,11 @@ nav li {
 
 /* Stile base per gli articoli */
 .article {
-  
     background-color: #DEDEDE;
 }
 main{
     background-color: #4DA69A;
-    
-    padding: 20px;
+    padding: 15px;
 }
 .article {
     border: 1px solid #ccc;
