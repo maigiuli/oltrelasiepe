@@ -1,0 +1,140 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{    
+    background-color: #4DA69A;
+
+}
+
+header {
+    background-color: rgb(13, 29, 70);
+    display: flex;
+    flex-direction: column; /* Per allineare i figli verticalmente */
+    align-items: center; /* Per centrarli orizzontalmente */
+    justify-content: center; /* Opzionale, per centrarli verticalmente se necessario */
+}
+
+.main_title {
+    display: flex;
+    flex-direction: column; /* allinea i figli (il logo e l'h1) verticalmente */
+    align-items: center; /* centra i figli orizzontalmente */
+}
+
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #FFD0E8;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo, header h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+/* Navigation Style */
+nav {
+    display: flex; 
+    justify-content: center; /* Centra gli elementi orizzontalmente */
+    width: 100%;
+    color: #FFD0E8;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+    
+nav a {
+    color: #FFD0E8; 
+    padding-bottom: 5px;
+    text-decoration: none;
+    padding: 0 15px; /* Aggiunto un po' di padding per separare gli elementi del menu */
+}
+
+nav a:hover {
+  /*  color: rgb(242, 40, 218);*/
+    color: #FFD0E8; 
+    font-weight: bold; /* Aggiunto per rendere l'elemento bold al passaggio del mouse */
+}
+
+nav ul {
+    list-style-type: none; /* Rimuove i punti degli elenchi */
+    padding: 0; /* Rimuove il padding predefinito */
+    margin: 0; /* Rimuove il margine predefinito */
+    display: flex; /* Fa sì che gli elementi li si allineino orizzontalmente */
+    justify-content: center; /* Centra gli elementi orizzontalmente */
+}
+
+nav li {
+    margin: 0 10px; /* Aggiunge un po' di margine tra gli elementi del menu */
+}
+
+
+/* Stile base per gli articoli */
+.article {
+  
+    background-color: #DEDEDE;
+}
+.body{
+    background-color: #4DA69A;
+}
+.article {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.article img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.article-content {
+    margin-left: 10px;
+}
+
+.article-content h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.article-content a {
+    color: #0070C0;
+}
+
+   
+.social-strip {
+    background-color: rgb(13, 29, 70);
+      padding: 20px 0;
+    text-align: center; /* Centra le icone orizzontalmente */
+}
+
+.social-strip a {
+    margin: 0 10px; /* Aggiunge un po' di spazio tra le icone */
+    display: inline-block; /* Rende le icone allineate orizzontalmente */
+}
+
+.social-strip img {
+    width: 50px; /* O qualsiasi altra dimensione desideri per le icone */
+    height: auto;
+    transition: 0.3s; /* Effetto di transizione per l'hover */
+}
+
+.social-strip img:hover {
+    opacity: 0.7; /* Rende le icone leggermente trasparenti quando si passa il mouse sopra */
+}
+
+.mail {
+    background-color: rgb(13, 29, 70);
+    padding: 20px 0;
+    text-align: center; /* Centra le icone orizzontalmente */
+    margin-top: 0px;
+    color: #FFD0E8;
+}
