@@ -99,6 +99,13 @@ main {
     max-height: auto; /* Imposta l'altezza automaticamente in base alla larghezza */
 }
 
+.titolo-grande {
+    margin-top: 10px;
+    font-size: 1.5em; /* Modifica la dimensione del testo a tuo piacimento */
+    font-weight: normal; /* Opzionale, se desideri il testo in grassetto */
+}
+
+
 .article-content {
     margin: 10px 20px; /* Aggiungi spazio tra il testo e i bordi del riquadro */
     text-align: left; /* Allinea il testo a sinistra */
