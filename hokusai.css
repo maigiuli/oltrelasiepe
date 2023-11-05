@@ -109,6 +109,26 @@ main {
     margin: 0;
 }
 
+.article-content h3 {
+    font-style: italic;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Rimuovere il grassetto dal testo */
+h3 span {
+    font-weight: normal;
+}
+
+/* Se vuoi applicare lo stile solo a sottotitoli specifici con una classe */
+.sottotitolo-personalizzato {
+    font-style: italic;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
 .article-content p {
     margin: 0;
     text-align: justify;
