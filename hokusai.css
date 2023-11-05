@@ -82,7 +82,7 @@ main {
 }
 
 .article {
-    width: 90%; /* Imposta la larghezza desiderata */
+    width: 90%; /* Imposta la larghezza desiderata (90% del contenitore) */
     margin: 0 auto; /* Imposta i margini automatici per centrare orizzontalmente */
     padding: 10px;
     display: flex;
@@ -90,12 +90,12 @@ main {
     flex-direction: column;
     padding: 10px;
     background-color: #DEDEDE;
-    max-width: 400px; /* Imposta la larghezza massima desiderata */
-    text-align: center; 
+    max-width: 1200px; /* Imposta la larghezza massima desiderata, ad esempio 1200px */
+    text-align: center;
 }
 
 .article img {
-    max-width: 300px; /* Imposta la larghezza massima dell'immagine */
+    max-width: 90%; /* L'immagine si adatterà alla larghezza massima del riquadro */
     max-height: auto; /* Imposta l'altezza automaticamente in base alla larghezza */
 }
 
