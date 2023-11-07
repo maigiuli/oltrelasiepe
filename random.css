@@ -84,13 +84,12 @@ nav li {
     background-color: #4DA69A; /* Verde più tenue */
 }
 
-/* Allineamento dell'immagine a sinistra o a destra */
 .article:nth-child(odd) img {
-    margin-left: 20px; /* Immagine a sinistra */
+    order: 2; /* Immagine a destra */
 }
 
 .article:nth-child(even) img {
-    margin-right: 20px; /* Immagine a destra */
+    order: 1; /* Immagine a sinistra */
 }
 
 /* Stile per il contenuto del testo */
