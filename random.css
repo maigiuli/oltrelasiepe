@@ -95,17 +95,18 @@ nav li {
 
 .article:nth-child(odd) img {
     order: 2; /* Immagine a destra */
+    margin-right: 20px; 
 }
 
 .article:nth-child(even) img {
     order: 1; /* Immagine a sinistra */
+    margin-left: 20px; 
 }
 
 
 .article img {
     max-height: 200px; /* Altezza massima delle immagini */
-    width: auto; /* Larghezza automatica per mantenere le proporzioni */
-    margin-right: 20px; /* Spazio tra l'immagine e il testo */
+    width: auto; 
 }
 
 .article-content {
