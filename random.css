@@ -168,8 +168,9 @@ nav li {
 
 /* Stile per le immagini */
 .article img {
-    max-height: 100%; /* L'altezza massima dell'immagine sarà pari all'altezza della striscia */
-    max-width: auto; /* Larghezza massima automatica */
+    max-height: 100px; /* Altezza massima delle immagini */
+    width: auto; /* Larghezza automatica per mantenere le proporzioni */
+    margin-right: 20px; /* Spazio tra l'immagine e il testo */
 }
 
 /* Stile per il contenuto del testo */
