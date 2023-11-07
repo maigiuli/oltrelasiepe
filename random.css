@@ -95,12 +95,12 @@ nav li {
 
 .article:nth-child(odd) img {
     order: 2; /* Immagine a destra */
-    margin-right: 20px; 
+    margin-left: 20px; 
 }
 
 .article:nth-child(even) img {
     order: 1; /* Immagine a sinistra */
-    margin-left: 20px; 
+    margin-right: 20px; 
 }
 
 
