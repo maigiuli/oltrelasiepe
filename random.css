@@ -92,12 +92,12 @@ nav li {
 
 .article:nth-child(odd) .article-content img {
     float: right; /* Immagine a destra */
-    margin: 0 0 10px 20px; /* Aggiunge margine solo nella parte inferiore e a destra */
+    margin: 0 20px 10px 20px; /* Aggiunge margine solo nella parte inferiore e a destra */
 }
 
 .article:nth-child(even) .article-content img {
     float: left; /* Immagine a sinistra */
-    margin: 0 20px 10px 0; /* Aggiunge margine solo nella parte inferiore e a sinistra */
+    margin: 0 20px 10px 20px; /* Aggiunge margine solo nella parte inferiore e a sinistra */
 }
 
 /* Stile per l'immagine per garantire un'altezza massima */
