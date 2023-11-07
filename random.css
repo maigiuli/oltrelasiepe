@@ -93,6 +93,7 @@ nav li {
 }
 
 
+
 .article:nth-child(odd) .article-content img {
     float: right; /* Immagine a destra */
     margin: 0 0 10px 20px; /* Aggiunge margine solo nella parte inferiore e a destra */
@@ -103,22 +104,25 @@ nav li {
     margin: 0 20px 10px 0; /* Aggiunge margine solo nella parte inferiore e a sinistra */
 }
 
-/* Stile per l'immagine per garantire un'altezza massima */
 .article img {
     max-height: 200px; /* Altezza massima delle immagini */
     width: auto; /* Larghezza automatica per mantenere le proporzioni */
+    margin-right: 20px; /* Aggiunge margine alla destra dell'immagine */
 }
 
-/* Aggiungi margine alla parte inferiore del testo */
 .article-content {
-    margin-bottom: 10px;
+    text-align: justify;
+    flex: 1; /* Il testo occupa lo spazio rimanente */
+    margin-left: 20px; /* Aggiunge margine alla sinistra del testo */
 }
+
 
 h3, p {
     margin: 0;
     padding: 0;
     font-weight: normal;
 }
+
 
 
 
