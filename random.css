@@ -74,6 +74,7 @@ nav li {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: justify;
     padding: 20px;
     min-height: 100px; /* Altezza fissa per le strisce */
 }
