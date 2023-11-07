@@ -81,11 +81,15 @@ nav li {
 
 .article:nth-child(even) {
     background-color: #DEDEDE; /* Grigio chiaro */
+    
+    order: 2; 
 }
 
 
 .article:nth-child(odd) {
     background-color: #4DA69A; /* Verde più tenue */
+
+    order: 1;
 }
 
 
