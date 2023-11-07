@@ -92,6 +92,13 @@ nav li {
     order: 1; /* Immagine a sinistra */
 }
 
+
+.article img {
+    max-height: 100%; /* Altezza massima pari a quella del contenuto del testo */
+    max-width: 100%; /* Larghezza massima */
+}
+
+
 /* Stile per il contenuto del testo */
 .article-content {
     flex: 1; /* Il testo occupa lo spazio rimanente */
