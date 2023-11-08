@@ -24,23 +24,7 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <script>
-            function bounceDuck() {
-                const duck = document.getElementById('logo');
-                duck.classList.add('bouncing');
-                setTimeout(() => {
-                    duck.classList.remove('bouncing');
-                }, 500);
-            }
-
-            function sparkText() {
-                const text = document.querySelector('.text1');
-                text.classList.add('sparkable');
-                setTimeout(() => {
-                    text.classList.remove('sparkable');
-                }, 1000);
-            }
-        </script>
+      
     </head>
 
     <body>
@@ -95,6 +79,22 @@
 
     </div>
     
-    
+    <script>
+        function bounceDuck() {
+            const duck = document.getElementById('logo');
+            duck.classList.add('bouncing');
+            setTimeout(() => {
+                duck.classList.remove('bouncing');
+            }, 500);
+        }
+
+        function sparkText() {
+            const text = document.querySelector('.text1');
+            text.classList.add('sparkable');
+            setTimeout(() => {
+                text.classList.remove('sparkable');
+            }, 1000);
+        }
+    </script>
     </body>
 </html>
