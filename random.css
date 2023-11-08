@@ -110,7 +110,8 @@ nav li {
 .article-content {
     text-align: justify;
     flex: 1; /* Il testo occupa lo spazio rimanente */
-    margin-left: 20px; /* Aggiunge margine alla sinistra del testo */
+    margin-left: 20px; 
+    margin-right: 20px; 
 }
 
 
