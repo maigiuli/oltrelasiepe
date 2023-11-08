@@ -88,7 +88,7 @@ body{
     padding: 10px;
     background: #DEDEDE; 
   }
-  
+
   .square {
     width: calc(40% - 20px);/* Larghezza fissa */
     height: 400px; /* Altezza fissa */
@@ -100,9 +100,10 @@ body{
     transition: transform 0.2s;
     margin: 0; 
     margin-bottom: 12px;
+    margin-top: 12px;
+
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 12px;
   }
   .square:hover {
     transform: scale(1.1);
