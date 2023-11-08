@@ -1,19 +1,19 @@
-// Ottieni l'elemento con la classe "falling-text"
-const fallingText = document.querySelector('.falling-text');
+function fallLetters() {
+    const textElement = document.querySelector('.falling-text');
+    const text = textElement.textContent;
+    textElement.textContent = '';
 
-// Separare la frase in singole lettere
-const letters = fallingText.textContent.split('');
+    for (let i = 0; i < text.length; i++) {
+        const letterSpan = document.createElement('span');
+        letterSpan.textContent = text[i];
+        letterSpan.style.animationDelay = `${i * 0.1}s`;
+        textElement.appendChild(letterSpan);
+    }
+}
 
-// Sostituisci il testo con le lettere separate
-fallingText.innerHTML = '';
-
-letters.forEach((letter, index) => {
-    const span = document.createElement('span');
-    span.textContent = letter;
-    span.className = 'falling-letter';
-    span.style.animationDelay = `${0.1 * index}s`;
-    fallingText.appendChild(span);
+// Richiamo delle funzioni al caricamento della pagina
+document.addEventListener('DOMContentLoaded', () => {
+    bounceDuck(); // Chiamata alla funzione per far saltare la papera
+    sparkleText(); // Chiamata alla funzione per far brillare il testo
+    fallLetters(); // Chiamata alla funzione per far cadere il testo lettera per lettera
 });
-
-// Rendi visibile il testo e avvia l'animazione
-fallingText.style.visibility = 'visible';
