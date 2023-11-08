@@ -86,10 +86,11 @@ body{
     align-items: center;
     flex-wrap: wrap;
     padding: 10px;
+    background: #DEDEDE; 
   }
   
   .square {
-    width: 40%; /* Larghezza fissa */
+    width: calc(40% - 20px);/* Larghezza fissa */
     height: 400px; /* Altezza fissa */
     padding: 20px;
     text-align: justify;
@@ -98,6 +99,20 @@ body{
     cursor: pointer;
     transition: transform 0.2s;
     margin: 0; 
+    margin-bottom: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 12px;
+  }
+  .square:hover {
+    transform: scale(1.1);
+  }
+  .square {
+    transition: transform 0.2s;
+  }
+  
+  .square:active {
+    transform: translateY(10px);
   }
   
   /* Aggiungi altri stili per quadrati di dimensioni diverse se necessario */
@@ -154,6 +169,7 @@ body{
     background-color: rgb(13, 29, 70);
       padding: 20px 0;
     text-align: center; /* Centra le icone orizzontalmente */
+    margin-top: 0px;
 }
 
 .social-strip a {
