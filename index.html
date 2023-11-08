@@ -51,11 +51,11 @@
        
     <div class="banner_image">
         <!-- All'interno del tuo HTML -->
-    <p class="text1 sparkable" onclick="sparkText()">"Tutto ciò che possiamo scegliere è come disporre del tempo che ci viene dato"</p>
-
+        <p class="text1 sparkable" onclick="sparkText(this)">
+            "Tutto ciò che possiamo scegliere è come disporre del tempo che ci viene dato"
+        </p>
         
-        <p class="text2 sparkable" onclick="sparkText()"> J.R.R. Tolkien </p>
-        
+        <p class="text2 sparkable" onclick="sparkText(this)"> J.R.R. Tolkien </p>
         
     </div>
 
@@ -78,7 +78,7 @@
 
 
     </div>
-    
+    <script src="falling-letters.js"></script>
     <script>
         function bounceDuck() {
             const duck = document.getElementById('logo');
