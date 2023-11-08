@@ -64,101 +64,61 @@ nav li {
     margin: 0 10px; /* Aggiunge un po' di margine tra gli elementi del menu */
 }
 
-
-body{
-    margin-top: 0px;
-    background-color: #DEDEDE;
-}
-
 .sottotitolo-personalizzato {
     font-weight: normal; 
     color: black;
     display: flex;
     justify-content: space-between;
 }
-
-
-
-  
-  .container {
+.article {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 10px;
-    background: #DEDEDE; 
-  }
-
-  .square {
-    width: calc(40% - 20px);/* Larghezza fissa */
-    height: 400px; /* Altezza fissa */
     padding: 20px;
+    min-height: 100px; /* Altezza fissa per le strisce */
+}
+
+
+.article:nth-child(even) {
+    background-color: #DEDEDE; /* Grigio chiaro */
+    
+}
+
+
+.article:nth-child(odd) {
+    background-color: #4DA69A; /* Verde più tenue */
+
+}
+
+
+.article:nth-child(odd) .article-content img {
+    float: right; /* Immagine a destra */
+    margin: 0 0 10px 20px; /* Aggiunge margine solo nella parte inferiore e a destra */
+}
+
+.article:nth-child(even) .article-content img {
+    float: left; /* Immagine a sinistra */
+    margin: 0 20px 10px 0; /* Aggiunge margine solo nella parte inferiore e a sinistra */
+}
+
+.article img {
+    max-height: 200px; /* Altezza massima delle immagini */
+    width: auto; /* Larghezza automatica per mantenere le proporzioni */
+    margin-right: 20px; /* Aggiunge margine alla destra dell'immagine */
+}
+
+.article-content {
     text-align: justify;
-    justify-content: center;
-    background-color: #4DA69A; /* Colore verde acqua */
-    cursor: pointer;
-    transition: transform 0.2s;
-    margin: 0; 
-    margin-bottom: 12px;
-    margin-top: 12px;
+    flex: 1; /* Il testo occupa lo spazio rimanente */
+    margin-left: 20px; /* Aggiunge margine alla sinistra del testo */
+}
 
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .square:hover {
-    transform: scale(1.1);
-  }
-  .square {
-    transition: transform 0.2s;
-  }
-  
-  .square:active {
-    transform: translateY(10px);
-  }
-  
-  /* Aggiungi altri stili per quadrati di dimensioni diverse se necessario */
-  
 
-.column {
-    width: 50%; /* Larghezza delle colonne (50% del container con margine) */
-    margin: 10px;
+h3, p {
+    margin: 0;
     padding: 0;
+    font-weight: normal;
 }
-
-.square-title {
-    font-weight: bold;
-}
-
-.square-description {
-    margin-top: 10px;
-}
-
-.square-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -170,7 +130,6 @@ body{
     background-color: rgb(13, 29, 70);
       padding: 20px 0;
     text-align: center; /* Centra le icone orizzontalmente */
-    margin-top: 0px;
 }
 
 .social-strip a {
