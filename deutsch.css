@@ -82,8 +82,8 @@ body{
   
   .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     flex-wrap: wrap;
     
     background: #DEDEDE; 
@@ -97,20 +97,21 @@ body{
     justify-content: center;
     background-color: #4DA69A; /* Colore verde acqua */
     cursor: pointer;
-    transition: transform 0.2s;
-    margin: 0; 
-    margin-bottom: 12px;
+    transition: box-shadow 0.3s; /* Cambiato l'effetto di transizione */
+    margin: 10px; /* Aggiunto margine uniforme tra i quadrati */
+   margin-bottom: 12px;
     margin-top: 12px;
-
     margin-left: 10px;
     margin-right: 10px;
-  }
-  .square:hover {
-    transform: scale(1.1);
-  }
-  .square {
-    transition: transform 0.2s;
-  }
+}
+  
+.square:hover {
+  box-shadow: 0 0 20px rgba(77, 166, 154, 0.7); /* Aggiunto l'ombra al passaggio del mouse */
+}
+
+.square:active {
+  box-shadow: 0 0 10px rgba(77, 166, 154, 0.7); /* Ridotta l'ombra al clic */
+}
   
   .square:active {
     transform: translateY(10px);
@@ -136,7 +137,7 @@ body{
 .square-image {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
