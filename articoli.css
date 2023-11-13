@@ -124,8 +124,9 @@ main{
 }
 
 .article-content {
-    margin-left: 10px;
+    
     flex: 1; 
+    margin-left: 10px;
 }
 
 .article-content h2 {
