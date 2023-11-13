@@ -143,13 +143,16 @@ main{
     flex-direction: column;
     text-decoration: none;
     color: black;
+    
 }
 
-.article-link:hover .article-content h2 {
-    text-decoration: underline;
+.article-link:hover{
     cursor: pointer;
 }
 
+.article-content h2:hover {
+    text-decoration: underline;
+}
 
 
    
