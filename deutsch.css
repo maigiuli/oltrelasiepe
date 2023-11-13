@@ -128,7 +128,9 @@ body{
    margin-bottom: 12px;
     margin-top: 12px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px; 
+    display: flex; /* Aggiunto display flex per centrare l'immagine verticalmente */
+  flex-direction: column; /* Cambiato in colonna per disporre l'immagine sopra il testo */
 }
   
 .square:hover {
@@ -149,7 +151,7 @@ body{
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  object-fit: fill; 
+  object-fit: contain; 
   display: block; 
   margin: 0;
   padding: 0;
@@ -168,7 +170,7 @@ body{
 }
 
 .square-description {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
