@@ -31,7 +31,14 @@ function sparkText() {
             var audio = document.getElementById('myAudio');
             audio.play();
         }
-
+ function toggleAudio() {
+            var audio = document.getElementById('myAudio');
+             if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+}
 
 function image(){
     const articles = document.querySelectorAll('.article-link');
