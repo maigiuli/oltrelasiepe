@@ -55,10 +55,3 @@ articles.forEach(article => {
     });
 });
 }
-
-
-// Richiamo delle funzioni al caricamento della pagina
-document.addEventListener('DOMContentLoaded', () => {
-    sparkText(); // Chiamata alla funzione per far brillare il testo
-    fallLetters(); // Chiamata alla funzione per far cadere il testo lettera per lettera
-});
