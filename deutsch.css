@@ -121,7 +121,7 @@ body{
   max-width: 100%;
   height: auto;
   margin-top: 10px;
-  object-fit: contain; /* Aggiunto object-fit */
+  object-fit: fill; 
 }
   
   /* Aggiungi altri stili per quadrati di dimensioni diverse se necessario */
