@@ -24,24 +24,6 @@
     }
 }
 
-/* Nel tuo file CSS */
-.sparkable {
-    cursor: pointer;
-    transition: opacity 0.2s;
-}
-
-.sparkable:hover {
-    animation: sparkle 1s infinite;
-}
-
-@keyframes sparkle {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.2;
-    }
-}
 
 header {
     background-color: rgb(13, 29, 70);
@@ -139,27 +121,29 @@ nav li {
     transform: translateY(-50%);
 }
 
-.text1:hover ~ .frodo {
-    display: block;
-}
-
-.text2:hover ~ .gandalf {
-    display: block;
-}
-
-.frodo {
-    left: -60px; /* Distanza da .text1; regola secondo le tue esigenze */
-}
-
-.gandalf {
-    right: -60px; /* Distanza da .text2; regola secondo le tue esigenze */
-}
-
-.text1, .text2 {
+.textspark {
     font-size: 24px;
     color: white;
     margin: 10px 0; /* Aggiungi un po' di spazio tra le due scritte */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sparkable {
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.sparkable:hover {
+    animation: sparkle 1s infinite;
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
 }
     
 .social-strip {
