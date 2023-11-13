@@ -132,16 +132,17 @@ body{
 }
   
 .square:hover {
-  box-shadow: 0 0 20px rgba(77, 166, 154, 0.7); /* Aggiunto l'ombra al passaggio del mouse */
+  box-shadow: 0 0 20px rgba(77, 166, 154, 0.7); /* Aggiunto l'ombra al passaggio del mouse */  
+    transition: box-shadow 0.3s ease; /* Effetto di transizione per l'ombra */
+
 }
 
 .square:active {
   box-shadow: 0 0 10px rgba(77, 166, 154, 0.7); /* Ridotta l'ombra al clic */
+  transition: box-shadow 0.3s ease; /* Effetto di transizione per l'ombra */
+
 }
-  
-  .square:active {
-    transform: translateY(10px);
-  }
+
 
 .square-image {
   max-width: 70%;
@@ -149,6 +150,7 @@ body{
   margin-top: 10px;
   margin-bottom: 10px;
   object-fit: fill; 
+  display: block; 
   margin: 0;
   padding: 0;
 }
