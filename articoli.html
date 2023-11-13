@@ -87,3 +87,20 @@
 
 </body>
     </html>
+
+<script>
+    const articles = document.querySelectorAll('.article-link');
+
+    articles.forEach(article => {
+        article.addEventListener('mouseenter', () => {
+            const img = article.querySelector('img');
+            img.style.transform = 'scale(1.1)';
+        });
+
+        article.addEventListener('mouseleave', () => {
+            const img = article.querySelector('img');
+            img.style.transform = 'scale(1)';
+        });
+    });
+</script>
+
