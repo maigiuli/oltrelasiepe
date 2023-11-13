@@ -27,8 +27,26 @@ function sparkText() {
             }, 1000);
 }
 
+
+function image(){
+    const articles = document.querySelectorAll('.article-link');
+
+articles.forEach(article => {
+    article.addEventListener('mouseenter', () => {
+        const img = article.querySelector('img');
+        img.style.transform = 'scale(1.1)';
+    });
+
+    article.addEventListener('mouseleave', () => {
+        const img = article.querySelector('img');
+        img.style.transform = 'scale(1)';
+    });
+});
+}
+
+
 // Richiamo delle funzioni al caricamento della pagina
 document.addEventListener('DOMContentLoaded', () => {
-    sparkleText(); // Chiamata alla funzione per far brillare il testo
+    sparkText(); // Chiamata alla funzione per far brillare il testo
     fallLetters(); // Chiamata alla funzione per far cadere il testo lettera per lettera
 });
