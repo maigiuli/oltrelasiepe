@@ -1,3 +1,29 @@
+/* Nel tuo file CSS */
+.bounceable {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.bounceable:hover {
+    transform: scale(1.1);
+}
+
+.bounceable.bouncing {
+    animation: bounce 0.5s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
 header {
     background-color: rgb(13, 29, 70);
     display: flex;
