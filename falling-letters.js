@@ -27,6 +27,11 @@ function sparkText() {
             }, 1000);
 }
 
+ function startAudio() {
+            var audio = document.getElementById('myAudio');
+            audio.play();
+        }
+
 
 function image(){
     const articles = document.querySelectorAll('.article-link');
