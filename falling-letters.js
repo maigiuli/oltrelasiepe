@@ -13,7 +13,6 @@ function fallLetters() {
 
 // Richiamo delle funzioni al caricamento della pagina
 document.addEventListener('DOMContentLoaded', () => {
-    bounceDuck(); // Chiamata alla funzione per far saltare la papera
     sparkleText(); // Chiamata alla funzione per far brillare il testo
     fallLetters(); // Chiamata alla funzione per far cadere il testo lettera per lettera
 });
