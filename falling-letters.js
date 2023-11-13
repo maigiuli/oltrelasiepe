@@ -11,6 +11,8 @@ function fallLetters() {
     }
 }
 
+fallLetters(); 
+
 function bounceDuck() {
             const duck = document.getElementById('logo');
             duck.classList.add('bouncing');
