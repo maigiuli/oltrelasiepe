@@ -148,16 +148,15 @@ body{
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  object-fit: cover; 
+  object-fit: fill; 
   margin: 0;
   padding: 0;
 }
   
-  /* Aggiungi altri stili per quadrati di dimensioni diverse se necessario */
-  
+
 
 .column {
-    width: 50%; /* Larghezza delle colonne (50% del container con margine) */
+    width: 50%; 
     margin: 10px;
     padding: 0;
 }
