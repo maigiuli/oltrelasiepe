@@ -1,5 +1,5 @@
 function fallLetters() {
-    const textElement = document.querySelector('.falling-text');
+   const textElement = document.getElementById('falling-text');
     const text = textElement.textContent;
     textElement.textContent = '';
 
