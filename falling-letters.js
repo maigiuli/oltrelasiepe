@@ -20,7 +20,7 @@ function bounceDuck() {
         }
 
 function sparkText() {
-            const text = document.querySelector('.text1');
+            const text = document.getElementById('textspark');
             text.classList.add('sparkable');
             setTimeout(() => {
                 text.classList.remove('sparkable');
