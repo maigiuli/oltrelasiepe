@@ -5,15 +5,12 @@
         <title>
             Oltrelasiepe
         </title>
-        <link rel="stylesheet" type="text/css" href="hokusai.css" />
+        <link rel="stylesheet" type="text/css" href="consigli.css"/>
+        
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     </head>
 
     <body>
-        
-<audio id="myAudio">
-    <source src="baci.mp3" type="audio/mp3">
-    Il tuo browser non supporta l'elemento audio.
-</audio>
         
         <div>
             
@@ -36,19 +33,25 @@
     </header>
 
     <main class="main">
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<div class="container">
+      <h1>Consigliami un libro</h1>
+    <p > Una storia diventa ancora più preziosa se viene condivisa! </p>
 
 
 
+    <form id="suggestionForm">
+        <label for="bookTitle">Titolo del Libro:</label>
+        <input type="text" id="bookTitle" name="bookTitle" required>
 
+        <label for="email">Indirizzo Email (opzionale):</label>
+        <input type="email" id="email" name="email">
 
-
-
-
-
-
-
-
-
+        <button type="button" onclick="sendSuggestion()">Invia Consiglio</button>
+    </form>
+</div>
 
 
       
@@ -80,8 +83,9 @@
 
     </div>
     <script src="falling-letters.js"></script>
+<script src="script.js"></script>
+
 </body>
+</html>
 
-    
 
-    </html>
