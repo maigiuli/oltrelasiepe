@@ -25,8 +25,11 @@ function showThanksMessage() {
     var formContainer = document.querySelector('.container');
     formContainer.style.display = 'none';
 
-    // Mostra il messaggio di ringraziamento
+    // Crea e aggiungi il messaggio di ringraziamento al corpo del documento
     var thanksContainer = document.createElement('div');
-    thanksContainer.innerHTML = '<div id="thanksContainer" class="container"> <h2>Grazie!</h2> <p>Il tuo suggerimento è stato inviato con successo.</p></div>';
+    thanksContainer.id = 'thanksContainer';
+    thanksContainer.classList.add('container'); // Aggiungi la classe 'container'
+    thanksContainer.innerHTML = '<h2>Grazie!</h2><p>Il tuo suggerimento è stato inviato con successo.</p>';
     document.body.appendChild(thanksContainer);
 }
+
