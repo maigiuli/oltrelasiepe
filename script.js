@@ -14,7 +14,7 @@ function sendSuggestion() {
     };
 
     // Invia la richiesta di invio dell'email
-     emailjs.send("service_dm4zvhg", "template_rpin03f", templateParams)
+     emailjs.send("service_l45ajru", "template_rpin03f", templateParams)
        .then(function(response) {
             console.log("Success", response);
             showThanksMessage(); // Chiamiamo la funzione per mostrare il messaggio "Grazie!"
