@@ -12,7 +12,8 @@ document.getElementById('form')
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'Invia Consiglio';
-      alert('Sent!');
+      showThanksMessage();
+      alert('Consiglio inviato, grazie!');
     }, (err) => {
       btn.value = 'Invia Consiglio';
       alert(JSON.stringify(err));
