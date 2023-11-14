@@ -22,8 +22,7 @@ document.getElementById('form')
 
 function showThanksMessage() {
     // Nascondi il modulo del form
-    var formContainer = document.querySelector('.container');
-    formContainer.style.display = 'none';
+    form.style.display = 'none';
 
     // Crea e aggiungi il messaggio di ringraziamento al corpo del documento
     var thanksContainer = document.createElement('div');
@@ -33,4 +32,6 @@ function showThanksMessage() {
     
      mainContainer.appendChild(thanksContainer);
 }
+
+
 
