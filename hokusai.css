@@ -124,6 +124,8 @@ main {
     max-width: 90%; /* L'immagine si adatterà alla larghezza massima del riquadro */
     max-height: auto; /* Imposta l'altezza automaticamente in base alla larghezza */
     cursor: pointer;
+    margin-right: auto; 
+    margin-left: auto; 
 }
 
 .titolo-grande {
