@@ -14,13 +14,12 @@ function sendSuggestion() {
     };
 
     // Invia la richiesta di invio dell'email
-    emailjs.send("service_dm4zvhg", "template_rpin03f", templateParams)
+   emailjs.send("YOUR_EMAILJS_SERVICE_ID", "YOUR_EMAILJS_TEMPLATE_ID", templateParams)
         .then(function(response) {
             console.log("Success", response);
-            // Puoi aggiungere qui altre azioni dopo l'invio
+            showThanksMessage(); // Chiamiamo la funzione per mostrare il messaggio "Grazie!"
         }, function(error) {
             console.log("Failed", error);
-            // Puoi gestire gli errori qui, ad esempio mostrare un messaggio all'utente
         });
 }
 
