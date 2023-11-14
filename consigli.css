@@ -97,74 +97,39 @@ nav ul {
 nav li {
     margin: 0 10px; /* Aggiunge un po' di margine tra gli elementi del menu */
 }
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
 }
 
 .container {
     max-width: 600px;
     margin: 50px auto;
-    width: 100%;
     padding: 20px;
-    background-color: #4DA69A; /* Colore di sfondo interno (verde acqua più chiaro) */
-    border-radius: 0; /* Angoli non arrotondati */
+    background-color: #4DA69A;
+    border-radius: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+h1 {
     text-align: center;
     color: rgb(13, 29, 70);
+    font-size: 1.5em; /* Aggiunto per adattarsi al nuovo HTML */
 }
 
-p{
-    color: rgb(13, 29, 70); 
+p {
+    color: rgb(13, 29, 70);
     text-align: center;
 }
 
 label {
     display: block;
     margin-bottom: 8px;
-    color: rgb(13, 29, 70); /* Colore del testo */
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-button {
-    background-color: rgb(13, 29, 70);
-    color:#4DA69A;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #FFD0E8;
     color: rgb(13, 29, 70);
 }
 
-input[type="text"] {
-width: 100%;
-padding: 10px;
-margin-bottom: 15px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-background-color: #a2d4cb; /* Colore di sfondo della casella di input */
-}
+input[type="text"],
 input[type="email"] {
     width: 100%;
     padding: 10px;
@@ -172,13 +137,23 @@ input[type="email"] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #a2d4cb; /* Colore di sfondo della casella di input */
-    }
+    background-color: #a2d4cb;
+}
 
+#button {
+    background-color: rgb(13, 29, 70);
+    color: #4DA69A;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Aggiunto per adattarsi al nuovo HTML */
+}
 
-#thanksContainer {
-   text-align: center;
-   margin-top: 20px;
+#button:hover {
+    background-color: #FFD0E8;
+    color: rgb(13, 29, 70);
 }
 
 
