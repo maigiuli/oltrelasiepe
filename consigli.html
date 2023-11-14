@@ -42,19 +42,20 @@
       <h2>Consigliami un libro</h2>
     <p > Una storia diventa ancora più preziosa se viene condivisa! </p>
 
+<form id="form">
+    
+  <div class="field">
+    <label for="book_title">Titolo del libro</label>
+    <input type="text" name="book_title" id="book_title">
+  </div>
+    <div class="field">
+    <label for="user_email">Email (Opzionale) </label>
+    <input type="text" name="user_email" id="user_email">
+  </div>
+  
 
-
-    <form id="suggestionForm">
-        <label for="bookTitle">Titolo del Libro:</label>
-        <input type="text" id="bookTitle" name="bookTitle" required>
-
-        <label for="email">Indirizzo Email (opzionale):</label>
-        <input type="email" id="email" name="email">
-
-        <button type="button" onclick="sendSuggestion()">Invia Consiglio</button>
-    </form>
-</div>
-
+  <input type="submit" id="button" value="Send Email" >
+</form>
 
       
 
