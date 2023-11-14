@@ -109,6 +109,7 @@ body {
 .container {
     max-width: 600px;
     margin: 50px auto;
+    width: 100%;
     padding: 20px;
     background-color: #4DA69A; /* Colore di sfondo interno (verde acqua più chiaro) */
     border-radius: 0; /* Angoli non arrotondati */
