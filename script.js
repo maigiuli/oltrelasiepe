@@ -30,10 +30,7 @@ function showThanksMessage() {
     thanksContainer.id = 'thanksContainer';
     thanksContainer.classList.add('container'); // Aggiungi la classe 'container'
     thanksContainer.innerHTML = '<h2>Grazie!</h2><p>Un piccione viaggiatore consegnerà il tuo consiglio il prima possibile.</p>';
-    document.body.appendChild(thanksContainer);
-    var socialStrip = document.querySelector('.social-strip');
-
-    // Inserisci il messaggio di ringraziamento prima della "social strip"
-    document.body.insertBefore(thanksContainer, socialStrip);
+    
+     mainContainer.appendChild(thanksContainer);
 }
 
