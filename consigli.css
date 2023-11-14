@@ -176,7 +176,10 @@ input[type="email"] {
     }
 
 
-
+#thanksContainer {
+   text-align: center;
+   margin-top: 20px;
+}
 
 
 
