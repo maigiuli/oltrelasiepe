@@ -13,7 +13,7 @@ document.getElementById('form')
     .then(() => {
       btn.value = 'Invia Consiglio';
       showThanksMessage();
-      alert('Grazie!Un piccione viaggiatore consegnerà il tuo consiglio il prima possibile');
+      alert('Grazie! Un piccione viaggiatore consegnerà il tuo consiglio il prima possibile');
     }, (err) => {
       btn.value = 'Invia Consiglio';
       alert(JSON.stringify(err));
