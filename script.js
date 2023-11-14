@@ -4,7 +4,7 @@ document.getElementById('form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
-   btn.value = 'Sending...';
+   btn.value = 'Abbi pazienza...';
 
    const serviceID = 'default_service';
    const templateID = 'template_rpin03f';
