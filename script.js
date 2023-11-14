@@ -11,10 +11,10 @@ document.getElementById('form')
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
+      btn.value = 'Invia Consiglio';
       alert('Sent!');
     }, (err) => {
-      btn.value = 'Send Email';
+      btn.value = 'Invia Consiglio';
       alert(JSON.stringify(err));
     });
 });
