@@ -156,6 +156,34 @@ input[type="email"] {
     color: rgb(13, 29, 70);
 }
 
+#thanksContainer {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4DA69A;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: rgb(13, 29, 70);
+}
+
+#thanksContainer h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#thanksContainer p {
+    margin-top: 10px;
+}
+
+#thanksContainer a {
+    color: #FFD0E8;
+    text-decoration: underline;
+}
+
+#thanksContainer a:hover {
+    color: #4DA69A;
+}
 
 
 
