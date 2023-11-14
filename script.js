@@ -1,27 +1,23 @@
+const btn = document.getElementById('button');
 
-emailjs.init("user_0Fzharw2Fcn0pLrCK");
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
 
-// Funzione per inviare il suggerimento
-function sendSuggestion() {
-    // Ottieni i valori dai campi di input
-    var bookTitle = document.getElementById("bookTitle").value;
-    var email = document.getElementById("email").value;
+   btn.value = 'Sending...';
 
-    // Costruisci l'oggetto dei parametri per il template di Email.js
-    var templateParams = {
-        book_title: bookTitle,
-        user_email: email
-    };
+   const serviceID = 'default_service';
+   const templateID = 'template_rpin03f';
 
-    // Invia la richiesta di invio dell'email
-     emailjs.send("service_l45ajru", "template_rpin03f", templateParams)
-       .then(function(response) {
-            console.log("Success", response);
-            showThanksMessage(); // Chiamiamo la funzione per mostrare il messaggio "Grazie!"
-        }, function(error) {
-            console.log("Failed", error);
-        });
-}
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
 
 function showThanksMessage() {
     // Nascondi il modulo del form
