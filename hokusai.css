@@ -120,11 +120,15 @@ main {
     text-align: center;
 }
 
+
+
 .article img {
+    display: block; /* Imposta l'immagine come blocco per centrare */
+    margin: 0 auto; /* Imposta i margini automatici per centrare orizzontalmente */
+    cursor: pointer;
     max-width: 90%; /* L'immagine si adatterà alla larghezza massima del riquadro */
     max-height: auto; /* Imposta l'altezza automaticamente in base alla larghezza */
-    cursor: pointer;
-    margin-right: auto; 
+     margin-right: auto; 
     margin-left: auto; 
 }
 
