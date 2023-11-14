@@ -13,7 +13,7 @@ document.getElementById('form')
     .then(() => {
       btn.value = 'Invia Consiglio';
       showThanksMessage();
-      alert('Consiglio inviato, grazie!');
+      alert('Grazie!Un piccione viaggiatore consegnerà il tuo consiglio il prima possibile');
     }, (err) => {
       btn.value = 'Invia Consiglio';
       alert(JSON.stringify(err));
@@ -29,7 +29,7 @@ function showThanksMessage() {
     var thanksContainer = document.createElement('div');
     thanksContainer.id = 'thanksContainer';
     thanksContainer.classList.add('container'); // Aggiungi la classe 'container'
-    thanksContainer.innerHTML = '<h2>Grazie!</h2><p>Il tuo suggerimento è stato inviato con successo.</p>';
+    thanksContainer.innerHTML = '<h2>Grazie!</h2><p>Un piccione viaggiatore consegnerà il tuo consiglio il prima possibile.</p>';
     document.body.appendChild(thanksContainer);
 }
 
