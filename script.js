@@ -23,3 +23,14 @@ function sendSuggestion() {
             // Puoi gestire gli errori qui, ad esempio mostrare un messaggio all'utente
         });
 }
+
+function showThanksMessage() {
+    // Nascondi il modulo del form
+    var formContainer = document.querySelector('.container');
+    formContainer.style.display = 'none';
+
+    // Mostra il messaggio di ringraziamento
+    var thanksContainer = document.createElement('div');
+    thanksContainer.innerHTML = '<h2>Grazie!</h2><p>Il tuo suggerimento è stato inviato con successo.</p>';
+    document.body.appendChild(thanksContainer);
+}
