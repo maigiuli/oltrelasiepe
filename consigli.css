@@ -219,28 +219,28 @@ input[type="email"] {
 
 /* Aggiungi questa sezione alla fine del tuo file CSS */
 
-/* Stile per dispositivi mobili */
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 767px) {
     header {
-        height: auto; /* Imposta l'altezza dell'intestazione in modo che si adatti al contenuto */
+        height: auto; 
     }
 
     .main_title {
-        margin-top: 20px; /* Aggiusta il margine superiore */
+        margin-top: 20px; 
     }
 
     nav {
-        flex-direction: column; /* Imposta la direzione della flessione a colonna per i dispositivi mobili */
-        align-items: center; /* Centra gli elementi orizzontalmente */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     nav ul {
-        flex-direction: column; /* Imposta la direzione della flessione a colonna per i dispositivi mobili */
-        align-items: center; /* Centra gli elementi orizzontalmente */
+        flex-direction: column; 
+        align-items: center;
     }
     
     nav li {
-        margin: 5px 0; /* Riduci il margine tra gli elementi del menu */
+        margin: 3px 0; 
     }
 }
 
