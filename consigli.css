@@ -221,7 +221,7 @@ input[type="email"] {
 
 
 @media only screen and (max-width: 767px) {
-    header {
+  header {
         height: auto; 
     }
 
@@ -237,10 +237,18 @@ input[type="email"] {
     nav ul {
         flex-direction: column; 
         align-items: center;
+        width: 100%; /* Aggiunto per riempire completamente la larghezza su dispositivi mobili */
     }
     
     nav li {
         margin: 3px 0; 
     }
-}
 
+    .social-strip {
+        padding: 10px 0; /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
+    }
+    
+    .mail {
+        padding: 10px 0; /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
+    }
+}
