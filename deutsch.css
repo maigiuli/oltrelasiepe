@@ -90,6 +90,13 @@ nav li {
     margin: 0 10px; /* Aggiunge un po' di margine tra gli elementi del menu */
 }
 
+nav ul li.special a {
+    width: 20%; 
+    color: #FFD0E8; /* Cambia il colore del testo a rosso */
+    font-size: 15px; 
+    animation: sparkle 1s infinite alternate;
+}
+
 
 body{
     margin-top: 0px;
