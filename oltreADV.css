@@ -24,7 +24,7 @@
 
 
 #visibleContent button {
-    /* Aggiunto stile al bottone */
+   
     background-color: rgb(13, 29, 70);
     color: #FFD0E8;
     padding: 10px 20px;
@@ -169,7 +169,7 @@ nav li {
     margin: 0 auto; /* Aggiunge un po' di margine tra gli elementi del menu */
 }
 body {
-   /* font-family: Arial, sans-serif;*/
+   font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
      background-color: #DEDEDE;
