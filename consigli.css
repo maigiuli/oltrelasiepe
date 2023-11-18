@@ -216,3 +216,31 @@ input[type="email"] {
     margin-top: 0px;
     color: #FFD0E8;
 }
+
+/* Aggiungi questa sezione alla fine del tuo file CSS */
+
+/* Stile per dispositivi mobili */
+@media only screen and (max-width: 600px) {
+    header {
+        height: auto; /* Imposta l'altezza dell'intestazione in modo che si adatti al contenuto */
+    }
+
+    .main_title {
+        margin-top: 20px; /* Aggiusta il margine superiore */
+    }
+
+    nav {
+        flex-direction: column; /* Imposta la direzione della flessione a colonna per i dispositivi mobili */
+        align-items: center; /* Centra gli elementi orizzontalmente */
+    }
+
+    nav ul {
+        flex-direction: column; /* Imposta la direzione della flessione a colonna per i dispositivi mobili */
+        align-items: center; /* Centra gli elementi orizzontalmente */
+    }
+    
+    nav li {
+        margin: 5px 0; /* Riduci il margine tra gli elementi del menu */
+    }
+}
+
