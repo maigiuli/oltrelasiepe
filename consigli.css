@@ -24,12 +24,6 @@
     }
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
-
 header {
     background-color: rgb(13, 29, 70);
     display: flex;
@@ -106,8 +100,6 @@ nav ul li.special a {
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
      background-color: #DEDEDE;
 }
 
