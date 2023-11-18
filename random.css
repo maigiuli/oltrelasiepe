@@ -1,4 +1,9 @@
-/* Nel tuo file CSS */
+body{
+     font-family: Arial, sans-serif;
+}
+
+
+
 .bounceable {
     cursor: pointer;
     transition: transform 0.2s;
