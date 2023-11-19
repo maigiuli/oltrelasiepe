@@ -7,13 +7,13 @@
     align-items: center;
     justify-content: center;
     height: auto; /* Imposta l'altezza su 'auto' per adattarsi al contenuto */
-    padding: 20px; /* Aggiunto spazio di riempimento */
+  
 }
 
 #visibleContent img {
     width: 100%; /* Imposta la larghezza su 100% per adattarsi alla larghezza del contenitore */
     height: auto;
-    max-width: 800px; /* Imposta una larghezza massima per evitare che l'immagine diventi troppo grande */
+    max-width: 900px; /* Imposta una larghezza massima per evitare che l'immagine diventi troppo grande */
     margin: 0 auto; /* Centra l'immagine */
 }
   
