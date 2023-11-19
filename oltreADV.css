@@ -1,19 +1,20 @@
 
 
+
 #visibleContent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 800px;
-  }
-  #visibleContent img {
-    height: 800px; 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    z-index: -1;
+    height: auto; /* Imposta l'altezza su 'auto' per adattarsi al contenuto */
+    padding: 20px; /* Aggiunto spazio di riempimento */
+}
+
+#visibleContent img {
+    width: 100%; /* Imposta la larghezza su 100% per adattarsi alla larghezza del contenitore */
+    height: auto;
+    max-width: 800px; /* Imposta una larghezza massima per evitare che l'immagine diventi troppo grande */
+    margin: 0 auto; /* Centra l'immagine */
 }
   
 
@@ -391,37 +392,3 @@ nav ul li.special a {
     color: #FFD0E8;
 }
 
-
-
-@media only screen and (max-width: 767px) {
-header {
-        height: auto; 
-    }
-
-    .main_title {
-        margin-top: 20px; 
-    }
-
-    nav {
-        flex-direction: column; 
-        align-items: center; 
-    }
-
-    nav ul {
-        flex-direction: column; 
-        align-items: center;
-        width: 100%; /* Aggiunto per riempire completamente la larghezza su dispositivi mobili */
-    }
-    
-    nav li {
-        margin: 3px 0; 
-    }
-
-    .social-strip {
-        padding: 10px 0; /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
-    }
-    
-    .mail {
-        padding: 10px 0; /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
-    }
-}
