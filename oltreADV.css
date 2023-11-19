@@ -392,3 +392,19 @@ nav ul li.special a {
     color: #FFD0E8;
 }
 
+@media only screen and (max-width: 767px) {
+    nav {
+        flex-direction: column; /* Modifica la direzione a colonna per una visualizzazione mobile */
+        align-items: center; /* Centra gli elementi orizzontalmente */
+    }
+
+    nav ul {
+        flex-direction: column; /* Imposta la direzione della lista a colonna */
+        align-items: center; /* Centra gli elementi della lista orizzontalmente */
+    }
+
+    nav li {
+        margin: 5px 0; /* Aggiunge spazio tra gli elementi della lista */
+    }
+}
+
