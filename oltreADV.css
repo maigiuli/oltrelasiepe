@@ -553,6 +553,11 @@ nav ul li.special a {
         height: auto; 
     }
 
+    .sfondo-custom::before {
+        height: auto; 
+    }
+
+
     /* Contenuto visibile */
     #visibleContent {
         height: auto; 
