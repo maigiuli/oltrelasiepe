@@ -508,3 +508,46 @@ nav ul li.special a {
     margin-top: 0px;
     color: #FFD0E8;
 }
+/* Media query per dispositivi mobili */
+@media screen and (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 10px; 
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        margin-top: 10px; 
+    }
+
+    /* Navigation */
+    nav {
+        padding: 10px 0;
+    }
+
+    nav a {
+        padding: 0 10px; 
+    }
+
+    /* Contenitore generico */
+    .container,
+    .container2,
+    .sfondo-custom {
+        padding: 10px; 
+    }
+
+    /* Contenuto visibile */
+    #visibleContent {
+        height: auto; 
+    }
+
+    #visibleContent img {
+        height: auto; 
+    }
+
+    #visibleContent button {
+        margin-top: 10px; 
+    }
+
+   
+}
