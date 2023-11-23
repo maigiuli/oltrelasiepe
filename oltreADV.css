@@ -55,7 +55,7 @@
     height: 800px;
   }
   #visibleContent img {
-    height: 800px; 
+    height: auto; 
     display: flex;
     align-items: center;
     text-align: center;
@@ -561,6 +561,7 @@ nav ul li.special a {
 
     #visibleContent img {
         height: auto; 
+        width: 100%; 
     }
 
     #visibleContent button {
