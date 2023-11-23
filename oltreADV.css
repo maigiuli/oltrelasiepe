@@ -586,6 +586,13 @@ nav ul li.special a {
         text-align: center; /* Centrato il testo orizzontalmente */
         margin: 10px 0;
       }
+    #hiddenContent button {
+        margin-top: 20px; 
+      }
+
+      .sfondo-custom p {
+        margin-bottom: 20px; 
+      }
   
 
     #visibleContent img {
