@@ -539,8 +539,8 @@ nav ul li.special a {
         padding: 10px 0; /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
     }
 
-    .striscia{
-        grid-auto-flow: column;
+    .post-it-rosa{
+        max-width: 200px;
     }
 
     /* Contenitore generico */
