@@ -558,6 +558,12 @@ nav ul li.special a {
     #visibleContent {
         height: auto; 
     }
+     #hiddenContent2 {
+       height: auto; 
+      }
+     #hiddenContent {
+       height: auto; 
+      }
 
     #visibleContent img {
         height: auto; 
