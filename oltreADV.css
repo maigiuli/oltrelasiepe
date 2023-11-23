@@ -1,3 +1,49 @@
+#iniziale {
+    background-color: #4DA69A;
+    color:rgb(13, 29, 70);
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cele{
+    display: none;
+}
+
+.containerex {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4DA69A;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.strisciaex {
+    background-color: rgb(13, 29, 70);
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+  #hiddenContent2 {
+    display: none;
+  }
+
+
+
+
+
 
 
 
@@ -6,15 +52,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: auto; /* Imposta l'altezza su 'auto' per adattarsi al contenuto */
-  
-}
-
-#visibleContent img {
-    width: 100%; /* Imposta la larghezza su 100% per adattarsi alla larghezza del contenitore */
-    height: auto;
-    max-width: 900px; /* Imposta una larghezza massima per evitare che l'immagine diventi troppo grande */
-    margin: 0 auto; /* Centra l'immagine */
+    height: 800px;
+  }
+  #visibleContent img {
+    height: 800px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: -1;
 }
   
 
@@ -25,7 +71,7 @@
 
 
 #visibleContent button {
-   
+    /* Aggiunto stile al bottone */
     background-color: rgb(13, 29, 70);
     color: #FFD0E8;
     padding: 10px 20px;
@@ -37,17 +83,59 @@
     transition: background-color 0.3s ease;
   }
 
+#hiddenContent button:hover {
+    background-color: #FFD0E8;
+    color: rgb(13, 29, 70);
+}
+
+
+#hiddenContent button {
+    /* Aggiunto stile al bottone */
+    background-color: rgb(13, 29, 70);
+    color: #FFD0E8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  #iniziale button:hover {
+    background-color: #FFD0E8;
+    color: rgb(13, 29, 70);
+}
+
+
+#iniziale button {
+    /* Aggiunto stile al bottone */
+    background-color: rgb(13, 29, 70);
+    color: #FFD0E8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+
   #hiddenContent {
     display: none;
   }
 
+
   .striscia {
-    background-color: rgb(13, 29, 70); 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Colonnesi auto-adattative */
+    gap: 20px; /* Spazio tra le colonne */
+    background-color: rgb(13, 29, 70);
     padding: 20px;
-    color: #fff; 
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 
   .post-it-verde{
@@ -170,7 +258,7 @@ nav li {
     margin: 0 auto; /* Aggiunge un po' di margine tra gli elementi del menu */
 }
 body {
-   font-family: Arial, sans-serif;
+   
     margin: 0;
     padding: 0;
      background-color: #DEDEDE;
@@ -183,7 +271,16 @@ body {
     background-color: #4DA69A;
     border-radius: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    display: none;
+  }
+.container2 {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4DA69A;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 
 h2 {
     text-align: center;
@@ -332,12 +429,32 @@ nav ul li.special a {
     background-color:  #FFD0E8;
  }
 
+ .buttonform{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color:  #4DA69A; 
+    color: rgb(13, 29, 70);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 16px; 
+  
+ 
+
+ }
+ .buttonform:hover {
+    background-color:  #FFD0E8;
+ }
 
 
 
-
-
-
+.spunto{
+    margin-bottom: 10px;
+}
 
 
 
@@ -391,20 +508,3 @@ nav ul li.special a {
     margin-top: 0px;
     color: #FFD0E8;
 }
-
-@media only screen and (max-width: 767px) {
-    nav {
-        flex-direction: column; /* Modifica la direzione a colonna per una visualizzazione mobile */
-        align-items: center; /* Centra gli elementi orizzontalmente */
-    }
-
-    nav ul {
-        flex-direction: column; /* Imposta la direzione della lista a colonna */
-        align-items: center; /* Centra gli elementi della lista orizzontalmente */
-    }
-
-    nav li {
-        margin: 5px 0; /* Aggiunge spazio tra gli elementi della lista */
-    }
-}
-
