@@ -55,7 +55,7 @@
     height: 800px;
   }
   #visibleContent img {
-    height: auto; 
+    height: 800px; 
     display: flex;
     align-items: center;
     text-align: center;
