@@ -547,8 +547,11 @@ nav ul li.special a {
     /* Contenitore generico */
     .container,
     .container2,
+    .containerex, 
+    .striscia, 
     .sfondo-custom {
-        padding: 10px; 
+        padding: 10px;
+        height: auto; 
     }
 
     /* Contenuto visibile */
