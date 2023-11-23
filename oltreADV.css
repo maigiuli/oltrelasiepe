@@ -565,7 +565,6 @@ nav ul li.special a {
      
      #hiddenContent,
      #hiddenContent2 {
-         height: auto; 
         flex-direction: column; 
         align-items: center; 
       }
