@@ -540,7 +540,7 @@ nav ul li.special a {
     }
 
     .post-it-rosa{
-        max-width: 200px;
+        width: auto;
     }
 
     /* Contenitore generico */
