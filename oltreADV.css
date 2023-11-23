@@ -562,12 +562,17 @@ nav ul li.special a {
     #visibleContent {
         height: auto; 
     }
-     #hiddenContent2 {
-       height: auto; 
+     #hiddenContent2, .hiddenContent {
+         height: auto; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
       }
-     #hiddenContent {
-       height: auto; 
+      #hiddenContent2 p, .hiddenContent p{
+        text-align: center; /* Centrato il testo orizzontalmente */
+        margin: 10px 0;
       }
+  
 
     #visibleContent img {
         height: auto; 
