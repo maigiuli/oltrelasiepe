@@ -138,23 +138,18 @@
     margin-top: 0px;
   }
 
-  .post-it-verde{
-    background-color: #4DA69A; 
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    height: 100px;
-    text-align: center;
-    border-radius: 5px; 
-  }
+
   .post-it-rosa{
     background-color: #FFD0E8; 
     padding: 10px;
     margin: 10px;
     width: 200px;
-    height: 100px;
+    height: auto;
     text-align: center;
     border-radius: 5px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
   }
 
 
