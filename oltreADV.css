@@ -553,8 +553,20 @@ nav ul li.special a {
         height: auto; 
     }
 
+    .sfondo-custom {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sfondo-custom p {
+        font-size: 16px; /* O qualsiasi dimensione desiderata per dispositivi mobili */
+    }
+
     .sfondo-custom::before {
-        height: auto; 
+        height: auto;
     }
 
 
@@ -565,8 +577,9 @@ nav ul li.special a {
      
      #hiddenContent,
      #hiddenContent2 {
-        flex-direction: column; 
+        flex-direction: row;
         align-items: center; 
+         justify-content: center;
       }
      #hiddenContent p,
      #hiddenContent2 p {
