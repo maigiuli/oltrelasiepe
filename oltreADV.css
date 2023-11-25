@@ -79,6 +79,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
     font-size: 16px;
     margin-top: 20px;
     transition: background-color 0.3s ease;
@@ -98,6 +99,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
     font-size: 16px;
     margin-top: 20px;
     transition: background-color 0.3s ease;
@@ -117,6 +119,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
     font-size: 16px;
     margin-top: 20px;
     transition: background-color 0.3s ease;
@@ -407,8 +410,10 @@ nav ul li.special a {
 .sfondo-custom2 p {
     font-size: 20px; /* Dimensione del carattere desiderata */
     width: 100%;
-    display: block; 
+    display: flex; 
+    flex-direction: column; 
     text-align: center;
+    justify-content: center;
 }
 
 .sfondo-custom2::before {
