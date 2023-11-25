@@ -446,6 +446,10 @@ nav ul li.special a {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
  }
  
  .iscriviti-qui:hover {
