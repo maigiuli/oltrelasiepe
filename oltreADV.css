@@ -370,7 +370,6 @@ nav ul li.special a {
 .sfondo-custom {
     position: relative;
     height: 800px; 
-    display: flex;
     align-items: center;
     text-align: center;
 }
