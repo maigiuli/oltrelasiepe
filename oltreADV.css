@@ -383,8 +383,6 @@ nav ul li.special a {
     margin: 0; /* Rimuove il margine predefinito per evitare spazi tra i paragrafi */
 }
 
-
-
 .sfondo-custom::before {
     content: "";
     position: absolute;
@@ -396,6 +394,36 @@ nav ul li.special a {
     z-index: -1;
     opacity: 0.5;
 }
+
+.sfondo-custom2 {
+    position: relative;
+    height: 800px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+      
+.sfondo-custom2 p {
+    font-size: 20px; /* Dimensione del carattere desiderata */
+    width: 100%;
+    display: block; /* Imposta il display su "block" invece di "inline" */
+    margin: 0; /* Rimuove il margine predefinito per evitare spazi tra i paragrafi */
+}
+
+.sfondo-custom2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/Image-4.png') center/cover no-repeat;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+
 .immagine-link {
     position: relative;
     max-width: 560px; /* Imposta la larghezza massima desiderata */
