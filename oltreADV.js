@@ -16,11 +16,13 @@ document.getElementById('form')
     .then(() => {
       btn.value = 'Invia';
       showThanksMessage();
-      alert('Grazie! Un piccione viaggiatore consegnerà il tuo messaggio il prima possibile');
+      alert('Grazie! Una renna di Babbo Natale consegnerà il tuo messaggio il prima possibile');
+      this.reset();
     }, (err) => {
       btn.value = 'Invia';
       alert(JSON.stringify(err));
     });
+
 });
 
 
@@ -31,7 +33,7 @@ function showThanksMessage() {
     var thanksContainer = document.createElement('div');
     thanksContainer.id = 'thanksContainer';
     thanksContainer.classList.add('container'); // Aggiungi la classe 'container'
-    thanksContainer.innerHTML = '<h2>Grazie!</h2><p>Un piccione viaggiatore consegnerà il tuo messaggio il prima possibile.</p>';
+    thanksContainer.innerHTML = '<h2>Grazie!</h2><p>Una renna di Babbo Natale consegnerà il tuo messaggio il prima possibile.</p>';
     
      mainContainer.appendChild(thanksContainer);
 }
