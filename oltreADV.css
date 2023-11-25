@@ -392,22 +392,23 @@ nav ul li.special a {
     height: 100%;
     background: url('images/Image-3.png') center/cover no-repeat;
     z-index: -1;
-    opacity: 0.5;
 }
 
 .sfondo-custom2 {
     position: relative;
     height: 800px; 
+    display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center; 
 }
 
       
 .sfondo-custom2 p {
     font-size: 20px; /* Dimensione del carattere desiderata */
     width: 100%;
-    display: block; /* Imposta il display su "block" invece di "inline" */
-    margin: 0; /* Rimuove il margine predefinito per evitare spazi tra i paragrafi */
+    display: block; 
+    text-align: center;
 }
 
 .sfondo-custom2::before {
@@ -419,7 +420,6 @@ nav ul li.special a {
     height: 100%;
     background: url('images/Image-4.png') center/cover no-repeat;
     z-index: -1;
-    opacity: 0.5;
 }
 
 
