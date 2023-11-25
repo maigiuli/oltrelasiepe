@@ -619,13 +619,8 @@ nav ul li.special a {
       }
   
 
-    #visibleContent img {
-        height: auto; 
-        width: 100%; 
-    }
-
     #visibleContent button {
-        margin-top: -40px; 
+        margin-top: 60px; 
         
     }
 
