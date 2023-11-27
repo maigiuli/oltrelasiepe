@@ -185,3 +185,19 @@ header h2 {
     color: #FFD0E8;
 }
 
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    .container, .container2 {
+        grid-template-columns: 1fr; /* Display one column on smaller screens */
+    }
+
+    .text-container, .image-container {
+        margin: 20px; /* Add margin for better spacing on smaller screens */
+    }
+
+    .social-strip img {
+        width: 30px; /* Adjust icon size for smaller screens */
+    }
+}
+
