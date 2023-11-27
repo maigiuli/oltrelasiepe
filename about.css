@@ -107,11 +107,10 @@ nav ul li.special a {
 
 
 .container, .container2 {
-     display: grid; 
+    display: grid; 
     grid-template-columns: 1fr 1fr; 
-    
     align-items: stretch;
-    height: 400px; /* Una altezza fissa. Regolala in base alle tue esigenze. */
+    height: 400px; 
 }
 
 .container {
@@ -194,6 +193,7 @@ header h2 {
 
     .text-container, .image-container {
         margin: 20px; 
+        height: auto; 
     }
 
     .social-strip img {
@@ -202,6 +202,7 @@ header h2 {
      .image-container {
         max-width: 100%; 
         margin: 0 auto;
+        height: auto; 
     }
 
     .image-container img {
