@@ -163,7 +163,9 @@ body{
   object-fit: contain; 
   display: block; 
   margin-left: auto; /* Aggiunto per centrare l'immagine a sinistra */
-  margin-right: auto; /* Aggiunto per centrare l'immagine a destra */
+  margin-right: auto; /* Aggiunto per centrare l'immagine a destra */ 
+    max-width: 100%; /* Imposta la larghezza massima al 100% della larghezza del contenitore */
+  
  
 }
   
