@@ -126,6 +126,7 @@ body{
   .square {
     width: calc(40% - 20px);/* Larghezza fissa */
     height: 400px; /* Altezza fissa */
+    overflow: hidden;
     padding: 20px;
     text-align: justify;
     justify-content: center;
@@ -181,6 +182,8 @@ body{
 
 .square-description {
     margin-bottom: 10px;
+     max-height: 100px; /* Imposta un'altezza massima desiderata */
+    overflow: hidden;
 }
 
 
