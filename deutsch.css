@@ -122,8 +122,7 @@ body{
     
     background: #DEDEDE; 
   }
-  
-.square {
+  .square {
     width: calc(40% - 20px);
     height: 400px;
     padding: 20px;
@@ -138,7 +137,8 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  /* Organizza i figli in una colonna */
+    align-items: center;     /* Centra orizzontalmente */
 }
 
 .square-image {
@@ -147,9 +147,11 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     object-fit: contain;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.square-title {
+    font-weight: bold;
+    margin-top: 10px; 
 }
 
 .square-description {
