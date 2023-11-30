@@ -123,24 +123,39 @@ body{
     background: #DEDEDE; 
   }
   
-  .square {
-    width: calc(40% - 20px);/* Larghezza fissa */
-    height: 400px; /* Altezza fissa */
-    overflow: hidden;
+.square {
+    width: calc(40% - 20px);
+    height: 400px;
     padding: 20px;
     text-align: justify;
     justify-content: center;
-    background-color: #4DA69A; /* Colore verde acqua */
+    background-color: #4DA69A;
     cursor: pointer;
-    transition: box-shadow 0.3s; /* Cambiato l'effetto di transizione */
-    margin: 10px; /* Aggiunto margine uniforme tra i quadrati */
-   margin-bottom: 12px;
+    transition: box-shadow 0.3s;
+    margin: 10px;
+    margin-bottom: 12px;
     margin-top: 12px;
     margin-left: 10px;
-    margin-right: 10px; 
-    display: flex; /* Aggiunto display flex per centrare l'immagine verticalmente */
-  flex-direction: column; /* Cambiato in colonna per disporre l'immagine sopra il testo */
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
 }
+
+.square-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.square-description {
+    margin-bottom: 10px;
+}
+
   
 .square:hover {
   box-shadow: 0 0 20px rgba(77, 166, 154, 0.7); /* Aggiunto l'ombra al passaggio del mouse */  
@@ -155,19 +170,6 @@ body{
 }
 
 
-.square-image {
-  max-width: 70%;
-  height: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  object-fit: contain; 
-  display: block; 
-  margin-left: auto; /* Aggiunto per centrare l'immagine a sinistra */
-  margin-right: auto; /* Aggiunto per centrare l'immagine a destra */ 
-    max-width: 100%; /* Imposta la larghezza massima al 100% della larghezza del contenitore */
-  
- 
-}
   
 
 
@@ -182,11 +184,7 @@ body{
     margin-top: 10px; 
 }
 
-.square-description {
-    margin-bottom: 10px;
-     max-height: 100px; /* Imposta un'altezza massima desiderata */
-    overflow: hidden;
-}
+
 
 
 
