@@ -124,7 +124,7 @@ body{
   }
   .square {
     width: calc(40% - 20px);/* Larghezza fissa */
-    height: 400px; /* Altezza fissa */
+    height: auto; /* Altezza fissa */
     padding: 20px;
     text-align: justify;
     justify-content: center;
