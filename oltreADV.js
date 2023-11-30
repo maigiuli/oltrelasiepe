@@ -26,6 +26,28 @@ document.getElementById('form')
 });
 
 
+document.getElementById('surveyForm')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Abbi pazienza...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_cj8c12r';
+  emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Invia';
+      showThanksMessage();
+      alert('Grazie! Una renna di Babbo Natale consegnerà il tuo messaggio il prima possibile');
+      this.reset();
+    }, (err) => {
+      btn.value = 'Invia';
+      alert(JSON.stringify(err));
+    });
+
+});
+
+
 
 function showThanksMessage() {
 
