@@ -32,7 +32,7 @@ document.getElementById('surveyForm')
 
    btn.value = 'Abbi pazienza...';
 
-   const serviceID = 'default_service';
+   const serviceID = 'service_z8os6hj';
    const templateID = 'template_cj8c12r';
   emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
