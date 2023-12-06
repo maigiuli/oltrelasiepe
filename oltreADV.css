@@ -1,9 +1,9 @@
-  .field {
+  .field_q {
     display: flex;
     align-items: center;
   }
 
-  .field img {
+  .field_q img {
     width: 150px;
     
     margin-right: 10px; /* Aggiunge uno spazio a destra dell'immagine */
