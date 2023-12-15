@@ -425,6 +425,10 @@ nav ul li.special a {
  .immagine-link img {
     width: 100%;
     height: auto;
+ }
+ 
+ .immagine-link-quest img{
+  
     margin: -80px;
  }
  
