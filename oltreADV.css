@@ -418,11 +418,14 @@ nav ul li.special a {
     position: relative;
     max-width: 560px; /* Imposta la larghezza massima desiderata */
     margin: auto;
+    justify-content: center;
+    display: flex;
  }
  
  .immagine-link img {
     width: 100%;
     height: auto;
+    margin: -80px;
  }
  
  .ascolta-qui {
