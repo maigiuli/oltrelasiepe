@@ -1,1592 +1,1843 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset=""utf-8"/>
-        <title>
-            Oltrelasiepe
-        </title>
-        <link rel="stylesheet" type="text/css" href="oltreADV.css"/>
-        
-        
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<head>
+  <meta charset="" utf-8" />
+  <title>
+    Oltrelasiepe
+  </title>
+  <link rel="stylesheet" type="text/css" href="oltreADV.css" />
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-   
+
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVTTM3X4QD"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-TVTTM3X4QD');
 </script>
 
-    <body>
-        
-        <div>
-            
+<body>
+
+  <div>
+
     <header>
-            <div class="main_title">
-               
-                <img src="images/duck_babbo.png" width="150px" id="logo" class="bounceable" onclick="bounceDuck()"/>
-              <!--  <img src="images/duck_edited_edited_edited.png" width="100px" id="logo" class="bounceable" onclick="bounceDuck()"/> -->
-                <h1> Oltrelasiepe </h1>
-            </div>
-            <nav>
-                <ul>
-                    <li> <a href='index.html'> Home </a></li> 
-                    <li> <a href='about.html'> About </a></li>
-                    <li> <a href='articoli.html'>Articoli </a></li>
-                    <li> <a href='random.html'>Random </a></li>
-                    <li> <a href='deutsch.html'> Deutsch </a></li>
-                    <li> <a href='consigli.html'> Consigli </a></li>
-                    <li class="special">  <a href='oltreADV.html'> Oltrelavvento </a></li>
-                </ul>
-            </nav>
+      <div class="main_title">
+
+        <img src="images/duck_babbo.png" width="150px" id="logo" class="bounceable" onclick="bounceDuck()" />
+        <!--  <img src="images/duck_edited_edited_edited.png" width="100px" id="logo" class="bounceable" onclick="bounceDuck()"/> -->
+        <h1> Oltrelasiepe </h1>
+      </div>
+      <nav>
+        <ul>
+          <li> <a href='index.html'> Home </a></li>
+          <li> <a href='about.html'> About </a></li>
+          <li> <a href='articoli.html'>Articoli </a></li>
+          <li> <a href='random.html'>Random </a></li>
+          <li> <a href='deutsch.html'> Deutsch </a></li>
+          <li> <a href='consigli.html'> Consigli </a></li>
+          <li class="special"> <a href='oltreADV.html'> Oltrelavvento </a></li>
+        </ul>
+      </nav>
     </header>
 
     <main class="main">
-        
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div id="visibleContent">
-    
-          <div class="field sfondo-custom2">
-              <p style="margin: 0;"> <span style="color: #354F08;"> Un piccolo progetto per chi ha ancora </span> </p>
-               <p style="margin: 0;"> <span style="color: #354F08;"> voglia di aprire le porticine del calendario dell’avvento...  </span> </p>
-                <p style="margin-top: 0;"> <span style="color: #354F08;"> ma senza trovarci cioccolatini. </span></p>
-             <p> <span style="color:  #354F08;"> <strong> Apriamo le porte alle idee! </span> </strong></p>
-            <!--  <p> <span style="color: #9C1018;"> <strong> dall’1 dicembre su oltrelasiepe.net </strong></span></p> -->
-                <button class="iscriviti-qui" onclick="redirectToLink('https://whatsapp.com/channel/0029VaEc02c35fLp9BXAk00O')">Segui il canale WhatsApp</button>
-
-              
-            <button onclick="showHiddenContent()" style="width:150px; position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%);"> Scopri di più!   </button> 
-  </div>
-  </div>
-
-    <div id="hiddenContent">
-    <div class="field sfondo-custom" id="sfondoCustom">
-       <p> Oltrelavvento è un piccolo progetto dedicato a tutti quelli che nonostante l'età, non hanno ancora perso l'<strong>entusiasmo </strong>dell'aprire le porticine del calendario dell'avvento. </p>
-       <p> Nelle porte di Oltrelavvento non ci sono cioccolatini, ma <strong> spunti </strong> tratti dall'arte, dalla musica, dal cinema, dalla storia. Il gioco è più divertente se lo facciamo insieme: ognuno potrà lasciare il suo <strong> pensiero</strong>, commento, riflessione, anche solo una frase o una parola nel form apposito, specificando a quale spunto si sta riferendo.    </p>
-       <p> Periodicamente le vostre risposte compariranno sotto lo spunto corrispondente, in uno <strong> scambio di idee </strong> arricchente per tutti.  </p>  
-       <button onclick="showHiddenContent2()" style="width:150px; position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%);"> Come partecipare </button>
-  
-    </div>
-  </div>
-
-  <div id="hiddenContent2">
-    <div class="field sfondo-custom" id="sfondoCustom2">
-       <p> 1. Guarda, ascolta, esplora lo spunto.  </p>
-       <p> 2. Cliccando sul pulsante "Cosa ne pensi?" verrai rediretto al form in cui puoi inserire il tuo commento, riflessione, osservazione o quant'altro, specificando il numero dello spunto. </p>
-       <p> 3. La tua risposta comparirà in seguito sotto il relativo spunto.   </p>     
-       <p> 4. Posso commentare lo spunto di un giorno successivo o precedente a quello corrente? Sì! Basta specificarlo nell'apposito campo del form. </p>  
-  
-    </div>
-  </div>
-
-<!-- Esempio -->    
-  <div id="iniziale">
-    <button onclick="showCele()" style="width:150px, height:200px">Esempio </button>
-  </div>
-
-  <div id="cele"> 
-    <div class="containerex" data-giorno="0">
-    <div class="spunto">
-        <h2> Spunto #0</h2>
-        <h2> Azzurro, Adriano Celentano (1968) </h2>
-     <div class="immagine-link">
-    <img src="images/celentano-azzurro.jpg.webp" alt="Descrizione immagine">
-    <a href="https://www.youtube.com/watch?v=0br10asYODk" target="_blank" class="link-frase"></a>
-    <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=HCyzGuipTd4')"><strong>Ascolta qui</strong></button>
-  </div>
-    </div>
-<div class="striscia">
- <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-  <div class="striscia">
-   <div class="post-it-rosa">
-      <p> Bella canzone! Povero Celentano, neanche un prete per chiacchierare era rimasto in città...</p>
-    </div>
-
-    <div class="post-it-rosa">
-      <p> Ma se si annoiava perchè non è partito per le spiagge con lei?  </p>
-    </div>
-
-    <div class="post-it-rosa">
-      <p> Interessante che il pomeriggio è "azzurro" perchè proprio questo colore? </p>
-    </div>
-
-    <div class="post-it-rosa">
-      <p> Il Blu di Modugno e l'Azzurro di Celentano, la sfumatura cromatica accomuna queste due canzoni, tra le più famose nel mondo </p>
-    </div>
-
-    <div class="post-it-rosa">
-      <p> Canzone bellissima, però consiglio di godersi l'azzurro della natura e la compagnia di se stessi, senza che il proprio benessere dipenda dalla presenza di un'altra persona! </p>
-    </div>
-      
-
-    <div class="post-it-rosa">
-      <p> Bello </p>
-    </div>
-      
-       <div class="post-it-rosa">
-      <p> La cantavo sempre con mia mamma quando ero piccola! </p>
-    </div>
-      
-       <div class="post-it-rosa">
-      <p> La colonna sonora di tanti momenti belli... </p>
-    </div>
-    <div class="post-it-rosa">
-      <p> Il treno dei desideri...all'incontrario va </p>
-    </div>
-    
-  </div>
-</div>
-</div>
-<!-- Spunti -->  
-<div class="container" data-giorno="19">
-  <div class="spunto">
-      <h2> Spunto #19</h2>
-<h2>   () </h2>
-      
-<h2>  </h2>
-
-<div class="immagine-link">
-  <img src="images/banficostanzo.png" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=nGaARG5w7yY)"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p>  </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p>  </p>
-  </div> 
-  
-</div>
-</div> 
-<div class="container" data-giorno="18">
-  <div class="spunto">
-      <h2> Spunto #18</h2>
-<h2>  Immaginare il 2014 (1990) </h2>
-      
-<h2> Lino Banfi e Maurizio Costanzo </h2>
-
-<div class="immagine-link">
-  <img src="images/banficostanzo.png" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=nGaARG5w7yY)"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p>  </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p>  </p>
-  </div> 
-  
-</div>
-</div> 
-<div class="container" data-giorno="17">
-  <div class="spunto">
-      <h2> Spunto #17</h2>
-<h2>  You Will Never Find - Caught In The Act (2010) </h2>
-      
-<h2> Laura Pausini e Michael Bublè</h2>
-
-<div class="immagine-link">
-  <img src="images/laura.png" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=DMc3XDOy3AY')"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Due grandissimi talenti della musica. Un nuovo arrangiamento classico e un'interpretazione impeccabile di una canzone disco bellissima. Michael is droll. </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Laura è un mito, dolce, brava, simpatica. Incredibile come la ragazza di Solarolo e la pop star convivano nella sua anima semplice </p>
-  </div> 
-  <div class="post-it-rosa">
-    <p> Una pagina di musica incredibile </p>
-  </div>
-  <div class="post-it-rosa">
-    <p> Proprio due belle voci </p>
-  </div>
-  <div class="post-it-rosa">
-    <p> Passionali e convincenti, profondi e perfettamente coordinati…esibizione emozionantissima!!</p>
-</div>
-<div class="post-it-rosa">
-  <p> Ma lo sapevi che Michael buble è canadese?</p>
-</div>
-<div class="post-it-rosa">
-  <p> Bellissima </p>
-</div>
-  
-</div>
-</div>           
-  <div class="container" data-giorno="16">
-  <div class="spunto">
-      <h2> Spunto #16</h2>
-<h2> Se mi vuoi (1995) </h2>
-      
-<h2> Pino Daniele e Irene Grandi </h2>
-
-<div class="immagine-link">
-  <img src="images/semivuoi.jpg" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=mvjHYFfRvGM')"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Molto bella e intensa. Pino Daniele un mito! </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Una poesia dolcissima </p>
-  </div>
-  <div class="post-it-rosa">
-    <p> Non la conoscevo! Canzone molto dolce e intesa☺ </p>
-</div>
-<div class="post-it-rosa">
-  <p> Irene Grandi ha una voce meravigliosa, peccato non abbia forse trovato canzoni alla sua altezza</p>
-</div> 
-<div class="post-it-rosa">
-  <p>Il suo stile o piace o non piace</p>
-</div>
-<div class="post-it-rosa">
-  <p>Non è esattamente il mio genere, ma la canzone è carina</p>
-</div>
-<div class="post-it-rosa">
-  <p>Mi ha colpito come questa musica delicata e questo testo, un confronto cauto tra due innamorati, riescano a far trasparire sia la loro dolcezza, aiuto e rispetto reciproco, sia la loro passione intensa e travolgente</p>
-</div>
-<div class="post-it-rosa">
-  <p>Conosco la canzone. Molto romantica</p>
-</div>
-
-
-</div>
-</div>  
-         <div class="container" data-giorno="15">
-  <div class="spunto">
-      <h2> Spunto #15</h2>
-<h2> Il segno di Venere (1955) </h2>
-      
-<h2> Franca Valeri e Sophia Loren </h2>
-
-<div class="immagine-link">
-  <img src="images/francaloren.png" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=8XE-fCswITE')"><strong>Guarda qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Travolgente Franca Valeri con la sua voce penetrante e la sua risposta rivoluzionaria! </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> La grande forza dei bravi attori e dei bei film: l'essere senza tempo </p>
-  </div>
-  <div class="post-it-rosa">
-    <p>
-  La delicatezza della rivoluzione che, nonostante decenni diversi, deve affrontare purtroppo e per fortuna le stesse difficoltà</p>
-  </div>
-  <div class="post-it-rosa">
-    <p>Complimenti alle attrici, che hanno saputo cogliere con delicatezza e leggerezza questa tematica, divulgando un potente e travolgente messaggio di rivoluzione! </p> 
-  </div>
-  <div class="post-it-rosa">
-    <p> Vado a rivedermi il film  </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Sono davvero grata di vivere in un’epoca in cui le donne possono lavorare ed essere indipendenti </p>
-  </div>
-  <div class="post-it-rosa">
-    <p>   Con i passaggi generazionali e i cambiamenti sociali, anche la mentalità e l'atteggiamento verso l'emancipazione della donna progrediscono e migliorano. Nonostante ciò, ingiustizie e violenze sulle donne sono all'ordine del giorno, anche nelle nuove generazioni. Dunque, riconoscendo gli importanti cambiamenti già avvenuti, è fondamentale sradicare retaggi cultuali non (più) ammissibili e raggiungere sempre più, al nord e al sud e in tutto il mondo.</p>
-</div>
-<div class="post-it-rosa">
-  <p> Senza tempo davvero...dopo tutti questi anni ancora per molte cose mi sembra che siano passati invano...🤕.</p>
-</div>
-<div class="post-it-rosa">
-  <p> Bello. Meglio a colori il 📷 </p>
-</div>
-
-</div>
-</div>   
-              <div class="container" data-giorno="14">
-  <div class="spunto">
-      <h2> Settimana #1</h2>
-<h2> Quale spunto ti è piaciuto di più? </h2>
-<p style="font-style: italic;"> Puoi selezionare quanti spunti vuoi</p>
-
-<div class="immagine-link-quest immagine-link" >
-  <img src="images/quest.webp" alt="Descrizione immagine" style="width: 300px; height: auto; text-align: center;">
-</div>
-  </div>
-
-  <form id="surveyForm">
-    <div class="field">
-      <label for="user_email">Nome: </label>
-      <input type="text" name="user_email" id="user_email">
-    </div>
-          <div class="field_q">
-        <img src="images/unanessuna.png" alt="Image 7">
-      <label for="7">Spunto 14 - You've got a friend, Una Nessuna Centomila </label> <input type="checkbox" id="7" name="7">
-  </div>
-      
-    <div class="field_q">
-      
-        <img src="images/clandestini.jpeg" alt="Image 6">
-      <label for="6">Spunto 13 - Clandestini, R. Cocciante   </label> <input type="checkbox" id="6" name="6">
-  </div>
-    <div class="field_q">
-        <img src="images/gaber.jpeg" alt="Image 5">
-      <label for="5">Spunto 12 - La libertà, G. Gaber </label> <input type="checkbox" id="5" name="5">
-  </div>
-    <div class="field_q"> 
-        <img src="images/mondaini.avif" alt="Image 4">
-      <label for="4">Spunto 11 - Il femminismo, R. Vianello e S. Mondaini e </label> <input type="checkbox" id="4" name="4">
-  </div>
-     <div class="field_q">
-          <img src="images/giorgiafiore.png" alt="Image 3">
-      <label for="3">Spunto 10 - Cantare un referto medico, Fiorello e Giorgia </label> <input type="checkbox" id="3" name="3">
-  </div>
-    <div class="field_q">
-         <img src="images/ragazze.png" alt="Image 2">
-      <label for="2">Spunto 9 - Le ragazze, Neri Per Caso </label> <input type="checkbox" id="2" name="2">
-  </div>
-     <div class="field_q">
-          <img src="images/dalla.jpeg" alt="Image 1">
-      <label for="1">Spunto 8 -  Futura, L. Dalla </label> <input type="checkbox" id="1" name="1">
-  </div>
-    <button type="submit" class="buttonform" onclick="submitSurvey()"> <strong> Invia </strong></button>
-
-</form>
-
-</div>
-        
-          <div class="container" data-giorno="14">
-  <div class="spunto">
-      <h2> Spunto #14</h2>
-<h2> You've Got a Friend (2022) </h2>
-      
-<h2> Alessandra Amoroso, Elisa, Emma, Giorgia, Fiorella Mannoia, Gianna Nannini, Laura Pausini</h2>
-
-<div class="immagine-link">
-  <img src="images/unanessuna.png" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=Mb9mlG9a_Js')"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Brave </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Sensazionali! Che artiste incredibili </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Bravissime, quanto talento in una sola canzone! Bella bella bella❤️ </p>
-  </div>
-  <div class="post-it-rosa">
-    <p>    Che dire? Noi c'eravamo! Concerto indimenticabile. Causa nobile e sempre più necessaria. Brave!!!</p> 
-</div>
-    <div class="post-it-rosa">
-    <p> Bravissime!! Il sovrapporsi perfettamente calcolato e allo stesso momento spontaneo delle varie vocalità lascia trasparire un’amicizia che le unisce tutte… </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Che belleee, ci sono proprio tutte! Bravissime come sempre ❤️ </p>
-  </div>
- <div class="post-it-rosa">
-    <p> Per sempre nel cuore </p>
-  </div>
-    
-  <div class="post-it-rosa">
-    <p> Bella. Quasi natalizia. Anzi proprio bella in questo periodo! ❤️ </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p>   ❤️</p>
-  </div>
-  <div class="post-it-rosa">
-    <p>   C'ero al concerto. 7 donne. Bello</p>
-  </div>
-  <div class="post-it-rosa">
-    <p>   Si possono fare passi importanti con questi tre ingredienti: - l'amicizia, argomento di questo brano splendido; - la vicinanza tra donne, rappresentata da questa collaborazione, ricca di forza, talento e bellezza; - il sostegno di tutte le persone, simboleggiato dal caloroso pubblico presente.</p>
-  </div>
-  <div class="post-it-rosa">
-    <p> Il bene si avvera</p>
-  </div>
-  <div class="post-it-rosa">
-    <p>   I adore Carole King and this song! King's meaningful and melodic songs are a comforting refuge during uncertain moments in life. Indeed, there's something incredibly uplifting about hearing "You've Got a Friend" that can ease even the most somber mood...</p>
-  </div>
-  
-  <div class="post-it-rosa">
-    <p>  ...And it was my first time experiencing this song through various talented singers❤️. How they harmonize in unison amplifies all things this songs represents. It's a beautiful testament to the enduring power of friendship and support C:</p>
-  </div>
-</div>
-</div>   
-        <div class="container" data-giorno="13">
-  <div class="spunto">
-      <h2> Spunto #13</h2>
-<h2> Clandestini, Riccardo Cocciante (2002) </h2>
-<h2> Notre Dame de Paris </h2>
-
-<div class="immagine-link">
-  <img src="images/clandestini.jpeg" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=5EjwF3Ou5PA')"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Spettacolare, grande intensità e contesto pazzesco. Tutti bravissimi </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Il musical è un genere pazzesco, ammiro tanto gli attori, cantanti, ballerini sul palco</p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p>Bravissimi. Molto intenso. Dal vivo mi era piaciuto molto. Vorrei vedere un musical all'Arena di Verona </p>
-  </div>
-     <div class="post-it-rosa">
-    <p> Ma le canzoni di Cocciante? Capolavori </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Bello ma mi fanno paura </p>
-  </div>
-    <div class="post-it-rosa">
-    <p> "Noi uomini e donne, soltanto vivi". Non importa chi sei, uomo, donna, straniero, il solo fatto di essere vivo ti legittima ad avere un posto nel mondo. Sembra la cosa più banale del mondo ma non lo è  </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Nella richiesta di asilo a Notre Dame c'è tutta la disperazione di uomini e donne che non sentono di appartenere a nessun luogo </p>
-  </div>
-     <div class="post-it-rosa">
-    <p>  Che musical! Per non parlare della forte intensità che trasmette!!</p>
-  </div>
-  <div class="post-it-rosa">
-    <p> Un musical all'Arena: un sogno per me! Questa scena musicale sta narrando molto: la potenza della musica, l'aggressività della voce e l'energia del ballo sottolineano la determinazione di queste persone nel richiedere accoglienza e aiuto, mentre le delicate e umili parole cantate rivelano la loro disperazione! </p>
-    </div>
-</div>
-</div>
-        <div class="container" data-giorno="12">
-  <div class="spunto">
-      <h2> Spunto #12</h2>
-<h2> Scenetta "Il femminismo", Mondaini e Vianello (1978) </h2>
-
-<div class="immagine-link">
-  <img src="images/mondaini.avif" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://youtu.be/e1T44pnQ0UY')"><strong>Guarda qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p>  Troppo forti. E teneri. </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Il latte per il gatto 🤣🤣🤣 </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p>Ringrazio Techetechete' per avermi permesso di conoscere questa coppia fantastica! Anche la comicità é un mezzo utile per trasmettere messaggi e condannare gesti ormai ordinari ma sbagliati. </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> I work hard so my cat can live a better life </p>
-  </div>
-     <div class="post-it-rosa">
-    <p> Da morire dal ridere 😆😂🤣🤣🤣 </p>
-  </div>
-  <div class="post-it-rosa">
-    <p>    Bellissimi. Super Sandra!</p>
-</div>
-      <div class="post-it-rosa">
-    <p>  Sono stati molto divertenti gli ho guardati spesso è stata una coppia eccezionale  </p>
-</div>
-  <div class="post-it-rosa">
-    <p>  Magistrali, hanno gettato le basi dell'ironia e della comicità in italia </p>
-  </div>
-    <div class="post-it-rosa">
-    <p>   Maaa che ridere ahahaha</p>
-</div>
-      <div class="post-it-rosa">
-    <p>   Eccezionale non dico altro</p>
-</div>
-     <div class="post-it-rosa">
-    <p>  Non so… questo tipo di comicità non mi fa impazzire. Le donne hanno fatto grandi sforzi per essere apprezzate e riconosciute e con questa scenetta le hanno un po’ ridicolizzate. </p>
-</div>
-      <div class="post-it-rosa">
-    <p> Li ho sempre adoratiii❤️ Che ridere, il latte per il gatto poii </p>
-  </div>
-    
-    
-    
-</div>
-</div>
-<div class="container" data-giorno="11">
-  <div class="spunto">
-      <h2> Spunto #11</h2>
-<h2> La libertà, Giorgio Gaber (1972) </h2>
-
-<div class="immagine-link">
-  <img src="images/gaber.jpeg" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=nulKUZ1sWlA')"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Ci manchi tanto signor G </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Libertà è partecipazione! E' proprio vero, la libertà non arriva dal cielo, nè dalle istituzioni, nè dalla storia, ma da noi stessi, che dobbiamo darci l'opportunità di essere liberi. Questo vuol dire svincolarsi dai pregiudizi, dalle etichette dannose che imprigionano e vivere con pienezza tutte le possibilità che questo mondo ci offre </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Canzone profonda da ascoltare </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Nessuno nasce libero, a essere liberi si impara. E si può insegnare con l'esempio, perciò dobbiamo provarci con tutte noi stesse affinché chi verrà dopo sia un po' più libero di noi </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Gaber genio indiscusso. Sono fiera di essere italiana per gente come lui. Ho fatto teatro per un po’ e ho sempre trovato i suoi monologhi brillanti ed esplosivi.</p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Come è che il sig G si è preso la libertà di andarsene? Avremmo bisogno di voci come la sua oggigiorno!! </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Che bella canzone che parla di libertà </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Nessuno nasce libero, a essere liberi si impara. E si può insegnare con l'esempio, perciò dobbiamo provarci con tutte noi stesse affinché chi verrà dopo sia un po' più libero di noi</p>
-</div>
-    
-    <div class="post-it-rosa">
-      <p> Gaber e i suoi testi sono geniali! Una chiara semplice descrizione della libertà. La libertà é intrinseca nella natura, nell'uomo; peró l'uomo deve esercitarla e lottare per essa quando viene portata via. </p>
-    </div>
- <div class="post-it-rosa">
-      <p>     Canzone da ascoltare e imparare. La libertà è un concetto ancora controverso e confuso con il poter fare quello che si vuole. Ma "la libertà non è uno spazio libero" </p>
-</div>
-    <div class="post-it-rosa">
-    <p>Bella. La canzone la conoscevo già</p>
-  </div>
-   <div class="post-it-rosa">
-    <p>  Non me l’aspettavo ma questa canzone mi è piaciuta davvero tanto, sia dal punto melodico che del testo, fa riflettere</p>
-</div>
-     <div class="post-it-rosa">
-    <p>  Il signor G sempre un king</p>
-  </div>
-    <div class="post-it-rosa">
-    <p>Non sentivo questa canzone da un sacco. Ha un messaggio importante e profondo su cui bisogna riflettere e non dare per scontato :) </p>
-  </div>
-      
-</div>
-</div>
-        
-
-     <div class="container" data-giorno="10">
-  <div class="spunto">
-      <h2> Spunto #10</h2>
-<h2> Cantare un referto medico, Giorgia e Fiorello (2009) </h2>
-
-      
-
-<div class="immagine-link">
-  <img src="images/giorgiafiore.png" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=o3qDWNhTSx8')"><strong>Guarda qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Sto ridendo!!! Fiorello riesce sempre a farmi ridere, Giorgia ha una voce splendida ed é rimasta umile! Consiglio a tutti VivaRai2 e Sanremo2024!!! </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Il nostro show man  </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Fiorello potrebbe stare fermo e zitto e mi farebbe ridere lo stesso </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Incredibile quanto poco ci voglia per far nascere un sorriso! </p>
-  </div>
-    
-  <div class="post-it-rosa">
-    <p> Prossima volta l'etichetta sulla bottiglia dello shampoo  </p>
-  </div>
-    
-  <div class="post-it-rosa">
-    <p> Se faccio mettere in musica il mio referto Giorgia si deve fare aiutare dai Berliner Philharmoniker! </p>
-  </div>
-    
-  <div class="post-it-rosa">
-    <p> Prossimo video: Giorgia canta un atto notarile. 45 minuti di applausi </p>
-  </div>
-   
-    
-  <div class="post-it-rosa">
-    <p>  Che dire…con una voce così melodiosa ogni testo è una poesia: davvero divertenti!</p>
-</div>
-
-   <div class="post-it-rosa">
-    <p>    🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣 bello</p>
-</div>
-      <div class="post-it-rosa">
-    <p>    Bellissimo... sono curioso di sapere cosa canterà Giorgia la prossima volta, forse un menù di Natale</p>
-</div>
-   <div class="post-it-rosa">
-    <p>     Quant’è brava Giorgia❤️</p>
-</div>
-      <div class="post-it-rosa">
-    <p>   Bello</p>
-</div>
-         <div class="post-it-rosa">
-    <p>  …quando si è bravi si può fare anche questo!</p>
-</div>
-    <div class="post-it-rosa">
-    <p> Fiorello numero uno, soprattutto da quando a Sanremo ha salvato la situa Bugo e Morgan. Un mito. Sempre stato. Giorgia invece è troppo brava, è la cantante italiana che preferisco. Mesi a cantare le sue canzoni quando ero nel coro alle medie, mai imparato mezzo acuto <3</p>
-  </div>
-     <div class="post-it-rosa">
-    <p>   Mi spacco dalle risateee sono dei grandii</p>
-</div>
-</div>
-</div>
-             
-        
-        <div class="container" data-giorno="9">
-  <div class="spunto">
-      <h2> Spunto #9</h2>
-<h2> Le ragazze (2023) </h2>
-      
-<h2> I Neri per caso, Paola Cortellesi, Emanuela Fanelli, Geppi Cucciari e Carla Signoris  </h2>
-
-<div class="immagine-link">
-  <img src="images/ragazze.png" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=JCJVe-Bzxcc')"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Parole sante: è importante ascoltare sempre. </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Esibizione fantastica, questo programma ci ha regalato tanti momenti di bella televisione  </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Tutti bravi, ma Paola Cortellesi sempre la migliore </p>
-  </div>
-     <div class="post-it-rosa">
-    <p>  Era tanto tempo che non li sentivo forti! </p>
-  </div>
-    
-     <div class="post-it-rosa">
-    <p>  Che bello vedere artisti che siamo abituati a vedere in contesti diversi insieme </p>
-  </div>
-<div class="post-it-rosa">
-    <p> Che raduno di persone meravigliose! E che canzone!</p>
-  </div>   
-    <div class="post-it-rosa">
-    <p> Da ascoltare e far ascoltare! Che ogni singolo verso arrivi e faccia riflettere sempre più persone! Anche la musica è stato e può essere un importante mezzo comunicativo... Ho letto un' altra strofa della canzone, che vorrei condividere: <i>Le ragazze che ispirano Tutti i testi delle canzoni Sono sempre al centro Dei discorsi di tutti noi Che non conosciamo Nemmeno la metà Di tutti quel che pensano E dei segreti che ognuna ha Le ragazze volteggiano Sulle ali degli aquiloni E noi innamorati Che le seguiamo da quaggiù Guarda come planano"... Qualcuna scenderà Ma quando si allontanano è no!</i> </p>
-  </div>  
-        <div class="post-it-rosa">
-    <p> Che bello! Un momento magico e pieno di Verità ❤ Comunque la Cortellesi spacca, emozionatissima e bellissima come sempre</p>
-    </div>
-       <div class="post-it-rosa">
-    <p>  Uh non me la ricordavo più!</p>
-  </div>
-   <div class="post-it-rosa">
-   <p> Considerando che è un brano del 1995, è incredibile quanto sia attuale. Il testo e le voci a cappella sono sempre state molto belle, questa interpretazione con queste 4 donne meravigliose, davvero speciale!</p>
-  </div>
-
- <div class="post-it-rosa">
-   <p>   Treni in corsa che nessuno fermerà❤️</p>
-</div>
-
-  <div class="post-it-rosa">
-   <p>    SI PUÒ AMARE DA MORIRE MA MORIRE D’AMORE NO… eppure succede tutti i giorni: allora cantiamo in onore delle donne vittime di femminicidio.</p>
-</div>
-     <div class="post-it-rosa">
-   <p>  Profonda. Mi è piaciuta davvero tanto, a me fa riflettere. E poi i neri per caso mi piacciono da morire</p>
-</div>
-  <div class="post-it-rosa">
-   <p>    Bellissima: per contenuto e interpretazione. L’ingresso in scena delle donne mi risuona interiormente per il trionfo che comunicano. </p>
-</div>
-   <div class="post-it-rosa">
-   <p>    Grandi, veramente un perla!!</p>
-</div>
-</div>
-</div>
-        
-
-        <div class="container" data-giorno="8">
-  <div class="spunto">
-      <h2> Spunto #8</h2>
-<h2> Futura, Lucio Dalla (1980) </h2>
-
-<div class="immagine-link">
-  <img src="images/dalla.jpeg" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=z_JDccpkMAM')"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> e se è una femmina si chiamerà...Futura. A tutte le donne del domani, perchè abbiano la possibilità di vivere il loro futuro </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> …domani: un futuro da costruire insieme. Come lo spunto di ieri si pensa al futuro, in unione, tenendosi le mani! </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p>Non conoscevo questa canzone ma mi è piaciuta molto, i musicisti sono stati bravi come il cantante </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Una canzone emozionante che sembra prevedere il futuro è che, quindi, fa riflettere su come non siamo ancora in grado di imparare dagli errori passati… </p>
-  </div>
-      <div class="post-it-rosa">
-    <p> Ufff musicisti da paura </p>
-  </div>
-   <div class="post-it-rosa">
-    <p>  Molto bella anche questa versione. Io l'avevo riascoltata dopo tanto al cinema per il docufilm Dallamerica che mi ha fatto rispolverare vecchi brani di Dalla ma sempre attuali.</p>
-</div>
-    
-       <div class="post-it-rosa">
-  <p>
-      Lucio Dalla era a Berlino per vedere un concerto dei Genesis, ma ferma un attimo il taxi per sedersi su una panchina vicino al muro di Berlino. Scende e accende una sigaretta, in contemporanea esce Phil Collins da un altro taxi, i due non si parlano ma rimangono lì. In quei minuti Lucio ha scritto questa canzone.
-  </p></div>
-       <div class="post-it-rosa">
-    <p>  Ho cercato le parole e mi sono davvero innamorata. E' una bellissima canzone, magari non perfettamente nelle mie corde per la musica, ma trovo le parole davvero dolci e ricche di significato <3</p>
-  </div>
-     <div class="post-it-rosa">
-    <p> Bella Futura </p>
-  </div> <div class="post-it-rosa">
-    <p> Un messaggio di speranza per il Futuro con la certezza che le donne saranno sempre di più protagoniste della nostra Storia.</p>
-  </div>
-    <div class="post-it-rosa">
-    <p>Io sto scoprendo e apprezzando sempre più Dalla, le sue canzoni, testo e musica, la sua voce. Con questo brano lui esprime la sua speranza per un futuro migliore, in cui non c'é alcun astio tra russi e americani, in cui 'nascerà e non avrà paura, nostro figlio', in cui il mondo non 'sta cadendo a pezzi', il cielo non è pieno di razzi e non si deve aver paura. Ascolto la canzone e anzichè poter solo apprezzarne la bellezza, provo inevitabile tristezza per la consapevolezza che tutti i problemi citati da Lucio non sono risolti, ma sono anzi estremamente attuali e con prospettive non ottimiste... </p>
-  </div>
-     <div class="post-it-rosa">
-    <p> ...tanto che diversi miei coentanei non intendono mettere al mondo figli, proprio per paura del futuro e del mondo in cui loro dovrebbero vivere. Il futuro sperato in questo brano non è il nostro presente, però può sempre essere il nostro futuro, se anche noi continuiamo ad avere speranza e amore, come ci insegna Lucio. </p>
-  </div> 
-
-     <div class="post-it-rosa">
-    <p>Non conoscevo questa canzone. Molto bella e con un significativo messaggio ❤ </p>
-     </div>
-
-     <div class="post-it-rosa">
-    <p>  Curioso come Dalla nelle sue poesia riesca sempre ad infilarci russi e americani! </p>
-     </div>
-     <div class="post-it-rosa">
-   <p>  Bella canzone :) </p>
-</div>
-   <div class="post-it-rosa">
-   <p>    Beautiful musical accompaniment, it is somehow a calming song that reassures you of a better future to come. Incredible how music can have such a profound effect on us</p>
-</div>
-    
-</div>
-</div>
-
-       
-  
-
-
-<div class="container" data-giorno="7">
-  <div class="spunto">
-      <h2> Spunto #7</h2>
-<h2> Domani, Artisti Uniti per l'Abruzzo (2009) </h2>
-
-<div class="immagine-link">
-  <img src="images/domani.jpeg" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=kaiekFL69dM&pp=ygUGZG9tYW5p')"><strong>Enjoy qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Che emozionante! Ci sono proprio tutti </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Questa canzone è l’emblema di quello che dovrebbe essere la musica…accendere i cuori, la speranza e unire le persone…la musica è di tutti e unisce tutti </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> "Day by day hold me. Day by day save me, shine on me". In ogni situazione mai perdere la speranza, mai dimenticarsi di splendere. Grazie per lo spunto di oggi!</p>
-  </div>
-    
-    <div class="post-it-rosa">
-      <p> L'armonia che c'è in questo brano è qualcosa di enorme, l'armonia tra le note della canzone, tra gli artisti che collaborano per una buona causa, tra i diversi generi musicali che questi artisti rappresentano, che però si incastrano in modo perfetto </p>
-    </div>
-      <div class="post-it-rosa">
-    <p> Quando l'arte arriva dove non arriva la politica </p>
-  </div>
-  <div class="post-it-rosa">
-    <p> Oltre ad essere un pezzo pazzesco, trasmette un significato importantissimo: insieme possiamo fare la differenza, possiamo dare un contributo</p>
-  </div>
-    
-  <div class="post-it-rosa">
-    <p>Che meraviglia questa canzone, ogni voce così riconoscibile e unita in armonia alle altre. Emozionante davvero, é un messaggio di speranza che non fa mai male ricevere</p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Questa canzone è stupenda, emoziona sempre come la prima volta che l’ascolti</p>
-  </div>
-      
-    <div class="post-it-rosa">
-      <p> Che artisti pazzeschi abbiamo!! </p>
-</div>
-    
-    <div class="post-it-rosa">
-      <p> Bel momento. Fa sempre bene ascoltarli </p>
-</div>   
-    
-    <div class="post-it-rosa">
-      <p>  Che emozione vederli tutti insieme per una giusta causa! Ci sono proprio tutti. Molti tra i miei preferiti. E anche qualcuno che non c'è più. Sigh</p>
-    </div>
-      <div class="post-it-rosa">
-      <p> Ma quanto sono bravi ?!</p>
-    </div>
-      
-    <div class="post-it-rosa">
-      <p> Questa canzone è meravigliosa. Si porta dietro tanti ricordi di cantate intorno a un fuoco sotto le stelle. Mi fa anche un po' arrabbiare pensare che l'Aquila è tutt'ora piena di cantieri, palazzi storici puntellati, edifici pericolanti. Nonostante la società civile si sia ripresa, pur portandosi addosso parecchie cicatrici, le istituzioni e i media si sono presto dimenticati di quella notte tremenda e di quel popolo ferito. Per questa e altre ragioni sono convint che non possiamo più permetterci di aspettare che le istituzioni risolvano i problemi. La società civile ha in sé numerosi esempi virtuosi di comunità che si prendono cura di sé stesse: includendo i più fragili, prestando attenzione alla sostenibilità delle proprie azioni a livello ambientale e socio-economico... </p>
-</div>
-     <div class="post-it-rosa">
-      <p> ...Non possiamo continuare ad avallare il sistema capitalistico e consumista in cui viviamo perché siamo noi quelli che si stanno consumando. Un passo alla volta informiamoci, smettiamo di supportare un'azienda complice delle guerre odierne, pretendiamo che i nostri diritti di cittadin e laborator vengano rispettati, non stiamo a guardare se un agente se la prende con una persona migrante, cerchiamo di riflettere sui beni che abbiamo o che desideriamo e su quanto siano realmente necessari. E soprattutto facciamolo insieme. Organizziamoci in gruppi di affinità tra collegh, inquilin, studenti. Perché si parte e si torna insieme. Sempre. </p>
-     </div>
-         <div class="post-it-rosa">
-      <p> Ricordo quando la cantavamo ai campeggi scout, riuscendo a fare i diversi cori e dicendoci le parti. Veramente bella</p>
-    </div>
-       <div class="post-it-rosa">
-      <p> Tutti bravi... </p>
-    </div>
-       <div class="post-it-rosa">
-      <p> Domani tutti con l'Abruzzo</p>
-    </div>
-       <div class="post-it-rosa">
-      <p> Bravi ma non li conosco </p>
-    </div>
-    <div class="post-it-rosa">
-      <p>  Quanti ricordi, quanta sofferenza! Ma quanto orgoglio nel vedere la comunità che INSIEME si rimbocca le maniche per ti-costruire il domani!</p>
-</div>
-     <div class="post-it-rosa">
-      <p>    That is heartbreaking but at the same time their act is so full of humanity and beautiful</p>
-</div>
-   <div class="post-it-rosa">
-      <p>    Brividi! É una chiara testimonianza della potenza e importanza anche della musica e dell'arte, per trasmettere messaggi e per aiutare gli altri. Tre considerazioni: stando insieme, collaborando, unendo talenti differenti, si impara molto e si possono raggiungere risultati spettacolari; in generale, facendo del bene, mettendosi al servizio, si dà agli altri, ma si riceve anche tanto; bellissimo il montaggio e l'arrangiamento!</p>
-</div>
-    
-       <div class="post-it-rosa">
-      <p> Vedere come si può fare del bene con una sola canzone mi emoziona sempre. E' spettacolare vedere quanti sono! Ci sono tutti tutti!! Non ho parole, solo tanta ammirazione! </p>
-    </div>
-     <div class="post-it-rosa">
-      <p> Emozionante! È bello vedere così tanti artisti uniti ❤ </p>
-    </div>
-     <div class="post-it-rosa">
-      <p> Un omaggio alle vittime e ai sopravvissuti del terremoto e un pensiero speciale al grande Franco Battiato!</p>
-</div>
-</div>
-</div>
-
-<div class="container" data-giorno="6">
-  <div class="spunto">
-      <h2> Spunto #6</h2>
-<h2> Medley, Virginia Raffaele (2017) </h2>
-
-<div class="immagine-link">
-  <img src="images/virginia.png" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=uHKybP0AC64')"><strong>Guarda qui</strong></button>
-</div>
-
-</div>
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> …facciamo che ci avevamo creduto! Bravissima, bravissime! 👏  </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Un talento pazzesco! Non solo un'imitazione della voce, ma anche dei movimenti, dell'espressione... </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> È veramente un’artista a tutto tondo!! Riesce a riprodurre perfettamente voci, tonalità e intonazione!! Non solo, riesce anche a essere estremamente divertente!! </p>
-  </div>
-    
-    <div class="post-it-rosa">
-      <p> Ci abbiamo creduto tutti, su Patty Pravo e Gianna Nannini poi proprio impeccabile 😂  </p>
-    </div>
-   <div class="post-it-rosa">
-      <p>  Meravigliosa! Io la stimo davvero tanto, ha proprio talento a imitare! E poi mi fa tanto ridere sempre </p>
-    </div>
-      <div class="post-it-rosa">
-      <p>  Sa proprio il fatto suo</p>
-    </div>
-    <div class="post-it-rosa">
-      <p>  Mitica! E non solo per le imitazioni, che sono comunque 🔝</p>
-</div>
-
-     <div class="post-it-rosa">
-      <p>  Pazzesca! Inquietante (in senso positivo) per la bellissima interpretazione. Mi è venuta la pelle d'oca dalla bravura!</p>
-</div>
-   <div class="post-it-rosa">
-      <p>    Goofy but talented :D</p>
-</div>
-    <div class="post-it-rosa">
-      <p>    Sa imitare, cantare, ballare, far ridere, interagire con il pubblico, ... un grande talento!</p>
-</div>
-     <div class="post-it-rosa">
-      <p>    Semplicemente fantastica! La adoro! </p>
-</div>
-   
-    <div class="post-it-rosa">
-      <p>  Fantastiche interpretazioni </p>
-</div>
-      
-    <div class="post-it-rosa">
-      <p>  Sembra che la Raffaele imiti la Gianna Nannini </p>
-</div>
-    
-    <div class="post-it-rosa">
-      <p>  So che lei è una comica e che con questa esibizione stava facendo delle imitazioni, purtroppo però non me ne intendo molto di musica italiana, per cui non ho colto le imitazioni e non ho potuto apprezzare a pieno🙈 </p>
-</div>
-     <div class="post-it-rosa">
-      <p>  Anche se il tipo di performance non è tra i miei preferiti lei è veramente brava </p>
-</div>
-      
-     
-</div>
-</div>
-
-
-<div class="container" data-giorno="5">
-  <div class="spunto">
-      <h2> Spunto #5</h2>
-<h2> X colpa di chi, Zucchero (1995) </h2>
-
-<div class="immagine-link">
-  <img src="images/sugar.jpg" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=6FLfAZ8ouMs')"><strong>Ascolta qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Ascoltata alle 6:30 ottima carica per la giornata </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Sugaaar una forza della natura, questa canzone trasmette energia pura!</p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Da piccola mi piaceva questa canzone perchè mi faceva ridere il "portare in giro la vita a fare la pipì", oggi mi fa ancora sorridere per la vitalità che sprigiona </p>
-  </div>
-    
-    <div class="post-it-rosa">
-      <p> Questa canzone mi dà sempre un'ottima carica per le vibes e l'energia che trasmette! ❤ </p>
-    </div>
-        <div class="post-it-rosa">
-      <p> Fa ridere e fa ballare, quindi fa bene alla salute, mentale e fisica! </p>
-    </div>
-         <div class="post-it-rosa">
-      <p> Good vibes! </p>
-    </div>
-  <div class="post-it-rosa">
-      <p>  I need to set it as my alarm :D roosters crowing, followed by a blasting beat and music that would charge me for the whole day</p>
-</div>
-
-    <div class="post-it-rosa">
-      <p>  Che energia! Non conoscevo questo video e mi è piaciuto tutto: il ritmo, i colori, ballerini e musicisti eccezionali che ti fanno venire voglia di ballare e dimenticare che "il mondo è ammalato"</p>
-</div>
-         <div class="post-it-rosa">
-      <p> Ora ho voglia di rivedere i blues Brothers, per qualche motivo </p>
-    </div>
-
-  <div class="post-it-rosa">
-      <p>    Da una carica enorme, infatti quando è iniziata la canzone mi è venuto un infarto</p>
-</div>
-      <div class="post-it-rosa">
-      <p>    È dalle elementari che canticchio questa canzone. La verità è che è molto profonda…da moltissimi spunti di riflessione. In primos, la costante mancanza di tempo di cui tutti ci lamentiamo…ma ci manca davvero? O semplicemente lo gestiamo male? O passiamo la vita a correre dietro a cose futili che non ci lasciano niente dentro? Questa canzone è, a mio avviso, un invito ad andare oltre la superficie delle cose, a scavare un po’ più in fondo, per trovare il vero motivo per cui valga la pena usare il proprio tempo.o</p>
-</div>
-
- 
-  <div class="post-it-rosa">
-      <p>     Adoro il ritmo di questa canzone! </p>
-</div>
-      <div class="post-it-rosa">
-      <p> Ti dà adrenalina</p>
-    </div>
- <div class="post-it-rosa">
-      <p> Non sono mai stata una big fan di Suuuugar, però questa canzone spacca </p>
-    </div>
- 
-  <div class="post-it-rosa">
-      <p>  Ah ah, giusto accompagnato da Jim Belushi e Dan Aykroyd 🙈🙈🙈 Musica dal ritmo travolgente di uno Zucchero in gran spolvero. Una ballata semplice musicalmente a tal punto da essere semplicemente geniale, nel testo e nella musica. Si riascoltetebbe in loop 100 volte senza stancarsi mai ❤️</p>
-</div>
-  <div class="post-it-rosa">
-      <p>   Che carica stupenda questa canzone! Zucchero mi piace davvero tanto, mi sembra di ritornare bambina</p>
-</div>
-      <div class="post-it-rosa">
-      <p> Che ritmo. Che nostalgia questi video ( si diceva così?!) di altri tempi… </p>
-    </div>
-</div>
-</div>
-        
-        
-
-<div class="container" data-giorno="4">
-  <div class="spunto">
-      <h2> Spunto #4</h2>
-<h2> Totò Peppino e la...malafemmina, Camillo Mastrocinque (1956) </h2>
-
-<div class="immagine-link">
-  <img src="images/toto.jpeg" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=EPWYhR8N7nw')"><strong>Guarda qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Bitte schoon!  </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> 20 anni che abito a Milano e ogni volta mi chiedo anche io "ma per andare dove devo andare, dove devo andare?" </p>
-  </div>
-    
-  <div class="post-it-rosa">
-    <p> Che grandi! </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Che ridere 🤣🤣🤣</p>
-  </div>
-    
-    <div class="post-it-rosa">
-      <p> Maaa che ridere ahahaha </p>
-    </div>
-     <div class="post-it-rosa">
-      <p>  A Milan quando c’è la nebbia non si vede. Infatti non si vedeva nemmeno quel giorno, forse per questo non trovava no la strada 😂😂😂</p>
-</div>
-    <div class="post-it-rosa">
-      <p> Ah ah...bellissimo! "Eh Milan l'è un gran Milan" ma anche Toto' era un bel fenomeno </p>
-    </div>
-    <div class="post-it-rosa">
-      <p> Come adesso con il navigatore!!!!</p>
-    </div>
-    
-    <div class="post-it-rosa">
-      <p> Aspettando gli amici di DESY a Milano! Almeno gli spieghiamo dove devono andare, se vogliono andare, dove vogliono andare. </p>
-    </div>
-
-  <div class="post-it-rosa">
-      <p>   Io quando mi cimento nel dialetto della mia città, che diventa un bel mix di francese, spagnolo e qualche umlaut ü!</p>
-</div>
-    <div class="post-it-rosa"> 
-        <p> “Ah ma parli italiano, BRAVISSIMO!” “Dove credevate di essere? Siamo a Milano!” 😂😂😂</p>
-    </div>
-
-  
-  <div class="post-it-rosa">
-      <p>   Beautiful black and white Milan, no words needed!</p>
-</div>
-
-  <div class="post-it-rosa"> 
-        <p>  D'altronde se la scala fosse stata fuori, non si sarebbe riuscito a seguire bene il concerto d'opera</p>
-    </div>
-
-  <div class="post-it-rosa"> 
-        <p>    Quanti ricordi a casa di mio nonno guardando e riguardando questo film. Intramontabile. </p>
-</div>
-       <div class="post-it-rosa">
-      <p> Mi spacco. Sono troppo simpatici 😂</p>
-    </div>
-
-<div class="post-it-rosa">
-      <p>     Mi ha fatto troppo ridere e un po' commuovere. Mi ha ricordato un po' il mio erasmus in Austria mentre cercavo di interagire con le persone con quel pochissimo di tedesco che avevo nel mio repertorio. Prontamente tutti (essendo vicini al confine con l'Italia sapevano entrambe le lingue) mi rispondevano confusi in italiano con accento tedesco. Ahahah che bei ricordi</p>
-</div>
- <div class="post-it-rosa">
-      <p>    Noio volevam savoir, parole che richiamano alla mente una persona tanto cara. A … con l’affetto immutato di sempre</p>
-</div>
-</div>
-</div>
-
-<div class="container" data-giorno="3">
-  <div class="spunto">
-      <h2> Spunto #3</h2>
-<h2> A bocca chiusa, Daniele Silvestri (2013) </h2>
-<h2> con Paola Cortellesi </h2>
-<p> Per chi ha fretta, l'esibizione inizia davvero a 1:14</p>
-
-
-<div class="immagine-link">
-  <img src="images/boccachiusa.png" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=0pRV9DlW59U')"><strong>Ascolta qui</strong></button>
-</div>
-
-</div>
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> La canzone è davvero una perla del cantautorato italiano, ogni verso esprime una verità detta in parole semplici, che il dialetto romanesco rende ancora più popolari. Questa esibizione poi è molto emozionante, la Cortellesi sa proprio fare tutto </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Semplicemente splendida ♥️ </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Emozionante </p>
-  </div>
-    
-    <div class="post-it-rosa">
-      <p> E' stato davvero tanto emozionante. Non avevo mai sentito questa canzone, ma è bellissima, mi ha lasciata senza parole. Lei una diva da capo a piedi, penso sia l'attrice italiana che preferisco in assoluto. Caleidoscopica pura</p>
-    </div>
-    <div class="post-it-rosa">
-      <p> Adorable!</p>
-    </div>
-    <div class="post-it-rosa">
-      <p> Bella canzone anche se non è il mio genere</p>
-    </div>
-    <div class="post-it-rosa">
-      <p> A un certo punto della canzone viene nominato il presepe. Mi è venuto in mente un bimbo di sette anni, che ieri, passando affianco ad una sacra famiglia nel cortile di un oratorio, mi ha chiesto cosa fosse.</p>
-    </div>
-    
-    <div class="post-it-rosa">
-      <p> La bellezza salverà il mondo </p>
-    </div> <div class="post-it-rosa">
-      <p> Che bella Paola Cortellesi che canta </p>
-    </div><div class="post-it-rosa">
-      <p> Troppo più forte degli altri. 9/10. </p>
-    </div><div class="post-it-rosa">
-      <p> Ah, sa anche cantare... Testo bellissimo e importante, da ascoltare, rifletterci, e cantare tutti insieme! Fa prendere più consapevolezza dell'importanza della nostra voce, che è fisicamente un mezzo con cui ci presentiamo, con i nostri penisieri e bisogni. Un'assurda verità è che a molte persone nel mondo viene chiusa la bocca, negato il controllo e l'espressione di sé. Perciò noi dobbiamo usare la nostra di voce come un'arma buona con cui ci proteggiamo e lottiamo, per noi e per gli altri. Grazie Paola e Daniele! </p>
-    </div><div class="post-it-rosa">
-      <p> Ho conosciuto questa canzone guardando il film. Così attuale. Cosi' forte. Una grande emozione. Vederla cantata dall'autore e dalla Cortellesi è ancora più emozionante. E quella frase che ti rimane in testa "se non per quella vecchia idea de esse tutti uguali"... </p>
-    </div><div class="post-it-rosa">
-      <p> Brava la Paola…..bella canzone che mi ha fatto conoscere Silvestri!😀 </p>
-    </div>
-   <div class="post-it-rosa">
-      <p> Bella e brava </p>
-</div>
- <div class="post-it-rosa">
-      <p>
-    Questa canzone per qualche motivo me ne ha ricordata una francese, “Utile”, in cui viene detto: “ À quoi sert une chanson si elle est désarmé … Je veux être utile à vivre et à rêver” (A che serve una canzone se è disarmata? … Voglio essere utile per vivere e sognare)</p> 
-</div>
- <div class="post-it-rosa">
-      <p>Ho conosciuto questa canzone guardando "C’è ancora domani" e l’esibizione di Paola nel video l’ho vista dopo ancora. Avendo visto prima il film, la canzone acquista un significato leggermente diverso forse, ma decisamente non meno potente. La Cortellesi ci dimostra ancora una volta il suo immenso talento: conduce, imita, recita, canta, e adesso si mette dietro la macchina da presa per regalarci un capolavoro di film impreziosito da brani attuali e passati, e anche e soprattutto da questa canzone sul finale, a renderlo ancora più emozionante e potente, ma al tempo stesso delicato.</p>
-</div>
-    
- <div class="post-it-rosa">
-      <p>Il film e la canzone non riesco più a togliermeli dalla testa. Meraviglioso. E questa voglia di condivisione di emozioni e pensieri che si è creata attorno al film e attorno a questa canzone credo sia la dimostrazione che il messaggio è arrivato chiaro e preciso nell’anima delle persone, ha scosso le anime e sta facendo brillare tutto di luce nuova. Non ci sono parole adatte, non renderebbero… solo un immenso grazie per questa perla.</p>
- </div>
-     <div class="post-it-rosa">
-      <p>It was a memorable musical moment! The lively melody and singing, coupled with the song's empowering message is encouraging</p>
-     </div>
-    <div class="post-it-rosa">
-<p> Bellissima canzone, non la conoscevo ma è stata aggiunta subito alla mia playlist. E lei come sempre si piena di talento, gentilezza e eleganza</p>   
-</div>
- <div class="post-it-rosa">
-<p>    Quante riflessioni questo testo propone! E l’interpretazione di un’attrice conferma il talento della Cortellesi che ci porta con lei nella sorpresa.</p>
-</div>
-    <div class="post-it-rosa">
-<p> Questa canzone è bellissima, ha un testo emozionante e il suo accento rende il tutto più magico. Attuale e profonda. Non ho ancora visto il film "C'è ancora domani" purtroppo, ma magari riascolterò la canzone con una sensibilità differente.</p>
-</div>
-     <div class="post-it-rosa">
-      <p>Canzone bella, ma malinconica. Molte opere d'arte nascono da una condizione di insoddisfazione. Cosa ne pensate?</p>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <div id="visibleContent">
+
+        <div class="field sfondo-custom2">
+          <p style="margin: 0;"> <span style="color: #354F08;"> Un piccolo progetto per chi ha ancora </span> </p>
+          <p style="margin: 0;"> <span style="color: #354F08;"> voglia di aprire le porticine del calendario
+              dell’avvento... </span> </p>
+          <p style="margin-top: 0;"> <span style="color: #354F08;"> ma senza trovarci cioccolatini. </span></p>
+          <p> <span style="color:  #354F08;"> <strong> Apriamo le porte alle idee! </span> </strong></p>
+          <!--  <p> <span style="color: #9C1018;"> <strong> dall’1 dicembre su oltrelasiepe.net </strong></span></p> -->
+          <button class="iscriviti-qui"
+            onclick="redirectToLink('https://whatsapp.com/channel/0029VaEc02c35fLp9BXAk00O')">Segui il canale
+            WhatsApp</button>
+
+
+          <button onclick="showHiddenContent()"
+            style="width:150px; position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%);"> Scopri di
+            più! </button>
+        </div>
       </div>
-</div>
-</div>
 
-<div class="container" data-giorno="2">
-  <div class="spunto">
-      <h2> Spunto #2</h2>
-<h2> Non ci resta che piangere, Troisi e Benigni (1984) </h2>
+      <div id="hiddenContent">
+        <div class="field sfondo-custom" id="sfondoCustom">
+          <p> Oltrelavvento è un piccolo progetto dedicato a tutti quelli che nonostante l'età, non hanno ancora perso
+            l'<strong>entusiasmo </strong>dell'aprire le porticine del calendario dell'avvento. </p>
+          <p> Nelle porte di Oltrelavvento non ci sono cioccolatini, ma <strong> spunti </strong> tratti dall'arte,
+            dalla musica, dal cinema, dalla storia. Il gioco è più divertente se lo facciamo insieme: ognuno potrà
+            lasciare il suo <strong> pensiero</strong>, commento, riflessione, anche solo una frase o una parola nel
+            form apposito, specificando a quale spunto si sta riferendo. </p>
+          <p> Periodicamente le vostre risposte compariranno sotto lo spunto corrispondente, in uno <strong> scambio di
+              idee </strong> arricchente per tutti. </p>
+          <button onclick="showHiddenContent2()"
+            style="width:150px; position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%);"> Come
+            partecipare </button>
 
-<div class="immagine-link">
-  <img src="images/troisi.jpg" alt="Descrizione immagine">
-  <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=53BR3SevV-I')"><strong>Guarda qui</strong></button>
-</div>
-  </div>
-
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-<div class="striscia">
-  <div class="post-it-rosa">
-    <p> Grande Troisi....«Ricordati che devi morire... sì, sì, mo me lo segno» </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> E' stato bello anche se non ci ho capito granché 😅😅😅 </p>
-  </div>
-
-  <div class="post-it-rosa">
-    <p> Troisi mi fa troppo ridere, una bravura travolgente che mette il buon umore  </p>
-  </div>
-    <div class="post-it-rosa">
-      <p>Sì ma chi siete? Dove andate? Che cosa volete? </p>
-    </div>
-
-  <div class="post-it-rosa">
-      <p>    Rido. Mi ha portato alla mente ricordi bellissimi. Sin da piccola ho sempre giocato a scopa, uno dei tanti giochi che ha unito tutti da generazioni :) </p>
-    </div>
-      <div class="post-it-rosa">
-      <p>  L'espressività e la gestualità di Troisi sono pazzesche, quasi uno non realizza che le carte non le ha davvero in mano...</p>
-</div>
-  
-  <div class="post-it-rosa">
-      <p> Stupenda questa scena! Ho sorriso dall'inizio alla fine, è un umorismo che secondo me ormai si è un po' perso nella nostra società, una classe di altri tempi quasi... Penso di preferirlo a mille goliardate di questi anni viste in tv. PS: Leonardo che impara scopa mi ricoda me quando qualcuno mi spiega un qualsiasi gioco di carte haha!</p>
-  </div>
-   
-  <div class="post-it-rosa">
-      <p>  Troisi è un mito! Rivedrei ogni scena 100 volte perché ogni volta è uno spasso!</p>
-</div>
-      <div class="post-it-rosa">
-      <p>  Non ho mai imparato a giocare a scopa, anche se mi piacerebbe farlo, ma molto probabilmente farei la stessa fine del povero Leonardo, capirei ma non capirei😂</p>
-</div>
-  
-    <div class="post-it-rosa">
-      <p>  Troisi era solo un maestro senza il materiale didattico necessario, sono sicuro che con un bel mazzo di carte vero Leonardo avrebbe capito come fare. Vai Leo siamo tutti con te!</p>
-</div>
-
-    <div class="post-it-rosa">
-      <p>  Troisi un grande, però poteva insegnargli briscola chiamata invece che scopa...</p>
-</div>
-    
-    <div class="post-it-rosa">
-      <p>  Un grazie speciale alle renne di Babbo Natale che consegnano sempre i nostri messaggi. È fondamentale che il mondo legga</p>
-</div>
-      <div class="post-it-rosa">
-      <p> Non ho visto il film, ma avendo come registi Troisi e Benigni deve essere un capolavoro! Guardando questa clip, penso che se qualcosa è di normale e comune conoscenza e comprensione in un periodo storico non é affatto scontato che lo sia anche in un diverso periodo! Influenzano le innovazioni tecnologiche, le nuove abitudini e stili di vita, le diverse mentalità...</p>
-</div>
-      <div class="post-it-rosa">
-      <p> In fondo siamo un po' tutt* Leonardo, possiamo anche eccellere nel nostro campo ma ci sarà sempre anche la scopa a fregarci </p>
-</div>
-      <div class="post-it-rosa">
-      <p> Che bei tempi quando c'era ancora Leo! by CMB </p>
-</div>
-   <div class="post-it-rosa">
-      <p>   Mi sento confuso</p>
-</div>
-    
-   <div class="post-it-rosa">
-      <p>  Eeh gli ingegneri da sempre nun capiscono nulla!!!</p>
-</div>
-
-   <div class="post-it-rosa">
-      <p>  È stato come trovare un bel "cioccolatino"</p>
-</div>
-
-    <div class="post-it-rosa">
-      <p>    La scena mi fa una tenerezza incredibile, soprattutto nella figura di Leonardo che ce la mette tutta pur di capire, senza mai essere scortese. Questo passaggio arriva al termine di un tentativo di spiegazione di altre invenzioni. Pur sembrando tutto inutile gli spunti banali nati dalle mani di un genio permettono di costruire un treno a vapore qualche centinaio d'anni prima 😊😊😊</p>
-</div>
- <div class="post-it-rosa">
-      <p>     Pare l’interrogazione di un alunno che conosco!?!?</p>
-</div>
-    
-    
-</div>
-</div>
-
-<div class="container" id="spunto1" data-giorno="1">
-    <div class="spunto">
-        <h2> Spunto #1</h2>
-<h2> Volta la carta, Fabrizio de Andrè (1978) </h2>
-
-<div class="immagine-link">
-    <img src="images/deandre.jpeg" alt="Descrizione immagine">
-    <a href="https://www.youtube.com/watch?v=0br10asYODk" target="_blank" class="link-frase"></a>
-    <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=0br10asYODk')"><strong>Ascolta qui</strong></button>
-</div>
-</div>
-<div class="striscia">   
-  <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-</div>
-  <div class="striscia">   
-  <div class="post-it-rosa">
-      <p>  Questa canzone è troppo bella! Mi ricordo che la cantavo con mia nonna da piccola <3 </p>
-    </div>
-
-    <div class="post-it-rosa">
-      <p> Quanto tempo è passato! Si vede dal volto di Cristiano! </p>
-    </div>
- <div class="post-it-rosa">
-      <p> Credo di essere stata tutte le versioni di Angiolina: quella che indossa le scarpette blu, quella che piange in cameretta e quella che impara a chiamare i ricordi con il loro nome. E so che le rivivrò periodicamente dato che sono tutte fasi che accompagnano un’evoluzione personale e un cambiamento. Personalmente non vedo l’ora di vedere come andrà avanti. </p>
-    </div>
-    
-    <div class="post-it-rosa">
-      <p> Mentre, sin da piccola, ho apprezzato il ritmo da subito incalzante di questa canzone, che mi fa venire sempre voglia di ballare, non posso dire lo stesso del testo che mi costava parecchio comprendere, in quanto mi creava una certa confusione associare e affiancare tutti questi elementi e queste "immagini", apparentemente prive di legame logico. Adesso però non è più così, tanto che quando spesso la ascolto, questa canzone, colgo sempre l'essenza del potere di De Andrè nel riuscire a raccontare una storia così profonda ricca di vari significati.</p>
-    </div>
-       <div class="post-it-rosa">
-      <p> Grandi verità nascoste tra righe di filastrocca </p>
-    </div>
-
-   
-      <div class="post-it-rosa">
-      <p> Mi è piaciuta molto la canzone </p>
-    </div>
-       <div class="post-it-rosa">
-      <p> L'inizio della canzone sembra bello, purtroppo non riesco mai ad arrivare alla fine della canzone by Top Quark</p>
-    </div>
-      
-       <div class="post-it-rosa">
-      <p> Canzone bellissima! Mi piace ascoltarla quando non sono impegnato a rompere la simmetria di gauge by Bosone di Higgs</p>
-    </div>
-<div class="post-it-rosa">
-      <p>
-      Bella musica. Grande poesia, attualissima e qui le scarpette sono blu….un segno di speranza!?</p>
-       </div>
-
-<div class="post-it-rosa">
-      <p>  Penso che tutti e nessuno possano essere Angiolina. Riflettendoci bene…chi non ha mai pensato certe cose o fatto certe esperienze. Credo che la maestria di De Andre sia far sembrare ridicola e divertente una canzone con un significato di incredibile profondità</p>
-       </div>
-    <div class="post-it-rosa">
-      <p>  Ennesima conferma che gli sbirri non sono molto simpatici </p>
-    </div>
-  <div class="post-it-rosa">
-      <p>
-      Pazzesca la dicotomia tra il testo estremamente triste e la musica così allegra :)</p>
-    </div>
-
-     <div class="post-it-rosa">
-      <p>   È la prima volta che sento questo brano e devo dire che mi è piaciuto, soprattutto la melodia è molto orecchiabile</p>
-    </div>
-
-     <div class="post-it-rosa">
-      <p>  Nel corso della vita é possibile dover affrontare una serie di difficoltà, di ogni natura, e inevitabile é il pensiero che accadano tutte solo a noi. La storia di Angiolina, con le sue tante delusioni d'amore ma a lieto fine, é un confortante ricordo che siamo tutti in compagnia, ed é un dolce invito a perseverare, perché la soddisfazione arriverà anche per noi, e a riguardare le difficoltà passate con tranquillità.</p>
-  </div>
-        <div class="post-it-rosa">
-      <p>Non conoscevo questa canzone, molto più profonda della filastrocca da cui prende spunto; la musica è travolgente: impossibile rimanere impassibile! </p>
-        </div> 
-      <div class="post-it-rosa">
-      <p> Bella canzone </p>
         </div>
-       <div class="post-it-rosa">
-      <p>Paga il riscatto con le borse degli occhi piene di foto di sogni interrotti... Geniale e basta </p>
+      </div>
+
+      <div id="hiddenContent2">
+        <div class="field sfondo-custom" id="sfondoCustom2">
+          <p> 1. Guarda, ascolta, esplora lo spunto. </p>
+          <p> 2. Cliccando sul pulsante "Cosa ne pensi?" verrai rediretto al form in cui puoi inserire il tuo commento,
+            riflessione, osservazione o quant'altro, specificando il numero dello spunto. </p>
+          <p> 3. La tua risposta comparirà in seguito sotto il relativo spunto. </p>
+          <p> 4. Posso commentare lo spunto di un giorno successivo o precedente a quello corrente? Sì! Basta
+            specificarlo nell'apposito campo del form. </p>
+
         </div>
-       <div class="post-it-rosa">
-      <p>  Bella. Partiamo da lontano...</p>
-</div>
-     
-      
+      </div>
 
-      
+      <!-- Esempio -->
+      <div id="iniziale">
+        <button onclick="showCele()" style="width:150px, height:200px">Esempio </button>
+      </div>
 
-      
-  </div>
-</div>
+      <div id="cele">
+        <div class="containerex" data-giorno="0">
+          <div class="spunto">
+            <h2> Spunto #0</h2>
+            <h2> Azzurro, Adriano Celentano (1968) </h2>
+            <div class="immagine-link">
+              <img src="images/celentano-azzurro.jpg.webp" alt="Descrizione immagine">
+              <a href="https://www.youtube.com/watch?v=0br10asYODk" target="_blank" class="link-frase"></a>
+              <button class="ascolta-qui"
+                onclick="redirectToLink('https://www.youtube.com/watch?v=HCyzGuipTd4')"><strong>Ascolta
+                  qui</strong></button>
+            </div>
+          </div>
+          <div class="striscia">
+            <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+          </div>
+          <div class="striscia">
+            <div class="post-it-rosa">
+              <p> Bella canzone! Povero Celentano, neanche un prete per chiacchierare era rimasto in città...</p>
+            </div>
 
+            <div class="post-it-rosa">
+              <p> Ma se si annoiava perchè non è partito per le spiagge con lei? </p>
+            </div>
 
+            <div class="post-it-rosa">
+              <p> Interessante che il pomeriggio è "azzurro" perchè proprio questo colore? </p>
+            </div>
 
-        
+            <div class="post-it-rosa">
+              <p> Il Blu di Modugno e l'Azzurro di Celentano, la sfumatura cromatica accomuna queste due canzoni, tra le
+                più famose nel mondo </p>
+            </div>
 
-
-
-
-<!-- Form -->    
-<div class="container2">
-  <form id="form">
-      <h2>Cosa ne pensi?</h2>
-  <div class="field">
-    <label for="pensieri"> Parole, pensieri, opinioni, commenti e riflessioni riguardo lo spunto: 
-    </label>
-    <input type="text" name="pensieri" id="pensieri">
-  </div>
-  <div class="field">
-    <label for="user_email"> Numero dello spunto a cui ti stai riferendo: </label>
-    <input type="text" name="day" id="day">
-  </div>
-    <div class="field">
-    <label for="user_email">Nome: </label>
-    <input type="text" name="user_email" id="user_email">
-  </div>
-
-  <div class="field">
-    <label for="publishAnonymously">Posso pubblicare la tua risposta in forma anonima?</label> <input type="checkbox" id="publishAnonymously" name="publishAnonymously">
-</div>
-  <input type="submit" id="button" value="Invia" >
-</form>
-</div>
-
-
-
-        
+            <div class="post-it-rosa">
+              <p> Canzone bellissima, però consiglio di godersi l'azzurro della natura e la compagnia di se stessi,
+                senza che il proprio benessere dipenda dalla presenza di un'altra persona! </p>
+            </div>
 
 
+            <div class="post-it-rosa">
+              <p> Bello </p>
+            </div>
+
+            <div class="post-it-rosa">
+              <p> La cantavo sempre con mia mamma quando ero piccola! </p>
+            </div>
+
+            <div class="post-it-rosa">
+              <p> La colonna sonora di tanti momenti belli... </p>
+            </div>
+            <div class="post-it-rosa">
+              <p> Il treno dei desideri...all'incontrario va </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- Spunti -->
+      <div class="container" data-giorno="19">
+        <div class="spunto">
+          <h2> Spunto #19</h2>
+          <h2> () </h2>
+
+          <h2> </h2>
+
+          <div class="immagine-link">
+            <img src="images/banficostanzo.png" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=nGaARG5w7yY)"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="container" data-giorno="18">
+        <div class="spunto">
+          <h2> Spunto #18</h2>
+          <h2> Immaginare il 2014 (1990) </h2>
+
+          <h2> Lino Banfi e Maurizio Costanzo </h2>
+
+          <div class="immagine-link">
+            <img src="images/banficostanzo.png" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=nGaARG5w7yY)"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="container" data-giorno="17">
+        <div class="spunto">
+          <h2> Spunto #17</h2>
+          <h2> You Will Never Find - Caught In The Act (2010) </h2>
+
+          <h2> Laura Pausini e Michael Bublè</h2>
+
+          <div class="immagine-link">
+            <img src="images/laura.png" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=DMc3XDOy3AY')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Due grandissimi talenti della musica. Un nuovo arrangiamento classico e un'interpretazione impeccabile
+              di una canzone disco bellissima. Michael is droll. </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Laura è un mito, dolce, brava, simpatica. Incredibile come la ragazza di Solarolo e la pop star
+              convivano nella sua anima semplice </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Una pagina di musica incredibile </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Proprio due belle voci </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Passionali e convincenti, profondi e perfettamente coordinati…esibizione emozionantissima!!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ma lo sapevi che Michael buble è canadese?</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bellissima </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="container" data-giorno="16">
+        <div class="spunto">
+          <h2> Spunto #16</h2>
+          <h2> Se mi vuoi (1995) </h2>
+
+          <h2> Pino Daniele e Irene Grandi </h2>
+
+          <div class="immagine-link">
+            <img src="images/semivuoi.jpg" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=mvjHYFfRvGM')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Molto bella e intensa. Pino Daniele un mito! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Una poesia dolcissima </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Non la conoscevo! Canzone molto dolce e intesa☺ </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Irene Grandi ha una voce meravigliosa, peccato non abbia forse trovato canzoni alla sua altezza</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Il suo stile o piace o non piace</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Non è esattamente il mio genere, ma la canzone è carina</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Mi ha colpito come questa musica delicata e questo testo, un confronto cauto tra due innamorati, riescano
+              a far trasparire sia la loro dolcezza, aiuto e rispetto reciproco, sia la loro passione intensa e
+              travolgente</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Conosco la canzone. Molto romantica</p>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="container" data-giorno="15">
+        <div class="spunto">
+          <h2> Spunto #15</h2>
+          <h2> Il segno di Venere (1955) </h2>
+
+          <h2> Franca Valeri e Sophia Loren </h2>
+
+          <div class="immagine-link">
+            <img src="images/francaloren.png" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=8XE-fCswITE')"><strong>Guarda
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Travolgente Franca Valeri con la sua voce penetrante e la sua risposta rivoluzionaria! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> La grande forza dei bravi attori e dei bei film: l'essere senza tempo </p>
+          </div>
+          <div class="post-it-rosa">
+            <p>
+              La delicatezza della rivoluzione che, nonostante decenni diversi, deve affrontare purtroppo e per fortuna
+              le stesse difficoltà</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Complimenti alle attrici, che hanno saputo cogliere con delicatezza e leggerezza questa tematica,
+              divulgando un potente e travolgente messaggio di rivoluzione! </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Vado a rivedermi il film </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Sono davvero grata di vivere in un’epoca in cui le donne possono lavorare ed essere indipendenti </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Con i passaggi generazionali e i cambiamenti sociali, anche la mentalità e l'atteggiamento verso
+              l'emancipazione della donna progrediscono e migliorano. Nonostante ciò, ingiustizie e violenze sulle donne
+              sono all'ordine del giorno, anche nelle nuove generazioni. Dunque, riconoscendo gli importanti cambiamenti
+              già avvenuti, è fondamentale sradicare retaggi cultuali non (più) ammissibili e raggiungere sempre più, al
+              nord e al sud e in tutto il mondo.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Senza tempo davvero...dopo tutti questi anni ancora per molte cose mi sembra che siano passati
+              invano...🤕.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bello. Meglio a colori il 📷 </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="container" data-giorno="14">
+        <div class="spunto">
+          <h2> Settimana #1</h2>
+          <h2> Quale spunto ti è piaciuto di più? </h2>
+          <p style="font-style: italic;"> Puoi selezionare quanti spunti vuoi</p>
+
+          <div class="immagine-link-quest immagine-link">
+            <img src="images/quest.webp" alt="Descrizione immagine"
+              style="width: 300px; height: auto; text-align: center;">
+          </div>
+        </div>
+
+        <form id="surveyForm">
+          <div class="field">
+            <label for="user_email">Nome: </label>
+            <input type="text" name="user_email" id="user_email">
+          </div>
+          <div class="field_q">
+            <img src="images/unanessuna.png" alt="Image 7">
+            <label for="7">Spunto 14 - You've got a friend, Una Nessuna Centomila </label> <input type="checkbox" id="7"
+              name="7">
+          </div>
+
+          <div class="field_q">
+
+            <img src="images/clandestini.jpeg" alt="Image 6">
+            <label for="6">Spunto 13 - Clandestini, R. Cocciante </label> <input type="checkbox" id="6" name="6">
+          </div>
+          <div class="field_q">
+            <img src="images/gaber.jpeg" alt="Image 5">
+            <label for="5">Spunto 12 - La libertà, G. Gaber </label> <input type="checkbox" id="5" name="5">
+          </div>
+          <div class="field_q">
+            <img src="images/mondaini.avif" alt="Image 4">
+            <label for="4">Spunto 11 - Il femminismo, R. Vianello e S. Mondaini e </label> <input type="checkbox" id="4"
+              name="4">
+          </div>
+          <div class="field_q">
+            <img src="images/giorgiafiore.png" alt="Image 3">
+            <label for="3">Spunto 10 - Cantare un referto medico, Fiorello e Giorgia </label> <input type="checkbox"
+              id="3" name="3">
+          </div>
+          <div class="field_q">
+            <img src="images/ragazze.png" alt="Image 2">
+            <label for="2">Spunto 9 - Le ragazze, Neri Per Caso </label> <input type="checkbox" id="2" name="2">
+          </div>
+          <div class="field_q">
+            <img src="images/dalla.jpeg" alt="Image 1">
+            <label for="1">Spunto 8 - Futura, L. Dalla </label> <input type="checkbox" id="1" name="1">
+          </div>
+          <button type="submit" class="buttonform" onclick="submitSurvey()"> <strong> Invia </strong></button>
+
+        </form>
+
+      </div>
+
+      <div class="container" data-giorno="14">
+        <div class="spunto">
+          <h2> Spunto #14</h2>
+          <h2> You've Got a Friend (2022) </h2>
+
+          <h2> Alessandra Amoroso, Elisa, Emma, Giorgia, Fiorella Mannoia, Gianna Nannini, Laura Pausini</h2>
+
+          <div class="immagine-link">
+            <img src="images/unanessuna.png" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=Mb9mlG9a_Js')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Brave </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Sensazionali! Che artiste incredibili </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Bravissime, quanto talento in una sola canzone! Bella bella bella❤️ </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Che dire? Noi c'eravamo! Concerto indimenticabile. Causa nobile e sempre più necessaria. Brave!!!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bravissime!! Il sovrapporsi perfettamente calcolato e allo stesso momento spontaneo delle varie vocalità
+              lascia trasparire un’amicizia che le unisce tutte… </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Che belleee, ci sono proprio tutte! Bravissime come sempre ❤️ </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Per sempre nel cuore </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Bella. Quasi natalizia. Anzi proprio bella in questo periodo! ❤️ </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> ❤️</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> C'ero al concerto. 7 donne. Bello</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Si possono fare passi importanti con questi tre ingredienti: - l'amicizia, argomento di questo brano
+              splendido; - la vicinanza tra donne, rappresentata da questa collaborazione, ricca di forza, talento e
+              bellezza; - il sostegno di tutte le persone, simboleggiato dal caloroso pubblico presente.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Il bene si avvera</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> I adore Carole King and this song! King's meaningful and melodic songs are a comforting refuge during
+              uncertain moments in life. Indeed, there's something incredibly uplifting about hearing "You've Got a
+              Friend" that can ease even the most somber mood...</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> ...And it was my first time experiencing this song through various talented singers❤️. How they
+              harmonize in unison amplifies all things this songs represents. It's a beautiful testament to the enduring
+              power of friendship and support C:</p>
+          </div>
+        </div>
+      </div>
+      <div class="container" data-giorno="13">
+        <div class="spunto">
+          <h2> Spunto #13</h2>
+          <h2> Clandestini, Riccardo Cocciante (2002) </h2>
+          <h2> Notre Dame de Paris </h2>
+
+          <div class="immagine-link">
+            <img src="images/clandestini.jpeg" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=5EjwF3Ou5PA')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Spettacolare, grande intensità e contesto pazzesco. Tutti bravissimi </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Il musical è un genere pazzesco, ammiro tanto gli attori, cantanti, ballerini sul palco</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p>Bravissimi. Molto intenso. Dal vivo mi era piaciuto molto. Vorrei vedere un musical all'Arena di Verona
+            </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ma le canzoni di Cocciante? Capolavori </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bello ma mi fanno paura </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> "Noi uomini e donne, soltanto vivi". Non importa chi sei, uomo, donna, straniero, il solo fatto di
+              essere vivo ti legittima ad avere un posto nel mondo. Sembra la cosa più banale del mondo ma non lo è </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Nella richiesta di asilo a Notre Dame c'è tutta la disperazione di uomini e donne che non sentono di
+              appartenere a nessun luogo </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Che musical! Per non parlare della forte intensità che trasmette!!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Un musical all'Arena: un sogno per me! Questa scena musicale sta narrando molto: la potenza della
+              musica, l'aggressività della voce e l'energia del ballo sottolineano la determinazione di queste persone
+              nel richiedere accoglienza e aiuto, mentre le delicate e umili parole cantate rivelano la loro
+              disperazione! </p>
+          </div>
+        </div>
+      </div>
+      <div class="container" data-giorno="12">
+        <div class="spunto">
+          <h2> Spunto #12</h2>
+          <h2> Scenetta "Il femminismo", Mondaini e Vianello (1978) </h2>
+
+          <div class="immagine-link">
+            <img src="images/mondaini.avif" alt="Descrizione immagine">
+            <button class="ascolta-qui" onclick="redirectToLink('https://youtu.be/e1T44pnQ0UY')"><strong>Guarda
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Troppo forti. E teneri. </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Il latte per il gatto 🤣🤣🤣 </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p>Ringrazio Techetechete' per avermi permesso di conoscere questa coppia fantastica! Anche la comicità é un
+              mezzo utile per trasmettere messaggi e condannare gesti ormai ordinari ma sbagliati. </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> I work hard so my cat can live a better life </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Da morire dal ridere 😆😂🤣🤣🤣 </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bellissimi. Super Sandra!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Sono stati molto divertenti gli ho guardati spesso è stata una coppia eccezionale </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Magistrali, hanno gettato le basi dell'ironia e della comicità in italia </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Maaa che ridere ahahaha</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Eccezionale non dico altro</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Non so… questo tipo di comicità non mi fa impazzire. Le donne hanno fatto grandi sforzi per essere
+              apprezzate e riconosciute e con questa scenetta le hanno un po’ ridicolizzate. </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Li ho sempre adoratiii❤️ Che ridere, il latte per il gatto poii </p>
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="container" data-giorno="11">
+        <div class="spunto">
+          <h2> Spunto #11</h2>
+          <h2> La libertà, Giorgio Gaber (1972) </h2>
+
+          <div class="immagine-link">
+            <img src="images/gaber.jpeg" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=nulKUZ1sWlA')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Ci manchi tanto signor G </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Libertà è partecipazione! E' proprio vero, la libertà non arriva dal cielo, nè dalle istituzioni, nè
+              dalla storia, ma da noi stessi, che dobbiamo darci l'opportunità di essere liberi. Questo vuol dire
+              svincolarsi dai pregiudizi, dalle etichette dannose che imprigionano e vivere con pienezza tutte le
+              possibilità che questo mondo ci offre </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Canzone profonda da ascoltare </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Nessuno nasce libero, a essere liberi si impara. E si può insegnare con l'esempio, perciò dobbiamo
+              provarci con tutte noi stesse affinché chi verrà dopo sia un po' più libero di noi </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Gaber genio indiscusso. Sono fiera di essere italiana per gente come lui. Ho fatto teatro per un po’ e
+              ho sempre trovato i suoi monologhi brillanti ed esplosivi.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Come è che il sig G si è preso la libertà di andarsene? Avremmo bisogno di voci come la sua oggigiorno!!
+            </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Che bella canzone che parla di libertà </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Nessuno nasce libero, a essere liberi si impara. E si può insegnare con l'esempio, perciò dobbiamo
+              provarci con tutte noi stesse affinché chi verrà dopo sia un po' più libero di noi</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Gaber e i suoi testi sono geniali! Una chiara semplice descrizione della libertà. La libertà é
+              intrinseca nella natura, nell'uomo; peró l'uomo deve esercitarla e lottare per essa quando viene portata
+              via. </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Canzone da ascoltare e imparare. La libertà è un concetto ancora controverso e confuso con il poter fare
+              quello che si vuole. Ma "la libertà non è uno spazio libero" </p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Bella. La canzone la conoscevo già</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Non me l’aspettavo ma questa canzone mi è piaciuta davvero tanto, sia dal punto melodico che del testo,
+              fa riflettere</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Il signor G sempre un king</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Non sentivo questa canzone da un sacco. Ha un messaggio importante e profondo su cui bisogna riflettere e
+              non dare per scontato :) </p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="container" data-giorno="10">
+        <div class="spunto">
+          <h2> Spunto #10</h2>
+          <h2> Cantare un referto medico, Giorgia e Fiorello (2009) </h2>
+
+
+
+          <div class="immagine-link">
+            <img src="images/giorgiafiore.png" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=o3qDWNhTSx8')"><strong>Guarda
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Sto ridendo!!! Fiorello riesce sempre a farmi ridere, Giorgia ha una voce splendida ed é rimasta umile!
+              Consiglio a tutti VivaRai2 e Sanremo2024!!! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Il nostro show man </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Fiorello potrebbe stare fermo e zitto e mi farebbe ridere lo stesso </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Incredibile quanto poco ci voglia per far nascere un sorriso! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Prossima volta l'etichetta sulla bottiglia dello shampoo </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Se faccio mettere in musica il mio referto Giorgia si deve fare aiutare dai Berliner Philharmoniker!
+            </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Prossimo video: Giorgia canta un atto notarile. 45 minuti di applausi </p>
+          </div>
+
+
+          <div class="post-it-rosa">
+            <p> Che dire…con una voce così melodiosa ogni testo è una poesia: davvero divertenti!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣 bello</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bellissimo... sono curioso di sapere cosa canterà Giorgia la prossima volta, forse un menù di Natale</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Quant’è brava Giorgia❤️</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bello</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> …quando si è bravi si può fare anche questo!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Fiorello numero uno, soprattutto da quando a Sanremo ha salvato la situa Bugo e Morgan. Un mito. Sempre
+              stato. Giorgia invece è troppo brava, è la cantante italiana che preferisco. Mesi a cantare le sue canzoni
+              quando ero nel coro alle medie, mai imparato mezzo acuto <3< /p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Mi spacco dalle risateee sono dei grandii</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container" data-giorno="9">
+        <div class="spunto">
+          <h2> Spunto #9</h2>
+          <h2> Le ragazze (2023) </h2>
+
+          <h2> I Neri per caso, Paola Cortellesi, Emanuela Fanelli, Geppi Cucciari e Carla Signoris </h2>
+
+          <div class="immagine-link">
+            <img src="images/ragazze.png" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=JCJVe-Bzxcc')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Parole sante: è importante ascoltare sempre. </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Esibizione fantastica, questo programma ci ha regalato tanti momenti di bella televisione </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Tutti bravi, ma Paola Cortellesi sempre la migliore </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Era tanto tempo che non li sentivo forti! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Che bello vedere artisti che siamo abituati a vedere in contesti diversi insieme </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Che raduno di persone meravigliose! E che canzone!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Da ascoltare e far ascoltare! Che ogni singolo verso arrivi e faccia riflettere sempre più persone!
+              Anche la musica è stato e può essere un importante mezzo comunicativo... Ho letto un' altra strofa della
+              canzone, che vorrei condividere: <i>Le ragazze che ispirano Tutti i testi delle canzoni Sono sempre al
+                centro Dei discorsi di tutti noi Che non conosciamo Nemmeno la metà Di tutti quel che pensano E dei
+                segreti che ognuna ha Le ragazze volteggiano Sulle ali degli aquiloni E noi innamorati Che le seguiamo
+                da quaggiù Guarda come planano"... Qualcuna scenderà Ma quando si allontanano è no!</i> </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Che bello! Un momento magico e pieno di Verità ❤ Comunque la Cortellesi spacca, emozionatissima e
+              bellissima come sempre</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Uh non me la ricordavo più!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Considerando che è un brano del 1995, è incredibile quanto sia attuale. Il testo e le voci a cappella
+              sono sempre state molto belle, questa interpretazione con queste 4 donne meravigliose, davvero speciale!
+            </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Treni in corsa che nessuno fermerà❤️</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> SI PUÒ AMARE DA MORIRE MA MORIRE D’AMORE NO… eppure succede tutti i giorni: allora cantiamo in onore
+              delle donne vittime di femminicidio.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Profonda. Mi è piaciuta davvero tanto, a me fa riflettere. E poi i neri per caso mi piacciono da morire
+            </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bellissima: per contenuto e interpretazione. L’ingresso in scena delle donne mi risuona interiormente
+              per il trionfo che comunicano. </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Grandi, veramente un perla!!</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container" data-giorno="8">
+        <div class="spunto">
+          <h2> Spunto #8</h2>
+          <h2> Futura, Lucio Dalla (1980) </h2>
+
+          <div class="immagine-link">
+            <img src="images/dalla.jpeg" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=z_JDccpkMAM')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> e se è una femmina si chiamerà...Futura. A tutte le donne del domani, perchè abbiano la possibilità di
+              vivere il loro futuro </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> …domani: un futuro da costruire insieme. Come lo spunto di ieri si pensa al futuro, in unione, tenendosi
+              le mani! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p>Non conoscevo questa canzone ma mi è piaciuta molto, i musicisti sono stati bravi come il cantante </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Una canzone emozionante che sembra prevedere il futuro è che, quindi, fa riflettere su come non siamo
+              ancora in grado di imparare dagli errori passati… </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ufff musicisti da paura </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Molto bella anche questa versione. Io l'avevo riascoltata dopo tanto al cinema per il docufilm
+              Dallamerica che mi ha fatto rispolverare vecchi brani di Dalla ma sempre attuali.</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p>
+              Lucio Dalla era a Berlino per vedere un concerto dei Genesis, ma ferma un attimo il taxi per sedersi su
+              una panchina vicino al muro di Berlino. Scende e accende una sigaretta, in contemporanea esce Phil Collins
+              da un altro taxi, i due non si parlano ma rimangono lì. In quei minuti Lucio ha scritto questa canzone.
+            </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ho cercato le parole e mi sono davvero innamorata. E' una bellissima canzone, magari non perfettamente
+              nelle mie corde per la musica, ma trovo le parole davvero dolci e ricche di significato <3< /p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bella Futura </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Un messaggio di speranza per il Futuro con la certezza che le donne saranno sempre di più protagoniste
+              della nostra Storia.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Io sto scoprendo e apprezzando sempre più Dalla, le sue canzoni, testo e musica, la sua voce. Con questo
+              brano lui esprime la sua speranza per un futuro migliore, in cui non c'é alcun astio tra russi e
+              americani, in cui 'nascerà e non avrà paura, nostro figlio', in cui il mondo non 'sta cadendo a pezzi', il
+              cielo non è pieno di razzi e non si deve aver paura. Ascolto la canzone e anzichè poter solo apprezzarne
+              la bellezza, provo inevitabile tristezza per la consapevolezza che tutti i problemi citati da Lucio non
+              sono risolti, ma sono anzi estremamente attuali e con prospettive non ottimiste... </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> ...tanto che diversi miei coentanei non intendono mettere al mondo figli, proprio per paura del futuro e
+              del mondo in cui loro dovrebbero vivere. Il futuro sperato in questo brano non è il nostro presente, però
+              può sempre essere il nostro futuro, se anche noi continuiamo ad avere speranza e amore, come ci insegna
+              Lucio. </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p>Non conoscevo questa canzone. Molto bella e con un significativo messaggio ❤ </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Curioso come Dalla nelle sue poesia riesca sempre ad infilarci russi e americani! </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bella canzone :) </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Beautiful musical accompaniment, it is somehow a calming song that reassures you of a better future to
+              come. Incredible how music can have such a profound effect on us</p>
+          </div>
+
+        </div>
+      </div>
 
 
 
 
-        
+
+      <div class="container" data-giorno="7">
+        <div class="spunto">
+          <h2> Spunto #7</h2>
+          <h2> Domani, Artisti Uniti per l'Abruzzo (2009) </h2>
+
+          <div class="immagine-link">
+            <img src="images/domani.jpeg" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=kaiekFL69dM&pp=ygUGZG9tYW5p')"><strong>Enjoy
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Che emozionante! Ci sono proprio tutti </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Questa canzone è l’emblema di quello che dovrebbe essere la musica…accendere i cuori, la speranza e
+              unire le persone…la musica è di tutti e unisce tutti </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> "Day by day hold me. Day by day save me, shine on me". In ogni situazione mai perdere la speranza, mai
+              dimenticarsi di splendere. Grazie per lo spunto di oggi!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> L'armonia che c'è in questo brano è qualcosa di enorme, l'armonia tra le note della canzone, tra gli
+              artisti che collaborano per una buona causa, tra i diversi generi musicali che questi artisti
+              rappresentano, che però si incastrano in modo perfetto </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Quando l'arte arriva dove non arriva la politica </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Oltre ad essere un pezzo pazzesco, trasmette un significato importantissimo: insieme possiamo fare la
+              differenza, possiamo dare un contributo</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p>Che meraviglia questa canzone, ogni voce così riconoscibile e unita in armonia alle altre. Emozionante
+              davvero, é un messaggio di speranza che non fa mai male ricevere</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Questa canzone è stupenda, emoziona sempre come la prima volta che l’ascolti</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Che artisti pazzeschi abbiamo!! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Bel momento. Fa sempre bene ascoltarli </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Che emozione vederli tutti insieme per una giusta causa! Ci sono proprio tutti. Molti tra i miei
+              preferiti. E anche qualcuno che non c'è più. Sigh</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ma quanto sono bravi ?!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Questa canzone è meravigliosa. Si porta dietro tanti ricordi di cantate intorno a un fuoco sotto le
+              stelle. Mi fa anche un po' arrabbiare pensare che l'Aquila è tutt'ora piena di cantieri, palazzi storici
+              puntellati, edifici pericolanti. Nonostante la società civile si sia ripresa, pur portandosi addosso
+              parecchie cicatrici, le istituzioni e i media si sono presto dimenticati di quella notte tremenda e di
+              quel popolo ferito. Per questa e altre ragioni sono convint che non possiamo più permetterci di aspettare
+              che le istituzioni risolvano i problemi. La società civile ha in sé numerosi esempi virtuosi di comunità
+              che si prendono cura di sé stesse: includendo i più fragili, prestando attenzione alla sostenibilità delle
+              proprie azioni a livello ambientale e socio-economico... </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> ...Non possiamo continuare ad avallare il sistema capitalistico e consumista in cui viviamo perché siamo
+              noi quelli che si stanno consumando. Un passo alla volta informiamoci, smettiamo di supportare un'azienda
+              complice delle guerre odierne, pretendiamo che i nostri diritti di cittadin e laborator vengano
+              rispettati, non stiamo a guardare se un agente se la prende con una persona migrante, cerchiamo di
+              riflettere sui beni che abbiamo o che desideriamo e su quanto siano realmente necessari. E soprattutto
+              facciamolo insieme. Organizziamoci in gruppi di affinità tra collegh, inquilin, studenti. Perché si parte
+              e si torna insieme. Sempre. </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ricordo quando la cantavamo ai campeggi scout, riuscendo a fare i diversi cori e dicendoci le parti.
+              Veramente bella</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Tutti bravi... </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Domani tutti con l'Abruzzo</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bravi ma non li conosco </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Quanti ricordi, quanta sofferenza! Ma quanto orgoglio nel vedere la comunità che INSIEME si rimbocca le
+              maniche per ti-costruire il domani!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> That is heartbreaking but at the same time their act is so full of humanity and beautiful</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Brividi! É una chiara testimonianza della potenza e importanza anche della musica e dell'arte, per
+              trasmettere messaggi e per aiutare gli altri. Tre considerazioni: stando insieme, collaborando, unendo
+              talenti differenti, si impara molto e si possono raggiungere risultati spettacolari; in generale, facendo
+              del bene, mettendosi al servizio, si dà agli altri, ma si riceve anche tanto; bellissimo il montaggio e
+              l'arrangiamento!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Vedere come si può fare del bene con una sola canzone mi emoziona sempre. E' spettacolare vedere quanti
+              sono! Ci sono tutti tutti!! Non ho parole, solo tanta ammirazione! </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Emozionante! È bello vedere così tanti artisti uniti ❤ </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Un omaggio alle vittime e ai sopravvissuti del terremoto e un pensiero speciale al grande Franco
+              Battiato!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" data-giorno="6">
+        <div class="spunto">
+          <h2> Spunto #6</h2>
+          <h2> Medley, Virginia Raffaele (2017) </h2>
+
+          <div class="immagine-link">
+            <img src="images/virginia.png" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=uHKybP0AC64')"><strong>Guarda
+                qui</strong></button>
+          </div>
+
+        </div>
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> …facciamo che ci avevamo creduto! Bravissima, bravissime! 👏 </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Un talento pazzesco! Non solo un'imitazione della voce, ma anche dei movimenti, dell'espressione... </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> È veramente un’artista a tutto tondo!! Riesce a riprodurre perfettamente voci, tonalità e intonazione!!
+              Non solo, riesce anche a essere estremamente divertente!! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Ci abbiamo creduto tutti, su Patty Pravo e Gianna Nannini poi proprio impeccabile 😂 </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Meravigliosa! Io la stimo davvero tanto, ha proprio talento a imitare! E poi mi fa tanto ridere sempre
+            </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Sa proprio il fatto suo</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Mitica! E non solo per le imitazioni, che sono comunque 🔝</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Pazzesca! Inquietante (in senso positivo) per la bellissima interpretazione. Mi è venuta la pelle d'oca
+              dalla bravura!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Goofy but talented :D</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Sa imitare, cantare, ballare, far ridere, interagire con il pubblico, ... un grande talento!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Semplicemente fantastica! La adoro! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Fantastiche interpretazioni </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Sembra che la Raffaele imiti la Gianna Nannini </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> So che lei è una comica e che con questa esibizione stava facendo delle imitazioni, purtroppo però non
+              me ne intendo molto di musica italiana, per cui non ho colto le imitazioni e non ho potuto apprezzare a
+              pieno🙈 </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Anche se il tipo di performance non è tra i miei preferiti lei è veramente brava </p>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="container" data-giorno="5">
+        <div class="spunto">
+          <h2> Spunto #5</h2>
+          <h2> X colpa di chi, Zucchero (1995) </h2>
+
+          <div class="immagine-link">
+            <img src="images/sugar.jpg" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=6FLfAZ8ouMs')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Ascoltata alle 6:30 ottima carica per la giornata </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Sugaaar una forza della natura, questa canzone trasmette energia pura!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Da piccola mi piaceva questa canzone perchè mi faceva ridere il "portare in giro la vita a fare la
+              pipì", oggi mi fa ancora sorridere per la vitalità che sprigiona </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Questa canzone mi dà sempre un'ottima carica per le vibes e l'energia che trasmette! ❤ </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Fa ridere e fa ballare, quindi fa bene alla salute, mentale e fisica! </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Good vibes! </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> I need to set it as my alarm :D roosters crowing, followed by a blasting beat and music that would
+              charge me for the whole day</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Che energia! Non conoscevo questo video e mi è piaciuto tutto: il ritmo, i colori, ballerini e musicisti
+              eccezionali che ti fanno venire voglia di ballare e dimenticare che "il mondo è ammalato"</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ora ho voglia di rivedere i blues Brothers, per qualche motivo </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Da una carica enorme, infatti quando è iniziata la canzone mi è venuto un infarto</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> È dalle elementari che canticchio questa canzone. La verità è che è molto profonda…da moltissimi spunti
+              di riflessione. In primos, la costante mancanza di tempo di cui tutti ci lamentiamo…ma ci manca davvero? O
+              semplicemente lo gestiamo male? O passiamo la vita a correre dietro a cose futili che non ci lasciano
+              niente dentro? Questa canzone è, a mio avviso, un invito ad andare oltre la superficie delle cose, a
+              scavare un po’ più in fondo, per trovare il vero motivo per cui valga la pena usare il proprio tempo.o</p>
+          </div>
+
+
+          <div class="post-it-rosa">
+            <p> Adoro il ritmo di questa canzone! </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ti dà adrenalina</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Non sono mai stata una big fan di Suuuugar, però questa canzone spacca </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Ah ah, giusto accompagnato da Jim Belushi e Dan Aykroyd 🙈🙈🙈 Musica dal ritmo travolgente di uno
+              Zucchero in gran spolvero. Una ballata semplice musicalmente a tal punto da essere semplicemente geniale,
+              nel testo e nella musica. Si riascoltetebbe in loop 100 volte senza stancarsi mai ❤️</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Che carica stupenda questa canzone! Zucchero mi piace davvero tanto, mi sembra di ritornare bambina</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Che ritmo. Che nostalgia questi video ( si diceva così?!) di altri tempi… </p>
+          </div>
+        </div>
+      </div>
 
 
 
-</main>
+      <div class="container" data-giorno="4">
+        <div class="spunto">
+          <h2> Spunto #4</h2>
+          <h2> Totò Peppino e la...malafemmina, Camillo Mastrocinque (1956) </h2>
 
-   
+          <div class="immagine-link">
+            <img src="images/toto.jpeg" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=EPWYhR8N7nw')"><strong>Guarda
+                qui</strong></button>
+          </div>
+        </div>
 
-<div class="social-strip">
-    <a href="https://www.facebook.com/giulia.maineri.9/" target="_blank">
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Bitte schoon! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> 20 anni che abito a Milano e ogni volta mi chiedo anche io "ma per andare dove devo andare, dove devo
+              andare?" </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Che grandi! </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Che ridere 🤣🤣🤣</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Maaa che ridere ahahaha </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> A Milan quando c’è la nebbia non si vede. Infatti non si vedeva nemmeno quel giorno, forse per questo
+              non trovava no la strada 😂😂😂</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ah ah...bellissimo! "Eh Milan l'è un gran Milan" ma anche Toto' era un bel fenomeno </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Come adesso con il navigatore!!!!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Aspettando gli amici di DESY a Milano! Almeno gli spieghiamo dove devono andare, se vogliono andare,
+              dove vogliono andare. </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Io quando mi cimento nel dialetto della mia città, che diventa un bel mix di francese, spagnolo e
+              qualche umlaut ü!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> “Ah ma parli italiano, BRAVISSIMO!” “Dove credevate di essere? Siamo a Milano!” 😂😂😂</p>
+          </div>
+
+
+          <div class="post-it-rosa">
+            <p> Beautiful black and white Milan, no words needed!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> D'altronde se la scala fosse stata fuori, non si sarebbe riuscito a seguire bene il concerto d'opera</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Quanti ricordi a casa di mio nonno guardando e riguardando questo film. Intramontabile. </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Mi spacco. Sono troppo simpatici 😂</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Mi ha fatto troppo ridere e un po' commuovere. Mi ha ricordato un po' il mio erasmus in Austria mentre
+              cercavo di interagire con le persone con quel pochissimo di tedesco che avevo nel mio repertorio.
+              Prontamente tutti (essendo vicini al confine con l'Italia sapevano entrambe le lingue) mi rispondevano
+              confusi in italiano con accento tedesco. Ahahah che bei ricordi</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Noio volevam savoir, parole che richiamano alla mente una persona tanto cara. A … con l’affetto immutato
+              di sempre</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" data-giorno="3">
+        <div class="spunto">
+          <h2> Spunto #3</h2>
+          <h2> A bocca chiusa, Daniele Silvestri (2013) </h2>
+          <h2> con Paola Cortellesi </h2>
+          <p> Per chi ha fretta, l'esibizione inizia davvero a 1:14</p>
+
+
+          <div class="immagine-link">
+            <img src="images/boccachiusa.png" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=0pRV9DlW59U')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+
+        </div>
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> La canzone è davvero una perla del cantautorato italiano, ogni verso esprime una verità detta in parole
+              semplici, che il dialetto romanesco rende ancora più popolari. Questa esibizione poi è molto emozionante,
+              la Cortellesi sa proprio fare tutto </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Semplicemente splendida ♥️ </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Emozionante </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> E' stato davvero tanto emozionante. Non avevo mai sentito questa canzone, ma è bellissima, mi ha
+              lasciata senza parole. Lei una diva da capo a piedi, penso sia l'attrice italiana che preferisco in
+              assoluto. Caleidoscopica pura</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Adorable!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bella canzone anche se non è il mio genere</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> A un certo punto della canzone viene nominato il presepe. Mi è venuto in mente un bimbo di sette anni,
+              che ieri, passando affianco ad una sacra famiglia nel cortile di un oratorio, mi ha chiesto cosa fosse.
+            </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> La bellezza salverà il mondo </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Che bella Paola Cortellesi che canta </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Troppo più forte degli altri. 9/10. </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ah, sa anche cantare... Testo bellissimo e importante, da ascoltare, rifletterci, e cantare tutti
+              insieme! Fa prendere più consapevolezza dell'importanza della nostra voce, che è fisicamente un mezzo con
+              cui ci presentiamo, con i nostri penisieri e bisogni. Un'assurda verità è che a molte persone nel mondo
+              viene chiusa la bocca, negato il controllo e l'espressione di sé. Perciò noi dobbiamo usare la nostra di
+              voce come un'arma buona con cui ci proteggiamo e lottiamo, per noi e per gli altri. Grazie Paola e
+              Daniele! </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ho conosciuto questa canzone guardando il film. Così attuale. Cosi' forte. Una grande emozione. Vederla
+              cantata dall'autore e dalla Cortellesi è ancora più emozionante. E quella frase che ti rimane in testa "se
+              non per quella vecchia idea de esse tutti uguali"... </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Brava la Paola…..bella canzone che mi ha fatto conoscere Silvestri!😀 </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bella e brava </p>
+          </div>
+          <div class="post-it-rosa">
+            <p>
+              Questa canzone per qualche motivo me ne ha ricordata una francese, “Utile”, in cui viene detto: “ À quoi
+              sert une chanson si elle est désarmé … Je veux être utile à vivre et à rêver” (A che serve una canzone se
+              è disarmata? … Voglio essere utile per vivere e sognare)</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Ho conosciuto questa canzone guardando "C’è ancora domani" e l’esibizione di Paola nel video l’ho vista
+              dopo ancora. Avendo visto prima il film, la canzone acquista un significato leggermente diverso forse, ma
+              decisamente non meno potente. La Cortellesi ci dimostra ancora una volta il suo immenso talento: conduce,
+              imita, recita, canta, e adesso si mette dietro la macchina da presa per regalarci un capolavoro di film
+              impreziosito da brani attuali e passati, e anche e soprattutto da questa canzone sul finale, a renderlo
+              ancora più emozionante e potente, ma al tempo stesso delicato.</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p>Il film e la canzone non riesco più a togliermeli dalla testa. Meraviglioso. E questa voglia di
+              condivisione di emozioni e pensieri che si è creata attorno al film e attorno a questa canzone credo sia
+              la dimostrazione che il messaggio è arrivato chiaro e preciso nell’anima delle persone, ha scosso le anime
+              e sta facendo brillare tutto di luce nuova. Non ci sono parole adatte, non renderebbero… solo un immenso
+              grazie per questa perla.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>It was a memorable musical moment! The lively melody and singing, coupled with the song's empowering
+              message is encouraging</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bellissima canzone, non la conoscevo ma è stata aggiunta subito alla mia playlist. E lei come sempre si
+              piena di talento, gentilezza e eleganza</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Quante riflessioni questo testo propone! E l’interpretazione di un’attrice conferma il talento della
+              Cortellesi che ci porta con lei nella sorpresa.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Questa canzone è bellissima, ha un testo emozionante e il suo accento rende il tutto più magico. Attuale
+              e profonda. Non ho ancora visto il film "C'è ancora domani" purtroppo, ma magari riascolterò la canzone
+              con una sensibilità differente.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Canzone bella, ma malinconica. Molte opere d'arte nascono da una condizione di insoddisfazione. Cosa ne
+              pensate?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" data-giorno="2">
+        <div class="spunto">
+          <h2> Spunto #2</h2>
+          <h2> Non ci resta che piangere, Troisi e Benigni (1984) </h2>
+
+          <div class="immagine-link">
+            <img src="images/troisi.jpg" alt="Descrizione immagine">
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=53BR3SevV-I')"><strong>Guarda
+                qui</strong></button>
+          </div>
+        </div>
+
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Grande Troisi....«Ricordati che devi morire... sì, sì, mo me lo segno» </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> E' stato bello anche se non ci ho capito granché 😅😅😅 </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Troisi mi fa troppo ridere, una bravura travolgente che mette il buon umore </p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Sì ma chi siete? Dove andate? Che cosa volete? </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Rido. Mi ha portato alla mente ricordi bellissimi. Sin da piccola ho sempre giocato a scopa, uno dei
+              tanti giochi che ha unito tutti da generazioni :) </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> L'espressività e la gestualità di Troisi sono pazzesche, quasi uno non realizza che le carte non le ha
+              davvero in mano...</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Stupenda questa scena! Ho sorriso dall'inizio alla fine, è un umorismo che secondo me ormai si è un po'
+              perso nella nostra società, una classe di altri tempi quasi... Penso di preferirlo a mille goliardate di
+              questi anni viste in tv. PS: Leonardo che impara scopa mi ricoda me quando qualcuno mi spiega un qualsiasi
+              gioco di carte haha!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Troisi è un mito! Rivedrei ogni scena 100 volte perché ogni volta è uno spasso!</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Non ho mai imparato a giocare a scopa, anche se mi piacerebbe farlo, ma molto probabilmente farei la
+              stessa fine del povero Leonardo, capirei ma non capirei😂</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Troisi era solo un maestro senza il materiale didattico necessario, sono sicuro che con un bel mazzo di
+              carte vero Leonardo avrebbe capito come fare. Vai Leo siamo tutti con te!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Troisi un grande, però poteva insegnargli briscola chiamata invece che scopa...</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Un grazie speciale alle renne di Babbo Natale che consegnano sempre i nostri messaggi. È fondamentale
+              che il mondo legga</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Non ho visto il film, ma avendo come registi Troisi e Benigni deve essere un capolavoro! Guardando
+              questa clip, penso che se qualcosa è di normale e comune conoscenza e comprensione in un periodo storico
+              non é affatto scontato che lo sia anche in un diverso periodo! Influenzano le innovazioni tecnologiche, le
+              nuove abitudini e stili di vita, le diverse mentalità...</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> In fondo siamo un po' tutt* Leonardo, possiamo anche eccellere nel nostro campo ma ci sarà sempre anche
+              la scopa a fregarci </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Che bei tempi quando c'era ancora Leo! by CMB </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Mi sento confuso</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Eeh gli ingegneri da sempre nun capiscono nulla!!!</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> È stato come trovare un bel "cioccolatino"</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> La scena mi fa una tenerezza incredibile, soprattutto nella figura di Leonardo che ce la mette tutta pur
+              di capire, senza mai essere scortese. Questo passaggio arriva al termine di un tentativo di spiegazione di
+              altre invenzioni. Pur sembrando tutto inutile gli spunti banali nati dalle mani di un genio permettono di
+              costruire un treno a vapore qualche centinaio d'anni prima 😊😊😊</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Pare l’interrogazione di un alunno che conosco!?!?</p>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="container" id="spunto1" data-giorno="1">
+        <div class="spunto">
+          <h2> Spunto #1</h2>
+          <h2> Volta la carta, Fabrizio de Andrè (1978) </h2>
+
+          <div class="immagine-link">
+            <img src="images/deandre.jpeg" alt="Descrizione immagine">
+            <a href="https://www.youtube.com/watch?v=0br10asYODk" target="_blank" class="link-frase"></a>
+            <button class="ascolta-qui"
+              onclick="redirectToLink('https://www.youtube.com/watch?v=0br10asYODk')"><strong>Ascolta
+                qui</strong></button>
+          </div>
+        </div>
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> Questa canzone è troppo bella! Mi ricordo che la cantavo con mia nonna da piccola <3 </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Quanto tempo è passato! Si vede dal volto di Cristiano! </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Credo di essere stata tutte le versioni di Angiolina: quella che indossa le scarpette blu, quella che
+              piange in cameretta e quella che impara a chiamare i ricordi con il loro nome. E so che le rivivrò
+              periodicamente dato che sono tutte fasi che accompagnano un’evoluzione personale e un cambiamento.
+              Personalmente non vedo l’ora di vedere come andrà avanti. </p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Mentre, sin da piccola, ho apprezzato il ritmo da subito incalzante di questa canzone, che mi fa venire
+              sempre voglia di ballare, non posso dire lo stesso del testo che mi costava parecchio comprendere, in
+              quanto mi creava una certa confusione associare e affiancare tutti questi elementi e queste "immagini",
+              apparentemente prive di legame logico. Adesso però non è più così, tanto che quando spesso la ascolto,
+              questa canzone, colgo sempre l'essenza del potere di De Andrè nel riuscire a raccontare una storia così
+              profonda ricca di vari significati.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Grandi verità nascoste tra righe di filastrocca </p>
+          </div>
+
+
+          <div class="post-it-rosa">
+            <p> Mi è piaciuta molto la canzone </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> L'inizio della canzone sembra bello, purtroppo non riesco mai ad arrivare alla fine della canzone by Top
+              Quark</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Canzone bellissima! Mi piace ascoltarla quando non sono impegnato a rompere la simmetria di gauge by
+              Bosone di Higgs</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>
+              Bella musica. Grande poesia, attualissima e qui le scarpette sono blu….un segno di speranza!?</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Penso che tutti e nessuno possano essere Angiolina. Riflettendoci bene…chi non ha mai pensato certe cose
+              o fatto certe esperienze. Credo che la maestria di De Andre sia far sembrare ridicola e divertente una
+              canzone con un significato di incredibile profondità</p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Ennesima conferma che gli sbirri non sono molto simpatici </p>
+          </div>
+          <div class="post-it-rosa">
+            <p>
+              Pazzesca la dicotomia tra il testo estremamente triste e la musica così allegra :)</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> È la prima volta che sento questo brano e devo dire che mi è piaciuto, soprattutto la melodia è molto
+              orecchiabile</p>
+          </div>
+
+          <div class="post-it-rosa">
+            <p> Nel corso della vita é possibile dover affrontare una serie di difficoltà, di ogni natura, e inevitabile
+              é il pensiero che accadano tutte solo a noi. La storia di Angiolina, con le sue tante delusioni d'amore ma
+              a lieto fine, é un confortante ricordo che siamo tutti in compagnia, ed é un dolce invito a perseverare,
+              perché la soddisfazione arriverà anche per noi, e a riguardare le difficoltà passate con tranquillità.</p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Non conoscevo questa canzone, molto più profonda della filastrocca da cui prende spunto; la musica è
+              travolgente: impossibile rimanere impassibile! </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bella canzone </p>
+          </div>
+          <div class="post-it-rosa">
+            <p>Paga il riscatto con le borse degli occhi piene di foto di sogni interrotti... Geniale e basta </p>
+          </div>
+          <div class="post-it-rosa">
+            <p> Bella. Partiamo da lontano...</p>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <!-- Form -->
+      <div class="container2">
+        <form id="form">
+          <h2>Cosa ne pensi?</h2>
+          <div class="field">
+            <label for="pensieri"> Parole, pensieri, opinioni, commenti e riflessioni riguardo lo spunto:
+            </label>
+            <input type="text" name="pensieri" id="pensieri">
+          </div>
+          <div class="field">
+            <label for="user_email"> Numero dello spunto a cui ti stai riferendo: </label>
+            <input type="text" name="day" id="day">
+          </div>
+          <div class="field">
+            <label for="user_email">Nome: </label>
+            <input type="text" name="user_email" id="user_email">
+          </div>
+
+          <div class="field">
+            <label for="publishAnonymously">Posso pubblicare la tua risposta in forma anonima?</label> <input
+              type="checkbox" id="publishAnonymously" name="publishAnonymously">
+          </div>
+          <input type="submit" id="button" value="Invia">
+        </form>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+    <div class="social-strip">
+      <a href="https://www.facebook.com/giulia.maineri.9/" target="_blank">
         <img src="images/fb.png" alt="Facebook" />
-    </a>
-    <a href="https://www.instagram.com/mai.giuly/" target="_blank">
+      </a>
+      <a href="https://www.instagram.com/mai.giuly/" target="_blank">
         <img src="images/insta-removebg-preview.png" alt="Instagram" />
-    </a>
-    <a href="https://github.com/maigiuli" target="_blank">
+      </a>
+      <a href="https://github.com/maigiuli" target="_blank">
         <img src="images/git.png" alt="git" />
-    </a>
-    <a href="https://www.linkedin.com/in/giulia-maineri-9a687b21a/" target="_blank">
-            <img src="images/linkedin.png" alt="linkedin" />
-    
-</div>
-<div class="mail">
-    <a href="mailto:maineri.giulia@gmail.com" style="color: #FFD0E8;text-decoration: none;">maineri.giulia@gmail.com</a>
-</div>
+      </a>
+      <a href="https://www.linkedin.com/in/giulia-maineri-9a687b21a/" target="_blank">
+        <img src="images/linkedin.png" alt="linkedin" />
+
+    </div>
+    <div class="mail">
+      <a href="mailto:maineri.giulia@gmail.com"
+        style="color: #FFD0E8;text-decoration: none;">maineri.giulia@gmail.com</a>
+    </div>
 
 
 
-</div>
-         <script> 
-            function showHiddenContent() {
-              // Nascondi il contenuto visibile
-              document.getElementById('visibleContent').style.display = 'none';
-                
-              document.getElementById('sfondoCustom').style.display = 'flex';
-              // Mostra il contenuto nascosto
-              document.getElementById('hiddenContent').style.display = 'block';
-          }
-          function showHiddenContent2() {
-              // Nascondi il contenuto visibile
-              document.getElementById('hiddenContent').style.display = 'none';
-              
-                document.getElementById('sfondoCustom2').style.display = 'flex';
-              // Mostra il contenuto nascosto
-              document.getElementById('hiddenContent2').style.display = 'block';
-          }
-          function showCele() {
-              // Nascondi il contenuto visibile
-              document.getElementById('iniziale').style.display = 'none';
-              // Mostra il contenuto nascosto
-              document.getElementById('cele').style.display = 'block';
-          }
-        </script>
-        <script src="falling-letters.js"></script>
-        <script src="oltreADV.js"></script>
-        <script type="text/javascript">  emailjs.init('0Fzharw2Fcn0pLrCK')</script>
-        <script>
-            function redirectToLink(link) {
-               window.open(link, '_blank');
-            }
+  </div>
+  <script>
+    function showHiddenContent() {
+      // Nascondi il contenuto visibile
+      document.getElementById('visibleContent').style.display = 'none';
 
-            function scrollToElement(elementId) {
-              console.log("Chiamata a scrollToElement con elementId:", elementId);
-               var targetElement = document.getElementById(elementId);
-              if (targetElement) {
-                  targetElement.scrollIntoView({ behavior: 'smooth' });
-              }
-            }
-      </script>
-     
+      document.getElementById('sfondoCustom').style.display = 'flex';
+      // Mostra il contenuto nascosto
+      document.getElementById('hiddenContent').style.display = 'block';
+    }
+    function showHiddenContent2() {
+      // Nascondi il contenuto visibile
+      document.getElementById('hiddenContent').style.display = 'none';
 
-      <script>
-        
-        var dataInizio = new Date('2023-11-30');
-        var oggi; 
-        function mostraSpuntiCorrenti() {
-            // Ottieni la data corrente
-            oggi = new Date();
-            
-            // Calcola i giorni trascorsi
-            var giorniTrascorsi = Math.floor((oggi - dataInizio) / (1000 * 60 * 60 * 24));
+      document.getElementById('sfondoCustom2').style.display = 'flex';
+      // Mostra il contenuto nascosto
+      document.getElementById('hiddenContent2').style.display = 'block';
+    }
+    function showCele() {
+      // Nascondi il contenuto visibile
+      document.getElementById('iniziale').style.display = 'none';
+      // Mostra il contenuto nascosto
+      document.getElementById('cele').style.display = 'block';
+    }
+  </script>
+  <script src="falling-letters.js"></script>
+  <script src="oltreADV.js"></script>
+  <script type="text/javascript">  emailjs.init('0Fzharw2Fcn0pLrCK')</script>
+  <script>
+    function redirectToLink(link) {
+      window.open(link, '_blank');
+    }
 
-            // Recupera tutti gli elementi container
-            var spunti = document.querySelectorAll('.container');
+    function scrollToElement(elementId) {
+      console.log("Chiamata a scrollToElement con elementId:", elementId);
+      var targetElement = document.getElementById(elementId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
 
-            spunti.forEach(function (spunto) {
-                var giornoSpunto = parseInt(spunto.getAttribute('data-giorno'));
-                console.log("Giorno spunto:", giornoSpunto);
-                 console.log("Giorni trascorsi:", giorniTrascorsi);
-                if (giornoSpunto <= giorniTrascorsi) {
-                    spunto.style.display = 'block';
-                }
-            });
-            console.log(oggi);
+
+  <script>
+
+    var dataInizio = new Date('2023-11-30');
+    var oggi;
+    function mostraSpuntiCorrenti() {
+      // Ottieni la data corrente
+      oggi = new Date();
+
+      // Calcola i giorni trascorsi
+      var giorniTrascorsi = Math.floor((oggi - dataInizio) / (1000 * 60 * 60 * 24));
+
+      // Recupera tutti gli elementi container
+      var spunti = document.querySelectorAll('.container');
+
+      spunti.forEach(function (spunto) {
+        var giornoSpunto = parseInt(spunto.getAttribute('data-giorno'));
+        console.log("Giorno spunto:", giornoSpunto);
+        console.log("Giorni trascorsi:", giorniTrascorsi);
+        if (giornoSpunto <= giorniTrascorsi) {
+          spunto.style.display = 'block';
         }
-       
-  
-     mostraSpuntiCorrenti();
-</script>
+      });
+      console.log(oggi);
+    }
+
+
+    mostraSpuntiCorrenti();
+  </script>
 
 </body>
-</html>
 
+</html>
