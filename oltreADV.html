@@ -165,6 +165,35 @@
         </div>
       </div>
       <!-- Spunti -->
+      <div class="container" data-giorno="24">
+        <div class="spunto">
+          <h2> Spunto #24</h2>
+          <h2> Sella la renna (2007) </h2>
+          <h2> Paola Cortellesi e i Neri per Caso</h2>
+          <div class="immagine-link">
+            <video controls id="videoPlayer" poster="images/paole.png">
+              <source src="images/paole.mp4" type="video/mp4">
+              Il tuo browser non supporta il tag video.
+            </video>
+            <button class="ascolta-qui" onclick="playVideo()"><strong>Ascolta qui</strong></button>
+            </div>
+        </div>
+      
+        <div class="striscia">
+          <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
+        </div>
+        <div class="striscia">
+          <div class="post-it-rosa">
+            <p> </p>
+          </div>
+      
+          <div class="post-it-rosa">
+            <p> </p>
+          </div>
+      
+      
+        </div>
+      </div>
 
       <div class="container" data-giorno="23">
         <div class="spunto">
@@ -2106,6 +2135,12 @@
 
 
     mostraSpuntiCorrenti();
+  </script>
+  <script>
+    function playVideo() {
+      var video = document.getElementById('videoPlayer');
+      video.play();
+    }
   </script>
 
 </body>

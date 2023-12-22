@@ -1,4 +1,13 @@
-  .field_q {
+   video {
+       max-width: 100%;
+
+       height: auto;
+       align-items: center;
+
+   }
+   
+   
+   .field_q {
       display: flex;
       align-items: center;
   }
