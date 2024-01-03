@@ -14,9 +14,7 @@
         }
 
         .person {
-            width: 48%;
-            /* Ogni persona occupa il 25% della larghezza per avere 4 persone per riga */
-            margin: 10px;
+            width: calc(48% - 20px);
             position: relative;
             cursor: pointer;
             overflow: hidden;
