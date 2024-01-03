@@ -40,28 +40,20 @@
             transform: scale(1.05);
         }
 
-        .person-info {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: #00264d;
-            background: rgba(255, 255, 255, 0.8);
-            padding: 10px;
-            border-radius: 0 0 8px 8px;
-            font-weight: bold;
-            font-size: 16px;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
 
         .person:hover .person-info {
+            display: block;
             opacity: 1;
         }
 
 
-
+        .person-info {
+            text-align: center;
+            color: #00264d;
+            font-weight: bold;
+            font-size: 16px;
+            display: none;
+        }
 
 
 
