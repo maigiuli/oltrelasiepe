@@ -1,904 +1,903 @@
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f0f0f0;
-        }
-
-
-
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            width: 100%;
-        }
-
-        .person {
-            width: calc(48% - 20px);
-            position: relative;
-            cursor: pointer;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-
-        .person img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px 8px 0 0;
-            transition: filter 0.3s;
-        }
-
-        .person:hover img {
-            filter: blur(5px);
-        }
-
-        .person:hover {
-            transform: scale(1.05);
-        }
-
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(255, 255, 255, 0.9);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-
-        .person:hover .overlay {
-            opacity: 1;
-        }
-
-
-        .person:hover .person-info {
-
-            opacity: 1;
-        }
-
-
-        .person-info {
-            text-align: center;
-            color: #00264d;
-            font-weight: bold;
-            font-size: 16px;
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        .strip {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-
-        video {
-            max-width: 100%;
-            height: auto;
-            align-items: center;
-        }
-
-        .week-strip {
-            background-color: #4DA69A;
-
-            display: flex;
-            align-items: center;
-
-            height: 100vh;
-        }
-
-        .week-strip2 {
-            background-color: rgb(13, 29, 70);
-
-            display: flex;
-            align-items: center;
-
-            height: 100vh;
-        }
-
-        .week-strip2 h2 {
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-            color: #FFD0E8;
-        }
-
-        .week-strip h2 {
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .left-images {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            padding: 20px;
-        }
-
-        .right-image {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .small-image {
-            flex: 1;
-            max-width: 70%;
-            margin-bottom: 10px;
-            margin: 0 auto;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .box {
-            width: 30%;
-            height: 500px;
-            display: inline-block;
-            text-align: center;
-            margin: 0;
-            background-color: #4DA69A;
-            border: 10px solid rgb(13, 29, 70);
-            box-sizing: border-box;
-
-        }
-
-        .box img {
-            max-width: 70%;
-            height: auto;
-            margin-bottom: 30px;
-            margin-top: 30px;
-        }
-
-        .field_q {
-            display: flex;
-            align-items: center;
-        }
-
-        .field_q img {
-            width: 150px;
-
-            margin-right: 10px;
-            /* Aggiunge uno spazio a destra dell'immagine */
-        }
-
-        #iniziale {
-            background-color: #4DA69A;
-            color: rgb(13, 29, 70);
-            text-align: center;
-            padding: 50px;
-            font-size: 1.5em;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        #cele {
-            display: none;
-        }
-
-        .containerex {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #4DA69A;
-            border-radius: 0;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            position: relative;
-            overflow: hidden;
-
-        }
-
-        .strisciaex {
-            background-color: rgb(13, 29, 70);
-            padding: 20px;
-            color: #fff;
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 40px;
-            position: relative;
-            overflow: hidden;
-
-        }
-
-        #hiddenContent2 {
-            display: none;
-        }
-
-
-        #visibleContent button:hover {
-            background-color: #FFD0E8;
-            color: rgb(13, 29, 70);
-        }
-
-
-        #visibleContent button {
-            /* Aggiunto stile al bottone */
-            background-color: rgb(13, 29, 70);
-            color: #FFD0E8;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            font-size: 16px;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-        }
-
-        #hiddenContent button:hover {
-            background-color: #FFD0E8;
-            color: rgb(13, 29, 70);
-        }
-
-
-        #hiddenContent button {
-            /* Aggiunto stile al bottone */
-            background-color: rgb(13, 29, 70);
-            color: #FFD0E8;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            font-size: 16px;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-        }
-
-        #iniziale button:hover {
-            background-color: #FFD0E8;
-            color: rgb(13, 29, 70);
-        }
-
-
-        #iniziale button {
-            /* Aggiunto stile al bottone */
-            background-color: rgb(13, 29, 70);
-            color: #FFD0E8;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            font-size: 16px;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-        }
-
-
-        #hiddenContent {
-            display: none;
-        }
-
-
-        .striscia {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            /* Colonnesi auto-adattative */
-            gap: 20px;
-            /* Spazio tra le colonne */
-            background-color: rgb(13, 29, 70);
-            padding: 20px;
-            color: #fff;
-            margin-bottom: 0px;
-            margin-top: 0px;
-        }
-
-
-        .post-it-rosa {
-            background-color: #FFD0E8;
-            padding: 10px;
-            margin: 10px;
-            width: 200px;
-            height: auto;
-            text-align: center;
-            border-radius: 5px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-
-        /* Nel tuo file CSS */
-        .bounceable {
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-
-        .bounceable:hover {
-            transform: scale(1.1);
-        }
-
-        .bounceable.bouncing {
-            animation: bounce 0.5s ease infinite;
-        }
-
-        @keyframes bounce {
-
-            0%,
-            20%,
-            50%,
-            80%,
-            100% {
-                transform: translateY(0);
-            }
-
-            40% {
-                transform: translateY(-10px);
-            }
-
-            60% {
-                transform: translateY(-5px);
-            }
-        }
-
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-
-        header {
-            background-color: rgb(13, 29, 70);
-            display: flex;
-            flex-direction: column;
-            /* Per allineare i figli verticalmente */
-            align-items: center;
-            /* Per centrarli orizzontalmente */
-            justify-content: center;
-            /* Opzionale, per centrarli verticalmente se necessario */
-        }
-
-        .main_title {
-            display: flex;
-            flex-direction: column;
-            /* allinea i figli (il logo e l'h1) verticalmente */
-            align-items: center;
-            /* centra i figli orizzontalmente */
-        }
-
-
-        header h1 {
-            font-size: 2.5em;
-            font-weight: normal;
-            color: #FFD0E8;
-            text-align: center;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        #logo,
-        header h1 {
-            display: block;
-            text-align: center;
-            margin-bottom: 0px;
-            margin-top: 20px;
-        }
-
-        /* Navigation Style */
-        nav {
-            display: flex;
-            justify-content: center;
-            /* Centra gli elementi orizzontalmente */
-            width: 100%;
-            color: #FFD0E8;
-            text-align: center;
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-
-        nav a {
-            color: #FFD0E8;
-            padding-bottom: 5px;
-            text-decoration: none;
-            padding: 0 15px;
-            /* Aggiunto un po' di padding per separare gli elementi del menu */
-        }
-
-        nav a:hover {
-            /*  color: rgb(242, 40, 218);*/
-            color: #FFD0E8;
-            font-weight: bold;
-            /* Aggiunto per rendere l'elemento bold al passaggio del mouse */
-        }
-
-        nav ul {
-            list-style-type: none;
-            /* Rimuove i punti degli elenchi */
-            padding: 0;
-            /* Rimuove il padding predefinito */
-            margin: 0;
-            /* Rimuove il margine predefinito */
-            display: flex;
-            /* Fa sì che gli elementi li si allineino orizzontalmente */
-            justify-content: center;
-            /* Centra gli elementi orizzontalmente */
-        }
-
-        nav li {
-            margin: 0 auto;
-            /* Aggiunge un po' di margine tra gli elementi del menu */
-        }
-
-        body {
-
-            margin: 0;
-            padding: 0;
-            background-color: #DEDEDE;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #4DA69A;
-            border-radius: 0;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: none;
-        }
-
-        .container2 {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #4DA69A;
-            border-radius: 0;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            text-align: center;
-            color: rgb(13, 29, 70);
-            font-size: 1.5em;
-            /* Aggiunto per adattarsi al nuovo HTML */
-        }
-
-        p {
-            color: rgb(13, 29, 70);
-            text-align: center;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: rgb(13, 29, 70);
-        }
-
-        input[type="text"],
-        input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            background-color: #a2d4cb;
-        }
-
-        #button {
-            background-color: rgb(13, 29, 70);
-            color: #4DA69A;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-            width: 100%;
-        }
-
-        #button:hover {
-            background-color: #FFD0E8;
-            color: rgb(13, 29, 70);
-        }
-
-        #thanksContainer {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #4DA69A;
-            border-radius: 4px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            color: rgb(13, 29, 70);
-        }
-
-        #thanksContainer h2 {
-            font-size: 1.5em;
-            margin: 0;
-        }
-
-        #thanksContainer p {
-            margin-top: 10px;
-        }
-
-        #thanksContainer a {
-            color: #FFD0E8;
-            text-decoration: underline;
-        }
-
-        #thanksContainer a:hover {
-            color: #4DA69A;
-        }
-
-        /* Aggiungi questo blocco di stile nel tuo foglio di stile CSS */
-        nav ul li.special a {
-            width: 20%;
-            color: #FFD0E8;
-            /* Cambia il colore del testo a rosso */
-            font-size: 15px;
-            animation: sparkle 1s infinite alternate;
-        }
-
-        @keyframes sparkle {
-            to {
-                text-shadow: 0 0 5px #FFD0E8, 0 0 10px #FFD0E8, 0 0 20px #FFD700;
-            }
-        }
-
-
-
-        .sfondo-custom {
-            position: relative;
-            height: 800px;
-            align-items: center;
-            text-align: center;
-        }
-
-
-        .sfondo-custom p {
-            font-size: 20px;
-            /* Dimensione del carattere desiderata */
-            width: 100%;
-            display: block;
-            /* Imposta il display su "block" invece di "inline" */
-            margin: 0;
-            /* Rimuove il margine predefinito per evitare spazi tra i paragrafi */
-        }
-
-        .sfondo-custom::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('images/Image-3.png') center/cover no-repeat;
-            z-index: -1;
-        }
-
-        .sfondo-custom2 {
-            position: relative;
-            height: 800px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-        }
-
-
-        .sfondo-custom2 p {
-            font-size: 20px;
-            /* Dimensione del carattere desiderata */
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
-        }
-
-        .sfondo-custom2::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('images/Image-4.png') center/cover no-repeat;
-            z-index: -1;
-        }
-
-
-        .immagine-link {
-            position: relative;
-            max-width: 560px;
-            /* Imposta la larghezza massima desiderata */
-            margin: auto;
-            justify-content: center;
-            display: flex;
-        }
-
-        .immagine-link img {
-            width: 100%;
-            height: auto;
-        }
-
-        .immagine-link-quest img {
-
-            margin: -80px;
-        }
-
-        .ascolta-qui {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 10px 20px;
-            background-color: #4DA69A;
-            color: rgb(13, 29, 70);
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .ascolta-qui:hover {
-            background-color: #FFD0E8;
-        }
-
-        .iscriviti-qui {
-            position: absolute;
-            bottom: 0;
-            top: 88%;
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 10px 20px;
-            background-color: #4DA69A;
-            color: rgb(13, 29, 70);
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            text-align: center;
-            font-size: 16px;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-        }
-
-        .iscriviti-qui:hover {
-            background-color: #FFD0E8;
-        }
-
-        .buttonform {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 10px;
-            background-color: #4DA69A;
-            color: rgb(13, 29, 70);
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-            transition: background-color 0.3s ease;
-            font-size: 16px;
-
-
-
-        }
-
-        .buttonform:hover {
-            background-color: #FFD0E8;
-        }
-
-
-
-        .spunto {
-            margin-bottom: 10px;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        .social-strip {
-            background-color: rgb(13, 29, 70);
-            padding: 20px 0;
-            text-align: center;
-            /* Centra le icone orizzontalmente */
-        }
-
-        .social-strip a {
-            margin: 0 10px;
-            /* Aggiunge un po' di spazio tra le icone */
-            display: inline-block;
-            /* Rende le icone allineate orizzontalmente */
-        }
-
-        .social-strip img {
-            width: 50px;
-            /* O qualsiasi altra dimensione desideri per le icone */
-            height: auto;
-            transition: 0.3s;
-            /* Effetto di transizione per l'hover */
-        }
-
-        .social-strip img:hover {
-            opacity: 0.7;
-            /* Rende le icone leggermente trasparenti quando si passa il mouse sopra */
-        }
-
-        .mail {
-            background-color: rgb(13, 29, 70);
-            padding: 20px 0;
-            text-align: center;
-            /* Centra le icone orizzontalmente */
-            margin-top: 0px;
-            color: #FFD0E8;
-        }
-
-        /* Media query per dispositivi mobili */
-        @media screen and (max-width: 768px) {
-
-            /* Header */
-            header {
-                padding: 10px;
-                height: auto;
-            }
-
-            header h1 {
-                font-size: 1.5em;
-                margin-top: 10px;
-            }
-
-            nav {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-                width: 100%;
-                /* Aggiunto per riempire completamente la larghezza su dispositivi mobili */
-            }
-
-            nav li {
-                margin: 3px 0;
-            }
-
-            .social-strip {
-                padding: 10px 0;
-                /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
-            }
-
-            .mail {
-                padding: 10px 0;
-                /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
-            }
-
-            .post-it-rosa {
-                width: auto;
-            }
-
-            /* Contenitore generico */
-            .container,
-            .container2,
-            .containerex,
-            .striscia,
-            .sfondo-custom {
-                padding: 10px;
-                height: auto;
-            }
-
-            .sfondo-custom {
-                height: auto;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .sfondo-custom p {
-                font-size: 16px;
-                /* O qualsiasi dimensione desiderata per dispositivi mobili */
-            }
-
-            .sfondo-custom::before {
-                height: auto;
-            }
-
-            .sfondo-custom2 {
-                height: auto;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-
-            .sfondo-custom2 p {
-                font-size: 16px;
-                /* O qualsiasi dimensione desiderata per dispositivi mobili */
-            }
-
-            .sfondo-custom2::before {
-                height: auto;
-            }
-
-
-
-            #visibleContent {
-                height: auto;
-            }
-
-            #hiddenContent,
-            #hiddenContent2 {
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-            }
-
-            #hiddenContent p,
-            #hiddenContent2 p {
-                text-align: center;
-                /* Centrato il testo orizzontalmente */
-                margin: 10px 0;
-            }
-
-            #hiddenContent button {
-                margin-top: 100px;
-            }
-
-            .sfondo-custom p {
-                margin-bottom: 60px;
-            }
-
-
-            #visibleContent button {
-                margin-top: 80px;
-
-            }
-
-            .iscriviti-qui {
-                display: none;
-            }
-
-
-
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.person {
+    width: calc(48% - 20px);
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.person img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.person:hover img {
+    filter: blur(5px);
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.person:hover .overlay {
+    opacity: 0.4;
+}
+
+.person-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+    color: #00264d;
+    font-weight: bold;
+    font-size: 16px;
+    z-index: 2;
+    pointer-events: auto;
+}
+
+.person:hover .overlay .person-info {
+    opacity: 1;
+}
+
+.person:hover {
+    opacity: 1;
+}
+
+.person-info:hover {
+    display: inline-block;
+    opacity: 1;
+}
+
+
+
+
+
+
+.strip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+video {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.week-strip {
+    background-color: #4DA69A;
+
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.week-strip2 {
+    background-color: rgb(13, 29, 70);
+
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.week-strip2 h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #FFD0E8;
+}
+
+.week-strip h2 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.left-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.right-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.small-image {
+    flex: 1;
+    max-width: 70%;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box {
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    background-color: #4DA69A;
+    border: 10px solid rgb(13, 29, 70);
+    box-sizing: border-box;
+
+}
+
+.box img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.field_q {
+    display: flex;
+    align-items: center;
+}
+
+.field_q img {
+    width: 150px;
+
+    margin-right: 10px;
+    /* Aggiunge uno spazio a destra dell'immagine */
+}
+
+#iniziale {
+    background-color: #4DA69A;
+    color: rgb(13, 29, 70);
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cele {
+    display: none;
+}
+
+.containerex {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4DA69A;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.strisciaex {
+    background-color: rgb(13, 29, 70);
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#hiddenContent2 {
+    display: none;
+}
+
+
+#visibleContent button:hover {
+    background-color: #FFD0E8;
+    color: rgb(13, 29, 70);
+}
+
+
+#visibleContent button {
+    /* Aggiunto stile al bottone */
+    background-color: rgb(13, 29, 70);
+    color: #FFD0E8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#hiddenContent button:hover {
+    background-color: #FFD0E8;
+    color: rgb(13, 29, 70);
+}
+
+
+#hiddenContent button {
+    /* Aggiunto stile al bottone */
+    background-color: rgb(13, 29, 70);
+    color: #FFD0E8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#iniziale button:hover {
+    background-color: #FFD0E8;
+    color: rgb(13, 29, 70);
+}
+
+
+#iniziale button {
+    /* Aggiunto stile al bottone */
+    background-color: rgb(13, 29, 70);
+    color: #FFD0E8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+
+#hiddenContent {
+    display: none;
+}
+
+
+.striscia {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Colonnesi auto-adattative */
+    gap: 20px;
+    /* Spazio tra le colonne */
+    background-color: rgb(13, 29, 70);
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.post-it-rosa {
+    background-color: #FFD0E8;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Nel tuo file CSS */
+.bounceable {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.bounceable:hover {
+    transform: scale(1.1);
+}
+
+.bounceable.bouncing {
+    animation: bounce 0.5s ease infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+header {
+    background-color: rgb(13, 29, 70);
+    display: flex;
+    flex-direction: column;
+    /* Per allineare i figli verticalmente */
+    align-items: center;
+    /* Per centrarli orizzontalmente */
+    justify-content: center;
+    /* Opzionale, per centrarli verticalmente se necessario */
+}
+
+.main_title {
+    display: flex;
+    flex-direction: column;
+    /* allinea i figli (il logo e l'h1) verticalmente */
+    align-items: center;
+    /* centra i figli orizzontalmente */
+}
+
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #FFD0E8;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logo,
+header h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+/* Navigation Style */
+nav {
+    display: flex;
+    justify-content: center;
+    /* Centra gli elementi orizzontalmente */
+    width: 100%;
+    color: #FFD0E8;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: #FFD0E8;
+    padding-bottom: 5px;
+    text-decoration: none;
+    padding: 0 15px;
+    /* Aggiunto un po' di padding per separare gli elementi del menu */
+}
+
+nav a:hover {
+    /*  color: rgb(242, 40, 218);*/
+    color: #FFD0E8;
+    font-weight: bold;
+    /* Aggiunto per rendere l'elemento bold al passaggio del mouse */
+}
+
+nav ul {
+    list-style-type: none;
+    /* Rimuove i punti degli elenchi */
+    padding: 0;
+    /* Rimuove il padding predefinito */
+    margin: 0;
+    /* Rimuove il margine predefinito */
+    display: flex;
+    /* Fa sì che gli elementi li si allineino orizzontalmente */
+    justify-content: center;
+    /* Centra gli elementi orizzontalmente */
+}
+
+nav li {
+    margin: 0 auto;
+    /* Aggiunge un po' di margine tra gli elementi del menu */
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #DEDEDE;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4DA69A;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.container2 {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4DA69A;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(13, 29, 70);
+    font-size: 1.5em;
+    /* Aggiunto per adattarsi al nuovo HTML */
+}
+
+p {
+    color: rgb(13, 29, 70);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(13, 29, 70);
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #a2d4cb;
+}
+
+#button {
+    background-color: rgb(13, 29, 70);
+    color: #4DA69A;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+#button:hover {
+    background-color: #FFD0E8;
+    color: rgb(13, 29, 70);
+}
+
+#thanksContainer {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4DA69A;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: rgb(13, 29, 70);
+}
+
+#thanksContainer h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#thanksContainer p {
+    margin-top: 10px;
+}
+
+#thanksContainer a {
+    color: #FFD0E8;
+    text-decoration: underline;
+}
+
+#thanksContainer a:hover {
+    color: #4DA69A;
+}
+
+/* Aggiungi questo blocco di stile nel tuo foglio di stile CSS */
+nav ul li.special a {
+    width: 20%;
+    color: #FFD0E8;
+    /* Cambia il colore del testo a rosso */
+    font-size: 15px;
+    animation: sparkle 1s infinite alternate;
+}
+
+@keyframes sparkle {
+    to {
+        text-shadow: 0 0 5px #FFD0E8, 0 0 10px #FFD0E8, 0 0 20px #FFD700;
+    }
+}
+
+
+
+.sfondo-custom {
+    position: relative;
+    height: 800px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.sfondo-custom p {
+    font-size: 20px;
+    /* Dimensione del carattere desiderata */
+    width: 100%;
+    display: block;
+    /* Imposta il display su "block" invece di "inline" */
+    margin: 0;
+    /* Rimuove il margine predefinito per evitare spazi tra i paragrafi */
+}
+
+.sfondo-custom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/Image-3.png') center/cover no-repeat;
+    z-index: -1;
+}
+
+.sfondo-custom2 {
+    position: relative;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.sfondo-custom2 p {
+    font-size: 20px;
+    /* Dimensione del carattere desiderata */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.sfondo-custom2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/Image-4.png') center/cover no-repeat;
+    z-index: -1;
+}
+
+
+.immagine-link {
+    position: relative;
+    max-width: 560px;
+    /* Imposta la larghezza massima desiderata */
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.immagine-link img {
+    width: 100%;
+    height: auto;
+}
+
+.immagine-link-quest img {
+
+    margin: -80px;
+}
+
+.ascolta-qui {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #4DA69A;
+    color: rgb(13, 29, 70);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ascolta-qui:hover {
+    background-color: #FFD0E8;
+}
+
+.iscriviti-qui {
+    position: absolute;
+    bottom: 0;
+    top: 88%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #4DA69A;
+    color: rgb(13, 29, 70);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.iscriviti-qui:hover {
+    background-color: #FFD0E8;
+}
+
+.buttonform {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #4DA69A;
+    color: rgb(13, 29, 70);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+
+
+
+}
+
+.buttonform:hover {
+    background-color: #FFD0E8;
+}
+
+
+
+.spunto {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-strip {
+    background-color: rgb(13, 29, 70);
+    padding: 20px 0;
+    text-align: center;
+    /* Centra le icone orizzontalmente */
+}
+
+.social-strip a {
+    margin: 0 10px;
+    /* Aggiunge un po' di spazio tra le icone */
+    display: inline-block;
+    /* Rende le icone allineate orizzontalmente */
+}
+
+.social-strip img {
+    width: 50px;
+    /* O qualsiasi altra dimensione desideri per le icone */
+    height: auto;
+    transition: 0.3s;
+    /* Effetto di transizione per l'hover */
+}
+
+.social-strip img:hover {
+    opacity: 0.7;
+    /* Rende le icone leggermente trasparenti quando si passa il mouse sopra */
+}
+
+.mail {
+    background-color: rgb(13, 29, 70);
+    padding: 20px 0;
+    text-align: center;
+    /* Centra le icone orizzontalmente */
+    margin-top: 0px;
+    color: #FFD0E8;
+}
+
+/* Media query per dispositivi mobili */
+@media screen and (max-width: 768px) {
+
+    /* Header */
+    header {
+        padding: 10px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* Aggiunto per riempire completamente la larghezza su dispositivi mobili */
+    }
+
+    nav li {
+        margin: 3px 0;
+    }
+
+    .social-strip {
+        padding: 10px 0;
+        /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
+    }
+
+    .mail {
+        padding: 10px 0;
+        /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
+    }
+
+    .post-it-rosa {
+        width: auto;
+    }
+
+    /* Contenitore generico */
+    .container,
+    .container2,
+    .containerex,
+    .striscia,
+    .sfondo-custom {
+        padding: 10px;
+        height: auto;
+    }
+
+    .sfondo-custom {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sfondo-custom p {
+        font-size: 16px;
+        /* O qualsiasi dimensione desiderata per dispositivi mobili */
+    }
+
+    .sfondo-custom::before {
+        height: auto;
+    }
+
+    .sfondo-custom2 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sfondo-custom2 p {
+        font-size: 16px;
+        /* O qualsiasi dimensione desiderata per dispositivi mobili */
+    }
+
+    .sfondo-custom2::before {
+        height: auto;
+    }
+
+
+
+    #visibleContent {
+        height: auto;
+    }
+
+    #hiddenContent,
+    #hiddenContent2 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hiddenContent p,
+    #hiddenContent2 p {
+        text-align: center;
+        /* Centrato il testo orizzontalmente */
+        margin: 10px 0;
+    }
+
+    #hiddenContent button {
+        margin-top: 100px;
+    }
+
+    .sfondo-custom p {
+        margin-bottom: 60px;
+    }
+
+
+    #visibleContent button {
+        margin-top: 80px;
+
+    }
+
+    .iscriviti-qui {
+        display: none;
+    }
+
+
+
+}
