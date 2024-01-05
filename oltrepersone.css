@@ -80,6 +80,10 @@ body {
     opacity: 1;
 }
 
+iframe {
+    align-items: center;
+    justify-content: center;
+}
 
 
 
