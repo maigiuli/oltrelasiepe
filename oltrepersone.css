@@ -344,18 +344,6 @@ img {
 }
 
 
-.post-it-rosa {
-    background-color: #FFD0E8;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    height: auto;
-    text-align: center;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 
 /* Nel tuo file CSS */
