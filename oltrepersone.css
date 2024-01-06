@@ -101,8 +101,26 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 70%;
+    padding: 10px;
+    margin: 30px 30px 30px 30px;
+    font-size: 16px;
 
-    margin: 0 auto;
+
+}
+
+.post-it-verde {
+    background-color: #4DA69A;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding: 10px;
+    margin: 30px 30px 30px 30px;
+    font-size: 16px;
+
 
 }
 
@@ -112,6 +130,8 @@ main {
     height: 0;
     overflow: hidden;
     max-width: 60%;
+    align-items: center;
+    justify-content: center;
 }
 
 .video-container iframe {
