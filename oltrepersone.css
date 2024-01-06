@@ -666,6 +666,7 @@ nav ul li.special a {
     align-items: center;
     text-align: center;
     justify-content: center;
+    background: url('images/ducks.png') center/cover no-repeat;
 }
 
 
