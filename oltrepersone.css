@@ -144,11 +144,7 @@ main {
     justify-content: center;
 }
 
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 
 
 .strip {
