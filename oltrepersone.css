@@ -33,7 +33,7 @@ body {
 }
 
 .person-center {
-    width: calc(48% - 20px);
+    width: calc(38% - 20px);
     margin: 10px;
     align-items: center;
     position: center;
