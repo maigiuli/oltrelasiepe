@@ -98,7 +98,7 @@ iframe {
 
 main {
     background-color: #4DA69A;
-    
+
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -137,18 +137,16 @@ main {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     max-width: 60%;
-    align-items: center;
-    justify-content: center;
 }
 
 .video-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
