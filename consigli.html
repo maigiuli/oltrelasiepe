@@ -1,98 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset=""utf-8"/>
-        <title>
-            Oltrelasiepe
-        </title>
-        <link rel="stylesheet" type="text/css" href="consigli.css"/>
-        
-        
-        <script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    </head>
 
-    <body>
-        
-        <div>
-            
-    <header>
+<head>
+    <meta charset="" utf-8" />
+    <title>
+        Oltrelasiepe
+    </title>
+    <link rel="stylesheet" type="text/css" href="consigli.css" />
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <div>
+
+        <header>
             <div class="main_title">
-               
-                <img src="images/duck_edited_edited_edited.png" width="100px" id="logo" class="bounceable" onclick="bounceDuck()"/>
+
+                <img src="images/duck_edited_edited_edited.png" width="100px" id="logo" class="bounceable"
+                    onclick="bounceDuck()" />
                 <h1> Oltrelasiepe </h1>
             </div>
             <nav>
                 <ul>
-                    <li> <a href='index.html'> Home </a></li> 
+                    <li> <a href='index.html'> Home </a></li>
                     <li> <a href='about.html'> About </a></li>
                     <li> <a href='articoli.html'>Articoli </a></li>
                     <li> <a href='random.html'>Random </a></li>
                     <li> <a href='deutsch.html'> Deutsch </a></li>
                     <li> <a href='consigli.html'> Consigli </a></li>
-                    <li class="special">  <a href='oltreADV.html'> Oltrelavvento </a></li>
+                    <li class="special"> <a href='oltreADV.html'> Oltrelavvento </a></li>
                     <li><a href='oltrepersone.html'> Oltrepersone </a></li>
-
+                    <li><a href='piano.html'> Piano </a></li>
                 </ul>
             </nav>
-    </header>
+        </header>
 
-    <main class="main">
-        
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-<div class="container">
-      <h2>Consigliami un libro</h2>
-    <p > Una storia diventa ancora più preziosa se viene condivisa! </p>
+        <main class="main">
 
-<form id="form">
-    
-  <div class="field">
-    <label for="book_title">Titolo del libro</label>
-    <input type="text" name="book_title" id="book_title" placeholder="Esempio (da non copiare): Il Signore degli Anelli, J.R.R. Tolkien ">
-  </div>
-    <div class="field">
-    <label for="user_email"> Nome o Email </label>
-    <input type="text" name="user_email" id="user_email" placeholder="Esempio (da copiare in casi opportuni): Giulia">
-  </div>
-  
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <input type="submit" id="button" value="Invia Consiglio" >
-</form>
-</div>
-      
+            <div class="container">
+                <h2>Consigliami un libro</h2>
+                <p> Una storia diventa ancora più preziosa se viene condivisa! </p>
 
-    </main>
+                <form id="form">
 
-   
+                    <div class="field">
+                        <label for="book_title">Titolo del libro</label>
+                        <input type="text" name="book_title" id="book_title"
+                            placeholder="Esempio (da non copiare): Il Signore degli Anelli, J.R.R. Tolkien ">
+                    </div>
+                    <div class="field">
+                        <label for="user_email"> Nome o Email </label>
+                        <input type="text" name="user_email" id="user_email"
+                            placeholder="Esempio (da copiare in casi opportuni): Giulia">
+                    </div>
 
-    <div class="social-strip">
-        <a href="https://www.facebook.com/giulia.maineri.9/" target="_blank">
-            <img src="images/fb.png" alt="Facebook" />
-        </a>
-        <a href="https://www.instagram.com/mai.giuly/" target="_blank">
-            <img src="images/insta-removebg-preview.png" alt="Instagram" />
-        </a>
-        <a href="https://github.com/maigiuli" target="_blank">
-            <img src="images/git.png" alt="git" />
-        </a>
-        <a href="https://www.linkedin.com/in/giulia-maineri-9a687b21a/" target="_blank">
+
+                    <input type="submit" id="button" value="Invia Consiglio">
+                </form>
+            </div>
+
+
+        </main>
+
+
+
+        <div class="social-strip">
+            <a href="https://www.facebook.com/giulia.maineri.9/" target="_blank">
+                <img src="images/fb.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/mai.giuly/" target="_blank">
+                <img src="images/insta-removebg-preview.png" alt="Instagram" />
+            </a>
+            <a href="https://github.com/maigiuli" target="_blank">
+                <img src="images/git.png" alt="git" />
+            </a>
+            <a href="https://www.linkedin.com/in/giulia-maineri-9a687b21a/" target="_blank">
                 <img src="images/linkedin.png" alt="linkedin" />
-        
-    </div>
-    <div class="mail">
-        <a href="mailto:maineri.giulia@gmail.com" style="color: #FFD0E8;text-decoration: none;">maineri.giulia@gmail.com</a>
-    </div>
+
+        </div>
+        <div class="mail">
+            <a href="mailto:maineri.giulia@gmail.com"
+                style="color: #FFD0E8;text-decoration: none;">maineri.giulia@gmail.com</a>
+        </div>
 
 
 
 
     </div>
     <script src="falling-letters.js"></script>
-<script src="script.js"></script>
-        <script type="text/javascript">  emailjs.init('0Fzharw2Fcn0pLrCK')</script>
+    <script src="script.js"></script>
+    <script type="text/javascript">  emailjs.init('0Fzharw2Fcn0pLrCK')</script>
 
 </body>
+
 </html>
-
-
