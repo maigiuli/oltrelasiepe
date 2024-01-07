@@ -45,40 +45,53 @@
         </header>
 
         <main class="main">
-            <div class="field sfondo-custom2">
-                <p style="margin: 0;"> <span style="color: rgb(13, 29, 70);;"> Nella freneticità dei nostri giorni,
-                        troppe storie importanti vengono dimenticate, sfuggono via,
-                        finiscono nel mucchio.
-                    </span> </p>
-                <p> <span style="color: rgb(13, 29, 70);;"> <strong> Oltrepersone</strong> è un modo
-                        per celebrare chi dà il suo contributo alla società, accendendo
-                        le coscienze e diventando un'ispirazione e un modello per tanti altri.
-                    </span></p>
-                <p> <span style="color: rgb(13, 29, 70);"> Nel tentativo di vivere un presente consapevole, qui si
-                        racconteranno storie di donne e di uomini che
-                        lasciano il segno, raccontando, settimana dopo settimana, l'anno che verrà. </span></p>
-
+            <div id="visibleContent">
+                <div class="field sfondo-custom2">
+                    <p style="margin: 0;"> <span style="color: rgb(13, 29, 70);;"> Nella freneticità dei nostri giorni,
+                            troppe storie importanti vengono dimenticate, sfuggono via,
+                            finiscono nel mucchio.
+                        </span> </p>
+                    <p> <span style="color: rgb(13, 29, 70);;"> <strong> Oltrepersone</strong> è un modo
+                            per celebrare chi dà il suo contributo alla società, accendendo
+                            le coscienze e diventando un'ispirazione e un modello per tanti altri.
+                        </span></p>
+                    <p> <span style="color: rgb(13, 29, 70);"> Nel tentativo di vivere un presente consapevole, qui si
+                            racconteranno storie di donne e di uomini che
+                            lasciano il segno, raccontando, settimana dopo settimana, l'anno che verrà. </span></p>
+                    <button onclick="showHiddenContent()"
+                        style="width:150px; position: absolute; top: 80%; left: 50%; transform: translate(-50%, -50%);">
+                        Scopri di
+                        più! </button>
+                </div>
             </div>
 
-
-            <div class="gallery">
-                <div class="person" onclick="openDetails('newzealand.html')">
-                    <div class="overlay">
-                        <span class="person-info">Hana-Rawhiti Maipi-Clarke</span>
+            <div id="hiddenContent">
+                <div class="gallery" id="sfondoCustom3">
+                    <div class="person" onclick="openDetails('newzealand.html')">
+                        <div class="overlay">
+                            <span class="person-info">Hana-Rawhiti Maipi-Clarke</span>
+                        </div>
+                        <img src="images/hana.jpeg" alt="Hana-Rawhiti Maipi-Clarke">
                     </div>
-                    <img src="images/hana.jpeg" alt="Hana-Rawhiti Maipi-Clarke">
-                </div>
-                <div class="person" onclick="openDetails('cappato.html')">
-                    <div class="overlay">
-                        <span class="person-info">Marco Cappato </span>
+                    <div class="person" onclick="openDetails('cappato.html')">
+                        <div class="overlay">
+                            <span class="person-info">Marco Cappato </span>
+                        </div>
+                        <img src="images/cappato.jpeg" alt="Cappato">
                     </div>
-                    <img src="images/cappato.jpeg" alt="Cappato">
                 </div>
-
 
                 <!-- Aggiungi più persone seguendo lo stesso modello -->
             </div>
             <script>
+                function showHiddenContent() {
+                    // Nascondi il contenuto visibile
+                    document.getElementById('visibleContent').style.display = 'none';
+
+                    document.getElementById('sfondoCustom3').style.display = 'flex';
+                    // Mostra il contenuto nascosto
+                    document.getElementById('hiddenContent').style.display = 'block';
+                }
                 function openDetails(page) {
                     window.location.href = page;
                 }
