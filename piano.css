@@ -227,7 +227,7 @@ body {
     margin-top: 10px;
 }
 
-.sfondo-custom::before {
+.sfondo-custom {
     content: "";
     position: absolute;
     top: 0;
