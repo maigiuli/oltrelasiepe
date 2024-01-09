@@ -134,17 +134,24 @@ body {
     justify-content: space-between;
 }
 
+.audio {
+    margin: 0 auto;
+}
 
+.audio-container {
 
+    margin: 0 auto;
+    margin-top: 10px;
+}
 
-.container {
+.container-piano {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
 
-    background: #DEDEDE;
 }
+
 
 .square {
     width: calc(30% - 60px);
@@ -173,6 +180,8 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
 .square-title {
