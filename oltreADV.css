@@ -33,7 +33,6 @@
 
 .audio-container {
     margin-top: 10px;
-    /* Aggiungi spazio sopra l'elemento audio, se necessario */
 }
 
 .square-image {
@@ -438,6 +437,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: #DEDEDE;
+}
+
+.container-piano {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4DA69A;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .container {
