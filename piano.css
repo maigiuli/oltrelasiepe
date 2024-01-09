@@ -157,15 +157,15 @@ body {
     height: auto;
     /* Altezza fissa */
     padding: 20px;
-    text-align: justify;
+
     justify-content: center;
     background-color: #4DA69A;
-    /* Colore verde acqua */
+
     cursor: pointer;
     transition: box-shadow 0.3s;
-    /* Cambiato l'effetto di transizione */
+
     margin: 10px;
-    /* Aggiunto margine uniforme tra i quadrati */
+
     margin-bottom: 12px;
     margin-top: 12px;
     margin-left: 10px;
