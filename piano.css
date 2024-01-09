@@ -147,7 +147,7 @@ body {
 }
 
 .square {
-    width: calc(40% - 20px);
+    width: calc(30% - 60px);
     /* Larghezza fissa */
     height: auto;
     /* Altezza fissa */
@@ -183,6 +183,7 @@ body {
 .square-description {
     margin-bottom: 10px;
     line-height: 1.0;
+    text-align: right;
 }
 
 
