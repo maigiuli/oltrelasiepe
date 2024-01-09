@@ -185,12 +185,16 @@ body {
 .square-title {
     font-weight: bold;
     margin-top: 10px;
+    font-size: 30px;
+
 }
 
 .square-description {
     margin-bottom: 10px;
     line-height: 1.0;
     text-align: right;
+
+    font-size: 20px;
 }
 
 
