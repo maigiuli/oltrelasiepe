@@ -152,7 +152,7 @@ body {
 
 
 .square {
-    width: calc(30% - 60px);
+    width: 33%;
     /* Larghezza fissa */
     height: auto;
     /* Altezza fissa */
