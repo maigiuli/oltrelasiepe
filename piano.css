@@ -163,7 +163,8 @@ body {
 
     cursor: pointer;
     transition: box-shadow 0.3s;
-
+    display: flex;
+    flex: wrap;
 }
 
 .square-image {
