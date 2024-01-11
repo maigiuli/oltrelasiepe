@@ -164,12 +164,6 @@ body {
     cursor: pointer;
     transition: box-shadow 0.3s;
 
-    margin: 10px;
-
-    margin-bottom: 12px;
-    margin-top: 12px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .square-image {
