@@ -152,7 +152,7 @@ body {
 
 
 .square {
-    width: 31.1%;
+    min-width: calc((100%/3));
     /* Larghezza fissa */
     height: auto;
     /* Altezza fissa */
@@ -165,6 +165,8 @@ body {
     transition: box-shadow 0.3s;
     display: block;
     flex: wrap;
+    box-sizing: border-box;
+    flex: 1 1 auto;
 }
 
 .square-image {
