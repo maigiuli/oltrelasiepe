@@ -24,7 +24,8 @@
 
         <header>
             <div class="main_title">
-                <img src="images/duck_edited_edited_edited.png" width="150px" id="logo" class="bounceable" onclick="bounceDuck()" />
+                <img src="images/duck_edited_edited_edited.png" width="150px" id="logo" class="bounceable"
+                    onclick="bounceDuck()" />
                 <!--  <img src="images/duck_edited_edited_edited.png" width="100px" id="logo" class="bounceable" onclick="bounceDuck()"/> -->
                 <h1> Oltrelasiepe </h1>
             </div>
@@ -36,7 +37,7 @@
                     <li> <a href='random.html'>Random </a></li>
                     <li> <a href='deutsch.html'> Deutsch </a></li>
                     <li> <a href='consigli.html'> Consigli </a></li>
-                   <li> <a href='oltreADV.html'> Oltrelavvento </a></li>
+                    <li> <a href='oltreADV.html'> Oltrelavvento </a></li>
                     <li><a href='oltrepersone.html'> Oltrepersone </a></li>
                     <li><a href='piano.html'> Piano </a></li>
 
@@ -79,69 +80,78 @@
                         </div>
                         <img src="images/cappato.jpeg" alt="Cappato">
                     </div>
-                <div class="person" onclick="openDetails('buono.html')">
-                    <div class="overlay">
-                        <span class="person-info">Stefano Buono</span>
+                    <div class="person" onclick="openDetails('buono.html')">
+                        <div class="overlay">
+                            <span class="person-info">Stefano Buono</span>
+                        </div>
+                        <img src="images/buono.jpeg" alt="Buono">
                     </div>
-                    <img src="images/buono.jpeg" alt="Buono">
-                </div>
-               
-                <div class="person" onclick="openDetails('murray.html')">
-                    <div class="overlay">
-                        <span class="person-info">Kathleen Murray</span>
+
+                    <div class="person" onclick="openDetails('murray.html')">
+                        <div class="overlay">
+                            <span class="person-info">Kathleen Murray</span>
+                        </div>
+                        <img src="images/ugliest.webp" alt="Murray">
                     </div>
-                    <img src="images/ugliest.webp" alt="Murray">
-                </div>
-                </div>
+
 
                 </div>
-
-                <!-- Aggiungi più persone seguendo lo stesso modello -->
+                <div class="person" onclick="openDetails('Maignan.html')">
+                    <div class="overlay">
+                        <span class="person-info">Mike Maignan</span>
+                    </div>
+                    <img src="images/mike.webp" alt="Murray">
+                </div>
             </div>
-            <script>
-                function showHiddenContent() {
-                    // Nascondi il contenuto visibile
-                    document.getElementById('visibleContent').style.display = 'none';
+    </div>
 
-                    document.getElementById('sfondoCustom3').style.display = 'flex';
-                    // Mostra il contenuto nascosto
-                    document.getElementById('hiddenContent').style.display = 'block';
-                }
-                function openDetails(page) {
-                    window.location.href = page;
-                }
-            </script>
-         
+    </div>
+    <!-- Aggiungi più persone seguendo lo stesso modello -->
+    </div>
+    <script>
+        function showHiddenContent() {
+            // Nascondi il contenuto visibile
+            document.getElementById('visibleContent').style.display = 'none';
 
-
-
-
-
-
+            document.getElementById('sfondoCustom3').style.display = 'flex';
+            // Mostra il contenuto nascosto
+            document.getElementById('hiddenContent').style.display = 'block';
+        }
+        function openDetails(page) {
+            window.location.href = page;
+        }
+    </script>
 
 
 
-        </main>
 
 
-        <div class="social-strip">
-            <a href="https://www.facebook.com/giulia.maineri.9/" target="_blank">
-                <img src="images/fb.png" alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com/mai.giuly/" target="_blank">
-                <img src="images/insta-removebg-preview.png" alt="Instagram" />
-            </a>
-            <a href="https://github.com/maigiuli" target="_blank">
-                <img src="images/git.png" alt="git" />
-            </a>
-            <a href="https://www.linkedin.com/in/giulia-maineri-9a687b21a/" target="_blank">
-                <img src="images/linkedin.png" alt="linkedin" />
 
-        </div>
-        <div class="mail">
-            <a href="mailto:maineri.giulia@gmail.com"
-                style="color: #FFD0E8;text-decoration: none;">maineri.giulia@gmail.com</a>
-        </div>
+
+
+
+
+    </main>
+
+
+    <div class="social-strip">
+        <a href="https://www.facebook.com/giulia.maineri.9/" target="_blank">
+            <img src="images/fb.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/mai.giuly/" target="_blank">
+            <img src="images/insta-removebg-preview.png" alt="Instagram" />
+        </a>
+        <a href="https://github.com/maigiuli" target="_blank">
+            <img src="images/git.png" alt="git" />
+        </a>
+        <a href="https://www.linkedin.com/in/giulia-maineri-9a687b21a/" target="_blank">
+            <img src="images/linkedin.png" alt="linkedin" />
+
+    </div>
+    <div class="mail">
+        <a href="mailto:maineri.giulia@gmail.com"
+            style="color: #FFD0E8;text-decoration: none;">maineri.giulia@gmail.com</a>
+    </div>
     </div>
     <script src="falling-letters.js"></script>
 
