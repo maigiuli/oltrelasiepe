@@ -109,8 +109,9 @@
                     </div>
 
                 </div>
-                <div style="width: 50%;">
-                    <canvas id="myPieChart" width="400" height="400"></canvas>
+                <div class="chart-container">
+                    <h2> Age statistics </h2>
+                    <canvas id="myPieChart" width="200" height="200"></canvas>
                 </div>
 
             </div>
@@ -138,8 +139,8 @@
         var data = {
             labels: ['<30 yo', '30-50 yo', '50-70 yo', '>70 yo'],
             datasets: [{
-                data: [32, 68, 0, 0], // 2/5 delle fette in Categoria 2
-                backgroundColor: ['#DEDEDE', '#FFD0E8', 'rgba(0, 0, 0, 0.1)', ' #4DA69A']
+                data: [32, 68, 0, 0],
+                backgroundColor: ['#001F3F', '#FFD0E8', ' #0074CC', ' #4DA69A']
             }]
         };
 
@@ -148,7 +149,7 @@
             responsive: true,
             maintainAspectRatio: false,
             legend: {
-                position: 'right' // Posizione della legenda
+                position: 'top' // Posizione della legenda
             }
         };
 
