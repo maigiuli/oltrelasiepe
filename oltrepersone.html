@@ -111,7 +111,8 @@
                 </div>
                 <div class="chart-container">
                     <h2> Age statistics </h2>
-                    <canvas id="myPieChart" width="200" height="200"></canvas>
+                    <canvas id="myPieChart" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
+
                 </div>
 
             </div>
@@ -146,11 +147,19 @@
 
         // Opzioni del grafico
         var options = {
-            responsive: false,
+            responsive: true,
             maintainAspectRatio: true,
             legend: {
                 position: 'top' // Posizione della legenda
-            }
+            },
+            layout: {
+                padding: {
+                    left: 50,
+                    right: 50,
+                    top: 50,
+                    bottom: 50
+                }
+            },
         };
 
         // Crea il grafico a torta
