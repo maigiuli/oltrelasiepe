@@ -147,39 +147,9 @@
     </script>
 
     <script>
-        var ctx = document.getElementById('myPieChart').getContext('2d');
+  
 
-        var data = {
-            labels: ['<30 yo', '30-50 yo', '50-70 yo', '>70 yo'],
-            datasets: [{
-                data: [32, 68, 0, 0],
-                backgroundColor: ['#001F3F', '#FFD0E8', ' #0074CC', ' #4DA69A']
-            }]
-        };
-
-        // Opzioni del grafico
-        var options = {
-            responsive: true,
-            maintainAspectRatio: true,
-            legend: {
-                position: 'top' // Posizione della legenda
-            },
-            layout: {
-                padding: {
-                    left: 50,
-                    right: 50,
-                    top: 50,
-                    bottom: 50
-                }
-            },
-        };
-
-        // Crea il grafico a torta
-        var myPieChart = new Chart(ctx, {
-            type: 'pie',
-            data: data,
-            options: options
-        });
+     
     </script>
 
 
