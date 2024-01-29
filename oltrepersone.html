@@ -147,9 +147,34 @@
     </script>
 
     <script>
-  
 
-     
+        var categories = ['<20 yo', '20-40 yo', '40-60 yo', '>60 yo'];
+        var data = [1, 5, 8, 2]; // Number of occurrences for each category
+
+        // Get the canvas element
+        var ctx = document.getElementById('myHistogram').getContext('2d');
+
+        // Create the histogram
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: categories,
+                datasets: [{
+                    label: 'Occurrences',
+                    data: data,
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)', // Adjust color as needed
+                    borderColor: 'rgba(75, 192, 192, 1)', // Adjust color as needed
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
     </script>
 
 
