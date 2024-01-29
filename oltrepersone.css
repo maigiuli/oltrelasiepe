@@ -204,11 +204,82 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
     #myGraph {
         display: inline-block;
+    }
+
+    .sottotitolo-personalizzato {
+        font-weight: normal;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        min-height: 100px;
+        /* Altezza fissa per le strisce */
+    }
+
+
+    .article:nth-child(even) {
+        background-color: #FFD0E8;
+        /* Grigio chiaro */
+
+    }
+
+
+    .article:nth-child(odd) {
+        background-color: #4DA69A;
+        /* Verde più tenue */
+
+    }
+
+
+    .article:nth-child(odd) .article-content img {
+        float: right;
+        /* Immagine a destra */
+        margin: 0 0 10px 20px;
+        /* Aggiunge margine solo nella parte inferiore e a destra */
+    }
+
+    .article:nth-child(even) .article-content img {
+        float: left;
+        /* Immagine a sinistra */
+        margin: 0 20px 10px 0;
+        /* Aggiunge margine solo nella parte inferiore e a sinistra */
+    }
+
+    .article img {
+        max-height: 400px;
+        /* Altezza massima delle immagini */
+        width: auto;
+        /* Larghezza automatica per mantenere le proporzioni */
+        margin-right: 20px;
+        /* Aggiunge margine alla destra dell'immagine */
+    }
+
+
+    .article-content {
+        text-align: justify;
+        flex: 1;
+        /* Il testo occupa lo spazio rimanente */
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    h3,
+    p {
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
     }
 
     .centrato {
