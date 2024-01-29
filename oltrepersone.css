@@ -274,6 +274,15 @@
         margin-right: 20px;
     }
 
+    .week-strip2 {
+        background-color: rgb(13, 29, 70);
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        height: 10px;
+    }
 
     h3,
     p {
