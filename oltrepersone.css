@@ -198,16 +198,17 @@
 
     }
 
-    .chart-container {
+    #chart-container {
         text-align: center;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        margin: 0 auto;
+        height: 100vh;
+        margin: 0 auto; 
     }
 
-    .myGraph {
-        text-align: center;
-        align-items: center;
-        margin: 0 auto;
+    #myGraph {
+        display: inline-block;
     }
 
     .centrato {

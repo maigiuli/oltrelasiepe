@@ -120,12 +120,13 @@
                         </div>
                         <img src="images/goti.jpeg" alt="Riva">
                     </div>
-
+                    <div class="chart-container">
+                        <div id="myGraph"></div>
+                    </div>
                 </div>
-                <div class="chart-container">
-                    <h2> Age statistics </h2>
-                    <div id="myGraph"></div>
 
+                <div class="person">
+                    <div id="myGraph"></div>
                 </div>
 
             </div>
@@ -263,8 +264,12 @@
             };
 
             var layout = {
+                title: "Age statistic",
                 xaxis: { title: 'Age', range: [1, 100] },
-                yaxis: { title: 'Occurrencies' }
+                yaxis: { title: 'Occurrencies' },
+                margin: { l: 'auto', r: 'auto', b: 'auto', t: 'auto' }, // Imposta i margini su 'auto'
+                autosize: true
+
             };
 
             // Creazione del grafico
