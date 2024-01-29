@@ -7,7 +7,8 @@
         Oltrelasiepe
     </title>
     <link rel="stylesheet" type="text/css" href="oltrepersone.css" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVTTM3X4QD"></script>
@@ -111,7 +112,7 @@
                         <div class="overlay">
                             <span class="person-info">Gianni Riva</span>
                         </div>
-                        <img src="images/riva.webp" alt="Riva">
+                        <img src="images/riva.jpeg" alt="Riva">
                     </div>
                     <div class="person" onclick="openDetails('goti.html')">
                         <div class="overlay">
@@ -123,7 +124,8 @@
                 </div>
                 <div class="chart-container">
                     <h2> Age statistics </h2>
-                    <canvas id="myHistogram"></canvas>
+                    <div id="myGraph"></div>
+
                 </div>
 
             </div>
@@ -146,33 +148,34 @@
     </script>
 
     <script>
+        $(document).ready(function () {
+            var data = [
+                { x: 1, y: 0 },
+                { x: 2, y: 0 },
+                { x: 3, y: 0 },
+                { x: 52, y: 1 },
+                { x: 53, y: 1 },
+                { x: 54, y: 0 },
+                { x: 98, y: 1 }
+            ];
+            // Configurazione del grafico
+            var trace = {
+                x: data.map(point => point.x),
+                y: data.map(point => point.y),
+                type: 'scatter',
+                mode: 'markers+lines',
+                marker: { size: 8, color: '#4DA69A' },
+                line: { color: '#4DA69A' }
+            };
 
-        var categories = ['<20 yo', '20-40 yo', '40-60 yo', '>60 yo'];
-        var data = [1, 5, 8, 2]; // Number of occurrences for each category
+            var layout = {
+                xaxis: { title: 'Age', range: [1, 100] },
+                yaxis: { title: 'Occurrencies' }
+            };
 
-        // Get the canvas element
-        var ctx = document.getElementById('myHistogram').getContext('2d');
-
-        // Create the histogram
-        var myChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: categories,
-                datasets: [{
-                    data: data,
-                    backgroundColor: '#4DA69A', // Adjust color as needed
-                    borderColor: '#4DA69A', // Adjust color as needed
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
+            // Creazione del grafico
+            Plotly.newPlot('myGraph', [trace], layout);
+        }); 
     </script>
 
 

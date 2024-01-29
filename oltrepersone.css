@@ -204,6 +204,12 @@
         margin: 0 auto;
     }
 
+    .myGraph {
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
     .centrato {
         display: block;
         margin-left: auto;
