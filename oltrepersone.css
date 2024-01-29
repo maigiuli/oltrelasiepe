@@ -340,10 +340,8 @@
 
     .week-strip2 {
         background-color: rgb(13, 29, 70);
-
         display: flex;
         align-items: center;
-
         height: 100vh;
     }
 
