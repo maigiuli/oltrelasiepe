@@ -123,8 +123,7 @@
                 </div>
                 <div class="chart-container">
                     <h2> Age statistics </h2>
-                    <canvas id="myPieChart" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
-
+                    <canvas id="myHistogram"></canvas>
                 </div>
 
             </div>
@@ -160,10 +159,9 @@
             data: {
                 labels: categories,
                 datasets: [{
-                    label: 'Occurrences',
                     data: data,
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)', // Adjust color as needed
-                    borderColor: 'rgba(75, 192, 192, 1)', // Adjust color as needed
+                    backgroundColor: '#4DA69A', // Adjust color as needed
+                    borderColor: '#4DA69A', // Adjust color as needed
                     borderWidth: 1
                 }]
             },
