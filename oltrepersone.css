@@ -140,7 +140,21 @@
         pointer-events: auto;
     }
 
-    .person:hover .overlay .person-info {
+    .week-info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+        text-align: center;
+        color: #00264d;
+        font-size: 28px;
+        z-index: 2;
+        pointer-events: auto;
+    }
+
+    .person:hover .overlay .person-info .week-info {
         opacity: 1;
     }
 
@@ -149,6 +163,11 @@
     }
 
     .person-info:hover {
+        display: inline-block;
+        opacity: 1;
+    }
+
+    .week-info:hover {
         display: inline-block;
         opacity: 1;
     }
@@ -277,6 +296,7 @@
     .article-content {
         text-align: justify;
         flex: 1;
+        font-size: 16px;
         /* Il testo occupa lo spazio rimanente */
         margin-left: 20px;
         margin-right: 20px;
