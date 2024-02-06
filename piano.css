@@ -137,10 +137,13 @@ body {
 
 .audio {
     margin: 0 auto;
+    justify-content: center;
 }
 
 .audio-container {
     margin-top: 10px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .container-piano {
