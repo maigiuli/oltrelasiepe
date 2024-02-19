@@ -75,14 +75,14 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    .person img {
+    .person img.ing1 {
         width: 100%;
         height: auto;
         border-radius: 0 0 0 0;
         transition: filter 0.3s, transform 0.3s;
     }
 
-        .person img2 {
+        .person img.ing2 {
             width: 100%;
             height: 500px;
             border-radius: 0 0 0 0;
