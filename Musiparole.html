@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="" utf-8" />
+    <title>
+        Oltrelasiepe
+    </title>
+    <link rel="stylesheet" type="text/css" href="Musiparole.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TVTTM3X4QD"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-TVTTM3X4QD');
+</script>
+
+<header>
+    <div class="main_title">
+        <!-- All'interno del tuo HTML -->
+        <img src="images/duck_edited_edited_edited.png" width="150px" id="logo" class="bounceable"
+            onclick="bounceDuck()" />
+
+        <!--  <img src="images/duck_edited_edited_edited.png" width="100px" id="logo" class="bounceable" onclick="bounceDuck()" /> -->
+        <h1> Oltrelasiepe </h1>
+    </div>
+    <nav>
+        <ul>
+            <li> <a href='index.html'> Home </a></li>
+            <li> <a href='about.html'> About </a></li>
+            <li> <a href='articoli.html'> Articoli </a></li>
+            <li> <a href='random.html'> Random </a></li>
+            <li> <a href='deutsch.html'> Deutsch </a></li>
+            <li> <a href='consigli.html'> Consigli </a></li>
+            <li> <a href='oltreADV.html'> Oltrelavvento </a></li>
+            <li><a href='oltrepersone.html'> Oltrepersone </a></li>
+            <li><a href='piano.html'> Piano </a></li>
+            <li><a href='Musiparole.html'> Musiparole </a></li>
+            <!--- <li><a href='songs.html'> Songs </a></li> -->
+        </ul>
+    </nav>
+</header>
+
+
+<body>
+    <div class="container">
+        <h2>Ricerca Testi Canzoni</h2>
+        <p> (Anche) se non trovi le parole...le puoi trovare qui! </p>
+        <p> Inserisci una parola qualsiasi per scoprire in quali canzoni della musica italiana viene citata </p>
+
+
+        <form id="form">
+            <input type="text" id="search-input" placeholder="Cerca una parola...">
+            <button type="submit" id="button"> Cerca</button>
+            <p> DISCLAIMER: tool molto incompleto a causa di ristrettezze temporali della sottoscritta. Segnalazioni di
+                lacune sono le benvenute. </p>
+        </form>
+        <ul id="search-results">
+
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        // Gestione della ricerca
+        document.getElementById('form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Evita il ricaricamento della pagina
+            var keyword = document.getElementById('search-input').value.toLowerCase();
+            var risultati = ricercaCanzoni(keyword);
+            mostraRisultati(risultati);
+        });
+
+        // Funzione per cercare la parola chiave nei testi delle canzoni
+        function ricercaCanzoni(parolaChiave) {
+            // Leggi i dati delle canzoni dal file JSON
+            fetch('canzoni.json')
+                .then(response => response.json())
+                .then(data => {
+                    console.log("Dati ottenuti dal file JSON:", data); // Visualizza i dati ottenuti dal file JSON
+
+                    var risultati = data.filter(canzone => canzone.testo.toLowerCase().includes(parolaChiave));
+                    // Mostra i risultati
+                    mostraRisultati(risultati);
+                })
+                .catch(error => console.error('Errore durante il caricamento dei dati:', error));
+        }
+
+        // Funzione per mostrare i risultati della ricerca
+        // Funzione per mostrare i risultati della ricerca
+        function mostraRisultati(risultati) {
+            var elencoRisultati = document.getElementById('search-results');
+            elencoRisultati.innerHTML = ''; // Pulisce i risultati precedenti
+            risultati.forEach(function (canzone) {
+                var elementoLista = document.createElement('li');
+
+                // Creazione del link per il nome e l'artista della canzone
+                var linkNomeArtista = document.createElement('a');
+                linkNomeArtista.textContent = canzone.titolo + ' - ' + canzone.artista;
+                linkNomeArtista.href = canzone.youtubeLink; // Aggiunge il link YouTube della canzone
+                linkNomeArtista.target = "_blank"; // Apre il link in una nuova scheda
+
+
+                var linkTesto = document.createElement('a');
+                linkTesto.textContent = "Testo";
+                linkTesto.href = canzone.testoLink; // Aggiunge il link al testo della canzone
+                linkTesto.target = "_blank"; // Apre il link in una nuova scheda
+
+                // Aggiunta dei link alla lista
+                elementoLista.appendChild(linkNomeArtista);
+                elementoLista.appendChild(document.createTextNode(' - ')); // Aggiunge uno spazio tra il nome/artista e il testo
+                elementoLista.appendChild(linkTesto);
+
+                elencoRisultati.appendChild(elementoLista);
+
+            });
+
+
+        }
+    </script>
+</body>
+
+</html>
