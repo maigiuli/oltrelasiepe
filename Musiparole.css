@@ -124,7 +124,7 @@ nav ul li.special a {
 body {
     font-family: Arial, sans-serif;
     background-color: #a2d4cb;
-
+    margin: 0;
 }
 
 .container {
