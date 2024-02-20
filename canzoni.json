@@ -141,5 +141,49 @@
         "youtubeLink": "https://www.youtube.com/watch?v=g6ZQGF4I-YU&pp=ygUTcGVudG9sZSBlIGJpY2NoaWVyaQ%3D%3D",
         "testoLink": "https://www.angolotesti.it/M/testi_canzoni_matteo_branciamore_10070/testo_canzone_adesso_che_ci_siete_voi_346246.html",
         "immagine": "images/marco.jpeg"
+    },
+    {
+        "titolo": "Adesso tu",
+        "artista": "Eros Ramazzotti",
+        "album": "Eros",
+        "anno": 1997,
+        "genere": "Pop",
+        "testo": "Nato ai bordi di periferia Dove i tram non vanno avanti più Dove l'aria è popolare È più facile sognare Che guardare in faccia la realtà Quanta gente giovane va via A cercare più di quel che ha Forse perché i pugni presi A nessuno li ha mai resi E dentro fanno male ancor di più Ed ho imparato che nella vita Nessuno mai ci dà di più Ma quanto fiato, quanta salita Andare avanti senza voltarsi mai E ci sei adesso tu A dare un senso ai giorni miei Va tutto bene dal momento che ci sei Adesso tu Ma non dimentico Tutti gli amici miei Che sono ancora là E ci si trova sempre più soli A questa età non sai, non sai Ma quante corse, ma quanti voli Andare avanti senza arrivare mai E ci sei adesso tu Al centro dei pensieri miei La parte interna dei respiri tu sarai La volontà Che non si limita Tu che per me sei già Una rivincita Adesso sai chi è Quell'uomo che c'è in me Nato ai bordi di periferia Dove non ci torno quasi più Resta il vento che ho lasciato Come un treno già passato Oggi che mi sei accanto Oggi che ci sei soltanto Oggi che ci sei Adesso tu",
+        "youtubeLink": "https://www.youtube.com/watch?v=Wx3R0vUDG68&pp=ygUIYWRlc28gdHU%3D",
+        "testoLink": "https://www.angolotesti.it/E/testi_canzoni_eros_ramazzotti_111/testo_canzone_adesso_tu_6264.html",
+        "immagine": "images/mengoni.jpeg"
+    },
+    {
+        "titolo": "Ad occhi chiusi",
+        "artista": "Marco Mengoni",
+        "album": "Le cose che non ho",
+        "anno": 2015,
+        "genere": "Pop",
+        "testo": "Da quando ci sei tu La luce del mattino ha più colori E non mi sento più Un piccolo silenzio fra i rumori Dell'amore non so niente Conosco solo te Sei il confine della mia pelle e al di là Io penso che di più non c'è Anche se non puoi, tu sorridimi Sono pochi, sai, i miracoli Riconoscerei le tue mani in un istante Ti vedo ad occhi chiusi e sai perché Fra miliardi di persone Ad occhi chiusi hai scelto me Da quando ci sei tu Non sento neanche i piccoli dolori Ed oggi non penso più A quanto ho camminato per trovarti Resto solo adesso Mentre sorridi e te ne vai Quanta forza che mi hai dato Non lo sai e spiegarlo non è facile Anche se non puoi tu sorridimi Sono pochi, sai, i miracoli E riconoscerei le tue mani in un istante Ti vedo ad occhi chiusi e sai perché Fra miliardi di persone Ad occhi chiusi hai scelto me Anche se non puoi, tu sorridimi Sono pochi, sai, i miracoli Riconoscerei le tue mani in un istante Ti vedo ad occhi chiusi e sai perché Fra miliardi di persone ho visto solo te Fra miliardi di persone ho visto solo te",
+        "youtubeLink": "https://www.youtube.com/watch?v=8Clgx8Hrs4M&pp=ygUXYWQgb2NjaGkgY2hpdXNpIG1lbmdvbmk%3D",
+        "testoLink": "https://www.angolotesti.it/M/testi_canzoni_marco_mengoni_54577/testo_canzone_ad_occhi_chiusi_2031879.html",
+        "immagine": "images/ramazzotti.jpeg"
+    },
+    {
+        "titolo": "Ai piedi di un arcobaleno",
+        "artista": "Niccolò Agliardi",
+        "album": "Non vale tutto",
+        "anno": 2011,
+        "genere": "Pop",
+        "testo": "La stavano aspettando a Parigi, negli anni cinquanta. Ma è nata trent'anni dopo. E qui, non c'entra. Simona ci insegna che tutto il futuro è un regalo di chi lo inventa. Allora pure l'impossibile, possibile diventa. E' tanto bello Ivan che nessuno gli crede quando dice che ha male. Cosí trasmette a colori. dal secondo canale. Daniela cresce ventenni al ventaglio. E poi li lascia volare. Amanda aspetta il suo ragazzo alla fine del temporale. AVREMMO TUTTI QUALCOSA DA INSEGUIRE AI PIEDI DELL' ARCOBALENO. Ha speso i due soldi che aveva in un affitto a Barcellona. Davide ha messo le ruote alla vita. Ma ci sogna ancora. Ed io che ho sperato di perdermi un giorno, soltanto, per farmi trovare... da chi si è dimesso dal bene che ha chiesto per sempre come fosse un favore... AVREMMO TUTTI QUALCOSA DA CONQUISTARE AI PIEDI DELL' ARCOBALENO. Nell'odore del buio finiamo per stare così... A sperare che esista un riscatto lontano da qui. Si riprende i libri e le cose insieme. Cancellerò il suo nome. E una parte, muore... Andrea non ne vuole sapere di chiudere gli occhi e di accendere il cuore. Stefania nasconde il suo sogno di fare l'attrice come fosse un errore... AVREMMO TUTTI QUALCOSA DA PERDONARE AI PIEDI DELL' ARCOBALENO.",
+        "youtubeLink": "https://www.youtube.com/watch?v=JwyTxFwnPE0&pp=ygUaYWkgcGllZGkgZGkgdW4gYXJjb2JhbGVubyA%3D",
+        "testoLink": "https://www.angolotesti.it/N/testi_canzoni_niccolo_agliardi_4372/testo_canzone_ai_piedi_dellarcobaleno_1194409.html",
+        "immagine": "images/agliardi.jpeg"
+    },
+    {
+        "titolo": "Albachiara",
+        "artista": "Vasco Rossi",
+        "album": "Albachiara",
+        "anno": 1984,
+        "genere": "Pop",
+        "testo": "Respiri piano per non far rumore Ti addormenti di sera e ti risvegli col sole Sei chiara come un'alba Sei fresca come l'aria Diventi rossa se qualcuno ti guarda E sei fantastica quando sei assorta Nei tuoi problemi, nei tuoi pensieri Ti vesti svogliatamente Non metti mai niente che possa attirare attenzione Un particolare, solo per farti guardare Respiri piano per non far rumore Ti addormenti di sera e ti risvegli col sole Sei chiara come un'alba Sei fresca come l'aria Diventi rossa se qualcuno ti guarda E sei fantastica quando sei assorta Nei tuoi problemi, nei tuoi pensieri Ti vesti svogliatamente Non metti mai niente che possa attirare attenzione Un particolare, per farti guardare E con la faccia pulita Cammini per strada mangiando una mela Coi libri di scuola, ti piace studiare Non te ne devi vergognare E quando guardi con quegli occhi grandi Forse un po' troppo sinceri, sinceri, sì Si vede quello che pensi, quello che sogni E qualche volta fai pensieri strani Con una mano, una mano ti sfiori Tu sola dentro la stanza E tutto il mondo fuori",
+        "youtubeLink": "https://www.youtube.com/watch?v=wXFFtkQZlo8&pp=ygUKYWxiYWNoaWFyYQ%3D%3D",
+        "testoLink": "https://www.angolotesti.it/V/testi_canzoni_vasco_rossi_1563/testo_canzone_albachiara_41104.html",
+        "immagine": "images/vasco.jpeg"
     }
 ]
