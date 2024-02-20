@@ -128,9 +128,12 @@
             risultati.forEach(function (canzone) {
                 var elementoLista = document.createElement('li');
 
-                  var imgArtista = document.createElement('img');
+                var imgArtista = document.createElement('img');
                 imgArtista.src = canzone.immagine; // Imposta il percorso dell'immagine dell'artista
                 imgArtista.alt = canzone.artista; // Imposta il testo alternativo per l'immagine
+                imgArtista.width = '100'; // Imposta la larghezza dell'immagine (in pixel)
+                imgArtista.height = '100'; // Imposta l'altezza dell'immagine (in pixel)
+
 
 
                 // Creazione del link per il nome e l'artista della canzone
@@ -145,8 +148,18 @@
                 linkTesto.href = canzone.testoLink; // Aggiunge il link al testo della canzone
                 linkTesto.target = "_blank"; // Apre il link in una nuova scheda
 
+                // Stile CSS per l'elemento lista
+                elementoLista.style.display = 'flex'; // Imposta la lista come flex container
+
+                // Stile CSS per l'immagine dell'artista
+                imgArtista.style.width = '100px'; // Imposta la larghezza dell'immagine
+                imgArtista.style.height = '100px'; // Imposta l'altezza dell'immagine
+                imgArtista.style.marginRight = '10px'; // Aggiunge un margine destro per separare l'immagine dal testo
+                imgArtista.style.alignSelf = 'center'; // Allinea l'immagine al centro rispetto all'asse verticale
+
+
                 // Aggiunta dei link alla lista
-                 elementoLista.appendChild(imgArtista);
+                elementoLista.appendChild(imgArtista);
                 elementoLista.appendChild(document.createTextNode(' ')); // Aggiunge uno spazio
                 elementoLista.appendChild(linkNomeArtista);
                 elementoLista.appendChild(document.createTextNode(' - ')); // Aggiunge uno spazio
