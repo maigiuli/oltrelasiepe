@@ -165,7 +165,7 @@
         "immagine": "images/ramazzotti.jpeg"
     },
     {
-        "titolo": "Ai piedi di un arcobaleno",
+        "titolo": "Ai piedi dell'arcobaleno",
         "artista": "Niccolò Agliardi",
         "album": "Non vale tutto",
         "anno": 2011,
@@ -185,5 +185,16 @@
         "youtubeLink": "https://www.youtube.com/watch?v=wXFFtkQZlo8&pp=ygUKYWxiYWNoaWFyYQ%3D%3D",
         "testoLink": "https://www.angolotesti.it/V/testi_canzoni_vasco_rossi_1563/testo_canzone_albachiara_41104.html",
         "immagine": "images/vasco.jpeg"
+    },
+    {
+        "titolo": "Alghero",
+        "artista": "Giuni Russo",
+        "album": "Giuni",
+        "anno": 1986,
+        "genere": "Pop",
+        "testo": "Musica, è come musica Il desiderio regna nella mente E parto senza voglia di tornare Musica, è come musica La smania che mi prende di vestirmi da sirena E' come una visione magica Mia madre non lo deve sapere Non lo deve sapere, non lo deve sapere Mia madre non lo deve sapere Non lo deve sapere che Voglio andare ad Alghero In compagnia di uno straniero Su spiagge assolate Mi parli in silenzio Con languide occhiate Voglio andare ad Alghero In compagnia di uno straniero Le corse sfrenate Su moto cromate Di sera l'estate Che scandalo da sola ad Alghero Da sola ad Alghero Con uno straniero Mia madre non lo deve sapere Non lo deve sapere Musica, la sabbia è musica Cristalli scintillanti sulla pelle Che colorano un tramonto caldo e mitico Mia madre non lo deve sapere Non lo deve sapere, non lo deve sapere Mia madre non lo deve sapere Non lo deve sapere che Voglio andare ad Alghero In compagnia di uno straniero Su spiagge assolate Mi parli in silenzio Con languide occhiate Sono ancora ad Alghero In compagnia dello straniero Le corse sfrenate Su moto cromate Di sera l'estate Che scandalo da sola ad Alghero Da sola ad Alghero Con uno straniero Mia madre non lo deve sapere Non lo deve sapere Mia madre non lo deve sapere Non lo deve sapere, non lo deve sapere Che scandalo da sola ad Alghero Da sola ad Alghe-Alghero Che scandalo da sola ad Alghero Con uno straniero Alghero",
+        "youtubeLink": "https://www.youtube.com/watch?v=W7rzBD9cDP0&pp=ygUHYWxnaGVybw%3D%3D",
+        "testoLink": "https://www.angolotesti.it/G/testi_canzoni_giuni_russo_3160/testo_canzone_alghero_114378.html",
+        "immagine": "images/giuni.jpeg"
     }
 ]
