@@ -68,7 +68,13 @@
 <body>
     <div class="container">
         <h2>Ricerca Testi Canzoni</h2>
-        <p> (Anche) se non trovi le parole...le puoi trovare qui! </p>
+        <p> <em>(Anche) se non trovi le parole </em>...le puoi trovare qui! </p>
+        <iframe class="centrato" width="100%" height="400px"
+            src="https://www.youtube.com/embed/Gxd30zKUbo4?si=yr8bM4SqHU7ufTIf" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
         <p> Inserisci una parola qualsiasi per scoprire in quali canzoni della musica italiana viene citata </p>
 
 
@@ -122,6 +128,11 @@
             risultati.forEach(function (canzone) {
                 var elementoLista = document.createElement('li');
 
+                  var imgArtista = document.createElement('img');
+                imgArtista.src = canzone.immagine; // Imposta il percorso dell'immagine dell'artista
+                imgArtista.alt = canzone.artista; // Imposta il testo alternativo per l'immagine
+
+
                 // Creazione del link per il nome e l'artista della canzone
                 var linkNomeArtista = document.createElement('a');
                 linkNomeArtista.textContent = canzone.titolo + ' - ' + canzone.artista;
@@ -135,9 +146,12 @@
                 linkTesto.target = "_blank"; // Apre il link in una nuova scheda
 
                 // Aggiunta dei link alla lista
+                 elementoLista.appendChild(imgArtista);
+                elementoLista.appendChild(document.createTextNode(' ')); // Aggiunge uno spazio
                 elementoLista.appendChild(linkNomeArtista);
-                elementoLista.appendChild(document.createTextNode(' - ')); // Aggiunge uno spazio tra il nome/artista e il testo
+                elementoLista.appendChild(document.createTextNode(' - ')); // Aggiunge uno spazio
                 elementoLista.appendChild(linkTesto);
+
 
                 elencoRisultati.appendChild(elementoLista);
 
