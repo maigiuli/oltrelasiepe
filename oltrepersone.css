@@ -4,13 +4,19 @@
         }
     }
 
+
+
     #visibleContent {
         height: auto;
+        justify-content: center;
+        align-items: center;
     }
 
     #visibleContent button:hover {
         background-color: #FFD0E8;
         color: rgb(13, 29, 70);
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -26,6 +32,8 @@
         font-size: 16px;
         margin-top: 20px;
         transition: background-color 0.3s ease;
+        justify-content: center;
+        align-items: center;
     }
 
     #hiddenContent button:hover {
@@ -66,7 +74,7 @@
 
     .person {
         width: calc(46% - 20px);
-        height: auto; 
+        height: auto;
         margin: 10px;
         position: relative;
         cursor: pointer;
@@ -75,39 +83,42 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-         .person2 {
-             width: calc(46% - 20px);
-             height: 500px;
-             margin: 10px;
-             position: relative;
-             cursor: pointer;
-             overflow: hidden;
-             border-radius: 0px;
-             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-         }
+    .person2 {
+        width: calc(46% - 20px);
+        height: 500px;
+        margin: 10px;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 0px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-    .person img{
+    .person img {
         width: 100%;
         height: auto;
         border-radius: 0 0 0 0;
         transition: filter 0.3s, transform 0.3s;
     }
-         .person2 img {
-             width: 100%;
-             height: auto;
-             border-radius: 0 0 0 0;
-             transition: filter 0.3s, transform 0.3s;
-         }
 
-    
+    .person2 img {
+        width: 100%;
+        height: auto;
+        border-radius: 0 0 0 0;
+        transition: filter 0.3s, transform 0.3s;
+    }
+
+
     .person:hover img {
         filter: blur(5px);
         transform: scale(1.05);
     }
- .person2:hover img {
-     filter: blur(5px);
-     transform: scale(1.05);
- }
+
+    .person2:hover img {
+        filter: blur(5px);
+        transform: scale(1.05);
+    }
+
     .person-center {
         width: calc(38% - 20px);
         margin: 10px;
@@ -183,9 +194,10 @@
     .person:hover {
         opacity: 1;
     }
-          .person2:hover {
-              opacity: 1;
-          }
+
+    .person2:hover {
+        opacity: 1;
+    }
 
     .person-info:hover {
         display: inline-block;
