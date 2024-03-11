@@ -31,6 +31,15 @@
     }
 }
 
+.article2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    max-height: 50px;
+    background-color: rgb(13, 29, 70);
+}
+
 header {
     background-color: rgb(13, 29, 70);
     display: flex;
