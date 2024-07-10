@@ -14,9 +14,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .pdf-container {
+         #pdf-viewer {
             width: 100%;
             height: 600px;
+            border: 1px solid #ccc;
         }
     </style>
 
@@ -84,11 +85,8 @@
                         <p class="square-description">
                             DESY Student Session</p>
                         <img class="square-image" src="images/heal.jpg" alt="Immagine 1">
-                  <div class="pdf-container">
-                        <iframe
-                            src="https://github.com/maigiuli/oltrelasiepe/blob/fea8082650d34992a7639a58578d67e1d5a9b065/jet_faking_photons-2.pdf"
-                            width="100%" height="100%" style="border: none;"></iframe>
-                    </div>
+                <p>Slides visualizzate qui sotto:</p>
+                <canvas id="pdf-viewer"></canvas>
                 </div>
 
                 </div>
@@ -162,6 +160,41 @@
             }
         }
     </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+<script>
+    var url = 'https://github.com/maigiuli/oltrelasiepe/raw/fea8082650d34992a7639a58578d67e1d5a9b065/jet_faking_photons-2.pdf';
+
+    var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
+
+    var loadingTask = pdfjsLib.getDocument(url);
+    loadingTask.promise.then(function (pdf) {
+        console.log('PDF loaded');
+
+        // Fetch the first page
+        var pageNumber = 1;
+        pdf.getPage(pageNumber).then(function (page) {
+            console.log('Page loaded');
+
+            var scale = 1.5;
+            var viewport = page.getViewport({ scale: scale });
+
+            var canvas = document.getElementById('pdf-viewer');
+            var context = canvas.getContext('2d');
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            var renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    }, function (reason) {
+        console.error(reason);
+    });
+</script>
 
 
     <script>
