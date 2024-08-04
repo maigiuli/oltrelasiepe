@@ -165,9 +165,9 @@ main {
 }
 
 .article img {
-    max-width: 150px;
-    max-height: 150px;
-    margin-right: 10px;
+    max-width: 250px;
+    max-height: 250px;
+    margin-right: 20px;
 }
 
 .article-content {
@@ -192,7 +192,13 @@ main {
     color: black;
 
 }
-
+/* Se vuoi applicare lo stile solo a sottotitoli specifici con una classe */
+.sottotitolo-personalizzato {
+    font-style: italic;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
 .article-link:hover {
     cursor: pointer;
 }
