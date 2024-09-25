@@ -14,7 +14,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-         #pdf-viewer {
+        #pdf-viewer {
             width: 100%;
             height: 600px;
             border: 1px solid #ccc;
@@ -48,7 +48,7 @@
                 <ul>
                     <li> <a href='index.html'> Home </a></li>
                     <li> <a href='about.html'> About </a></li>
-                    <li> <a href='articoli.html'>Articoli </a></li>
+                    <li> <a href='cernblog.html'>CERN blog </a></li>
                     <li> <a href='random.html'>Random </a></li>
                     <li> <a href='deutsch.html'> Deutsch </a></li>
                     <li> <a href='consigli.html'> Consigli </a></li>
@@ -80,14 +80,15 @@
                 </div>
                 <div class="container-piano">
                     <div class="square">
-                        <div class="square-title">Analysis of fake leptons background for the study of interference between single top and top pairs production with the
-                        ATLAS detector </div>
+                        <div class="square-title">Analysis of fake leptons background for the study of interference
+                            between single top and top pairs production with the
+                            ATLAS detector </div>
                         <p class="square-description">
                             DESY Student Session</p>
                         <img class="square-image" src="images/heal.jpg" alt="Immagine 1">
-                <p>Slides visualizzate qui sotto:</p>
-                <canvas id="pdf-viewer"></canvas>
-                </div>
+                        <p>Slides visualizzate qui sotto:</p>
+                        <canvas id="pdf-viewer"></canvas>
+                    </div>
 
                 </div>
 
@@ -160,41 +161,41 @@
             }
         }
     </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
-<script>
-    var url = 'https://github.com/maigiuli/oltrelasiepe/raw/fea8082650d34992a7639a58578d67e1d5a9b065/jet_faking_photons-2.pdf';
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script>
+        var url = 'https://github.com/maigiuli/oltrelasiepe/raw/fea8082650d34992a7639a58578d67e1d5a9b065/jet_faking_photons-2.pdf';
 
-    var pdfjsLib = window['pdfjs-dist/build/pdf'];
+        var pdfjsLib = window['pdfjs-dist/build/pdf'];
 
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.worker.min.js';
 
-    var loadingTask = pdfjsLib.getDocument(url);
-    loadingTask.promise.then(function (pdf) {
-        console.log('PDF loaded');
+        var loadingTask = pdfjsLib.getDocument(url);
+        loadingTask.promise.then(function (pdf) {
+            console.log('PDF loaded');
 
-        // Fetch the first page
-        var pageNumber = 1;
-        pdf.getPage(pageNumber).then(function (page) {
-            console.log('Page loaded');
+            // Fetch the first page
+            var pageNumber = 1;
+            pdf.getPage(pageNumber).then(function (page) {
+                console.log('Page loaded');
 
-            var scale = 1.5;
-            var viewport = page.getViewport({ scale: scale });
+                var scale = 1.5;
+                var viewport = page.getViewport({ scale: scale });
 
-            var canvas = document.getElementById('pdf-viewer');
-            var context = canvas.getContext('2d');
-            canvas.height = viewport.height;
-            canvas.width = viewport.width;
+                var canvas = document.getElementById('pdf-viewer');
+                var context = canvas.getContext('2d');
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
 
-            var renderContext = {
-                canvasContext: context,
-                viewport: viewport
-            };
-            page.render(renderContext);
+                var renderContext = {
+                    canvasContext: context,
+                    viewport: viewport
+                };
+                page.render(renderContext);
+            });
+        }, function (reason) {
+            console.error(reason);
         });
-    }, function (reason) {
-        console.error(reason);
-    });
-</script>
+    </script>
 
 
     <script>
