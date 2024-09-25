@@ -9,7 +9,7 @@ document.getElementById('form')
 
    btn.value = 'Abbi pazienza...';
 
-   const serviceID = 'service_crrtows';
+   const serviceID = 'service_3lvdioo';
    const templateID = 'template_7qsh2h8';
 
    emailjs.sendForm(serviceID, templateID, this)
