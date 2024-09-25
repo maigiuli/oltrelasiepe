@@ -2,7 +2,7 @@ const btn = document.getElementById('button');
 const form = document.getElementById('form');
 const mainContainer = document.querySelector('.main');
 
-
+emailjs.init('BrW56TJJK7OXRefKK');
 document.getElementById('form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
