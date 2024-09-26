@@ -6,7 +6,53 @@
 
     background: #DEDEDE;
 }
+.blue-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(13, 29, 70);
+    height: 100vh;
+    padding: 20px;
+    color:#DEDEDE;
+}
 
+.right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 30%;
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+}
+.right h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: #FFD0E8;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.left h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: #FFD0E8;
+}
+
+.left .big-gif {
+    max-width: 100%;
+    height: auto;
+}
 .square {
     width: calc(40% - 20px);
     /* Larghezza fissa */
