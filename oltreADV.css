@@ -19,8 +19,8 @@
 .right {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    width: 10%;
+    gap: 0px;
+    width: 20%;
 }
 
 .right img {
