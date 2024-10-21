@@ -83,7 +83,7 @@
                 "Tutto ciò che possiamo scegliere è come disporre del tempo che ci viene dato"
             </div>
 
-            <div id="falling-text" class="textspark sparkable falling-text" onclick="sparkText(this)"> J.R.R. Tolkien
+            <div id="author" class="textspark sparkable falling-text" onclick="sparkText(this)"> J.R.R. Tolkien
             </div>
 
 
@@ -117,6 +117,33 @@
         window.onload = function () {
             fallLetters();
         };
+    </script>
+    <script>
+        // Array di frasi e autori
+        const quotes = [
+            { text: "Tutto ciò che possiamo scegliere è come disporre del tempo che ci viene dato", author: "J.R.R. Tolkien" },
+            { text: "Non tutti quelli che vagano sono perduti", author: "J.R.R. Tolkien" },
+            { text: "Le radici profonde non gelano", author: "J.R.R. Tolkien" },
+            { text: "È una cosa pericolosa uscire dalla tua porta", author: "J.R.R. Tolkien" }
+        ];
+
+        let currentQuoteIndex = 0;
+
+        // Funzione per cambiare la frase e l'autore
+        function changeQuote() {
+            // Ottieni il prossimo indice della citazione
+            currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+
+            // Aggiorna il testo e l'autore
+            const quoteElement = document.getElementById('falling-text');
+            const authorElement = document.getElementById('author');
+
+            quoteElement.textContent = `"${quotes[currentQuoteIndex].text}"`;
+            authorElement.textContent = quotes[currentQuoteIndex].author;
+        }
+
+        // Cambia la frase ogni 10 secondi (10000 millisecondi)
+        setInterval(changeQuote, 10000);
     </script>
 </body>
 
