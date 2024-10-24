@@ -142,7 +142,7 @@
             { text: "Per me, più che normale che un'emozione da poco mi faccia stare male.", author: "Ivano Fossati" }
         ];
 
-        let currentQuoteIndex = 0;
+        let currentQuoteIndex = Math.floor(Math.random() * quotes.length); // Inizializza con un indice casuale
 
         // Funzione per cambiare la frase e l'autore
         function changeQuote() {
