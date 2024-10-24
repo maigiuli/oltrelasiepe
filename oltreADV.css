@@ -359,6 +359,11 @@ img {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+audio {
+     display: inline;
+     vertical-align: middle;
+     /* Allinea verticalmente il player audio al centro del testo */
+}
 
 
 .post-it-rosa {
