@@ -65,7 +65,9 @@
 
                 <input type="text" id="searchBar" placeholder="Cerca canzoni..."> 
                 <button onclick="filterSongs()">Cerca</button>
+                <button onclick="goBack()" style="display: block; margin: 20px auto;">Indietro</button>
                 <div id="searchMessage"></div>
+
                 <div id="songsContainer">
 
                     <div class="hiddenContent">
@@ -1483,6 +1485,11 @@
             var video = document.getElementById('videoPlayer');
             video.play();
         }
+
+        function goBack() {
+                window.location.href = "https://oltrelasiepe.net/piano.html";
+            }
+
     </script>
 
     <script src="searchbar.js"></script>
