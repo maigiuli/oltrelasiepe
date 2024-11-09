@@ -7,21 +7,23 @@ function filterSongs() {
 
     // Itera sui blocchi delle canzoni
     songs.forEach(song => {
-        // Cerca l'elemento con classe .square-title
+        // Cerca l'elemento con classe .square-title e .square-description
         const titleElement = song.querySelector(".square-title");
+        const artistElement = song.querySelector(".square-description");
 
-        // Se il titolo non è presente, passa al prossimo elemento
-        if (!titleElement) return;
+        // Controlla che entrambi gli elementi esistano
+        if (!titleElement || !artistElement) return;
 
-        // Ottieni il contenuto del titolo della canzone
+        // Ottieni il testo del titolo e del cantante
         const title = titleElement.textContent.toLowerCase();
+        const artist = artistElement.textContent.toLowerCase();
 
-        // Controlla se il titolo contiene il termine di ricerca
-        if (title.includes(searchTerm)) {
-            song.style.display = "block";
+        // Controlla se il titolo o il cantante contengono il termine di ricerca
+        if (title.includes(searchTerm) || artist.includes(searchTerm)) {
+            song.style.display = "block"; // Mostra il blocco se corrisponde
             found = true;
         } else {
-            song.style.display = "none";
+            song.style.display = "none"; // Nasconde il blocco se non corrisponde
         }
     });
 
