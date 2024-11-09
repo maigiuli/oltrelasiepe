@@ -8,6 +8,8 @@
     </title>
     <link rel="stylesheet" type="text/css" href="piano.css" />
 
+    
+
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -24,6 +26,8 @@
 </script>
 
 <body>
+    <input type="text" id="searchBar" placeholder="Cerca canzoni..." onkeyup="filterSongs()">
+
 
     <div>
 
@@ -62,10 +66,7 @@
                 <img src="images/ducks-singing-with-musical-notes-upscaled-2.png" style="width: 100%;">
 
 
-
-                <div class="container-piano">
-                </div>
-
+            <div id="songsContainer">
 
                 <div class="hiddenContent">
                     <div class="article2">
@@ -1364,7 +1365,7 @@
 
 
                 </div>
-
+</div>
             </div>
 
     </div>
@@ -1472,6 +1473,8 @@
             video.play();
         }
     </script>
+
+    <script src="searchbar.js"></script>
 
 </body>
 
