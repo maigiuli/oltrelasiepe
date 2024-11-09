@@ -7,7 +7,16 @@ function filterSongs() {
 
     // Itera sui blocchi delle canzoni
     songs.forEach(song => {
-        const title = song.querySelector(".square-title").textContent.toLowerCase();
+        // Cerca l'elemento con classe .square-title
+        const titleElement = song.querySelector(".square-title");
+
+        // Se il titolo non è presente, passa al prossimo elemento
+        if (!titleElement) return;
+
+        // Ottieni il contenuto del titolo della canzone
+        const title = titleElement.textContent.toLowerCase();
+
+        // Controlla se il titolo contiene il termine di ricerca
         if (title.includes(searchTerm)) {
             song.style.display = "block";
             found = true;
@@ -15,12 +24,15 @@ function filterSongs() {
             song.style.display = "none";
         }
     });
-    
+
+    // Aggiorna il messaggio in base al risultato
     const message = document.getElementById("searchMessage");
     if (found && searchTerm !== "") {
         message.textContent = "Trovata!";
+        message.style.color = "green";
     } else if (searchTerm !== "") {
-        message.textContent = "Non c'è! Contattami per suggerirmela!";
+        message.textContent = "Nessuna corrispondenza trovata";
+        message.style.color = "red";
     } else {
         message.textContent = "";  // Pulisce il messaggio se non c'è ricerca
     }
