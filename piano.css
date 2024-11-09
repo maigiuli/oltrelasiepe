@@ -253,7 +253,7 @@ body {
     margin-bottom: 20px;
     border: 1px solid #ddd;
 }
-#button {
+button {
     background-color: rgb(13, 29, 70);
     color: #4DA69A;
     padding: 10px 15px;
@@ -267,6 +267,12 @@ body {
 #button:hover {
     background-color: #FFD0E8;
     color: rgb(13, 29, 70);
+}
+
+#searchMessage {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 .column {
