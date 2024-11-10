@@ -45,19 +45,19 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <div class="container">
-                <h2>Consigliami un libro</h2>
+                <h2>Invia dei consigli</h2>
                 <p> Una storia diventa ancora più preziosa se viene condivisa! </p>
 
                 <form id="form">
 
                     <div class="field">
                         <label for="book_title">Titolo del libro</label>
-                        <input type="text" name="book_title" id="book_title"
+                        <input type="text" name="libro" id="libro"
                             placeholder="Esempio (da non copiare): Il Signore degli Anelli, J.R.R. Tolkien ">
                     </div>
                     <div class="field">
                         <label for="user_email"> Nome o Email </label>
-                        <input type="text" name="user_email" id="user_email"
+                        <input type="text" name="from_email" id="from_email"
                             placeholder="Esempio (da copiare in casi opportuni): Giulia">
                     </div>
 
@@ -96,8 +96,30 @@
     </div>
     <script src="falling-letters.js"></script>
     <script src="script.js"></script>
-    <script type="text/javascript">  emailjs.init('0Fzharw2Fcn0pLrCK')</script>
+    <script type="text/javascript">  emailjs.init('BrW56TJJK7OXRefKK')
+        document.getElementById('form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Previene il refresh della pagina
 
+        // Ottieni i valori dei campi del modulo
+        const bookTitle = document.getElementById('libro').value;
+        const userEmail = document.getElementById('from_email').value;
+
+        // Imposta i parametri per EmailJS in base ai campi del modello
+        const templateParams = {
+        book_title: bookTitle,
+        user_email: userEmail
+        };
+
+        // Invia l'email tramite EmailJS
+        emailjs.send('service_3lvdioo', 'template_cj8c12r', templateParams)
+        .then(function(response) {
+        alert('Consigli inviati con successo!'); // Messaggio di successo
+        document.getElementById('form').reset(); // Pulisce il modulo
+        }, function(error) {
+        alert('Errore nell\'invio del consiglio:', error); // Messaggio di errore
+        });
+        });
+</script>
 </body>
 
 </html>
