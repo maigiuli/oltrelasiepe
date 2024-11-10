@@ -64,7 +64,7 @@
                 <img src="images/ducks-singing-with-musical-notes-upscaled-2.png" style="width: 100%;">
 
                 <input type="text" id="searchBar" placeholder="Cerca canzoni o cantanti...">
-                <button onclick="filterSongs()">Cerca</button>
+                <button onKeyDown="filterSongs()">Cerca</button>
                 <button onclick="goBack()" style="display: block; margin: 20px auto;">Indietro</button>
                 <div id="searchMessage"></div>
 
@@ -498,8 +498,10 @@
                             <h2>La magia della musica italiana</h2>
                         </div>
                     </div>
-                    <div class="container-piano"><div class="square">
-                        <div class="square-title">Musica leggerissima </div>
+                    <div class="container-piano">
+                
+                <div class="square">
+                        <div class="square-title">🎧 Musica leggerissima </div>
                         <p class="square-description">
                             Colapesce, Dimartino</p>
                         <img class="square-image" src="images/colapesce.jpeg" alt="Immagine 1">
