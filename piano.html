@@ -63,7 +63,7 @@
             <div id="visibleContent">
                 <img src="images/ducks-singing-with-musical-notes-upscaled-2.png" style="width: 100%;">
 
-                <input type="text" id="searchBar" placeholder="Cerca canzoni o cantanti..."> 
+                <input type="text" id="searchBar" placeholder="Cerca canzoni o cantanti...">
                 <button onclick="filterSongs()">Cerca</button>
                 <button onclick="goBack()" style="display: block; margin: 20px auto;">Indietro</button>
                 <div id="searchMessage"></div>
@@ -296,6 +296,17 @@
                     </div>
                     <div class="container-piano">
                         <div class="square">
+                            <div class="square-title"> ⛪️ Ovunque sarai </div>
+                            <p class="square-description">
+                            </p>
+                            <img class="square-image" src="images/ovunque.png" alt="Immagine 1">
+                            <div class="audio-container">
+                                <audio controls class="audio">
+                                    <source src="audio/ovunque.mp4" type="audio/mp4">
+                                    Il tuo browser non supporta l'elemento audio.
+                            </div>
+                        </div>
+                        <div class="square">
                             <div class="square-title"> 🥶 Ma che freddo fa </div>
                             <p class="square-description">
                                 Nada</p>
@@ -489,19 +500,64 @@
                     </div>
                     <div class="container-piano">
 
-
-
+                    <div class="square">
+                        <div class="square-title">  Quando nasce un amore </div>
+                        <p class="square-description">
+                            Anna Oxa</p>
+                        <img class="square-image" src="images/oxa.jpeg" alt="Immagine 1">
+                        <div class="audio-container">
+                            <audio controls class="audio">
+                                <source src="audio/quandonasce.m4a" type="audio/mp3">
+                                Il tuo browser non supporta l'elemento audio.
+                        </div>
+                    </div>
+                    <div class="square">
+                        <div class="square-title"> 🦘 Storie brevi </div>
+                        <p class="square-description">
+                            Annalisa, Tananai</p>
+                        <img class="square-image" src="images/storie.webp" alt="Immagine 1">
+                        <div class="audio-container">
+                            <audio controls class="audio">
+                                <source src="audio/storie.m4a" type="audio/mp3">
+                                Il tuo browser non supporta l'elemento audio.
+                        </div>
+                    </div>
                         <div class="square">
-                            <div class="square-title"> Centro di gravità permanente </div>
+                            <div class="square-title"> 👒 Centro di gravità permanente </div>
                             <p class="square-description">
                                 Franco Battiato</p>
                             <img class="square-image" src="images/battiato.webp" alt="Immagine 1">
                             <div class="audio-container">
                                 <audio controls class="audio">
-                                    <source src="audio/howdoes (mp3cut.net).mp3" type="audio/mp3">
+                                    <source src="audio/centro.m4a" type="audio/mp3">
                                     Il tuo browser non supporta l'elemento audio.
                             </div>
                         </div>
+                        <div class="square">
+                            <div class="square-title"> 🌌 La notte </div>
+                            <p class="square-description">
+                                Arisa</p>
+                            <img class="square-image" src="images/lanotte.jpeg" alt="Immagine 1">
+                            <div class="audio-container">
+                                <audio controls class="audio">
+                                    <source src="audio/lanotte.m4a" type="audio/mp3">
+                                    Il tuo browser non supporta l'elemento audio.
+                            </div>
+                        </div>
+
+                        <div class="square">
+                            <div class="square-title"> 💭 Sogna ragazzo sogna </div>
+                            <p class="square-description">
+                                Roberto Vecchioni </p>
+                            <img class="square-image" src="images/sogna.jpeg" alt="Immagine 1">
+                            <div class="audio-container">
+                                <audio controls class="audio">
+                                    <source src="audio/osgna.m4a" type="audio/mp3">
+                                    Il tuo browser non supporta l'elemento audio.
+                            </div>
+                        </div>
+
+
                         <div class="square">
                             <div class="square-title"> 🦌 Geordie </div>
                             <p class="square-description">
@@ -1487,8 +1543,8 @@
         }
 
         function goBack() {
-                window.location.href = "https://oltrelasiepe.net/piano.html";
-            }
+            window.location.href = "https://oltrelasiepe.net/piano.html";
+        }
 
     </script>
 
