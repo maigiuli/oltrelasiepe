@@ -15,7 +15,29 @@
     padding: 20px;
     color:#DEDEDE;
 }
+.image-quote-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
 
+.main-image {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.big-quote {
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: bold;
+    color: #333;
+    max-width: 500px;
+    line-height: 1.4;
+}
 .right {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
