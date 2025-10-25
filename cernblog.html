@@ -79,11 +79,19 @@
 
         <main class="main">
 
+
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <div class="filter-buttons" style="margin-bottom: 20px; text-align: center;">
+                <button onclick="filterSongs('all')">Tutte</button>
+                <button onclick="filterSongs('nomedidonna')">Nome di donna</button>
+                <button onclick="filterSongs('politica')">Politica</button>
+                <button onclick="filterSongs('anni2000')">Anni 2000 </button>
+                <button onclick="filterSongs('anni1900')">Anni 1900 </button>
+            </div>
             <div id="visibleContent">
             
                 <h1> Gloria, Umberto Tozzi () </h1>
-                <div class="image-quote-container">
+                <div class="image-quote-container" class="song nomedidonna anni1900">
             
                     <img src="images/gloria.jpg" alt="Immagine articolo 1" class="main-image">
                     <blockquote class="big-quote">
@@ -106,7 +114,7 @@
             </div>
             
             
-            <div id="visibleContent">
+            <div id="visibleContent" class="song nomedidonna politica anni1900">
             
                 <h1> Gianna, Rino Gaetano (1978) </h1>
                 <div class="image-quote-container">
@@ -141,7 +149,7 @@
                 </div>
             </div>
 
-            <div id="visibleContent">
+            <div id="visibleContent" class="song anni2000">
 
                 <h1> Sesso debole, Elisa (2025) </h1>
                 <div class="image-quote-container">
@@ -179,7 +187,7 @@
 
 
 
-            <div id="visibleContent">
+            <div id="visibleContent"class="song anni2000">
 
                 <h1> Islanda, Pinguini Tattici Nucleari (2025) </h1>
                 <div class="image-quote-container">
@@ -204,7 +212,7 @@
             </div>
 
 
-            <div id="visibleContent">
+            <div id="visibleContent"class="song anni2000">
 
                 <h1> Bottiglie vuote, Pinguini Tattici Nucleari (2025) </h1>
                 <div class="image-quote-container">
@@ -229,7 +237,7 @@
             </div>
 
 
-            <div id="visibleContent">
+            <div id="visibleContent"class="song anni2000">
 
                 <h1> 100 messaggi, Lazza (2025) </h1>
                 <div class="image-quote-container">
@@ -283,7 +291,7 @@
 
 
             </div>
-            <div id="visibleContent">
+            <div id="visibleContent"class="song anni1900">
 
                 <h1> Dentro agli occhi, Roberto Vecchioni (1982) </h1>
                 <div class="image-quote-container">
@@ -420,7 +428,18 @@
 
 
             </div>
-
+        <script>
+            function filterSongs(category) {
+                const songs = document.querySelectorAll('.song');
+                songs.forEach(song => {
+                    if (category === 'all' || song.classList.contains(category)) {
+                        song.style.display = 'block';
+                    } else {
+                        song.style.display = 'none';
+                    }
+                });
+            }
+        </script>
         </main>
 
 
