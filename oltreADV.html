@@ -176,103 +176,59 @@
         </div>
       </div>
 
-
-      <div class="container" data-giorno="60">
-        <div class="spunto">
-          <h2> Spunto #2</h2>
-          <h2> </h2>
-          <h2> </h2>
-          <div class="immagine-link">
-            <figure>
-              <img src="images/scintille.jpeg" alt="Descrizione immagine" style="margin-bottom: 20px;"> <br />
-              <figcaption style="margin-bottom: 20px;"> <br />
-                <br>
-              </figcaption>
-            </figure>
-
-            <button class="ascolta-qui"
-              onclick="redirectToLink('https://www.youtube.com/watch?v=iePdJ3CZGIs')"><strong>Guarda
-                qui</strong></button>
-          </div>
-
-          <div class="striscia">
-
-            <div class="post-it-rosa">
-              <p> </p>
+          <div class="container" data-giorno="60">
+            <div class="spunto">
+              <h2> Spunto #20</h2>
+              <h2> Breve ma intenso </h2>
+              <h2> "La descrizione di un attimo", Tiromancino, video musicale con Paola Cortellesi e Valerio Mastandrea
+              </h2>
+              <div class="immagine-link">
+          
+                <figure>
+                  <img src="images/descr.png" alt="Descrizione immagine" style="margin-bottom: 20px;">
+                  <br />
+                  <figcaption style="margin-bottom: 20px;">
+                    Quanto può valere un solo istante? Un legame indissolubile raccontato nel tempo di un attimo, “un
+                    tempo
+                    piccolo”. Una dichiarazione d'amore delicata, con una musicalità altrettanto leggera ma allo stesso
+                    tempo incisiva. Nel
+                    video la coppia Cortellesi-Mastandrea, destinata a regalarci altre grandi soddisfazioni, parodizza
+                    simpaticamente i coniugi
+                    Mondaini-Vianello nella sigla dei varietà culturali da loro condotti.<br />
+                    Cosa ne pensi? <br>
+          
+                  </figcaption>
+                </figure>
+                <button class="ascolta-qui" onclick="redirectToLink('https://www.youtube.com/watch?v=88juOMDziVg')"><strong>Guarda
+                    qui</strong></button>
+              </div>
+          
+              <div class="striscia">
+                <div class="post-it-rosa">
+                  <p> </p>
+                </div>
+                <div class="post-it-rosa">
+                  <p> </p>
+                </div>
+          
+                <div class="post-it-rosa">
+                  <p> </p>
+                </div>
+          
+                <div class="post-it-rosa">
+                  <p> </p>
+                </div>
+              </div>
+          
+          
             </div>
-
-            <div class="post-it-rosa">
-              <p></p>
-            </div>
-
-            <div class="post-it-rosa">
-              <p></p>
-            </div>
-            <div class="post-it-rosa">
-              <p>
-              </p>
-            </div>
-            <div class="post-it-rosa">
-              <p></p>
-            </div>
-            <div class="post-it-rosa">
-              <p></p>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="container" data-giorno="51">
-          <div class="spunto">
-            <h2> Spunto #1</h2>
-            <h2> </h2>
-            <h2> </h2>
-            <div class="immagine-link">
-              <figure>
-                <img src="images/scintille.jpeg" alt="Descrizione immagine" style="margin-bottom: 20px;"> <br />
-                <figcaption style="margin-bottom: 20px;"> <br />
-                  <br>
-                </figcaption>
-              </figure>
-
-              <button class="ascolta-qui"
-                onclick="redirectToLink('https://www.youtube.com/watch?v=iePdJ3CZGIs')"><strong>Guarda
-                  qui</strong></button>
-            </div>
-
+          
             <div class="striscia">
-
-              <div class="post-it-rosa">
-                <p> </p>
-              </div>
-
-              <div class="post-it-rosa">
-                <p></p>
-              </div>
-
-              <div class="post-it-rosa">
-                <p></p>
-              </div>
-              <div class="post-it-rosa">
-                <p>
-                </p>
-              </div>
-              <div class="post-it-rosa">
-                <p></p>
-              </div>
-              <div class="post-it-rosa">
-                <p></p>
-              </div>
-
+              <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
             </div>
-
           </div>
 
-          <div class="striscia">
-            <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
-          </div>
-        </div>
+
 
 
 
@@ -346,6 +302,9 @@
             <button class="buttonform" onclick="scrollToElement('form')" style="width:200px">Cosa ne pensi? </button>
           </div>
         </div>
+
+
+
         <div class="container" data-giorno="49">
           <div class="spunto">
             <h2> Spunto #19</h2>
@@ -3991,7 +3950,7 @@
 
   <script>
 
-    var dataInizio = new Date('2025-10-01');
+    var dataInizio = new Date('2025-10-1');
     var oggi;
     function mostraSpuntiCorrenti() {
       // Ottieni la data corrente
@@ -4001,18 +3960,26 @@
       var giorniTrascorsi = Math.floor((oggi - dataInizio) / (1000 * 60 * 60 * 24));
 
       // Recupera tutti gli elementi container
-      var spunti = document.querySelectorAll('.container');
+      var spunti = document.querySelectorAll('[data-giorno]');
 
-      spunti.forEach(function (spunto) {
-        var giornoSpunto = parseInt(spunto.getAttribute('data-giorno'));
-        console.log("Giorno spunto:", giornoSpunto);
-        console.log("Giorni trascorsi:", giorniTrascorsi);
-        if (giornoSpunto <= giorniTrascorsi) {
-          spunto.style.display = 'block';
+      console.log("Spunti trovati:", spunti.length);
+      console.log("Giorni trascorsi:", giorniTrascorsi);
+
+      spunti.forEach(function (spunto, i) {
+        var giornoAttr = spunto.getAttribute('data-giorno');
+        var giornoSpunto = parseInt(giornoAttr);
+
+        console.log(`Spunto ${i}: data-giorno="${giornoAttr}", parsed=`, giornoSpunto);
+
+        if (!isNaN(giornoSpunto) && giornoSpunto <= giorniTrascorsi) {
+          spunto.style.setProperty('display', 'block', 'important');
+          spunto.style.display = 'block !important';
+          console.log(" -> mostrato");
+        } else {
+          console.log(" -> nascosto");
         }
-      });
-      console.log(oggi);
-    }
+      })
+    };
 
 
     mostraSpuntiCorrenti();
