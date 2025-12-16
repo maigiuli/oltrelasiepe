@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="" utf-8" />
+    <title>
+        Oltrelasiepe
+    </title>
+    <link rel="stylesheet" type="text/css" href="Musiparole.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TVTTM3X4QD"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-TVTTM3X4QD');
+</script>
+
+<header>
+    <div class="main_title">
+        <!-- All'interno del tuo HTML -->
+        <img src="images/duck_edited_edited_edited.png" width="150px" id="logo" class="bounceable"
+            onclick="bounceDuck()" />
+
+        <!--  <img src="images/duck_edited_edited_edited.png" width="100px" id="logo" class="bounceable" onclick="bounceDuck()" /> -->
+        <h1> Oltrelasiepe </h1>
+    </div>
+    <nav>
+        <ul>
+            <li> <a href='index.html'> Home </a></li>
+            <li> <a href='about.html'> About </a></li>
+            <li> <a href='cernblog.html'>Storielle</a></li>
+            <li> <a href='random.html'> Random </a></li>
+            <li> <a href='deutsch.html'> Deutsch </a></li>
+            <li> <a href='consigli.html'> Consigli </a></li>
+            <li> <a href='oltreADV.html'> Oltrelavvento </a></li>
+            <li><a href='oltrepersone.html'> Oltrepersone </a></li>
+            <li><a href='piano.html'> Piano </a></li>
+            <li><a href='Musiparole.html'> Musiparole </a></li>
+            <li><a href='santooni.html'> Santooni </a></li>
+            <!--- <li><a href='songs.html'> Songs </a></li> -->
+        </ul>
+    </nav>
+</header>
+
+
+<body>
+<section class="quiz-wrapper">
+    <div class="quiz-card">
+
+        <div id="sceltaModalita" class="quiz-section">
+            <h3>🎲 Scegli la modalità</h3>
+
+            <label class="quiz-radio">
+                <input type="radio" name="modalita" value="santo_da_immagine" checked>
+                Santo dall'immagine
+            </label>
+
+            <label class="quiz-radio">
+                <input type="radio" name="modalita" value="luogo_da_santo">
+                Luogo del santo
+            </label>
+
+            <label class="quiz-radio">
+                <input type="radio" name="modalita" value="attributi_da_santo">
+                Attributi del santo
+            </label>
+
+            <button class="quiz-btn primary" onclick="iniziaQuiz()">Inizia quiz</button>
+        </div>
+
+        <div id="quiz" class="quiz-section" style="display:none">
+            <p id="domanda" class="quiz-domanda"></p>
+
+            <img id="immagine" class="quiz-img">
+
+            <div id="opzioni" class="quiz-opzioni"></div>
+
+            <p id="feedback" class="quiz-feedback"></p>
+            <p id="descrizione" class="quiz-descrizione"></p>
+            <p id="patrono" class="quiz-extra"></p>
+            <p id="attributi"> </p>
+
+            <button id="nextBtn" class="quiz-btn" onclick="prossimaDomanda()" disabled>
+                Prossima domanda →
+            </button>
+        </div>
+
+  
+    </div>
+
+<script src="quiz.js" defer></script>
+
+</section>
+
+
+
+</body>
+
+</html>

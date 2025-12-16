@@ -36,6 +36,8 @@
                     <li><a href='piano.html'> Piano </a></li>
                     <li><a href='pdf.html'> Slides </a></li>
                     <li><a href='Musiparole.html'> Musiparole </a></li>
+
+                    <li><a href='santooni.html'> Santooni </a></li>
                 </ul>
             </nav>
         </header>
@@ -97,29 +99,29 @@
     <script src="falling-letters.js"></script>
     <script src="script.js"></script>
     <script type="text/javascript">  emailjs.init('BrW56TJJK7OXRefKK')
-        document.getElementById('form').addEventListener('submit', function(event) {
-        event.preventDefault(); // Previene il refresh della pagina
+        document.getElementById('form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Previene il refresh della pagina
 
-        // Ottieni i valori dei campi del modulo
-        const bookTitle = document.getElementById('libro').value;
-        const userEmail = document.getElementById('from_email').value;
+            // Ottieni i valori dei campi del modulo
+            const bookTitle = document.getElementById('libro').value;
+            const userEmail = document.getElementById('from_email').value;
 
-        // Imposta i parametri per EmailJS in base ai campi del modello
-        const templateParams = {
-        book_title: bookTitle,
-        user_email: userEmail
-        };
+            // Imposta i parametri per EmailJS in base ai campi del modello
+            const templateParams = {
+                book_title: bookTitle,
+                user_email: userEmail
+            };
 
-        // Invia l'email tramite EmailJS
-        emailjs.send('service_3lvdioo', 'template_cj8c12r', templateParams)
-        .then(function(response) {
-        alert('Consigli inviati con successo!'); // Messaggio di successo
-        document.getElementById('form').reset(); // Pulisce il modulo
-        }, function(error) {
-        alert('Errore nell\'invio del consiglio:', error); // Messaggio di errore
+            // Invia l'email tramite EmailJS
+            emailjs.send('service_3lvdioo', 'template_cj8c12r', templateParams)
+                .then(function (response) {
+                    alert('Consigli inviati con successo!'); // Messaggio di successo
+                    document.getElementById('form').reset(); // Pulisce il modulo
+                }, function (error) {
+                    alert('Errore nell\'invio del consiglio:', error); // Messaggio di errore
+                });
         });
-        });
-</script>
+    </script>
 </body>
 
 </html>

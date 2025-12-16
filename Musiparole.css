@@ -291,3 +291,121 @@ input[type="email"] {
         /* Ridotto il padding per una migliore presentazione su dispositivi mobili */
     }
 }
+
+
+/* ===== QUIZ ===== */
+
+.quiz-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.quiz-card {
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    padding: 30px 35px;
+    max-width: 650px;
+    width: 100%;
+    text-align: center;
+}
+
+.quiz-section h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.quiz-radio {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quiz-radio input {
+    margin-right: 8px;
+}
+
+.quiz-domanda {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.quiz-img {
+    max-width: 100%;
+    border-radius: 14px;
+    margin: 15px auto;
+    display: block;
+}
+
+.quiz-opzioni {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.quiz-opzioni button {
+    padding: 14px;
+    border-radius: 14px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    background: #f5f5f5;
+    transition: all 0.2s ease;
+}
+
+.quiz-opzioni button:hover:not(:disabled) {
+    background: #e3e3e3;
+    transform: translateY(-2px);
+}
+
+.quiz-opzioni button.corretto {
+    background: #c8e6c9;
+}
+
+.quiz-opzioni button.sbagliato {
+    background: #ffcdd2;
+}
+
+.quiz-feedback {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.quiz-descrizione {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.quiz-extra {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.quiz-btn {
+    margin-top: 22px;
+    padding: 12px 26px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background: #444;
+    color: white;
+    transition: background 0.2s ease;
+}
+
+.quiz-btn.primary {
+    background: #1976d2;
+}
+
+.quiz-btn:hover:not(:disabled) {
+    background: #222;
+}
+
+.quiz-btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
