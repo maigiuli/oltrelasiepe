@@ -1272,7 +1272,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Religiosa e veggente",
         "patrono": "",
-        "ricorrenza": "31 dicembre ;   28 novembre  (  messa tridentina )",
+        "ricorrenza": "31 dicembre ;   28 novembre  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Katarina Labouré.jpg"
     },
@@ -1961,7 +1961,7 @@
         "attributi": "palma, garofani rossi, canne",
         "martire/vescovo/altro": "Martire domenicano",
         "patrono": "Santo Stefano Quisquina , assieme a   Santa Rosalia",
-        "ricorrenza": "19 novembre (festa liturgica)<br>Prima domenica di agosto (festa esterna)",
+        "ricorrenza": "19 novembre (festa liturgica)Prima domenica di agosto (festa esterna)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Giacinto Giordano Ansalone.jpg"
     },
@@ -2123,10 +2123,10 @@
     },
     {
         "nome_santo": "San Magnerico",
-        "luogo_nascita": "a",
-        "datazione nascita": "Treviri",
-        "luogo morte": "596",
-        "datazione morte": "a Treviri",
+        "luogo_nascita": "Treviri",
+        "datazione nascita": "",
+        "luogo morte": "Treviri",
+        "datazione morte": "596",
         "attributi": "",
         "martire/vescovo/altro": "Vescovo",
         "patrono": "",
@@ -2585,7 +2585,7 @@
         "attributi": "Giglio, crocifisso, immagine Vergine Maria Addolorata.",
         "martire/vescovo/altro": "Religioso passionista",
         "patrono": "Abruzzo ;   Azione Cattolica|Azione Cattolica Italiana ; comuni di   Bovolenta ,   Civitanova Marche ,   Martinsicuro",
-        "ricorrenza": "27 febbraio ;   28 febbraio  (  Messa tridentina )",
+        "ricorrenza": "27 febbraio ;   28 febbraio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Hl. Gabriel von der Schmerzhaften Muttergottes (Gemälde im Pfarrsaal von Völs am Schlern).jpg"
     },
@@ -3027,7 +3027,7 @@
         "attributi": "Danimarca",
         "martire/vescovo/altro": "Re di Danimarca",
         "patrono": "Danimarca",
-        "ricorrenza": "10 luglio ,   19 gennaio  (  Messa tridentina )",
+        "ricorrenza": "10 luglio ,   19 gennaio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/St knut seal åland.png"
     },
@@ -3559,7 +3559,7 @@
         "attributi": "Abito vescovile bianco in ricordo dell'abito fatto indossare da   Erode Antipa|Erode  a Gesù. È rappresentato senza   mitria  come da iconografia delle chiese orientali. Spesso accompagnato a   San Basilio|Basilio .",
         "martire/vescovo/altro": "Vescovo e Dottore della Chiesa",
         "patrono": "poeti cristiani",
-        "ricorrenza": "Chiesa ortodossa:   25 gennaio  e   30 gennaio Chiesa cattolica:   2 gennaio|2 ,   25 gennaio  e   9 maggio  (  messa tridentina )",
+        "ricorrenza": "Chiesa ortodossa:   25 gennaio  e   30 gennaio Chiesa cattolica:   2 gennaio|2 ,   25 gennaio  e   9 maggio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Sv Gr Bogoslov Simonopetra kr18v.jpg"
     },
@@ -3715,7 +3715,7 @@
         "attributi": "Talare  nera,   Cotta (paramento liturgico),   Stola (paramento liturgico)",
         "martire/vescovo/altro": "Presbitero",
         "patrono": "presbiteri e parroci",
-        "ricorrenza": "4 agosto ,   8 agosto  (  messa tridentina )",
+        "ricorrenza": "4 agosto ,   8 agosto  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Johnvianney.jpg"
     },
@@ -4729,7 +4729,7 @@
         "attributi": "",
         "martire/vescovo/altro": "",
         "patrono": "compatrono di Napoli; dal   1756  protettore contro i terremoti in   Portogallo",
-        "ricorrenza": "30 settembre, 10 ottobre (  messa tridentina )",
+        "ricorrenza": "30 settembre, 10 ottobre (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Francisco de Borja.jpg"
     },
@@ -6120,7 +6120,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Religioso",
         "patrono": "",
-        "ricorrenza": "13 agosto e 26 novembre (  messa tridentina )",
+        "ricorrenza": "13 agosto e 26 novembre (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Portret van jezuïet Johannes (Jan) Berchmans Ioannes Bercmans (titel op object), RP-P-BI-2363.jpg"
     },
@@ -7251,7 +7251,7 @@
         "attributi": "bastone pastorale",
         "martire/vescovo/altro": "",
         "patrono": "Genzano di Roma",
-        "ricorrenza": "8 settembre|8  e   22 settembre  (  messa tridentina )",
+        "ricorrenza": "8 settembre|8  e   22 settembre  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Bartolomé Esteban Murillo - Santo Tomás de Villanueva dando limosnas (Seville).jpg"
     },
@@ -7472,7 +7472,7 @@
         "attributi": "Abito domenicano, libro, penna, calamaio, modellino di chiesa, sole raggiato sul petto e colomba",
         "martire/vescovo/altro": "Sacerdote e Dottore della Chiesa",
         "patrono": "Compatrono di Napoli,   teologi ,   accademici ,   Editore|librai ,   scuola|scolari ,   studenti , fabbricanti di matite, comuni di   Aquino ,   Belcastro ,   Falerna ,   Grottaminarda ,   Monte San Giovanni Campano ,   Priverno ,   San Mango d'Aquino  e   diocesi di Sora-Cassino-Aquino-Pontecorvo",
-        "ricorrenza": "28 gennaio  e   7 marzo  (  messa tridentina )",
+        "ricorrenza": "28 gennaio  e   7 marzo  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Thomas Aquinas by Sandro Botticelli.jpg"
     },
@@ -7940,7 +7940,7 @@
         "attributi": "abito domenicano, mannaia in testa, coltello nel petto, libro con la scritta \"Credo\", ramo di palma, libro",
         "martire/vescovo/altro": "Sacerdote, martire e frate domenicano",
         "patrono": "domenicani, inquisitori, commercianti di tessuti, calzolai    Seveso , (  Provincia di Monza e della Brianza|MB ),   Alfedena  (  Provincia dell'Aquila|AQ ),   Fornelli  (  Provincia di Isernia|IS ),   Casteggio  (  Provincia di Pavia|PV ),   Roccasecca  (  Provincia di Frosinone|FR ),   Castelleone di Suasa  (  Provincia di Ancona|AN ), compatrono di   Napoli ,   San Sossio Baronia  (  Provincia di Avellino|AV ),   Andrano  (  Provincia di Lecce|LE ).",
-        "ricorrenza": "6 aprile ;   29 aprile  (  messa tridentina )",
+        "ricorrenza": "6 aprile ;   29 aprile  (messa tridentina)",
         "descrizione": "Nel 1252 frate Pietro, mentre si recava a piedi da Como a Milano dopo essere passato per Cantù, venne assassinato da alcuni sicari con un falcastro (una sorta di machete) nella foresta di Seveso. Pietro intinse un dito nel sangue e con esso scrisse a terra la parola \"Credo\" e poi cadde morto.",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/SaintPeterTheMartyr.JPG"
     },
@@ -10306,7 +10306,7 @@
         "attributi": "libro  e crocifisso in mano, vestita con un abito nero",
         "martire/vescovo/altro": "Madre di Sant'Agostino",
         "patrono": "donne sposate, madri, vedove",
-        "ricorrenza": "27 agosto, 4 maggio (  messa tridentina )",
+        "ricorrenza": "27 agosto, 4 maggio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Monica of Hippo by Gozzoli.jpg"
     },
@@ -10618,7 +10618,7 @@
         "attributi": "Giurista|giuristi ,   Giureconsulto|giureconsulti ,   Avvocato|avvocati  della   Spagna",
         "martire/vescovo/altro": "Religioso",
         "patrono": "Giurista|giuristi ,   Giureconsulto|giureconsulti ,   Avvocato|avvocati  della   Spagna",
-        "ricorrenza": "7 gennaio ,   23 gennaio  (  messa tridentina )",
+        "ricorrenza": "7 gennaio ,   23 gennaio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/05 Raimondo de Penafort.jpg"
     },
@@ -11696,7 +11696,7 @@
         "attributi": "Rosa (botanica)",
         "martire/vescovo/altro": "Religiosa, Vergine e Dottore della Chiesa",
         "patrono": "Francia ,   missioni",
-        "ricorrenza": "1º ottobre, 3 ottobre (  messa tridentina )",
+        "ricorrenza": "1º ottobre, 3 ottobre (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Teresa-de-Lisieux.jpg"
     },
@@ -12255,7 +12255,7 @@
         "attributi": "abito episcopale, libro e modello di Reggio Emilia",
         "martire/vescovo/altro": "vescovo",
         "patrono": "Reggio Emilia",
-        "ricorrenza": "25 giugno ,<br>  24 novembre  a Reggio Emilia",
+        "ricorrenza": "25 giugno ,  24 novembre  a Reggio Emilia",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Virginmarysaintbernardsaintprosper.JPG"
     },
@@ -12879,7 +12879,7 @@
         "attributi": "giglio , croce,   Ostia (liturgia), ostensorio,   lanterna , pastorale, ramo di palma e   libro",
         "martire/vescovo/altro": "Fondatrice delle Clarisse",
         "patrono": "televisione , telecomunicazioni,   Coccinelle (scout), ricamatrici, lavandai, doratori, stiratrici",
-        "ricorrenza": "11 agosto ,   12 agosto  (  messa tridentina )",
+        "ricorrenza": "11 agosto ,   12 agosto  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Carlo crivelli, montefiore, chiara.jpg"
     },
@@ -13086,7 +13086,7 @@
         "datazione morte": "24 ottobre 1915 (72 anni)",
         "attributi": "",
         "martire/vescovo/altro": "Presbitero e fondatore delle congregazioni religiose deiServi della Caritàe dellaFiglie di Santa Maria della Divina Provvidenza",
-        "patrono": "Guanelliani ,   UNITALSI ,<br>compatrono di   Traona  (SO)",
+        "patrono": "Guanelliani ,   UNITALSI ,compatrono di   Traona  (SO)",
         "ricorrenza": "24 ottobre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Guanella3.jpg"
@@ -14231,7 +14231,7 @@
         "attributi": "tonaca, calvizie, crocifisso",
         "martire/vescovo/altro": "Presbitero, dottore della Chiesa cofondatore dei Carmelitani Scalzi e mistico",
         "patrono": "mistici, poeti e   Ordine dei Carmelitani scalzi",
-        "ricorrenza": "14 dicembre; 24 novembre (  Messa tridentina )",
+        "ricorrenza": "14 dicembre; 24 novembre (messa tridentina)",
         "descrizione": "Fu poeta e teologo, autore di svariati trattati teologici riguardanti soprattutto la preghiera e il «cammino spirituale dell'anima verso Dio e in Dio».",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Johncross5.jpg|thumb|300px"
     },
@@ -14270,7 +14270,7 @@
         "attributi": "Bastone pastorale",
         "martire/vescovo/altro": "Vescovo e cardinale",
         "patrono": "",
-        "ricorrenza": "18 giugno ;   17 giugno  (  messa tridentina )",
+        "ricorrenza": "18 giugno ;   17 giugno  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Giovanni raggi, ritratto del cardinale gregorio barbarigo, xviii secolo, da nembro.JPG"
     },
@@ -15362,7 +15362,7 @@
         "attributi": "abito talare ,   Cotta (paramento liturgico),   almuzia , berretta, palma del martirio e cinque stelle",
         "martire/vescovo/altro": "Presbitero e martire",
         "patrono": "Boemia ,   Slovacchia , confessori, invocato contro le alluvioni e gli annegamenti",
-        "ricorrenza": "20 marzo<br>16 maggio in   Slovacchia  e   Repubblica Ceca",
+        "ricorrenza": "20 marzo16 maggio in   Slovacchia  e   Repubblica Ceca",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Pintor florentino - São João Nepomuceno.jpg"
     },
@@ -15440,7 +15440,7 @@
         "attributi": "Cocolla Libro della   Regola benedettina|Regola   Pastorale (liturgia)",
         "martire/vescovo/altro": "Fondatore dell'Ordine benedettino, padre del monachesimo occidentale e patrono principale d'Europa",
         "patrono": "Agricoltore|Agricoltori   Agronomo|Agronomi   Architetto|Architetti   Chimico|Chimici   Ingegnere|Ingegneri   Speleologia|Speleologi <hr />  Europa   Cassino   Cetraro   Controguerra   Norcia   Pertosa   Pomezia   Subiaco   Zenson di Piave   Pontecagnano Faiano",
-        "ricorrenza": "11 luglio, 21 marzo (  messa tridentina )",
+        "ricorrenza": "11 luglio, 21 marzo (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Andrea Mantegna Saint Benedict.jpg"
     },
@@ -17123,10 +17123,10 @@
     },
     {
         "nome_santo": "San Lubenzio",
-        "luogo_nascita": "verso",
-        "datazione nascita": "il 300",
-        "luogo morte": "verso",
-        "datazione morte": "il 370",
+        "luogo_nascita": "",
+        "datazione nascita": "circa 300",
+        "luogo morte": "",
+        "datazione morte": "circa 370",
         "attributi": "Capitani delle imbarcazioni che navigano sulla Lahn",
         "martire/vescovo/altro": "Missionario",
         "patrono": "Capitani delle imbarcazioni che navigano sulla Lahn",
@@ -18495,7 +18495,7 @@
         "attributi": "Palma",
         "martire/vescovo/altro": "Militare",
         "patrono": "Castelnuovo Magra ,   Mello (Italia),   Palazzolo sull'Oglio ,   Plesio",
-        "ricorrenza": "28 ottobre <br>  29 ottobre  nella   Diocesi di Como",
+        "ricorrenza": "28 ottobre   29 ottobre  nella   Diocesi di Como",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Sanfedeleacavallo.JPG"
     },
@@ -18625,7 +18625,7 @@
         "attributi": "raffigurato a cavallo con in mano uno stendardo rosso crociato di bianco, vesti da soldato romano",
         "martire/vescovo/altro": "San Secondo in un'incisione delXIX secolo",
         "patrono": "Asti",
-        "ricorrenza": "30 marzo ;   29 marzo  (  messa tridentina )",
+        "ricorrenza": "30 marzo ;   29 marzo  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/SanSecondo800.jpg"
     },
@@ -19015,7 +19015,7 @@
         "attributi": "Diocesi di Frascati ,   Uruguay ,   Giussano , agonizzanti, cappellai, cardatori, droghieri e farmacisti",
         "martire/vescovo/altro": "Apostolo",
         "patrono": "Diocesi di Frascati ,   Uruguay ,   Giussano , agonizzanti, cappellai, cardatori, droghieri e farmacisti",
-        "ricorrenza": "3 maggio|3  e   11 maggio  (  messa tridentina )",
+        "ricorrenza": "3 maggio|3  e   11 maggio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Pompeo Batoni (1708-1787) - Saint James the Less - 266909 - National Trust.jpg"
     },
@@ -19067,7 +19067,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Abate",
         "patrono": "",
-        "ricorrenza": "Data del riposo:   5 aprile  corrispondente alla data copta   Paremhat|27 paremhat  per la Chiesa copta ortodossa.<br>  19 gennaio  per la Chiesa cattolica.",
+        "ricorrenza": "Data del riposo:   5 aprile  corrispondente alla data copta   Paremhat|27 paremhat  per la Chiesa copta ortodossa.  19 gennaio  per la Chiesa cattolica.",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Icon of Saint Macarius the Great.jpg"
     },
@@ -19184,7 +19184,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Religioso",
         "patrono": "Capestrano , cappellani militari, giuristi",
-        "ricorrenza": "23 ottobre e 28 marzo (  messa tridentina )",
+        "ricorrenza": "23 ottobre e 28 marzo (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Lotz John of Capistrano.jpg"
     },
@@ -19444,7 +19444,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Fondatore della Congregazione Passionista",
         "patrono": "Ovada ,   Castellazzo Bormida",
-        "ricorrenza": "19 ottobre ;   28 aprile  (  messa tridentina )",
+        "ricorrenza": "19 ottobre ;   28 aprile  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Paul de la croix.jpg"
     },
@@ -19756,7 +19756,7 @@
         "attributi": "Sacro Cuore di Gesù , corona di spine",
         "martire/vescovo/altro": "Non excidet",
         "patrono": "stampa  cattolica,   giornalisti ,   Scrittore|scrittori ,   Autore|autori ,   Piemonte ,   comunità sorda ,   Società salesiana di San Giovanni Bosco|salesiani ,   Istituto di Cristo Re Sommo Sacerdote",
-        "ricorrenza": "24 gennaio ,   29 gennaio  (  messa tridentina )",
+        "ricorrenza": "24 gennaio ,   29 gennaio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Francisco de Sales (Ruiz de la Iglesia).jpg"
     },
@@ -20250,7 +20250,7 @@
         "attributi": "",
         "martire/vescovo/altro": "",
         "patrono": "",
-        "ricorrenza": "8 gennaio ,   5 settembre  (  messa tridentina )",
+        "ricorrenza": "8 gennaio ,   5 settembre  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Rocco (Venice) - Statue of Saint Lawrence Giustiniani.jpg"
     },
@@ -21186,7 +21186,7 @@
         "attributi": "Pastorale (liturgia)",
         "martire/vescovo/altro": "Vescovo, martire e Padre della Chiesa",
         "patrono": "",
-        "ricorrenza": "23 febbraio e 26 gennaio (  messa tridentina )<br>8 marzo per la   Chiesa copta",
+        "ricorrenza": "23 febbraio e 26 gennaio (messa tridentina), 8 marzo per la Chiesa copta",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Burghers michael saintpolycarp.jpg"
     },
@@ -22232,10 +22232,10 @@
     },
     {
         "nome_santo": "San Giusto di Lione",
-        "luogo_nascita": "a",
-        "datazione nascita": "Tournon-sur-Rhône",
-        "luogo morte": "390",
-        "datazione morte": "nel Deserto di Nitria",
+        "luogo_nascita": "Tournon-sur-Rhône",
+        "datazione nascita": "",
+        "luogo morte": "Deserto di Nitria",
+        "datazione morte": "360",
         "attributi": "",
         "martire/vescovo/altro": "Vescovo",
         "patrono": "",
@@ -22421,7 +22421,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Sacerdote e fondatore",
         "patrono": "",
-        "ricorrenza": "17 dicembre e 8 febbraio (  messa tridentina )",
+        "ricorrenza": "17 dicembre e 8 febbraio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Jean de Matha Ordre de la Sainte Trinité.jpg"
     },
@@ -22442,8 +22442,8 @@
         "nome_santo": "San Giovanni de Brébeuf",
         "luogo_nascita": "Condé-sur-Vire",
         "datazione nascita": "25 marzo 1593",
-        "luogo morte": "Lago",
-        "datazione morte": "Huron, 16 marzo 1649 (55 anni)",
+        "luogo morte": "Lago Huron",
+        "datazione morte": "16 marzo 1649 (55 anni)",
         "attributi": "palma del martirio",
         "martire/vescovo/altro": "Gesuita e martire",
         "patrono": "",
@@ -22483,9 +22483,9 @@
         "datazione nascita": "",
         "luogo morte": "24",
         "datazione morte": "luglio 1292",
-        "attributi": "Lituania  e   Polonia",
+        "attributi": "Lituania e Polonia",
         "martire/vescovo/altro": "Religiosa",
-        "patrono": "Lituania  e   Polonia",
+        "patrono": "Lituania e Polonia",
         "ricorrenza": "24 luglio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Kinga_of_Poland.PNG"
@@ -22676,11 +22676,11 @@
         "nome_santo": "San Mauro di Cesena",
         "luogo_nascita": "?",
         "datazione nascita": "",
-        "luogo morte": "21",
-        "datazione morte": "novembre 946",
+        "luogo morte": "1",
+        "datazione morte": "21 novembre 946",
         "attributi": "",
         "martire/vescovo/altro": "Vescovo",
-        "patrono": "|note = Vescovo",
+        "patrono": "Vescovo",
         "ricorrenza": "21 novembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Mauro di Cesena.jpg"
@@ -23554,7 +23554,7 @@
         "patrono": "",
         "ricorrenza": "16 maggio",
         "descrizione": "",
-        "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/|note= Vescovo"
+        "immagine": ""
     },
     {
         "nome_santo": "Sant’Anastasio il Persiano",
@@ -23864,7 +23864,7 @@
         "attributi": "Bastone pastorale",
         "martire/vescovo/altro": "Vescovo e dottore della Chiesa",
         "patrono": "Arcidiocesi di Capua ,   Pontificia Università Gregoriana , catechisti, avvocati canonisti,   Arcidiocesi di Cincinnati  negli   Stati Uniti d'America",
-        "ricorrenza": "17 settembre ,   13 maggio  (  messa tridentina )",
+        "ricorrenza": "17 settembre ,   13 maggio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Portret van kardinaal Robertus Bellarminus, onbekend, schilderij, Museum Plantin-Moretus (Antwerpen) - MPM V IV 110 (cropped).jpg"
     },
@@ -24722,7 +24722,7 @@
         "attributi": "Etiopia  e   Axum",
         "martire/vescovo/altro": "Abuna e vescovo",
         "patrono": "Etiopia  e   Axum",
-        "ricorrenza": "1º agosto  (  Chiesa ortodossa etiope|Chiesa Ortodossa Etiope Tewahedo )<br>  30 novembre  (  Chiesa ortodossa|Chiesa ortodossa orientale )<br>  18 dicembre  (  Chiesa copta ortodossa )<br>  27 ottobre  (  Chiesa cattolica romana )",
+        "ricorrenza": "1º agosto  (  Chiesa ortodossa etiope|Chiesa Ortodossa Etiope Tewahedo )  30 novembre  (  Chiesa ortodossa|Chiesa ortodossa orientale )  18 dicembre  (  Chiesa copta ortodossa )  27 ottobre  (  Chiesa cattolica romana )",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/St Frumentius.jpg"
     },
@@ -25892,7 +25892,7 @@
         "attributi": "Pastorale (liturgia)",
         "martire/vescovo/altro": "Vescovo della Chiesa copta",
         "patrono": "",
-        "ricorrenza": "27 giugno  e   9 febbraio  (  messa tridentina )",
+        "ricorrenza": "27 giugno  e   9 febbraio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Cyril of Alexandria at Catedral Ortodoxa San Jorge.jpg"
     },
@@ -26802,7 +26802,7 @@
         "attributi": "giglio, rosa, bambino Gesù, corona di spine",
         "martire/vescovo/altro": "Religiosa e vergine",
         "patrono": "delle   Americhe ;   Filippine ,   India ,   Perù ;   Giardinaggio|giardinieri  e   Fioraio|fioristi",
-        "ricorrenza": "23 agosto ;   30 agosto  (  messa tridentina )",
+        "ricorrenza": "23 agosto ;   30 agosto  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Sta Rosa de Lima por Claudio Coello.jpg"
     },
@@ -26867,7 +26867,7 @@
         "attributi": "bastone pastorale",
         "martire/vescovo/altro": "",
         "patrono": "",
-        "ricorrenza": "21 febbraio ;   23 febbraio  (  messa tridentina )",
+        "ricorrenza": "21 febbraio ;   23 febbraio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Pierodamiani2.JPG"
     },
@@ -29348,7 +29348,7 @@
         "attributi": "Abito vescovile, bocciolo di   carduus|cardo  tra le mani",
         "martire/vescovo/altro": "Vescovo",
         "patrono": "",
-        "ricorrenza": "29 ottobre  per i cattolici,<br>  7 agosto  per gli ortodossi",
+        "ricorrenza": "29 ottobre  per i cattolici,  7 agosto  per gli ortodossi",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Bénévent-l’Abbaye Saint-Barthélémy Vitrail Narcissus of Jerusalem (cropped).jpg"
     },
@@ -29582,7 +29582,7 @@
         "attributi": "api, bastone pastorale",
         "martire/vescovo/altro": "Vescovo e Dottore della Chiesa",
         "patrono": "Russia , Asola; studenti",
-        "ricorrenza": "13 settembre; 27 gennaio (  messa tridentina )",
+        "ricorrenza": "13 settembre; 27 gennaio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Johnchrysostom.jpg"
     },
@@ -29959,7 +29959,7 @@
         "attributi": "tonaca nera con colletto bianco, copricapo nero, motto \"Deus Caritas est\", bambino in braccio o accanto",
         "martire/vescovo/altro": "Presbitero, fondatore e ispiratore",
         "patrono": "Madagascar ,   Prigione|Carceri  e del   Servizio sociale penitenziario|servizio penitenziario",
-        "ricorrenza": "27 settembre ;   19 luglio  (  messa tridentina )",
+        "ricorrenza": "27 settembre ;   19 luglio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Vincent de Paul.PNG"
     },
@@ -30894,7 +30894,7 @@
         "attributi": "corona, candela accesa, libro, penna, calamaio, monogramma di Gesù IHS, cuore con croce",
         "martire/vescovo/altro": "Religiosa",
         "patrono": "pellegrini, viaggiatori,   Svezia , compatrona d'  Europa",
-        "ricorrenza": "23 luglio , 8 ottobre (  messa tridentina )",
+        "ricorrenza": "23 luglio , 8 ottobre (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Heliga Birgitta på ett altarskåp i Salems kyrka retouched.png"
     },
@@ -31271,7 +31271,7 @@
         "attributi": "crocefisso, bambino, ceppi e catene della prigionia",
         "martire/vescovo/altro": "Fondatore dei Chierici Regolari di Somasca",
         "patrono": "orfani, gioventù abbandonata",
-        "ricorrenza": "8 febbraio ;   20 luglio  (  messa tridentina )",
+        "ricorrenza": "8 febbraio ;   20 luglio  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Ca' Rezzonico - Cappella di Zianigo - San Girolamo Miani - Giandomenico Tiepolo.jpg"
     },
@@ -31979,10 +31979,10 @@
     },
     {
         "nome_santo": "San Bessarione d'Egitto",
-        "luogo_nascita": "ad",
-        "datazione nascita": "Alessandria d'Egitto",
-        "luogo morte": "98",
-        "datazione morte": "ad Alessandria d'Egitto",
+        "luogo_nascita": "Alessandria d'Egitto",
+        "datazione nascita": "",
+        "luogo morte": "Alessandria d'Egitto",
+        "datazione morte": "98",
         "attributi": "",
         "martire/vescovo/altro": "Vescovo",
         "patrono": "",
@@ -32506,7 +32506,7 @@
         "attributi": "abito dell'  Ordine della Visitazione , libro con su scritto 'La Grande Promessa',   giglio , orante in ginocchio,   Cuore di Gesù .",
         "martire/vescovo/altro": "Monaca e mistica",
         "patrono": "devoti del   Sacro Cuore di Gesù , Vignale-Santa Margherita in   Rivello",
-        "ricorrenza": "16 ottobre ;   17 ottobre  (  messa tridentina )",
+        "ricorrenza": "16 ottobre ;   17 ottobre  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Marguerite-Marie Alacoque.jpg"
     },
@@ -32642,10 +32642,10 @@
     },
     {
         "nome_santo": "San Mamiliano di Palermo",
-        "luogo_nascita": "a",
-        "datazione nascita": "Palermo",
-        "luogo morte": "15",
-        "datazione morte": "settembre 460 a Montecristo",
+        "luogo_nascita": "Palermo",
+        "datazione nascita": "",
+        "luogo morte": "Montecristo",
+        "datazione morte": "15 settembre 460 ",
         "attributi": "Diocesi di Pitigliano-Sovana-Orbetello|Diocesi di Pitigliano ,   Isola del Giglio ,   Seminario arcivescovile di Palermo",
         "martire/vescovo/altro": "Vescovo",
         "patrono": "Diocesi di Pitigliano-Sovana-Orbetello|Diocesi di Pitigliano ,   Isola del Giglio ,   Seminario arcivescovile di Palermo",
@@ -32753,7 +32753,7 @@
         "attributi": "Ali, giglio, cartiglio con l'iscrizione « Ave Maria » o « Ave gratia plena Dominus tecum » (primo Rinascimento)",
         "martire/vescovo/altro": "Arcangelo",
         "patrono": "Portogallo , Diplomazia e comunicazione, Telecomunicazioni",
-        "ricorrenza": "24 marzo  (  messa tridentina );   29 settembre ;   5 dicembre  (  Rito ambrosiano )",
+        "ricorrenza": "24 marzo  (messa tridentina);   29 settembre ;   5 dicembre  (  Rito ambrosiano )",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Luca Signorelli - The Archangel Gabriel - Walters 37520.jpg"
     },
@@ -34139,9 +34139,9 @@
         "datazione nascita": "",
         "luogo morte": "Nicomedia",
         "datazione morte": "26 settembre 302",
-        "attributi": "'''Santa Giustina''' =   Diocesi di Piacenza ,   Piacenza ,   Mondolfo  (  Provincia di Pesaro e Urbino|PU ),   Ramiseto  (  provincia di Reggio nell'Emilia|RE ),   Rocchetta di Vara  (  Provincia della Spezia|SP ) <br> '''San Cipriano''' =   San Cipriano d'Aversa  (  Provincia di Caserta|CE )",
+        "attributi": "'''Santa Giustina''' =   Diocesi di Piacenza ,   Piacenza ,   Mondolfo  (  Provincia di Pesaro e Urbino|PU ),   Ramiseto  (  provincia di Reggio nell'Emilia|RE ),   Rocchetta di Vara  (  Provincia della Spezia|SP )  '''San Cipriano''' =   San Cipriano d'Aversa  (  Provincia di Caserta|CE )",
         "martire/vescovo/altro": "Martiri",
-        "patrono": "'''Santa Giustina''' =   Diocesi di Piacenza ,   Piacenza ,   Mondolfo  (  Provincia di Pesaro e Urbino|PU ),   Ramiseto  (  provincia di Reggio nell'Emilia|RE ),   Rocchetta di Vara  (  Provincia della Spezia|SP ) <br> '''San Cipriano''' =   San Cipriano d'Aversa  (  Provincia di Caserta|CE )",
+        "patrono": "'''Santa Giustina''' =   Diocesi di Piacenza ,   Piacenza ,   Mondolfo  (  Provincia di Pesaro e Urbino|PU ),   Ramiseto  (  provincia di Reggio nell'Emilia|RE ),   Rocchetta di Vara  (  Provincia della Spezia|SP )  '''San Cipriano''' =   San Cipriano d'Aversa  (  Provincia di Caserta|CE )",
         "ricorrenza": "26 settembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Cyprianandjustinagoldenlegend.jpg"
@@ -34690,7 +34690,7 @@
         "patrono": "San Prisco (Italia)",
         "ricorrenza": "1º settembre",
         "descrizione": "",
-        "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/|note= Vescovo e martire"
+        "immagine": ""
     },
     {
         "nome_santo": "San Giovanni Damasceno",
@@ -34701,7 +34701,7 @@
         "attributi": "",
         "martire/vescovo/altro": "",
         "patrono": "pittori,   Menomazione|menomati  e farmacisti",
-        "ricorrenza": "4 dicembre, 27 marzo (  messa tridentina )",
+        "ricorrenza": "4 dicembre, 27 marzo (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/SanGiovanniDamasceno.jpg|thumb"
     },
@@ -35494,7 +35494,7 @@
         "attributi": "palma del martirio  e   ferula",
         "martire/vescovo/altro": "Arcivescovo di Costantinopoli",
         "patrono": "Barisciano ,   Basciano ,   Capitignano ,   Conversano  (compatrono),   Giulianova ,   Recanati  (compatrono),   Torano Nuovo",
-        "ricorrenza": "17 febbraio <br>  24 novembre  a Giulianova",
+        "ricorrenza": "17 febbraio   24 novembre  a Giulianova",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Flaviano incisione.jpg"
     },
@@ -35630,10 +35630,10 @@
     },
     {
         "nome_santo": "San Ciarán di Saighir",
-        "luogo_nascita": "a",
-        "datazione nascita": "St. Kieran's Strand, vicino Clear Island, in Irlanda",
-        "luogo morte": "a",
-        "datazione morte": "Seir-Kieran (Saighir), nella contea di Offaly, in Irlanda",
+        "luogo_nascita": "St. Kieran's Strand, vicino Clear Island, in Irlanda",
+        "datazione nascita": "",
+        "luogo morte": "St. Kieran's Strand, vicino Clear Island, in Irlanda",
+        "datazione morte": "",
         "attributi": "raffigurato in compagnia di una cinghiale",
         "martire/vescovo/altro": "Abate e vescovo diSeir-Kieran(Saighir)",
         "patrono": "Diocesi di Ossory",
@@ -36202,10 +36202,10 @@
     },
     {
         "nome_santo": "San Vittorino di Amiterno",
-        "luogo_nascita": "ad",
-        "datazione nascita": "Amiternum",
-        "luogo morte": "96",
-        "datazione morte": "ad Aquae Cutiliae",
+        "luogo_nascita": "Amiternum",
+        "datazione nascita": "",
+        "luogo morte": "Aquae Cutiliae",
+        "datazione morte": "96",
         "attributi": "",
         "martire/vescovo/altro": "Vescovo e martire",
         "patrono": "",
@@ -39264,7 +39264,7 @@
         "attributi": "",
         "martire/vescovo/altro": "La vera scienza sta nell'educazione del cuore, cioè nel pratico timore di Dio",
         "patrono": "",
-        "ricorrenza": "4 marzo ,<br>   14 gennaio  (  diocesi di Vicenza )",
+        "ricorrenza": "4 marzo ,   14 gennaio  (  diocesi di Vicenza )",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Giovanni-Antonio-Farina-photo.jpg"
     },
@@ -39407,7 +39407,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Vescovo",
         "patrono": "",
-        "ricorrenza": "21 marzo per la Chiesa ortodossa<br>7 marzo per la Chiesa ortodossa copta",
+        "ricorrenza": "21 marzo per la Chiesa ortodossa7 marzo per la Chiesa ortodossa copta",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/São Serapião.jpg"
     },
@@ -39751,8 +39751,8 @@
     },
     {
         "nome_santo": "San Corrado di Costanza",
-        "luogo_nascita": "verso",
-        "datazione nascita": "il 900",
+        "luogo_nascita": "",
+        "datazione nascita": "circa 900",
         "luogo morte": "26",
         "datazione morte": "novembre 975",
         "attributi": "bastone pastorale, calice con ragno",
@@ -40824,7 +40824,7 @@
         "attributi": "croce rossa sulla veste talare",
         "martire/vescovo/altro": "Presbitero e fondatore",
         "patrono": "malati, ospedali, infermieri, sanità militare,   Abruzzo",
-        "ricorrenza": "14 e 18 luglio (  messa tridentina )",
+        "ricorrenza": "14 e 18 luglio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Lellis2.jpg"
     },
@@ -41266,7 +41266,7 @@
         "attributi": "Bastone pastorale e  Arecaceae",
         "martire/vescovo/altro": "Vescovo e martire",
         "patrono": "Ucraina",
-        "ricorrenza": "12 novembre  e   14 novembre  (  messa tridentina )",
+        "ricorrenza": "12 novembre  e   14 novembre  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/St Josaphat Saint of Ruthenia.jpg"
     },
@@ -41669,7 +41669,7 @@
         "attributi": "Bastone pastorale",
         "martire/vescovo/altro": "",
         "patrono": "",
-        "ricorrenza": "30 luglio ;   4 dicembre  (  messa tridentina )",
+        "ricorrenza": "30 luglio ;   4 dicembre  (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Saint Peter Chrysologus.jpg"
     },
