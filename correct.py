@@ -99,6 +99,17 @@ def sistema_santi(santi):
 #          MAIN SCRIPT
 # ==============================
 
+def correggi_attributi_patrono(santi):
+    """
+    Se 'attributi' e 'patrono' sono uguali, rimuove il valore da 'attributi'
+    e lo lascia solo in 'patrono'.
+    """
+    for santo in santi:
+        attr = santo.get("attributi", "").strip()
+        patr = santo.get("patrono", "").strip()
+        if attr and patr and attr == patr:
+            santo["attributi"] = ""
+    return santi
 
 
 #data_corretto = correggi_valore(data)
@@ -107,16 +118,16 @@ def sistema_santi(santi):
 #    json.dump(data_corretto, f, ensure_ascii=False, indent=4)
 
 
-input_file = "prova-corretto2.json"              # <-- nome del file di input
-output_file = "prova-corretto3.json"   # <-- nome del file di output
+input_file = "prova-corretto3.json"              # <-- nome del file di input
+output_file = "prova-corretto3new.json"   # <-- nome del file di output
 
 with open(input_file, "r", encoding="utf-8") as f:
     dati = json.load(f)
 
-dati_sistemati = sistema_santi(dati)
+dati_sistemati = correggi_attributi_patrono(dati)
 
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(dati_sistemati, f, ensure_ascii=False, indent=4)
 
 
-print("✔️ Correzione completata: creato 'prova-corretto3.json'")
+print("✔️ Correzione completata: creato 'prova-corretto3new.json'")
