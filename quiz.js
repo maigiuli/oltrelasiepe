@@ -6,7 +6,7 @@
 let santi = [];
 
 // carica il JSON
-fetch("prova.json")
+fetch("prova-corretto2.json")
     .then(response => response.json())
     .then(data => {
         santi = data;
