@@ -645,7 +645,7 @@
         "datazione nascita": "I secolo",
         "luogo morte": "",
         "datazione morte": "98",
-        "attributi": "Taormina (Provincia di Messina)  Canicattì (Provincia di Agrigento)  Valdina (Provincia di Messina)  Zagarise (Provincia di Catanzaro|CZ)",
+        "attributi": "",
         "martire/vescovo/altro": "Vescovo e martire",
         "patrono": "Taormina (Provincia di Messina)  Canicattì (Provincia di Agrigento)  Valdina (Provincia di Messina)  Zagarise (Provincia di Catanzaro|CZ)",
         "ricorrenza": "8 luglio",
@@ -901,7 +901,7 @@
     },
     {
         "nome_santo": "San Giovanni Eudes",
-        "luogo_nascita": "Ri",
+        "luogo_nascita": "",
         "datazione nascita": "14 novembre 1601",
         "luogo morte": "Caen",
         "datazione morte": "19 agosto 1680 (78 anni)",
@@ -1272,7 +1272,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Religiosa e veggente",
         "patrono": "",
-        "ricorrenza": "31 dicembre;   28 novembre (messa tridentina)",
+        "ricorrenza": "31 dicembre;  28 novembre (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Katarina Labouré.jpg"
     },
@@ -1555,7 +1555,7 @@
         "datazione nascita": "6 gennaio 1412[N 1][N 2]",
         "luogo morte": "Rouen",
         "datazione morte": "30 maggio 1431",
-        "attributi": "armatura, spesso a cavallo;   vessillo",
+        "attributi": "armatura, spesso a cavallo;  vessillo",
         "martire/vescovo/altro": "Vergine e mistica",
         "patrono": "Francia, Scautismo,guide, Telegrafo,telegrafia e Emittente radiofonica,radio",
         "ricorrenza": "30 maggio",
@@ -1583,7 +1583,7 @@
         "datazione morte": "590 circa",
         "attributi": "bastone pastorale, mitria e colomba",
         "martire/vescovo/altro": "Vescovo",
-        "patrono": "Galles, Aruba, Pembrokeshire, vegetariani e Poeta|poeti",
+        "patrono": "Galles, Aruba, Pembrokeshire, vegetariani e poeti",
         "ricorrenza": "1º marzo",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Jesus Chapel St David.jpg"
@@ -2400,7 +2400,7 @@
         "datazione nascita": "Ionica",
         "luogo morte": "",
         "datazione morte": "21 luglio 303 o 304 a Marsiglia",
-        "attributi": "palma, spada, macina, cavallo e stendardo|patrono di   Roccella Jonica    Marsiglia",
+        "attributi": "palma, spada, macina, cavallo e patrono di Roccella Jonica, Marsiglia",
         "martire/vescovo/altro": "Martire",
         "patrono": "",
         "ricorrenza": "21 luglio",
@@ -2584,8 +2584,8 @@
         "datazione morte": "27 febbraio 1862 (23 anni)",
         "attributi": "Giglio, crocifisso, immagine Vergine Maria Addolorata.",
         "martire/vescovo/altro": "Religioso passionista",
-        "patrono": "Abruzzo;   Azione Cattolica; comuni di   Bovolenta, Civitanova Marche, Martinsicuro",
-        "ricorrenza": "27 febbraio;   28 febbraio (messa tridentina)",
+        "patrono": "Abruzzo;  Azione Cattolica; comuni di   Bovolenta, Civitanova Marche, Martinsicuro",
+        "ricorrenza": "27 febbraio;  28 febbraio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Hl. Gabriel von der Schmerzhaften Muttergottes (Gemälde im Pfarrsaal von Völs am Schlern).jpg"
     },
@@ -3234,7 +3234,7 @@
         "datazione morte": "303/305",
         "attributi": "",
         "martire/vescovo/altro": "Martire",
-        "patrono": "stenografia|stenografi, segretari, dattilografia|dattilografi, informatica|informatici, docente|professori e scrittori. È anche patrono di   Imola, San Casciano in Val di Pesa, Comacchio, Rocca San Casciano, La Salle (Italia), San Casciano dei Bagni, San Cassiano (Croazia), Trecate, Macherio, Pieve di   Bagnone (copatrono) e Las Galletas (Tenerife)",
+        "patrono": "stenografi, segretari, dattilografi, informatici, professori e scrittori. È anche patrono di Imola, San Casciano in Val di Pesa, Comacchio, Rocca San Casciano, La Salle (Italia), San Casciano dei Bagni, San Cassiano (Croazia), Trecate, Macherio, Pieve di Bagnone (copatrono) e Las Galletas (Tenerife)",
         "ricorrenza": "13 agosto",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Cassianofimola.jpg"
@@ -3284,7 +3284,7 @@
         "datazione nascita": "III secolo",
         "luogo morte": "",
         "datazione morte": "307",
-        "attributi": "raffigurata come pia donna che raccoglie la testa di   Alessandro di Bergamo|sant'Alessandro appena decollato",
+        "attributi": "raffigurata come pia donna che raccoglie la testa di sant'Alessandro appena decollato",
         "martire/vescovo/altro": "Martire",
         "patrono": "Grassobbio",
         "ricorrenza": "12 maggio",
@@ -3441,8 +3441,8 @@
         "datazione morte": "362",
         "attributi": "mitra e bastone vescovile, reggente la città di Casale",
         "martire/vescovo/altro": "Vescovo e martire",
-        "patrono": "Casale Monferrato, Pedrengo in Provincia di Bergamo, Bizzarone  in Provincia di Como e della   Chiesa Confraternita della SS.Trinità e Sant'Evasio in Asti|Confraternita della SS. Trinità  di   Asti",
-        "ricorrenza": "12 novembre (a   Casale Monferrato)  1º dicembre (Martirologio Romano)",
+        "patrono": "Casale Monferrato, Pedrengo in Provincia di Bergamo, Bizzarone  in Provincia di Como e della Chiesa Confraternita della SS.Trinità e Confraternita della SS. Trinità di Asti",
+        "ricorrenza": "12 novembre (a Casale Monferrato)  1º dicembre (Martirologio Romano)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Sant’Evasio (Confraternita della Trinità, Asti).jpg"
     },
@@ -3556,10 +3556,10 @@
         "datazione nascita": "329",
         "luogo morte": "Nazianzo",
         "datazione morte": "25 gennaio 390 ca.",
-        "attributi": "Abito vescovile bianco in ricordo dell'abito fatto indossare da  erode Antipa|Erode  a Gesù. È rappresentato senza   mitria  come da iconografia delle chiese orientali. Spesso accompagnato a   San Basilio|Basilio .",
+        "attributi": "Abito vescovile bianco in ricordo dell'abito fatto indossare da Erode a Gesù. È rappresentato senza mitria come da iconografia delle chiese orientali. Spesso accompagnato a San Basilio .",
         "martire/vescovo/altro": "Vescovo e Dottore della Chiesa",
         "patrono": "poeti cristiani",
-        "ricorrenza": "Chiesa ortodossa:   25 gennaio e 30 gennaio Chiesa cattolica:   2 gennaio|2, 25 gennaio e 9 maggio (messa tridentina)",
+        "ricorrenza": "Chiesa ortodossa: 25 gennaio e 30 gennaio Chiesa cattolica: 2 gennaio, 25 gennaio e 9 maggio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Sv Gr Bogoslov Simonopetra kr18v.jpg"
     },
@@ -3740,7 +3740,7 @@
         "datazione morte": "IV secolo",
         "attributi": "Cesto con cinque pani e due pesci, bastone pastorale, mitra vescovile, pallio e altri paramenti liturgici.",
         "martire/vescovo/altro": "",
-        "patrono": "Bionzo (Costigliole d'Asti), Borgo San Siro, Castelletto di Branduzzo, Castelletto Monferrato, Castel Mella, Coenzo, Diocesi di Pavia, Godiasco, Grandola ed Uniti, Lomazzo, Lanzo d'Intelvi, Mairengo, Misinto, Montesiro, Pavia, Paruzzaro, San Siro (Italia), San Siro (Bagnoli di Sopra), San Siro (Milano), Sospiro, Soresina, Rota d'Imagna, Valle Camonica |thumb",
+        "patrono": "Bionzo (Costigliole d'Asti), Borgo San Siro, Castelletto di Branduzzo, Castelletto Monferrato, Castel Mella, Coenzo, Diocesi di Pavia, Godiasco, Grandola ed Uniti, Lomazzo, Lanzo d'Intelvi, Mairengo, Misinto, Montesiro, Pavia, Paruzzaro, San Siro (Italia), San Siro (Bagnoli di Sopra), San Siro (Milano), Sospiro, Soresina, Rota d'Imagna, Valle Camonica",
         "ricorrenza": "9 dicembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/IMG 4202 Milano - Chiesa di san Marco - Sagrestia - Altare - Foto Giovanni Dall'Orto 20 jan 2007.jpg"
@@ -4456,7 +4456,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Iconadel santo presso la cattedrale di santa Sofia aPuškin (San Pietroburgo)",
         "patrono": "Rimini (compatrono)",
-        "ricorrenza": "16 marzo presso la   Chiesa cattolica, 18 aprile presso la   Chiesa apostolica armena|chiesa Armena, 21 giugno presso la   Chiesa ortodossa",
+        "ricorrenza": "16 marzo presso la Chiesa cattolica, 18 aprile presso la Chiesa apostolica armena, 21 giugno presso la Chiesa ortodossa",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Julian of Tarsus icon (St. Sophia Cathedral).jpg"
     },
@@ -5067,7 +5067,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Eremita",
         "patrono": "",
-        "ricorrenza": "30 novembre;   3 dicembre",
+        "ricorrenza": "30 novembre;  3 dicembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Giovanni di agostino, san galgano conficca la spada nella roccia, 1332-1347 ca.JPG"
     },
@@ -5261,7 +5261,7 @@
         "datazione morte": "165 circa",
         "attributi": "ramo di Palma del martirio; libro; setti figli; spada con sette teste o panno con sette teste",
         "martire/vescovo/altro": "Martiri",
-        "patrono": "Affile (RM);   Carrodano (SP);   Collarmele (AQ);   Fidene (RM);   Oppilo (MS);   Pomponesco (MN);   Ranica (BG);   Rocca San Felice (AV);   Turbigo (MI);   Vergo Zoccorino (MB)",
+        "patrono": "Affile (RM);  Carrodano (SP);  Collarmele (AQ);  Fidene (RM);  Oppilo (MS);  Pomponesco (MN);  Ranica (BG);  Rocca San Felice (AV);  Turbigo (MI);  Vergo Zoccorino (MB)",
         "ricorrenza": "23 novembre  per santa Felicita, 10 luglio per i sette figli",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Nuremberg_chronicles_-_Felicitas_with_her_Seven_Sons_%28CXIIIIr%29.jpg"
@@ -6442,7 +6442,7 @@
         "datazione nascita": "Piceno, 280",
         "luogo morte": "Ascoli",
         "datazione morte": "13 maggio 310",
-        "attributi": "Sacre Scritture|Libro delle Sacre Scritture, palma del martirio, chiavi della città di Agnone, croce d'argento (solo il giorno di festa)",
+        "attributi": "Libro delle Sacre Scritture, palma del martirio, chiavi della città di Agnone, croce d'argento (solo il giorno di festa)",
         "martire/vescovo/altro": "Diacono e martire",
         "patrono": "Agnone, Casalciprano, Maltignano, grandine, tempeste, discordie, guerre, fulmini",
         "ricorrenza": "13 maggio",
@@ -6938,7 +6938,7 @@
         "datazione morte": "23 settembre 1968 (81 anni)",
         "attributi": "",
         "martire/vescovo/altro": "Presbitero e religioso",
-        "patrono": "|note = Presbitero e religioso",
+        "patrono": "",
         "ricorrenza": "23 settembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Padre Pio portrait.jpg"
@@ -7406,7 +7406,7 @@
         "datazione morte": "2 gennaio 1164",
         "attributi": "Crocifisso, Vangelo, abito monacale basiliano",
         "martire/vescovo/altro": "Monaco basiliano, presbitero e abate",
-        "patrono": "Troina, pellegrini e viandanti, forestieri, Abate, Monachesimo|monaci, Parroco|parroci, Monarca|sovrani, gastroenterologi, volontari, operatori sanitari, bambini e bambini malati, ammalati, disabili, ciechi, muti e sordomuti, senzatetto e mendicanti, emarginati, poveri, sofferenti ed animali, contro le malattie gastrointestinali e le malattie in generale, la   peste, le pandemie in generale e le ustioni",
+        "patrono": "Troina, pellegrini e viandanti, forestieri, Abate, monaci,parroci, sovrani, gastroenterologi, volontari, operatori sanitari, bambini e bambini malati, ammalati, disabili, ciechi, muti e sordomuti, senzatetto e mendicanti, emarginati, poveri, sofferenti ed animali, contro le malattie gastrointestinali e le malattie in generale, la   peste, le pandemie in generale e le ustioni",
         "ricorrenza": "2 gennaio",
         "descrizione": "",
         "immagine": "San Silvestro da Troina"
@@ -7471,7 +7471,7 @@
         "datazione morte": "Piperno, 7 marzo 1274",
         "attributi": "Abito domenicano, libro, penna, calamaio, modellino di chiesa, sole raggiato sul petto e colomba",
         "martire/vescovo/altro": "Sacerdote e Dottore della Chiesa",
-        "patrono": "Compatrono di Napoli, teologi, accademici, Editore|librai, scuola|scolari, studenti, fabbricanti di matite, comuni di   Aquino, Belcastro, Falerna, Grottaminarda, Monte San Giovanni Campano, Priverno, San Mango d'Aquino e diocesi di Sora-Cassino-Aquino-Pontecorvo",
+        "patrono": "Compatrono di Napoli, teologi, accademici, librai, scolari, studenti, fabbricanti di matite, comuni di Aquino, Belcastro, Falerna, Grottaminarda, Monte San Giovanni Campano, Priverno, San Mango d'Aquino e diocesi di Sora-Cassino-Aquino-Pontecorvo",
         "ricorrenza": "28 gennaio e 7 marzo (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Thomas Aquinas by Sandro Botticelli.jpg"
@@ -7511,7 +7511,7 @@
         "attributi": "Vesti episcopali, omoforio, mano alzata in atto di benedire",
         "martire/vescovo/altro": "",
         "patrono": "",
-        "ricorrenza": "18 febbraio (Chiesa cattolica)  25 febbraio (Chiesa cristiana ortodossa|Chiesa ortodossa e Cattolici tradizionalisti)",
+        "ricorrenza": "18 febbraio (Chiesa cattolica)  25 febbraio (Chiesa ortodossa e Cattolici tradizionalisti)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Patriarch Tarasios.jpg"
     },
@@ -7885,10 +7885,10 @@
         "datazione nascita": "12 marzo 1878",
         "luogo morte": "Lucca",
         "datazione morte": "11 aprile 1903 (25 anni)",
-        "attributi": "Abito e segni   Passionisti, giglio.",
+        "attributi": "Abito e segni Passionisti, giglio.",
         "martire/vescovo/altro": "Vergine e mistica",
         "patrono": "",
-        "ricorrenza": "11 aprile (per la Chiesa universale), 16 maggio (per la   Congregazione della Passione di Gesù Cristo| Congregazione passionista e per l'arcidiocesi di Lucca)",
+        "ricorrenza": "11 aprile (per la Chiesa universale), 16 maggio (per la Congregazione passionista e per l'arcidiocesi di Lucca)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/galg_gem.jpg"
     },
@@ -7939,8 +7939,8 @@
         "datazione morte": "6 aprile 1252",
         "attributi": "abito domenicano, mannaia in testa, coltello nel petto, libro con la scritta \"Credo\", ramo di palma, libro",
         "martire/vescovo/altro": "Sacerdote, martire e frate domenicano",
-        "patrono": "domenicani, inquisitori, commercianti di tessuti, calzolai    Seveso, (Provincia di Monza e della Brianza|MB), Alfedena (Provincia dell'Aquila|AQ), Fornelli (Provincia di Isernia|IS), Casteggio (Provincia di Pavia|PV), Roccasecca (Provincia di Frosinone|FR), Castelleone di Suasa (Provincia di Ancona|AN), compatrono di   Napoli, San Sossio Baronia (Provincia di Avellino|AV), Andrano (Provincia di Lecce|LE).",
-        "ricorrenza": "6 aprile;   29 aprile (messa tridentina)",
+        "patrono": "domenicani, inquisitori, commercianti di tessuti, calzolai    Seveso, (Provincia di Monza e della Brianza), Alfedena (Provincia dell'Aquila), Fornelli (Provincia di Isernia), Casteggio (Provincia di Pavia), Roccasecca (Provincia di Frosinone), Castelleone di Suasa (Provincia di Ancona), compatrono di   Napoli, San Sossio Baronia (Provincia di Avellino), Andrano (Provincia di Lecce).",
+        "ricorrenza": "6 aprile;  29 aprile (messa tridentina)",
         "descrizione": "Nel 1252 frate Pietro, mentre si recava a piedi da Como a Milano dopo essere passato per Cantù, venne assassinato da alcuni sicari con un falcastro (una sorta di machete) nella foresta di Seveso. Pietro intinse un dito nel sangue e con esso scrisse a terra la parola \"Credo\" e poi cadde morto.",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/SaintPeterTheMartyr.JPG"
     },
@@ -8028,9 +8028,9 @@
         "datazione nascita": "",
         "luogo morte": "Roma",
         "datazione morte": "304 circa",
-        "attributi": "Lilium, Palma del martirio, Roccia, pietre  sul grembo",
+        "attributi": "Lilium, Palma del martirio, Roccia, pietre sul grembo",
         "martire/vescovo/altro": "Vergine e martire",
-        "patrono": "invocata il mal di   ventre e le malattie degli   Intestino|intestini; patrona di   Teruel e compatrona di   Tuenno",
+        "patrono": "invocata il mal di ventre e le malattie degli intestini; patrona di Teruel e compatrona di Tuenno",
         "ricorrenza": "23 gennaio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/British Museum Emerentiana stoned.jpg"
@@ -8758,8 +8758,8 @@
         "datazione morte": "660 circa",
         "attributi": "",
         "martire/vescovo/altro": "Abate",
-        "patrono": "Sarto|Sarti",
-        "ricorrenza": "1º gennaio (Chiaro di Vienne#Culto|ma con particolarità)",
+        "patrono": "Sarti",
+        "ricorrenza": "1º gennaio (Chiaro di Vienne)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Caluire St Clair Christ (cropped).JPG"
     },
@@ -8862,7 +8862,7 @@
         "datazione morte": "212",
         "attributi": "palma",
         "martire/vescovo/altro": "Martire",
-        "patrono": "Besançon con il fratello Ferreolo di Besançon|Ferreolo",
+        "patrono": "Besançon con il fratello Ferreolo di Besançon",
         "ricorrenza": "16 giugno",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Saint Ferjeux.jpg"
@@ -10617,7 +10617,7 @@
         "datazione morte": "6 gennaio 1275",
         "attributi": "",
         "martire/vescovo/altro": "Religioso",
-        "patrono": "Giurista|giuristi, Giureconsulto|giureconsulti, Avvocato|avvocati  della   Spagna",
+        "patrono": "giuristi, giureconsulti, avvocati  della   Spagna",
         "ricorrenza": "7 gennaio, 23 gennaio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/05 Raimondo de Penafort.jpg"
@@ -10719,10 +10719,10 @@
         "datazione nascita": "",
         "luogo morte": "",
         "datazione morte": "",
-        "attributi": "Croce cristiana|croce, Palma del martirio, vessillo",
+        "attributi": "Croce cristiana, Palma del martirio, vessillo",
         "martire/vescovo/altro": "Martire",
-        "patrono": "Borgo Valsugana, Catenanuova, Centuripe, Cressa, Faeto, Marianopoli, Poggio Sannita, Romano Canavese;   isola di Lesina (protettore);   Novi Ligure (compatrono)",
-        "ricorrenza": "|attributi =   Croce cristiana|croce, Palma del martirio, vessillo",
+        "patrono": "Borgo Valsugana, Catenanuova, Centuripe, Cressa, Faeto, Marianopoli, Poggio Sannita, Romano Canavese; isola di Lesina (protettore);  Novi Ligure (compatrono)",
+        "ricorrenza": "",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Prospero - Montalbano Jonico.jpg"
     },
@@ -10875,7 +10875,7 @@
         "datazione nascita": "1553 circa",
         "luogo morte": "Nagasaki",
         "datazione morte": "5 febbraio 1597",
-        "attributi": "palma del martirio;   croce cristiana|croce;   lancia (arma)",
+        "attributi": "palma del martirio; croce; lancia (arma)",
         "martire/vescovo/altro": "Martire",
         "patrono": "",
         "ricorrenza": "6 febbraio",
@@ -11280,7 +11280,7 @@
         "datazione morte": "II secolo",
         "attributi": "dalmatica, Vangelo, palma del martirio e sacco",
         "martire/vescovo/altro": "diacono e martire, santo imperiale e papale",
-        "patrono": "Santo tutelare degli imperatori romani d'Occidente e d'Oriente (sostituì il culto di   Gaio Giulio Cesare, di   Augusto|Cesare Ottaviano Augusto e dei divi Cesari); invocato contro gli annegamenti, le inondazioni dei fiumi (soprattutto il Tevere e il Panaro), per la difesa dai fulmini, da calamità telluriche e meteorologiche, e per la buona riuscita del   parto cesareo)",
+        "patrono": "Santo tutelare degli imperatori romani d'Occidente e d'Oriente (sostituì il culto di Gaio Giulio Cesare, di Cesare Ottaviano Augusto e dei divi Cesari); invocato contro gli annegamenti, le inondazioni dei fiumi (soprattutto il Tevere e il Panaro), per la difesa dai fulmini, da calamità telluriche e meteorologiche, e per la buona riuscita del parto cesareo)",
         "ricorrenza": "1º novembre e 21 aprile (Natale di Roma)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Icona Caesarius Diaconus, San Cesario, o Cesareo, diacono e martire di Terracina, opera di G. Guida.jpg"
@@ -11478,7 +11478,7 @@
         "patrono": "Argentina, Cile, Bolivia, Paraguay, Perù, Montilla",
         "ricorrenza": "14 luglio",
         "descrizione": "",
-        "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Francisco Solano (1549 -1610).jpg|thumb|right|250px"
+        "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Francisco Solano (1549 -1610).jpg|thumb|right50px"
     },
     {
         "nome_santo": "San Baldomero di Lione",
@@ -11488,7 +11488,7 @@
         "datazione morte": "660",
         "attributi": "Attrezzi da fabbro e tenaglie",
         "martire/vescovo/altro": "Suddiacono",
-        "patrono": "Fabbro|fabbri",
+        "patrono": "Fabbri",
         "ricorrenza": "27 febbraio",
         "descrizione": "",
         "immagine": ""
@@ -12046,7 +12046,7 @@
         "datazione morte": "401",
         "attributi": "Strumenti di lavoro",
         "martire/vescovo/altro": "Presbitero",
-        "patrono": "Barlassina, Cavenago di Brianza, Muratore|muratori",
+        "patrono": "Barlassina, Cavenago di Brianza, muratori",
         "ricorrenza": "31 gennaio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/JuliusofNovara.jpg"
@@ -12346,7 +12346,7 @@
         "attributi": "potente contro gli eventi sismici",
         "martire/vescovo/altro": "Vescovo e martire",
         "patrono": "Atina",
-        "ricorrenza": "28 aprile;   1º ottobre",
+        "ricorrenza": "28 aprile;  1º ottobre",
         "descrizione": "",
         "immagine": ""
     },
@@ -12839,7 +12839,7 @@
         "datazione morte": "3 aprile 1253",
         "attributi": "",
         "martire/vescovo/altro": "Vescovo",
-        "patrono": "Cocchiere|cocchieri",
+        "patrono": "cocchieri",
         "ricorrenza": "3 aprile",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Chichester - Statue of Saint Richard - geograph.org.uk - 1350333.jpg"
@@ -13149,10 +13149,10 @@
         "datazione nascita": "347",
         "luogo morte": "Betlemme",
         "datazione morte": "30 settembre 420",
-        "attributi": "Clessidra, crocifisso, Galero|galero cardinalizio, leone, libro, teschio",
+        "attributi": "Clessidra, crocifisso, galero cardinalizio, leone, libro, teschio",
         "martire/vescovo/altro": "Padre e Dottore della Chiesa",
         "patrono": "Cadecoppi (MO), Pantana (RI), Castel Cellesi (VT), Cittanova (Italia), Nervesa della Battaglia (TV), Ortezzano (FM), Torre de' Roveri (BG), Ca' degli Oppi (VR); Rota (RM); archeologi, bibliotecari, dotti, librai, pellegrini, traduttori e studiosi in genere",
-        "ricorrenza": "30 settembre;   15 giugno (Chiesa ortodossa e Chiese cattoliche orientali)",
+        "ricorrenza": "30 settembre;  15 giugno (Chiesa ortodossa e Chiese cattoliche orientali)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Francisco de Zurbarán 041.jpg"
     },
@@ -13645,7 +13645,7 @@
         "datazione morte": "20 agosto 1153",
         "attributi": "pastorale abbaziale, mitria ai piedi, ostia, demonio incatenato, cane bianco, libro, arnia",
         "martire/vescovo/altro": "Abate e Dottore della Chiesa",
-        "patrono": "Cogliate|Cascina Nuova, Cassina Savina, Gibilterra, agricoltori, apicoltori, ceraioli e renaioli",
+        "patrono": "Cogliate, Cascina Nuova, Cassina Savina, Gibilterra, agricoltori, apicoltori, ceraioli e renaioli",
         "ricorrenza": "20 agosto",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/José de Ribera, 1634 (51382728600).jpg"
@@ -13669,7 +13669,7 @@
         "datazione nascita": "1181/1182",
         "luogo morte": "Assisi",
         "datazione morte": "3 ottobre 1226",
-        "attributi": "Crocifisso, teschio, stigmate, saio, animali e croce a   Crux commissa|Tau",
+        "attributi": "Crocifisso, teschio, stigmate, saio, animali e croce a Crux commissa",
         "martire/vescovo/altro": "Fondatore dell'Ordine francescano e patrono d'Italia",
         "patrono": "Italia, Umbria, animali, poeti, commercianti, Ordine dei frati minori cappuccini, Lupetti /  Coccinelle (scout), ecologisti e numerose città e frazioni",
         "ricorrenza": "4 ottobre e 17 settembre (le stigmate)",
@@ -14166,7 +14166,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Vergine e martire",
         "patrono": "Monteleone Sabino, Carsoli, Anticoli Corrado, Pisoniano, Santa Vittoria in Matenano, Sarroch",
-        "ricorrenza": "23 dicembre (Martirologio Romano);   15 maggio o 10 luglio (tradizione popolare)",
+        "ricorrenza": "23 dicembre (Martirologio Romano);  15 maggio o 10 luglio (tradizione popolare)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Ravenna, S.Apollinare nuovo, SS. Anatolia & Vittoria.JPG"
     },
@@ -14233,7 +14233,7 @@
         "patrono": "mistici, poeti e Ordine dei Carmelitani scalzi",
         "ricorrenza": "14 dicembre; 24 novembre (messa tridentina)",
         "descrizione": "Fu poeta e teologo, autore di svariati trattati teologici riguardanti soprattutto la preghiera e il «cammino spirituale dell'anima verso Dio e in Dio».",
-        "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Johncross5.jpg|thumb|300px"
+        "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Johncross5.jpg|thumb00px"
     },
     {
         "nome_santo": "Sant’Elia I di Gerusalemme",
@@ -14270,7 +14270,7 @@
         "attributi": "Bastone pastorale",
         "martire/vescovo/altro": "Vescovo e cardinale",
         "patrono": "",
-        "ricorrenza": "18 giugno;   17 giugno (messa tridentina)",
+        "ricorrenza": "18 giugno;  17 giugno (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Giovanni raggi, ritratto del cardinale gregorio barbarigo, xviii secolo, da nembro.JPG"
     },
@@ -14568,7 +14568,7 @@
         "datazione morte": "12 maggio 304",
         "attributi": "Rappresentato come un giovane o nelle vesti di   soldato e il suo emblema è la   Palma del martirio",
         "martire/vescovo/altro": "Martire",
-        "patrono": "San Pancrazio Salentino, Montichiari, bambini, invocato contro i   Crampo|crampi, mal di testa e le Falsa testimonianza|false testimonianze",
+        "patrono": "San Pancrazio Salentino, Montichiari, bambini, invocato contro i crampi, mal di testa e le false testimonianze",
         "ricorrenza": "12 maggio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Pancrazio Guercino 1616.jpg"
@@ -14790,7 +14790,7 @@
         "attributi": "Cerva, bastone pastorale, abito basiliano e vangelo",
         "martire/vescovo/altro": "Eremita",
         "patrono": "Naro, Campofranco, Petralia Sottana, San Salvatore di Fitalia e Cesarò",
-        "ricorrenza": "|attributi = Cerva, bastone pastorale, abito basiliano e vangelo",
+        "ricorrenza": "",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Naro - Santuario di San Calogero (Naro) - St. Calogero.jpg"
     },
@@ -15437,7 +15437,7 @@
         "datazione nascita": "2 marzo 480",
         "luogo morte": "Montecassino",
         "datazione morte": "21 marzo 547 (67 anni)",
-        "attributi": "Cocolla Libro della   Regola benedettina|Regola   Pastorale (liturgia)",
+        "attributi": "Cocolla Libro della Regola benedettina",
         "martire/vescovo/altro": "Fondatore dell'Ordine benedettino, padre del monachesimo occidentale e patrono principale d'Europa",
         "patrono": "Agricoltori, Agronomoronomi, Architetti, Chimici, Ingegneri, Speleologia, Cassino, Cetraro, Controguerra, Norcia, Pertosa, Pomezia, Subiaco, Zenson di Piave, Pontecagnano, Faiano",
         "ricorrenza": "11 luglio, 21 marzo (messa tridentina)",
@@ -16752,8 +16752,8 @@
         "datazione morte": "23 novembre 615",
         "attributi": "",
         "martire/vescovo/altro": "Abate",
-        "patrono": "Motociclismo|motociclisti, Bobbio, Luxeuil-les-Bains (Francia)e altre località italiane, europee ed internazionali",
-        "ricorrenza": "23 novembre (21 novembre|21 e 24 novembre  in   Irlanda)",
+        "patrono": "motociclisti, Bobbio, Luxeuil-les-Bains (Francia) e altre località italiane, europee ed internazionali",
+        "ricorrenza": "23 novembre (21 novembre e 24 novembre in Irlanda)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Colombano.jpg"
     },
@@ -17260,7 +17260,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Amico diGesù",
         "patrono": "",
-        "ricorrenza": "29 luglio;   17 dicembre",
+        "ricorrenza": "29 luglio;  17 dicembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/The raising of Lazarus - Peter Paul Rubens.jpg|thumb|"
     },
@@ -17429,7 +17429,7 @@
         "attributi": "Palma del martirio",
         "martire/vescovo/altro": "Vescovo e martire",
         "patrono": "Spalato",
-        "ricorrenza": "|attributi=   Palma del martirio",
+        "ricorrenza": "",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Saintduje.jpg"
     },
@@ -17441,7 +17441,7 @@
         "datazione morte": "251 circa",
         "attributi": "Vesti di pelliccia, spade, berretti frigi, corone",
         "martire/vescovo/altro": "Martiri",
-        "patrono": "Pescia;   Sahagún (Spagna);   Sandono di   Massanzago;   Civine  di   Gussago",
+        "patrono": "Pescia;  Sahagún (Spagna);  Sandono di   Massanzago;  Civine  di   Gussago",
         "ricorrenza": "30 luglio",
         "descrizione": "Nobili orientali convertiti al cristianesimo, vengono imprigionati da Decio nella settima persecuzione contro i cristiani. Portati davanti alle belve nel Colosseo, questi riuscirono ad ammansirle. Furono allora squartati dai gladiatori e i loro corpi a brandelli furono gettati sotto la statua del Sole, dove rimasero per tre giorni prima di essere raccolti dal diacono Quirino, che li nascose nella propria casa",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Abdon and Sennen.jpg"
@@ -17974,7 +17974,7 @@
         "datazione morte": "I secolo",
         "attributi": "Palma del martirio",
         "martire/vescovo/altro": "Vergine e Martire",
-        "patrono": "Tarragona;  este (Italia)",
+        "patrono": "Tarragona; este (Italia)",
         "ricorrenza": "23 settembre (Chiesa cattolica)  24 settembre (Chiesa cristiana ortodossa)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Tecla-tar.jpg"
@@ -18625,7 +18625,7 @@
         "attributi": "raffigurato a cavallo con in mano uno stendardo rosso crociato di bianco, vesti da soldato romano",
         "martire/vescovo/altro": "San Secondo in un'incisione delXIX secolo",
         "patrono": "Asti",
-        "ricorrenza": "30 marzo;   29 marzo (messa tridentina)",
+        "ricorrenza": "30 marzo;  29 marzo (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/SanSecondo800.jpg"
     },
@@ -18635,9 +18635,9 @@
         "datazione nascita": "",
         "luogo morte": "",
         "datazione morte": "",
-        "attributi": "|santuario principale =   Monastero di San Matteo (Iraq)",
+        "attributi": "",
         "martire/vescovo/altro": "Religioso",
-        "patrono": "|venerato da = Chiesa ortodossa siriaca",
+        "patrono": "",
         "ricorrenza": "18 settembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/|note = Religioso"
@@ -19001,7 +19001,7 @@
         "datazione morte": "5 aprile 1258",
         "attributi": "",
         "martire/vescovo/altro": "Mistica",
-        "patrono": "|note = Mistica",
+        "patrono": "",
         "ricorrenza": "5 aprile",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Merazhofen Pfarrkirche Chorgestühl links Juliana.jpg"
@@ -19015,7 +19015,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Apostolo",
         "patrono": "Diocesi di Frascati, Uruguay, Giussano, agonizzanti, cappellai, cardatori, droghieri e farmacisti",
-        "ricorrenza": "3 maggio|3 e 11 maggio (messa tridentina)",
+        "ricorrenza": "3 maggio e 11 maggio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Pompeo Batoni (1708-1787) - Saint James the Less - 266909 - National Trust.jpg"
     },
@@ -19067,7 +19067,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Abate",
         "patrono": "",
-        "ricorrenza": "Data del riposo:   5 aprile  corrispondente alla data copta   Paremhat|27 paremhat  per la Chiesa copta ortodossa.  19 gennaio per la Chiesa cattolica.",
+        "ricorrenza": "Data del riposo: 5 aprile  corrispondente alla data copta 27 paremhat per la Chiesa copta ortodossa. 19 gennaio per la Chiesa cattolica.",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Icon of Saint Macarius the Great.jpg"
     },
@@ -19145,7 +19145,7 @@
         "attributi": "Abiti vescovili, Palma del martirio e rappresentato a volte durante il martirio della   crocifissione",
         "martire/vescovo/altro": "Vescovo e martire",
         "patrono": "",
-        "ricorrenza": "25 febbraio|25 (Chiesa cattolica) e 28 febbraio (Chiese ortodosse)",
+        "ricorrenza": "25 febbraio (Chiesa cattolica) e 28 febbraio (Chiese ortodosse)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Nestore di Magydos.jpg"
     },
@@ -19444,7 +19444,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Fondatore della Congregazione Passionista",
         "patrono": "Ovada, Castellazzo Bormida",
-        "ricorrenza": "19 ottobre;   28 aprile (messa tridentina)",
+        "ricorrenza": "19 ottobre;  28 aprile (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Paul de la croix.jpg"
     },
@@ -19454,7 +19454,7 @@
         "datazione nascita": "1559 circa",
         "luogo morte": "Nagasaki",
         "datazione morte": "5 febbraio 1597",
-        "attributi": "palma del martirio;   croce cristiana|croce",
+        "attributi": "palma del martirio; croce cristiana",
         "martire/vescovo/altro": "Martire",
         "patrono": "",
         "ricorrenza": "6 febbraio",
@@ -19547,7 +19547,7 @@
         "datazione morte": "21 gennaio 305",
         "attributi": "agnellino, palma, lunghi capelli, spada",
         "martire/vescovo/altro": "Vergine e martire",
-        "patrono": "Verginità|vergini, fidanzate, medici tricologi, soggetti affetti da calvizie, Olginate, giardinaggio|giardinieri, Figlie di Maria, Ordine della Santissima Trinità, Almo Collegio Capranica",
+        "patrono": "vergini, fidanzate, medici tricologi, soggetti affetti da calvizie, Olginate, giardinieri, Figlie di Maria, Ordine della Santissima Trinità, Almo Collegio Capranica",
         "ricorrenza": "21 gennaio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Saint Margret and Saint Agnes-Bernardo Daddi mg 9949.jpg"
@@ -19755,7 +19755,7 @@
         "datazione morte": "28 dicembre 1622 (55 anni)",
         "attributi": "Sacro Cuore di Gesù, corona di spine",
         "martire/vescovo/altro": "Non excidet",
-        "patrono": "stampa  cattolica, giornalisti, Scrittore|scrittori, Autore|autori, Piemonte, comunità sorda, Società salesiana di San Giovanni Bosco|salesiani, Istituto di Cristo Re Sommo Sacerdote",
+        "patrono": "stampa  cattolica, giornalisti, scrittori, autori, Piemonte, comunità sorda, salesiani, Istituto di Cristo Re Sommo Sacerdote",
         "ricorrenza": "24 gennaio, 29 gennaio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Francisco de Sales (Ruiz de la Iglesia).jpg"
@@ -19885,7 +19885,7 @@
         "datazione morte": "22 maggio V secolo",
         "attributi": "palma del martirio, cane al guinzaglio e testa tra le mani",
         "martire/vescovo/altro": "Vergine martire",
-        "patrono": "Higueruela;  invocata contro la   Rabbia (malattia)",
+        "patrono": "Higueruela; invocata contro la   Rabbia (malattia)",
         "ricorrenza": "22 maggio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/SaintQuiteria.jpg | imagesize = 200px"
@@ -21419,7 +21419,7 @@
         "datazione morte": "19 ottobre 906",
         "attributi": "",
         "martire/vescovo/altro": "Monaco",
-        "patrono": "Diocesi di Susa, San Giusto Canavese (Provincia di Torino|TO), Ronco Canavese (Provincia di Torino|TO), Mentoulles (Provincia di Torino|TO)",
+        "patrono": "Diocesi di Susa, San Giusto Canavese (Provincia di Torino), Ronco Canavese (Provincia di Torino), Mentoulles (Provincia di Torino)",
         "ricorrenza": "19 ottobre",
         "descrizione": "",
         "immagine": ""
@@ -21770,7 +21770,7 @@
         "datazione morte": "28 gennaio 1208",
         "attributi": "",
         "martire/vescovo/altro": "Vescovo di Cuenca",
-        "patrono": "Cuenca e relativa   Diocesi di Cuenca|diocesi",
+        "patrono": "Cuenca e relativa, Diocesi di Cuenca",
         "ricorrenza": "28 gennaio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Eugenio Cajés (1575-1634) - San Julián, Bishop of Cuenca - PC.98 - Pollok House.jpg"
@@ -22245,8 +22245,8 @@
     },
     {
         "nome_santo": "San Vandregisilo",
-        "luogo_nascita": "nei",
-        "datazione nascita": "dintorni di Verdun, 600 circa",
+        "luogo_nascita": "nei dintorni di Verdun",
+        "datazione nascita": "600 circa",
         "luogo morte": "Saint-Wandrille-Rançon",
         "datazione morte": "22 luglio 665",
         "attributi": "",
@@ -23695,7 +23695,7 @@
         "attributi": "Corni di Canzo, abito da pellegrino, attraversamento del lago sul mantello",
         "martire/vescovo/altro": "Eremita",
         "patrono": "pioggia",
-        "ricorrenza": "10 maggio|10  o 21 maggio",
+        "ricorrenza": "10 maggio  o 21 maggio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San Miro di Canzo - St. Mir of Canzo - Św. Mir z Canzo.jpg"
     },
@@ -24318,7 +24318,7 @@
         "datazione morte": "303",
         "attributi": "martieri",
         "martire/vescovo/altro": "Statua di Vittore il More in armatura nelMuseo del Duomo di Milano",
-        "patrono": "prigionieri ed esuli;   Varese e altre località ",
+        "patrono": "prigionieri ed esuli;  Varese e altre località ",
         "ricorrenza": "8 maggio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Jacopo, gentile e giovanni bellini, polittico della natività, da s.m. della carità, 1464-70 ca., 05.JPG"
@@ -24589,7 +24589,7 @@
         "datazione nascita": "III secolo",
         "luogo morte": "Montmartre",
         "datazione morte": "tra il 250 e il 285",
-        "attributi": "Cefaloforia|Cefaloforo",
+        "attributi": "Cefaloforia",
         "martire/vescovo/altro": "Vescovo e martire",
         "patrono": "Saint-Denis",
         "ricorrenza": "9 ottobre",
@@ -24604,7 +24604,7 @@
         "datazione morte": "",
         "attributi": "",
         "martire/vescovo/altro": "Vescovo",
-        "patrono": "|santiebeati",
+        "patrono": "",
         "ricorrenza": "12 novembre",
         "descrizione": "",
         "immagine": ""
@@ -24722,7 +24722,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Abuna e vescovo",
         "patrono": "Etiopia e Axum",
-        "ricorrenza": "1º agosto (Chiesa ortodossa etiope|Chiesa Ortodossa Etiope Tewahedo)  30 novembre (Chiesa ortodossa|Chiesa ortodossa orientale)  18 dicembre (Chiesa copta ortodossa)  27 ottobre (Chiesa cattolica romana)",
+        "ricorrenza": "1º agosto (Chiesa ortodossa etiope)  30 novembre (Chiesa ortodossa)  18 dicembre (Chiesa copta ortodossa)  27 ottobre (Chiesa cattolica romana)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/St Frumentius.jpg"
     },
@@ -24992,7 +24992,7 @@
         "datazione nascita": "",
         "luogo morte": "Licia",
         "datazione morte": "250 circa",
-        "attributi": "Gigante che porta sulle spalle Bambino Gesù|Gesù Bambino, cinocefalo, bastone fiorito",
+        "attributi": "Gigante che porta sulle spalle Bambino Gesù, cinocefalo, bastone fiorito",
         "martire/vescovo/altro": "Martire",
         "patrono": "pellegrini, autieri, barcaioli, viaggiatori, piloti, camionisti, ferrovieri, alpinisti, facchini, scaricatori, sportivi, fruttivendoli, giardinieri, invocato contro la peste e la morte improvvisa",
         "ricorrenza": "25 luglio (Occidente) e 9 maggio (Oriente)",
@@ -25098,7 +25098,7 @@
         "datazione morte": "18 maggio 1587 (72 anni)",
         "attributi": "Gesù bambino",
         "martire/vescovo/altro": "Religioso",
-        "patrono": "Cantalice, Diocesi di Rieti, Cerreto, San Felice di Capriglia fraz.   Capriglia Irpina, Bachicoltura|bachicultori, bambini.",
+        "patrono": "Cantalice, Diocesi di Rieti, Cerreto, San Felice di Capriglia fraz.  Capriglia Irpina,bachicultori, bambini.",
         "ricorrenza": "18 maggio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Rubens Felice da Cantalice.JPG"
@@ -25254,7 +25254,7 @@
         "datazione morte": "12 marzo 295",
         "attributi": "",
         "martire/vescovo/altro": "Martire",
-        "patrono": "Obiezione di coscienza|Obiettori di coscienza",
+        "patrono": "Obiezione di coscienza",
         "ricorrenza": "12 marzo",
         "descrizione": "",
         "immagine": ""
@@ -25499,7 +25499,7 @@
         "datazione nascita": "III secolo",
         "luogo morte": "",
         "datazione morte": "293",
-        "attributi": "Abito militare, palma, cefaloforia|cefaloforo",
+        "attributi": "Abito militare, palma, cefaloforo",
         "martire/vescovo/altro": "Martire",
         "patrono": "Diocesi di Fidenza, Fidenza, Castelfranco Emilia, Montecchio Emilia, Dernice, pellegrini, contro il morso di vipere e cani   idrofobia (paura)",
         "ricorrenza": "9 ottobre",
@@ -26294,7 +26294,7 @@
         "datazione morte": "212",
         "attributi": "palma",
         "martire/vescovo/altro": "Martire",
-        "patrono": "Besançon con il fratello Ferruccio di Besançon|Ferruccio",
+        "patrono": "Besançon con il fratello Ferruccio",
         "ricorrenza": "16 giugno",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Saint Ferréol.jpg"
@@ -26515,7 +26515,7 @@
         "datazione morte": "II secolo",
         "attributi": "palma, croce",
         "martire/vescovo/altro": "Vergine e martire",
-        "patrono": "Santo Stefano di Rogliano;   Ciciliano;   Pizzone; Sariano di   Trecenta (compatrona);   Agenzia informazioni e sicurezza interna|Aisi",
+        "patrono": "Santo Stefano di Rogliano; Ciciliano; Pizzone; Sariano di Trecenta (compatrona);  Agenzia informazioni e sicurezza interna",
         "ricorrenza": "11 gennaio",
         "descrizione": "",
         "immagine": "Statua di Santa Liberata (XX secolo), venerata nella chiesa dell'Addolorata in   Lamezia Terme"
@@ -26801,8 +26801,8 @@
         "datazione morte": "24 agosto 1617 (31 anni)",
         "attributi": "giglio, rosa, bambino Gesù, corona di spine",
         "martire/vescovo/altro": "Religiosa e vergine",
-        "patrono": "delle Americhe;   Filippine, India, Perù;   Giardinaggio|giardinieri e Fioraio|fioristi",
-        "ricorrenza": "23 agosto;   30 agosto (messa tridentina)",
+        "patrono": "delle Americhe;  Filippine, India, Perù;  giardinieri e fioristi",
+        "ricorrenza": "23 agosto;  30 agosto (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Sta Rosa de Lima por Claudio Coello.jpg"
     },
@@ -26867,7 +26867,7 @@
         "attributi": "bastone pastorale",
         "martire/vescovo/altro": "",
         "patrono": "",
-        "ricorrenza": "21 febbraio;   23 febbraio (messa tridentina)",
+        "ricorrenza": "21 febbraio;  23 febbraio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Pierodamiani2.JPG"
     },
@@ -28139,7 +28139,7 @@
         "datazione morte": "XII secolo",
         "attributi": "abiti e bastone da pellegrino",
         "martire/vescovo/altro": "Pellegrino e confessore",
-        "patrono": "contro l'ernia, la grandine e i temporali;   Rocca d'Arce",
+        "patrono": "contro l'ernia, la grandine e i temporali;  Rocca d'Arce",
         "ricorrenza": "13 settembre",
         "descrizione": "",
         "immagine": ""
@@ -28282,7 +28282,7 @@
         "datazione morte": "25 febbraio 1928 (27 anni)",
         "attributi": "palma",
         "martire/vescovo/altro": "Presbitero",
-        "patrono": "|note = Presbitero",
+        "patrono": "",
         "ricorrenza": "25 febbraio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Toribio Romo González.jpg"
@@ -28360,7 +28360,7 @@
         "datazione morte": "251 circa",
         "attributi": "Vesti di pelliccia, spade, berretti frigi, corone",
         "martire/vescovo/altro": "Martiri",
-        "patrono": "Pescia;   Sahagún (Spagna);   Sandono di   Massanzago;   Civine  di   Gussago",
+        "patrono": "Pescia;  Sahagún (Spagna);  Sandono di   Massanzago;  Civine  di   Gussago",
         "ricorrenza": "30 luglio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Abdon and Sennen.jpg"
@@ -28762,8 +28762,8 @@
         "luogo morte": "",
         "datazione morte": "29 maggio 1207",
         "attributi": "",
-        "martire/vescovo/altro": "Santa Bona, Giovanni Lorenzetti Fusari, 2003,Palazzo Arcivescovile",
-        "patrono": "Hostess|assistenti di volo e guide turistiche",
+        "martire/vescovo/altro": "",
+        "patrono": "assistenti di volo e guide turistiche",
         "ricorrenza": "29 maggio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Santa Bona - Giovanni Lorenzetti.jpg"
@@ -28828,7 +28828,7 @@
         "datazione morte": "30 dicembre 1129",
         "attributi": "insegne episcopali e aquila",
         "martire/vescovo/altro": "Vescovo",
-        "patrono": "Barletta e dell'Arcidiocesi di Trani-Barletta-Bisceglie|Arcidiocesi",
+        "patrono": "Barletta e dell'Arcidiocesi di Trani-Barletta-Bisceglie",
         "ricorrenza": "30 dicembre  a Barletta",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/San_ruggero.jpg"
@@ -29050,7 +29050,7 @@
         "attributi": "palma del martirio, libro, croce e drago sotto i piedi",
         "martire/vescovo/altro": "Vergine e martire",
         "patrono": "moribondi, partorienti, insegnanti, agricoltori, soldati; diversi comuni d'Italia",
-        "ricorrenza": "20 luglio secondo il calendario romano, 5 luglio secondo il calendario ambrosiano;   17 luglio per la Chiesa ortodossa",
+        "ricorrenza": "20 luglio secondo il calendario romano, 5 luglio secondo il calendario ambrosiano;  17 luglio per la Chiesa ortodossa",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/SAINT MARGARET OF ANTIOCH.PNG"
     },
@@ -29345,7 +29345,7 @@
         "datazione nascita": "99",
         "luogo morte": "Aelia Capitolina",
         "datazione morte": "216",
-        "attributi": "Abito vescovile, bocciolo di   carduus|cardo tra le mani",
+        "attributi": "Abito vescovile, cardo tra le mani",
         "martire/vescovo/altro": "Vescovo",
         "patrono": "",
         "ricorrenza": "29 ottobre  per i cattolici, 7 agosto per gli ortodossi",
@@ -30854,7 +30854,7 @@
         "datazione morte": "5 febbraio 251",
         "attributi": "giglio, palma, pinze, seni recisi su un piatto, torcia o candela accesa",
         "martire/vescovo/altro": "Vergine e martire",
-        "patrono": "Catania, arcidiocesi di Catania, Messina (compatrona), Cineto Romano, Sant'Agata de' Goti (Provincia di Benevento), Sant'Agata di Esaro (Provincia di Cosenza), Gallipoli, diocesi di Nardò-Gallipoli, Repubblica di San Marino, Malta, Santhià (Provincia di Vercelli), e molte località;   Vigile del fuoco (in Argentina), Filogaso (Provincia di Vibo Valentia), fonditori di campane, donne affette da patologie al seno, balie, nutrici, infermieri, tessitrici siciliane; invocata contro incendi ed eruzioni e disastri ambientali",
+        "patrono": "Catania, arcidiocesi di Catania, Messina (compatrona), Cineto Romano, Sant'Agata de' Goti (Provincia di Benevento), Sant'Agata di Esaro (Provincia di Cosenza), Gallipoli, diocesi di Nardò-Gallipoli, Repubblica di San Marino, Malta, Santhià (Provincia di Vercelli), e molte località;  Vigile del fuoco (in Argentina), Filogaso (Provincia di Vibo Valentia), fonditori di campane, donne affette da patologie al seno, balie, nutrici, infermieri, tessitrici siciliane; invocata contro incendi ed eruzioni e disastri ambientali",
         "ricorrenza": "5 febbraio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Sant'Agata_con_la_palma_del_martirio.jpg"
@@ -31154,7 +31154,7 @@
         "attributi": "agnello, ascia, croce, cartiglio con la frase ''Ecce Agnus Dei'' (Ecco l'Agnello di Dio)",
         "martire/vescovo/altro": "Profeta e martire",
         "patrono": "",
-        "ricorrenza": "24 giugno : natività;  29 agosto : martirio;  23 settembre -  25 settembre : concepimento (per le Chiese d'Oriente)",
+        "ricorrenza": "24 giugno : natività; 29 agosto : martirio; 23 settembre -  25 settembre : concepimento (per le Chiese d'Oriente)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Alvise Vivarini San Juan Bautista 1475. Temple y óleo sobre tabla. 48,5 x 33,5 cm. Museo Thyssen-Bornemisza.jpg"
     },
@@ -31271,7 +31271,7 @@
         "attributi": "crocefisso, bambino, ceppi e catene della prigionia",
         "martire/vescovo/altro": "Fondatore dei Chierici Regolari di Somasca",
         "patrono": "orfani, gioventù abbandonata",
-        "ricorrenza": "8 febbraio;   20 luglio (messa tridentina)",
+        "ricorrenza": "8 febbraio;  20 luglio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Ca' Rezzonico - Cappella di Zianigo - San Girolamo Miani - Giandomenico Tiepolo.jpg"
     },
@@ -32506,7 +32506,7 @@
         "attributi": "abito dell'Ordine della Visitazione, libro con su scritto 'La Grande Promessa', giglio, orante in ginocchio, Cuore di Gesù .",
         "martire/vescovo/altro": "Monaca e mistica",
         "patrono": "devoti del   Sacro Cuore di Gesù, Vignale-Santa Margherita in   Rivello",
-        "ricorrenza": "16 ottobre;   17 ottobre (messa tridentina)",
+        "ricorrenza": "16 ottobre;  17 ottobre (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Marguerite-Marie Alacoque.jpg"
     },
@@ -32753,7 +32753,7 @@
         "attributi": "Ali, giglio, cartiglio con l'iscrizione « Ave Maria » o « Ave gratia plena Dominus tecum » (primo Rinascimento)",
         "martire/vescovo/altro": "Arcangelo",
         "patrono": "Portogallo, Diplomazia e comunicazione, Telecomunicazioni",
-        "ricorrenza": "24 marzo (messa tridentina);   29 settembre;   5 dicembre (Rito ambrosiano)",
+        "ricorrenza": "24 marzo (messa tridentina);  29 settembre;  5 dicembre (Rito ambrosiano)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Luca Signorelli - The Archangel Gabriel - Walters 37520.jpg"
     },
@@ -34141,7 +34141,7 @@
         "datazione morte": "26 settembre 302",
         "attributi": "",
         "martire/vescovo/altro": "Martiri",
-        "patrono": "'''Santa Giustina''' =   Diocesi di Piacenza, Piacenza, Mondolfo (Provincia di Pesaro e Urbino|PU), Ramiseto (Provincia di Reggio nell'Emilia|RE), Rocchetta di Vara (Provincia della Spezia|SP)  '''San Cipriano''' =   San Cipriano d'Aversa (Provincia di Caserta|CE)",
+        "patrono": "Diocesi di Piacenza, Piacenza, Mondolfo (Provincia di Pesaro e Urbino), Ramiseto (Provincia di Reggio nell'Emilia), Rocchetta di Vara (Provincia della Spezia), San Cipriano d'Aversa (Provincia di Caserta)",
         "ricorrenza": "26 settembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Cyprianandjustinagoldenlegend.jpg"
@@ -34571,7 +34571,7 @@
         "attributi": "Palma del martirio, frecce, àncora",
         "martire/vescovo/altro": "Vergine e Martire",
         "patrono": "Treporti, Flaibano, Castions delle Mura",
-        "ricorrenza": "11 agosto festa liturgica, 13 agosto nome della santa -->|attributi =   Palma del martirio, frecce, àncora",
+        "ricorrenza": "11 agosto festa liturgica, 13 agosto nome della santa",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Tela di Santa Filomena.jpg"
     },
@@ -34802,7 +34802,7 @@
         "datazione nascita": "",
         "luogo morte": "Alessandria",
         "datazione morte": "249",
-        "attributi": "Palma del martirio, Roccia|Pietre",
+        "attributi": "Palma del martirio, Roccia",
         "martire/vescovo/altro": "Martire",
         "patrono": "",
         "ricorrenza": "31 gennaio",
@@ -35389,7 +35389,7 @@
         "datazione morte": "16 ottobre 1755 (29 anni)",
         "attributi": "",
         "martire/vescovo/altro": "Religioso Redentorista",
-        "patrono": "Basilicata;   Materdomini (Caposele)",
+        "patrono": "Basilicata;  Materdomini (Caposele)",
         "ricorrenza": "16 ottobre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/São Geraldo Majela.jpg"
@@ -35598,7 +35598,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Monaco",
         "patrono": "",
-        "ricorrenza": "3 aprile|3 (Chiesa cattolica), 4 aprile e 17 aprile (Chiesa ortodossa)",
+        "ricorrenza": "3 aprile (Chiesa cattolica), 4 aprile e 17 aprile (Chiesa ortodossa)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Joseph the Hymnographer.jpg"
     },
@@ -36154,9 +36154,9 @@
         "datazione nascita": "275-285",
         "luogo morte": "Nicomedia",
         "datazione morte": "23 aprile 303",
-        "attributi": "Drago, Armatura, Palma del martirio, stendardo costituito da una   Croce di San Giorgio|croce rossa in campo bianco .",
+        "attributi": "Drago, Armatura, Palma del martirio, stendardo costituito da una croce rossa in campo bianco.",
         "martire/vescovo/altro": "Militare e martire",
-        "patrono": "Arcieri, cavalieri, soldati, combattenti, Guardia particolare giurata, scautismo|movimento scout, Reparto (scout), Catalogna, Etiopia, Georgia, Inghilterra, Lituania, Malta, Portogallo, Repubblica di Genova, Campobasso, Reggio Calabria, numerose località; invocato contro malattie della pelle, peste e malattie veneree.",
+        "patrono": "Arcieri, cavalieri, soldati, combattenti, Guardia particolare giurata, movimento scout, Reparto (scout), Catalogna, Etiopia, Georgia, Inghilterra, Lituania, Malta, Portogallo, Repubblica di Genova, Campobasso, Reggio Calabria, numerose località; invocato contro malattie della pelle, peste e malattie veneree.",
         "ricorrenza": "23 aprile 14 agosto 23 novembre (in   Georgia)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/St George - Google Art Project.jpg"
@@ -36520,7 +36520,7 @@
         "datazione morte": "fine del I secoloo forse II secolo",
         "attributi": "Palma del martirio, Scopa (strumento)",
         "martire/vescovo/altro": "Vergine e martire",
-        "patrono": "i delfini di Francia;   Alpinismo|alpinisti; trattati tra i Papi e gli imperatori di Francia; invocata contro la   febbre .",
+        "patrono": "i delfini di Francia; alpinisti; trattati tra i Papi e gli imperatori di Francia; invocata contro la febbre .",
         "ricorrenza": "31 maggio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Petronilla bnfms.jpg"
@@ -37690,7 +37690,7 @@
         "datazione morte": "II secolo",
         "attributi": "palma, giglio, diadema, bastone del pellegrino",
         "martire/vescovo/altro": "Vergine e martire",
-        "patrono": "Mortara, Fermignano, Santa Veneranda (Pesaro), Vallo della Lucania|Angellara, Ercolano (comune), Moio della Civitella, Carfizzi, Gerace, Acireale, Avola, Grotte, Santa Venerina, Santa Venere-portella",
+        "patrono": "Mortara, Fermignano, Santa Veneranda (Pesaro), Vallo della Lucania, Ercolano (comune), Moio della Civitella, Carfizzi, Gerace, Acireale, Avola, Grotte, Santa Venerina, Santa Venere-portella",
         "ricorrenza": "26 luglio",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Lazzaro Bastiani - St Veneranda Enthroned - WGA01496.jpg"
@@ -37740,9 +37740,9 @@
         "datazione nascita": "5 d.C.",
         "luogo morte": "Pella",
         "datazione morte": "65 d.C.",
-        "attributi": "Sega (strumento), imbarcazione|barca e libro",
+        "attributi": "Sega (strumento), imbarcazione e libro",
         "martire/vescovo/altro": "Apostolo",
-        "patrono": "Sovico, Tabiago;   Pesca (attività), Bosco|boscaioli, addetti alla segatura di marmi",
+        "patrono": "Sovico, Tabiago;  Pesca (attività), boscaioli, addetti alla segatura di marmi",
         "ricorrenza": "28 ottobre (Chiesa cattolica)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Ribera-san simon.jpg"
@@ -38015,7 +38015,7 @@
         "datazione morte": "6 febbraio 488",
         "attributi": "",
         "martire/vescovo/altro": "Vescovo",
-        "patrono": "Ardagh e della sua   Diocesi di Ardagh|diocesi",
+        "patrono": "Ardagh e della sua Diocesi",
         "ricorrenza": "6 febbraio",
         "descrizione": "",
         "immagine": ""
@@ -38535,7 +38535,7 @@
         "datazione morte": "8 novembre 397",
         "attributi": "Mantello, armatura, mitria, bastone pastorale, globo infuocato",
         "martire/vescovo/altro": "San Martino divide il suo prezioso mantello con un povero, particolare della facciata delDuomo di Luccadedicato al santo",
-        "patrono": "Costa Vescovato, Sambughè, Nereto, Rebbio (Como), Settingiano, Francia, Martina Franca, Ungheria, Guardia svizzera pontificia, Belluno, Sinalunga, Biassono, Bovisio Masciago, Monte San Martino, Vezza d'Alba, La Morra, Lastra a Signa, Sesto Fiorentino, Cadorago, Buenos Aires, Vezzano sul Crostolo, Codigoro, Fabro, Castel Focognano, albergatori, cavalieri, fabbricanti di   maiolica|maioliche, fanteria, Legnago, forestieri, mendicanti, militare|militari, oca (zoologia), osteria|osti, sartoria|sarti, sinistrati, vendemmia tori, viticoltore|viticoltori, volontariato, diverse località ",
+        "patrono": "Costa Vescovato, Sambughè, Nereto, Rebbio (Como), Settingiano, Francia, Martina Franca, Ungheria, Guardia svizzera pontificia, Belluno, Sinalunga, Biassono, Bovisio Masciago, Monte San Martino, Vezza d'Alba, La Morra, Lastra a Signa, Sesto Fiorentino, Cadorago, Buenos Aires, Vezzano sul Crostolo, Codigoro, Fabro, Castel Focognano, albergatori, cavalieri, fabbricanti di maioliche, fanteria, Legnago, forestieri, mendicanti, militari, oca (zoologia), osti, sarti, sinistrati, vendemmia tori, viticoltori, volontariato, diverse località ",
         "ricorrenza": "11 novembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Ca d Oro Elemosina di San Martino Il Riccio Venezia.jpg"
@@ -38822,7 +38822,7 @@
         "attributi": "",
         "martire/vescovo/altro": "Vescovo e martire",
         "patrono": "arcidiocesi di Siracusa, Gaeta (compatrono con sant'Erasmo)",
-        "ricorrenza": "30 ottobre : Chiesa cattolica; 30 ottobre e 9 febbraio : Chiesa ortodossa;   2 giugno : città di Gaeta;   14 giugno : arcidiocesi di Siracusa.",
+        "ricorrenza": "30 ottobre : Chiesa cattolica; 30 ottobre e 9 febbraio : Chiesa ortodossa;  2 giugno : città di Gaeta;  14 giugno : arcidiocesi di Siracusa.",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Statua Duomo di Siracusa.jpg"
     },
@@ -39131,7 +39131,7 @@
         "datazione nascita": "metà del III secolo",
         "luogo morte": "Roma",
         "datazione morte": "304",
-        "attributi": "Rappresentati come uomini di mezza età, con la   tonsura, mentre mantengono tra le mani un rotulo o una   Corona (copricapo), affiancati da   San Pollione di Cibali|San Pollione",
+        "attributi": "Rappresentati come uomini di mezza età, con la   tonsura, mentre mantengono tra le mani un rotulo o una   Corona (copricapo), affiancati da San Pollione",
         "martire/vescovo/altro": "Martiri",
         "patrono": "",
         "ricorrenza": "2 giugno",
@@ -39679,7 +39679,7 @@
         "datazione morte": "inizi del IV secolo",
         "attributi": "",
         "martire/vescovo/altro": "Martire",
-        "patrono": "Binetto (Provincia di Bari|BA), Pacentro (Provincia dell'Aquila|AQ)",
+        "patrono": "Binetto (Provincia di Bari), Pacentro (Provincia dell'Aquila)",
         "ricorrenza": "14 settembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Luigi Mussini, san crescenzio, (1867).JPG"
@@ -40212,7 +40212,7 @@
         "datazione morte": "549 a Clonmacnoise",
         "attributi": "Raffigurato in compagnia di una volpe o di una mucca",
         "martire/vescovo/altro": "Abate e vescovo di Clonmacnoise",
-        "patrono": "Monastero di Clonmacnoise|Clonmacnoise",
+        "patrono": "Monastero di Clonmacnoise",
         "ricorrenza": "9 settembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Cross of the Scriptures detail - Crawford plate 146.png"
@@ -40314,9 +40314,9 @@
         "datazione nascita": "III secolo",
         "luogo morte": "",
         "datazione morte": "III-IV secolo",
-        "attributi": "Vari, fra cui:   torre  a tre finestre;   palma del martirio; spada; corona;   calice (liturgia)",
+        "attributi": "Vari, fra cui:   torre  a tre finestre;  palma del martirio; spada; corona;  calice (liturgia)",
         "martire/vescovo/altro": "Vergine e martire",
-        "patrono": "Artificieri, genio militare|genieri, armaioli, matematici, geologi, vigili del fuoco, Campanaro|campanari, minatori, Artiglieria|artiglieri, architetti, Taglio della pietra|tagliapietre, Muratore|muratori, rocciatori, marinai, Becchino|becchini, Polveriera|polveriere, contro i fulmini, il fuoco, le esplosioni, la morte improvvisa e i colpi d'artiglieria, vari altri.",
+        "patrono": "Artificieri, genieri, armaioli, matematici, geologi, vigili del fuoco, campanari, minatori, artiglieri, architetti, tagliapietre, muratori, rocciatori, marinai, becchini, polveriere, contro i fulmini, il fuoco, le esplosioni, la morte improvvisa e i colpi d'artiglieria, vari altri.",
         "ricorrenza": "4 dicembre",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Saint Barbara. Etching. Wellcome V0031659.jpg"
@@ -40381,7 +40381,7 @@
         "datazione morte": "399",
         "attributi": "",
         "martire/vescovo/altro": "",
-        "patrono": "Brescello (Provincia di Reggio Emilia|RE)",
+        "patrono": "Brescello (Provincia di Reggio Emilia)",
         "ricorrenza": "25 agosto",
         "descrizione": "",
         "immagine": ""
@@ -40537,7 +40537,7 @@
         "datazione morte": "4 aprile 397",
         "attributi": "miele, Flagello (strumento), Pastorale (liturgia)",
         "martire/vescovo/altro": "",
-        "patrono": "Milano, Cinisello Balsamo, Stresa, Alassio, Prefetto|prefetti, Lombardia, Merate, Rozzano, Monserrato, Villaggio Snia (frazione di   Cesano Maderno), Buccheri, Cerami, Vigevano, Briosco, Castel del Rio, Vescovo|vescovi, Omegna, Carate Brianza, Caslino d'Erba, Settimo Milanese, Dego, Lonate Pozzolo, Roncello, Gorzone (Darfo Boario Terme), Cuasso al Monte, Cologno Monzese, Porto Ceresio",
+        "patrono": "Milano, Cinisello Balsamo, Stresa, Alassio, prefetti, Lombardia, Merate, Rozzano, Monserrato, Villaggio Snia (frazione di   Cesano Maderno), Buccheri, Cerami, Vigevano, Briosco, Castel del Rio, vescovi, Omegna, Carate Brianza, Caslino d'Erba, Settimo Milanese, Dego, Lonate Pozzolo, Roncello, Gorzone (Darfo Boario Terme), Cuasso al Monte, Cologno Monzese, Porto Ceresio",
         "ricorrenza": "4 aprile (vetero-cattolici)7 dicembre (cattolici e ortodossi)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Claude Vignon - Saint Ambrose - 68.43 - Minneapolis Institute of Arts.jpg"
@@ -40548,7 +40548,7 @@
         "datazione nascita": "25 marzo 1347",
         "luogo morte": "Roma",
         "datazione morte": "29 aprile 1380 (33 anni)",
-        "attributi": "abito domenicano, Lilium candidum|giglio bianco, Iris germanica|giglio di Santa Caterina, anello, stimmate, corona di spine sul capo, croce, Libro (araldica), penna, Cuore (Bibbia)",
+        "attributi": "abito domenicano, giglio bianco, giglio di Santa Caterina, anello, stimmate, corona di spine sul capo, croce, Libro (araldica), penna, Cuore (Bibbia)",
         "martire/vescovo/altro": "Religiosa,Vergine,PatronadiRomae d'Italia, compatrona d'EuropaeDottore della Chiesa",
         "patrono": "infermieri; Roma, compatrona d'Europa, Roverismo",
         "ricorrenza": "29 aprile; 30 aprile (per la   messa tridentina)",
@@ -41447,7 +41447,7 @@
         "datazione morte": "7 agosto 362",
         "attributi": "",
         "martire/vescovo/altro": "San Donato dipinto daFilippino Lippi",
-        "patrono": "Epilessia|epilettici e diversi comuni italiani ",
+        "patrono": "epilettici e diversi comuni italiani ",
         "ricorrenza": "7 agosto",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Jusepe de Ribera, the wonder of Donatus of Arezzo.JPG"
@@ -41669,7 +41669,7 @@
         "attributi": "Bastone pastorale",
         "martire/vescovo/altro": "",
         "patrono": "",
-        "ricorrenza": "30 luglio;   4 dicembre (messa tridentina)",
+        "ricorrenza": "30 luglio;  4 dicembre (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Saint Peter Chrysologus.jpg"
     },
