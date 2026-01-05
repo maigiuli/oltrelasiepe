@@ -7405,7 +7405,7 @@
         "ricorrenza": "10 agosto",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Spinello Aretino 001.jpg",
-        "livello": "D"
+        "livello": "F"
     },
     {
         "nome_santo": "Sant’Albano da Magonza",
@@ -8049,7 +8049,7 @@
         "ricorrenza": "28 gennaio e 7 marzo (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Thomas Aquinas by Sandro Botticelli.jpg",
-        "livello": "D"
+        "livello": "F"
     },
     {
         "nome_santo": "San Tommaso (apostolo)",
@@ -8063,7 +8063,7 @@
         "ricorrenza": "",
         "descrizione": "",
         "immagine": "",
-        "livello": "D"
+        "livello": "F"
     },
     {
         "nome_santo": "San Teofano (865-897)",
@@ -11101,7 +11101,7 @@
         "ricorrenza": "27 agosto, 4 maggio (messa tridentina)",
         "descrizione": "",
         "immagine": "https://it.wikipedia.org/wiki/Special:FilePath/Monica of Hippo by Gozzoli.jpg",
-        "livello": "D"
+        "livello": "F"
     },
     {
         "nome_santo": "San Marcello di Parigi",
@@ -23898,19 +23898,160 @@
         "immagine": "",
         "livello": "D"
     },
+
+    {
+        "nome_santo": "Sant’Agostino d’Ippona",
+        "luogo_nascita": "Tagaste (Numidia, attuale Algeria)",
+        "datazione nascita": "13 novembre 354",
+        "luogo morte": "Ippona",
+        "datazione morte": "28 agosto 430",
+        "attributi": "cuore fiammante, libro, mitra",
+        "martire/vescovo/altro": "vescovo, dottore della Chiesa",
+        "patrono": "teologi, stampatori",
+        "ricorrenza": "28 agosto",
+        "descrizione": "Vescovo di Ippona e uno dei più grandi Padri e Dottori della Chiesa. Autore delle Confessioni e della Città di Dio.",
+        "immagine": "",
+        "livello": "F"
+    },
+    {
+        "nome_santo": "San Tommaso apostolo",
+        "luogo_nascita": "Galilea",
+        "datazione nascita": "I secolo d.C.",
+        "luogo morte": "India (tradizione)",
+        "datazione morte": "I secolo d.C.",
+        "attributi": "squadra, lancia",
+        "martire/vescovo/altro": "apostolo, martire",
+        "patrono": "architetti, muratori",
+        "ricorrenza": "3 luglio",
+        "descrizione": "Uno dei Dodici Apostoli, noto per l’episodio dell’incredulità e per la predicazione in Oriente.",
+        "immagine": "",
+        "livello": "F"
+    },
+    {
+        "nome_santo": "San Pio da Pietrelcina",
+        "luogo_nascita": "Pietrelcina (Italia)",
+        "datazione nascita": "25 maggio 1887",
+        "luogo morte": "San Giovanni Rotondo (Italia)",
+        "datazione morte": "23 settembre 1968",
+        "attributi": "stigmate, rosario, barba",
+        "martire/vescovo/altro": "sacerdote cappuccino",
+        "patrono": "Gruppi di preghiera",
+        "ricorrenza": "23 settembre",
+        "descrizione": "Frate cappuccino noto per le stimmate, la direzione spirituale e la profonda devozione popolare.",
+        "immagine": "",
+        "livello": "F"
+    },
+    {
+        "nome_santo": "San Girolamo",
+        "luogo_nascita": "Stridone (Dalmazia)",
+        "datazione nascita": "circa 347",
+        "luogo morte": "Betlemme",
+        "datazione morte": "30 settembre 420",
+        "attributi": "leone, libro, cappello cardinalizio",
+        "martire/vescovo/altro": "presbitero, dottore della Chiesa",
+        "patrono": "traduttori, studiosi",
+        "ricorrenza": "30 settembre",
+        "descrizione": "Grande studioso delle Scritture e traduttore della Bibbia in latino (Vulgata).",
+        "immagine": "",
+        "livello": "F"
+    },
+    {
+        "nome_santo": "Santa Monica",
+        "luogo_nascita": "Tagaste (Numidia)",
+        "datazione nascita": "circa 331",
+        "luogo morte": "Ostia",
+        "datazione morte": "387",
+        "attributi": "velo, lacrime, libro",
+        "martire/vescovo/altro": "madre di famiglia",
+        "patrono": "madri, vedove",
+        "ricorrenza": "27 agosto",
+        "descrizione": "Madre di Sant’Agostino, esempio di perseveranza nella preghiera e nella fede.",
+        "immagine": "",
+        "livello": "F"
+    },
+    {
+        "nome_santo": "San Lorenzo",
+        "luogo_nascita": "Spagna (tradizione)",
+        "datazione nascita": "III secolo",
+        "luogo morte": "Roma",
+        "datazione morte": "10 agosto 258",
+        "attributi": "graticola, palma del martirio",
+        "martire/vescovo/altro": "diacono, martire",
+        "patrono": "cuochi, bibliotecari",
+        "ricorrenza": "10 agosto",
+        "descrizione": "Diacono della Chiesa di Roma, martirizzato durante la persecuzione di Valeriano.",
+        "immagine": "",
+        "livello": "F"
+    },
+    {
+        "nome_santo": "San Giuda Taddeo",
+        "luogo_nascita": "Galilea",
+        "datazione nascita": "I secolo d.C.",
+        "luogo morte": "Persia (tradizione)",
+        "datazione morte": "I secolo d.C.",
+        "attributi": "mazza, medaglione di Cristo",
+        "martire/vescovo/altro": "apostolo, martire",
+        "patrono": "cause disperate",
+        "ricorrenza": "28 ottobre",
+        "descrizione": "Uno dei Dodici Apostoli, invocato come santo delle cause difficili.",
+        "immagine": "",
+        "livello": "F"
+    },
     {
         "nome_santo": "Santa Scolastica da Norcia",
-        "luogo_nascita": "",
-        "datazione nascita": "",
-        "luogo morte": "",
-        "datazione morte": "",
-        "attributi": "",
-        "martire/vescovo/altro": "",
-        "patrono": "",
-        "ricorrenza": "",
-        "descrizione": "",
+        "luogo_nascita": "Norcia",
+        "datazione nascita": "circa 480",
+        "luogo morte": "Montecassino",
+        "datazione morte": "circa 547",
+        "attributi": "colomba, libro",
+        "martire/vescovo/altro": "monaca",
+        "patrono": "monache benedettine",
+        "ricorrenza": "10 febbraio",
+        "descrizione": "Sorella di San Benedetto, fondatrice della vita monastica femminile benedettina.",
         "immagine": "",
-        "livello": "D"
+        "livello": "F"
+    },
+    {
+        "nome_santo": "San Michele Arcangelo",
+        "luogo_nascita": "—",
+        "datazione nascita": "—",
+        "luogo morte": "—",
+        "datazione morte": "—",
+        "attributi": "spada, bilancia, drago",
+        "martire/vescovo/altro": "arcangelo",
+        "patrono": "polizia, militari",
+        "ricorrenza": "29 settembre",
+        "descrizione": "Capo delle milizie celesti, difensore contro il male.",
+        "immagine": "",
+        "livello": "F"
+    },
+    {
+        "nome_santo": "San Gabriele Arcangelo",
+        "luogo_nascita": "—",
+        "datazione nascita": "—",
+        "luogo morte": "—",
+        "datazione morte": "—",
+        "attributi": "giglio, tromba",
+        "martire/vescovo/altro": "arcangelo",
+        "patrono": "messaggeri, telecomunicazioni",
+        "ricorrenza": "29 settembre",
+        "descrizione": "Messaggero di Dio, annunciatore dell’Incarnazione a Maria.",
+        "immagine": "",
+        "livello": "F"
+    },
+    {
+        "nome_santo": "San Raffaele Arcangelo",
+        "luogo_nascita": "—",
+        "datazione nascita": "—",
+        "luogo morte": "—",
+        "datazione morte": "—",
+        "attributi": "pesce, bastone",
+        "martire/vescovo/altro": "arcangelo",
+        "patrono": "viaggiatori, medici",
+        "ricorrenza": "29 settembre",
+        "descrizione": "Guaritore e protettore dei viaggiatori, citato nel libro di Tobia.",
+        "immagine": "",
+        "livello": "F"
     },
     {
         "nome_santo": "Sant’Aronne",
