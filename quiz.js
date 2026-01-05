@@ -6,7 +6,8 @@
 let santi = [];
 
 // carica il JSON
-fetch("prova-corretto3new.json")
+//fetch("prova-corretto3new.json")
+fetch("santi_con_livello.json")
     .then(response => response.json())
     .then(data => {
         santi = data;
@@ -34,7 +35,7 @@ function santoCasuale(santi) {
 function filtraSantiPerModalita(santi, modalita) {
     if (modalita === MODALITA.SANTO_DA_IMMAGINE) {
         return santi.filter(s =>
-            s.immagine && s.immagine.trim() !== ""
+            s.immagine && s.immagine.trim() !== "" && s.livello.trim() == "F"
         );
     }
 
