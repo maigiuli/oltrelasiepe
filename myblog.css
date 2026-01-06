@@ -1,4 +1,12 @@
 /* Nel tuo file CSS */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -85,6 +93,7 @@ nav {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    overflow-x: hidden;
 }
 
 nav a {
@@ -133,27 +142,21 @@ nav ul li.special a {
 
 .banner_image {
     width: 100%;
-    /* Ad esempio, può occupare l'intera larghezza della viewport */
-    height: 500px;
-    /* altezza fissa in questo esempio */
+    overflow: hidden;
 
-    /* Impostare l'immagine di sfondo */
+    height: 500px;
     background-image: url('images/DSC_3132_edited.jpg');
     background-size: cover;
-    /* L'immagine coprirà l'intera dimensione dell'elemento */
     background-repeat: no-repeat;
-    /* Evita che l'immagine si ripeta */
-    background-position: center center;
-    /* Centra l'immagine */
 
-    /* Centrare il testo - opzionale */
+    background-position: center center;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
-    /* Rende possibile posizionare assolutamente le immagini dei personaggi rispetto a questo contenitore */
 }
 
 .character {
@@ -200,14 +203,11 @@ nav ul li.special a {
     background-color: rgb(13, 29, 70);
     padding: 20px 0;
     text-align: center;
-    /* Centra le icone orizzontalmente */
 }
 
 .social-strip a {
     margin: 0 10px;
-    /* Aggiunge un po' di spazio tra le icone */
     display: inline-block;
-    /* Rende le icone allineate orizzontalmente */
 }
 
 .social-strip img {
