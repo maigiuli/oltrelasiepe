@@ -11,7 +11,7 @@ fetch("santi_con_livello.json")
     .then(response => response.json())
     .then(data => {
         santi = data;
-        avviaQuiz();   
+        
     })
     .catch(err => console.error("Errore caricamento JSON", err));
 
@@ -158,7 +158,21 @@ function getModalitaSelezionata() {
 
 
 let domandaCorrente = null;
+let numeroDomanda = 0;
+let totaleDomande = 10; // default
+let risultati = [];
+function getNumeroDomandeSelezionato() {
+    const selected = document.querySelector('input[name="numDomande"]:checked');
+    return selected ? parseInt(selected.value) : 10;
+}
+
 function avviaQuiz() {
+    if (numeroDomanda >= totaleDomande) {
+        fineQuiz();
+        return;
+    }
+
+    numeroDomanda++;
     const modalita = getModalitaSelezionata();
 
     domandaCorrente = nuovaDomanda(santi, modalita);
@@ -182,6 +196,11 @@ function avviaQuiz() {
 
     const opzioni = generaOpzioni(santi, domandaCorrente.rispostaCorretta, modalita);
     mostraOpzioni(opzioni);
+    document.getElementById("contatore").innerText =
+        `Domanda ${numeroDomanda} di ${totaleDomande}`;
+   
+
+
 }
 
 
@@ -236,6 +255,12 @@ function verificaRisposta(rispostaUtente) {
 
 
     document.getElementById("nextBtn").disabled = false;
+    risultati.push({
+        domanda: domandaCorrente.domanda,
+        rispostaUtente: rispostaUtente,
+        rispostaCorretta: domandaCorrente.rispostaCorretta,
+        corretta: rispostaUtente === domandaCorrente.rispostaCorretta
+    });
 }
 
 function prossimaDomanda() {
@@ -254,14 +279,47 @@ function disabilitaOpzioni() {
 
 
 function iniziaQuiz() {
-    document.getElementById("sceltaModalita").style.display = "none";
-    document.getElementById("quiz").style.display = "block";
+    numeroDomanda = 0;
+    risultati = [];
+
+    document.getElementById("wrapperModalita").style.display = "none";
+    document.getElementById("wrapperQuiz").style.display = "flex";
 
     avviaQuiz();
 }
 
 
 
+function vaiASceltaModalita() {
+    totaleDomande = getNumeroDomandeSelezionato();
 
+    document.getElementById("wrapperNumeroDomande").style.display = "none";
+    document.getElementById("wrapperModalita").style.display = "flex";
+}
 
+function fineQuiz() {
+    document.getElementById("wrapperQuiz").style.display = "none";
 
+    const risultatiDiv = document.getElementById("risultatiFinali");
+    risultatiDiv.style.display = "block";
+
+    const lista = document.getElementById("listaRisultati");
+    lista.innerHTML = "";
+
+    let corrette = 0;
+
+    risultati.forEach((r, index) => {
+        if (r.corretta) corrette++;
+        const li = document.createElement("li");
+        li.innerHTML = `
+            <strong>${index + 1}. ${r.domanda}</strong><br>
+            Tua risposta: ${r.rispostaUtente}<br>
+            Risposta corretta: ${r.rispostaCorretta}
+            ${r.corretta ? "✅" : "❌"}
+        `;
+        lista.appendChild(li);
+    });
+
+    document.getElementById("punteggioFinale").innerText =
+        `Hai risposto correttamente a ${corrette} su ${totaleDomande} domande`;
+}

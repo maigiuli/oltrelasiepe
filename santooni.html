@@ -67,49 +67,56 @@
 
 
 <body>
-<section class="quiz-wrapper">
+
+<section class="quiz-wrapper" id="wrapperNumeroDomande">
     <div class="quiz-card">
+        <h3>📊 Scegli il numero di domande</h3>
 
-        <div id="sceltaModalita" class="quiz-section">
-            <h3>🎲 Scegli la modalità</h3>
+        <label><input type="radio" name="numDomande" value="10" checked> 10 domande</label>
+        <label><input type="radio" name="numDomande" value="20"> 20 domande</label>
+        <label><input type="radio" name="numDomande" value="30"> 30 domande</label>
 
-            <label class="quiz-radio">
-                <input type="radio" name="modalita" value="santo_da_immagine" checked>
-                Santo dall'immagine
-            </label>
-
-            <label class="quiz-radio">
-                <input type="radio" name="modalita" value="luogo_da_santo">
-                Luogo del santo
-            </label>
-
-            <label class="quiz-radio">
-                <input type="radio" name="modalita" value="attributi_da_santo">
-                Attributi del santo
-            </label>
-
-            <button class="quiz-btn primary" onclick="iniziaQuiz()">Inizia quiz</button>
-        </div>
-
-        <div id="quiz" class="quiz-section" style="display:none">
-            <p id="domanda" class="quiz-domanda"></p>
-
-            <img id="immagine" class="quiz-img">
-
-            <div id="opzioni" class="quiz-opzioni"></div>
-
-            <p id="feedback" class="quiz-feedback"></p>
-            <p id="descrizione" class="quiz-descrizione"></p>
-            <p id="patrono" class="quiz-extra"></p>
-            <p id="attributi"> </p>
-
-            <button id="nextBtn" class="quiz-btn" onclick="prossimaDomanda()" disabled>
-                Prossima domanda →
-            </button>
-        </div>
-
-  
+        <button class="quiz-btn primary" onclick="vaiASceltaModalita()">Avanti →</button>
     </div>
+</section>
+
+<section class="quiz-wrapper" id="wrapperModalita" style="display:none">
+    <div class="quiz-card">
+        <h3>🎲 Scegli la modalità</h3>
+
+        <label><input type="radio" name="modalita" value="santo_da_immagine" checked> Santo dall'immagine</label>
+        <label><input type="radio" name="modalita" value="luogo_da_santo"> Luogo del santo</label>
+        <label><input type="radio" name="modalita" value="attributi_da_santo"> Attributi del santo</label>
+
+        <button class="quiz-btn primary" onclick="iniziaQuiz()">Inizia quiz</button>
+    </div>
+</section>
+
+<section class="quiz-wrapper" id="wrapperQuiz" style="display:none">
+    <div class="quiz-card">
+        <p id="domanda" class="quiz-domanda"></p>
+        <img id="immagine" class="quiz-img">
+        <div id="opzioni" class="quiz-opzioni"></div>
+        <p id="feedback" class="quiz-feedback"></p>
+        <p id="descrizione" class="quiz-descrizione"></p>
+        <p id="patrono" class="quiz-extra"></p>
+        <p id="attributi"> </p>
+
+        <button id="nextBtn" class="quiz-btn" onclick="prossimaDomanda()" disabled>Prossima domanda →</button>
+        <p id="contatore" class="quiz-contatore"></p>
+    </div>
+</section>
+
+<!-- 4️⃣ Risultati finali -->
+<div id="risultatiFinali" class="quiz-section" style="display:none">
+    <h3>📊 Risultati finali</h3>
+    <p id="punteggioFinale"></p>
+    <ul id="listaRisultati"></ul>
+    <button class="quiz-btn primary" onclick="ricominciaQuiz()">Ricomincia quiz</button>
+</div>
+
+   
+    
 
 <script src="quiz.js" defer></script>
 

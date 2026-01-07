@@ -23857,20 +23857,6 @@
         "livello": "D"
     },
     {
-        "nome_santo": "San Michele (arcangelo)",
-        "luogo_nascita": "",
-        "datazione nascita": "",
-        "luogo morte": "",
-        "datazione morte": "",
-        "attributi": "",
-        "martire/vescovo/altro": "",
-        "patrono": "",
-        "ricorrenza": "",
-        "descrizione": "",
-        "immagine": "",
-        "livello": "D"
-    },
-    {
         "nome_santo": "San Cassiano di Autun",
         "luogo_nascita": "",
         "datazione nascita": "",
@@ -23909,7 +23895,7 @@
         "patrono": "teologi, stampatori",
         "ricorrenza": "28 agosto",
         "descrizione": "Vescovo di Ippona e uno dei più grandi Padri e Dottori della Chiesa.",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Champaigne%2C_Philippe_de_-_Saint_Augustin_-_1645-1650.jpg/500px-Champaigne%2C_Philippe_de_-_Saint_Augustin_-_1645-1650.jpg",
         "livello": "F"
     },
     {
@@ -23923,7 +23909,7 @@
         "patrono": "architetti, muratori",
         "ricorrenza": "3 luglio",
         "descrizione": "Apostolo noto per l’episodio dell’incredulità e per la predicazione in Oriente.",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Guercino_-_Saint_Thomas_the_Apostle.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Rubens_apostel_thomas.jpg/500px-Rubens_apostel_thomas.jpg",
         "livello": "F"
     },
     {
@@ -23937,7 +23923,7 @@
         "patrono": "Gruppi di preghiera",
         "ricorrenza": "23 settembre",
         "descrizione": "Frate cappuccino noto per le stimmate e la grande devozione popolare.",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Padre_Pio_1960.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/5/51/Padre_Pio_portrait.jpg",
         "livello": "F"
     },
     {
@@ -23951,7 +23937,7 @@
         "patrono": "traduttori, studiosi",
         "ricorrenza": "30 settembre",
         "descrizione": "Traduttore della Bibbia in latino (Vulgata).",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Albrecht_D%C3%BCrer_-_St_Jerome_in_his_Study.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Francisco_de_Zurbar%C3%A1n_041.jpg/330px-Francisco_de_Zurbar%C3%A1n_041.jpg",
         "livello": "F"
     },
     {
@@ -23993,7 +23979,7 @@
         "patrono": "cause disperate",
         "ricorrenza": "28 ottobre",
         "descrizione": "Apostolo invocato come protettore delle cause difficili.",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/2/23/Saint_Jude_Thaddeus_-_Georges_de_La_Tour.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Saint_Judas_Thaddeus_A17829.jpg/500px-Saint_Judas_Thaddeus_A17829.jpg",
         "livello": "F"
     },
     {
@@ -24007,7 +23993,7 @@
         "patrono": "monache benedettine",
         "ricorrenza": "10 febbraio",
         "descrizione": "Sorella di San Benedetto e fondatrice della vita monastica femminile benedettina.",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Saint_Scholastica_-_Fresco.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Cassino%2C_Abbazia_di_Montecassino_-_Exterior_007.jpg/500px-Cassino%2C_Abbazia_di_Montecassino_-_Exterior_007.jpg",
         "livello": "F"
     },
     {
@@ -24021,7 +24007,7 @@
         "patrono": "forze armate, polizia",
         "ricorrenza": "29 settembre",
         "descrizione": "Capo delle milizie celesti e difensore contro il male.",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Guido_Reni_-_St_Michael_the_Archangel.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/GuidoReni_MichaelDefeatsSatan.jpg/500px-GuidoReni_MichaelDefeatsSatan.jpg",
         "livello": "F"
     },
     {
@@ -24035,7 +24021,7 @@
         "patrono": "messaggeri",
         "ricorrenza": "29 settembre",
         "descrizione": "Annunciatore dell’Incarnazione a Maria.",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Gabriel_Annunciation.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Luca_Signorelli_-_The_Archangel_Gabriel_-_Walters_37520.jpg/500px-Luca_Signorelli_-_The_Archangel_Gabriel_-_Walters_37520.jpg",
         "livello": "F"
     },
     {
@@ -24049,7 +24035,7 @@
         "patrono": "viaggiatori, medici",
         "ricorrenza": "29 settembre",
         "descrizione": "Guaritore e guida nel libro di Tobia.",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Raphael_Archangel.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Filippino_Lippi_016.jpg/500px-Filippino_Lippi_016.jpg",
         "livello": "F"
     },
     {
@@ -42006,7 +41992,7 @@
         "patrono": "Venezia, notai, scrivani",
         "ricorrenza": "25 aprile",
         "descrizione": "Autore del Vangelo secondo Marco, figura centrale della tradizione cristiana e patrono della città di Venezia.:contentReference[oaicite:0]{index=0}",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/San_Marco_%28Hals%29.jpg/330px-San_Marco_%28Hals%29.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/GRM_Inv._J-3179.jpg/500px-GRM_Inv._J-3179.jpg",
         "livello": "F"
     },
     {
@@ -42034,7 +42020,7 @@
         "patrono": "macellai, conciatori di pelli",
         "ricorrenza": "24 agosto",
         "descrizione": "Uno dei Dodici Apostoli, ricordato per la predicazione del Vangelo e il martirio. Spesso rappresentato con il coltello e la pelle come simboli del suo supplizio.:contentReference[oaicite:2]{index=2}",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Michelangelo_Buonarroti_024.jpg/330px-Michelangelo_Buonarroti_024.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Gregorio_bausa-san_bartolome.jpg/500px-Gregorio_bausa-san_bartolome.jpg",
         "livello": "F"
     },
     {
@@ -42048,7 +42034,7 @@
         "patrono": "Napoli",
         "ricorrenza": "25 agosto",
         "descrizione": "Santa venerata a Napoli secondo la tradizione; alla sua figura è legato il prodigio della liquefazione del sangue, simile a quello di San Gennaro.:contentReference[oaicite:3]{index=3}",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Santa_Patrizia_di_Costantinopoli_statue.jpg/330px-Santa_Patrizia_di_Costantinopoli_statue.jpg",
+        "immagine": "https://blog.libero.it/wp/sergiodellicarri/wp-content/uploads/sites/7509/2017/03/santa-patrizia-201x300.jpg",
         "livello": "F"
     },
     {
@@ -42062,7 +42048,7 @@
         "patrono": "teologi, scrittori",
         "ricorrenza": "27 dicembre",
         "descrizione": "Apostolo e autore del Vangelo secondo Giovanni, delle Lettere e dell’Apocalisse. È ricordato per la sua profonda teologia cristologica.:contentReference[oaicite:4]{index=4}",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Guido_Reni_St_John_The_Evangelist.jpg/330px-Guido_Reni_St_John_The_Evangelist.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Zampieri_St_John_Evangelist.jpg/960px-Zampieri_St_John_Evangelist.jpg",
         "livello": "F"
     },
     {
@@ -42076,7 +42062,7 @@
         "patrono": "contabili, banchieri",
         "ricorrenza": "21 settembre",
         "descrizione": "Ex pubblicano chiamato da Gesù, è autore del Vangelo secondo Matteo. Predicò il Vangelo in varie regioni e subì il martirio secondo la tradizione.:contentReference[oaicite:5]{index=5}",
-        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Andrea_del_Sarto_001.jpg/330px-Andrea_del_Sarto_001.jpg",
+        "immagine": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/The_Inspiration_of_Saint_Matthew_by_Caravaggio.jpg/500px-The_Inspiration_of_Saint_Matthew_by_Caravaggio.jpg",
         "livello": "F"
     },
     {

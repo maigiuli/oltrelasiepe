@@ -1,4 +1,85 @@
-/* Nel tuo file CSS */
+/* Imposta il body e html a tutta altezza */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Wrapper che centra tutto */
+.quiz-wrapper {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;         /* Centra verticalmente */
+    min-height: 100vh;           /* Almeno tutta l'altezza dello schermo */
+    flex-direction: column;      /* Allinea i contenuti in colonna */
+}
+
+
+/* Carta del quiz */
+.quiz-card {
+    background-color: #fff;
+    /* sfondo bianco */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    /* centra testo e bottoni */
+    max-width: 600px;
+    /* larghezza massima */
+    width: 90%;
+    /* larghezza reattiva */
+}
+
+/* Opzioni come bottoni */
+.quiz-opzioni button {
+    display: block;
+    width: 100%;
+    /* bottoni grandi */
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: all 0.2s;
+}
+
+.quiz-opzioni button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Feedback */
+.quiz-feedback {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Contatore */
+.quiz-contatore {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Immagine */
+.quiz-img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+/* Risultati finali */
+#risultatiFinali ul {
+    list-style: none;
+    padding: 0;
+}
+
+#risultatiFinali li {
+    text-align: left;
+    margin-bottom: 10px;
+}
 .bounceable {
     cursor: pointer;
     transition: transform 0.2s;
@@ -295,21 +376,7 @@ input[type="email"] {
 
 /* ===== QUIZ ===== */
 
-.quiz-wrapper {
-    display: flex;
-    justify-content: center;
-    margin: 60px 0;
-}
 
-.quiz-card {
-    background: #ffffff;
-    border-radius: 18px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-    padding: 30px 35px;
-    max-width: 650px;
-    width: 100%;
-    text-align: center;
-}
 
 .quiz-section h3 {
     margin-bottom: 20px;
