@@ -287,6 +287,22 @@ function iniziaQuiz() {
 
     avviaQuiz();
 }
+function ricominciaQuiz() {
+    // Nascondi risultati
+    document.getElementById("risultatiFinali").style.display = "none";
+
+    // Mostra la prima schermata: scelta numero domande
+    document.getElementById("wrapperNumeroDomande").style.display = "flex";
+
+    // Nascondi tutte le altre sezioni
+    document.getElementById("wrapperModalita").style.display = "none";
+    document.getElementById("wrapperQuiz").style.display = "none";
+
+    // Reset variabili
+    numeroDomanda = 0;
+    totaleDomande = 10; // default
+    risultati = [];
+}
 
 
 
