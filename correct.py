@@ -1,13 +1,12 @@
+
 import json
 import re
 
-# Regex ripetizioni tipo (Paese)|città
 pattern_paese = re.compile(r'(\([^()]+\))\|[^,]+(?=,|$)', re.IGNORECASE)
 
-# Regex tag <ref ...>...</ref> e self closing
 pattern_ref = re.compile(r'<ref[^>]*>(.*?)<\/ref>|<ref[^>]*/>', re.IGNORECASE | re.DOTALL)
 
-# Regex secolo (numero romano)
+
 roman = r'(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX|XXI)'
 
 def sposta_secolo(diz, campo_luogo, campo_datazione):
