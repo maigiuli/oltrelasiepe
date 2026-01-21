@@ -1,4 +1,3 @@
-/* Nel tuo file CSS */
 .bounceable {
     cursor: pointer;
     transition: transform 0.2s;
@@ -192,6 +191,7 @@ main {
     color: black;
 
 }
+
 /* Se vuoi applicare lo stile solo a sottotitoli specifici con una classe */
 .sottotitolo-personalizzato {
     font-style: italic;
@@ -199,6 +199,7 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
 .article-link:hover {
     cursor: pointer;
 }
