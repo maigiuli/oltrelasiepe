@@ -5,10 +5,8 @@ function filterSongs() {
     const songs = document.querySelectorAll(".square");
     let found = false;
 
-    // Itera sui blocchi delle canzoni
     songs.forEach(song => {
-        // Cerca l'elemento con classe .square-title e .square-description
-        const titleElement = song.querySelector(".square-title");
+        const titleElement = song.querySelector(".square-title");   
         const artistElement = song.querySelector(".square-description");
 
         // Controlla che entrambi gli elementi esistano

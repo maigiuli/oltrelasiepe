@@ -1,11 +1,6 @@
-
-
-
-
-// 1. DATI
+  
 let santi = [];
 
-// carica il JSON
 //fetch("prova-corretto3new.json")
 fetch("santi_con_livello.json")
     .then(response => response.json())
@@ -16,8 +11,6 @@ fetch("santi_con_livello.json")
     .catch(err => console.error("Errore caricamento JSON", err));
 
 
-
-// 2. MODALITÀ
 const MODALITA = {
     SANTO_DA_IMMAGINE: "santo_da_immagine",
     LUOGO_DA_SANTO: "luogo_da_santo", 

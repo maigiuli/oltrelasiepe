@@ -2,8 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 
 
-
-
 def print_message(url):
 
     response = requests.get(url)
