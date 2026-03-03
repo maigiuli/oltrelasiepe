@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+.artist-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.year-button span {
+    font-weight: 700;
+
+    font-size: 28px;
+
+    color: #222;
+
+    letter-spacing: 1px;
+
+}
+
+#buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.year-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#info-container {
+    margin-top: 20px;
+}
+
+#year-image {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+#details {
+    margin-top: 10px;
+    font-size: 16px;
+}

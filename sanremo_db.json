@@ -1,0 +1,3546 @@
+{
+    "2022": {
+        "year": 2022,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/0/00/Festival_di_Sanremo_2022_logo.png/330px-Festival_di_Sanremo_2022_logo.png",
+        "presenters": [
+            "Amadeus",
+            "Ornella Muti",
+            "Drusilla Foer",
+            "Maria Chiara Giannetta",
+            "Sabrina Ferilli"
+        ],
+        "artistic director": [
+            "Amadeus"
+        ],
+        "participants": [
+            {
+                "artist": "Mahmood e Blanco",
+                "song": "Brividi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mahmood_%28Feb_2024%3B_02%29_%28cropped%29.png/250px-Mahmood_%28Feb_2024%3B_02%29_%28cropped%29.png",
+                "position": "1º"
+            },
+            {
+                "artist": "Elisa",
+                "song": "O forse sei tu",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Elisa-5292-Adriana.Tedeschi.jpg/250px-Elisa-5292-Adriana.Tedeschi.jpg",
+                "position": "2º"
+            },
+            {
+                "artist": "Gianni Morandi",
+                "song": "Apri tutte le porte",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Gianni_Morandi_%40_Wind_Music_Awards_2016_11_%28cropped%29_%28cropped%29.jpg/330px-Gianni_Morandi_%40_Wind_Music_Awards_2016_11_%28cropped%29_%28cropped%29.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Irama",
+                "song": "Ovunque sarai",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Irama_%28Feb_2024%29_%28cropped%29.png/330px-Irama_%28Feb_2024%29_%28cropped%29.png",
+                "position": "4º"
+            },
+            {
+                "artist": "Sangiovanni",
+                "song": "Farfalle",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sangiovanni_during_an_interview_for_Radio_Bruno_in_2022.png/330px-Sangiovanni_during_an_interview_for_Radio_Bruno_in_2022.png",
+                "position": "5º"
+            },
+            {
+                "artist": "Emma",
+                "song": "Ogni volta è così",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emma_%28Oct_2023%29_%28cropped%29.png/330px-Emma_%28Oct_2023%29_%28cropped%29.png",
+                "position": "6º"
+            },
+            {
+                "artist": "La Rappresentante di Lista",
+                "song": "Ciao ciao",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/La_Rappresentante_di_Lista_Sherwood.it_2025.png/330px-La_Rappresentante_di_Lista_Sherwood.it_2025.png",
+                "position": "7º"
+            },
+            {
+                "artist": "Massimo Ranieri",
+                "song": "Lettera di là dal mare",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Massimo_Ranieri_Concert_2009_Taormina-Sicilia-Italy_-_Creative_Commons_by_gnuckx.jpg/330px-Massimo_Ranieri_Concert_2009_Taormina-Sicilia-Italy_-_Creative_Commons_by_gnuckx.jpg",
+                "position": "8º"
+            },
+            {
+                "artist": "Dargen D'Amico",
+                "song": "Dove si balla",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Dargen_D%27Amico_2022.jpg/250px-Dargen_D%27Amico_2022.jpg",
+                "position": "9º"
+            },
+            {
+                "artist": "Michele Bravi",
+                "song": "Inverno dei fiori",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Michele_Bravi_RadioBruno_Sanremo_2022.png/330px-Michele_Bravi_RadioBruno_Sanremo_2022.png",
+                "position": "10º"
+            },
+            {
+                "artist": "Matteo Romano",
+                "song": "Virale",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Matteo_Romano_Musica_e_Tv_2.0.png/330px-Matteo_Romano_Musica_e_Tv_2.0.png",
+                "position": "11º"
+            },
+            {
+                "artist": "Fabrizio Moro",
+                "song": "Sei tu",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/BlueCarpet2018-071-Italy2-EuroVisionary.jpg/250px-BlueCarpet2018-071-Italy2-EuroVisionary.jpg",
+                "position": "12º"
+            },
+            {
+                "artist": "AKA 7even",
+                "song": "Perfetta così",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AKA_7even_durante_un%27esibizione_live_nel_2022.jpg/250px-AKA_7even_durante_un%27esibizione_live_nel_2022.jpg",
+                "position": "13º"
+            },
+            {
+                "artist": "Achille Lauro con Harlem Gospel Choir",
+                "song": "Domenica",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Achille_Lauro_%28Feb_2025%29.png/250px-Achille_Lauro_%28Feb_2025%29.png",
+                "position": "14º"
+            },
+            {
+                "artist": "Noemi",
+                "song": "Ti amo non lo so dire",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Noemi-25.jpg/250px-Noemi-25.jpg",
+                "position": "15º"
+            },
+            {
+                "artist": "Ditonellapiaga e Rettore",
+                "song": "Chimica",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Ditonellapiaga_interviewed_by_Radio_Bruno_2025.png/330px-Ditonellapiaga_interviewed_by_Radio_Bruno_2025.png",
+                "position": "16º"
+            },
+            {
+                "artist": "Rkomi",
+                "song": "Insuperabile",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Rkomi_%28Feb_2025%29.png/250px-Rkomi_%28Feb_2025%29.png",
+                "position": "17º"
+            },
+            {
+                "artist": "Iva Zanicchi",
+                "song": "Voglio amarti",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/4/4e/Iva_Zanicchi_-_anni_70.jpg/250px-Iva_Zanicchi_-_anni_70.jpg",
+                "position": "18º"
+            },
+            {
+                "artist": "Giovanni Truppi",
+                "song": "Tuo padre, mia madre, Lucia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/GiovanniTruppi.png/330px-GiovanniTruppi.png",
+                "position": "19º"
+            },
+            {
+                "artist": "Highsnob e Hu",
+                "song": "Abbi cura di te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hu_Highsnob_RadioBruno_Sanremo_2022.png/330px-Hu_Highsnob_RadioBruno_Sanremo_2022.png",
+                "position": "20º"
+            },
+            {
+                "artist": "Yuman",
+                "song": "Ora e qui",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Yuman_during_an_interview_for_Radio_Bruno_in_2022.png/330px-Yuman_during_an_interview_for_Radio_Bruno_in_2022.png",
+                "position": "21º"
+            },
+            {
+                "artist": "Le Vibrazioni",
+                "song": "Tantissimo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Le_Vibrazioni_Sanremo_2018.jpg/330px-Le_Vibrazioni_Sanremo_2018.jpg",
+                "position": "22º"
+            },
+            {
+                "artist": "Giusy Ferreri",
+                "song": "Miele",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Giusy_Ferreri_%40_Wind_Music_Awards_2016_07_%28cropped%29.jpg/330px-Giusy_Ferreri_%40_Wind_Music_Awards_2016_07_%28cropped%29.jpg",
+                "position": "23º"
+            },
+            {
+                "artist": "Ana Mena",
+                "song": "Duecentomila ore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ana_Mena_en_2024_01.jpg/330px-Ana_Mena_en_2024_01.jpg",
+                "position": "24º"
+            },
+            {
+                "artist": "Tananai",
+                "song": "Sesso occasionale",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tananai_%28Feb_2023%29_%28cropped%29.png/250px-Tananai_%28Feb_2023%29_%28cropped%29.png",
+                "position": "25º"
+            }
+        ]
+    },
+    "2023": {
+        "year": 2023,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/7/71/Festival_di_Sanremo_2023_logo.png/330px-Festival_di_Sanremo_2023_logo.png",
+        "presenters": [
+            "Amadeus",
+            "Gianni Morandi",
+            "Chiara Ferragni",
+            "Francesca Fagnani",
+            "Paola Egonu",
+            "Chiara Francini"
+        ],
+        "artistic director": [
+            "Amadeus"
+        ],
+        "participants": [
+            {
+                "artist": "Marco Mengoni",
+                "song": "Due vite",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Marco_Mengoni_presenta_%27Due_vite%27_%282023%29_%28cropped%29.png/330px-Marco_Mengoni_presenta_%27Due_vite%27_%282023%29_%28cropped%29.png",
+                "position": "1º"
+            },
+            {
+                "artist": "Lazza",
+                "song": "Cenere",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Lazza_during_an_interview_for_Radio_Bruno_in_2023.png/330px-Lazza_during_an_interview_for_Radio_Bruno_in_2023.png",
+                "position": "2º"
+            },
+            {
+                "artist": "Mr. Rain",
+                "song": "Supereroi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mr_rain_Supereroi_2023.jpg/250px-Mr_rain_Supereroi_2023.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Ultimo",
+                "song": "Alba",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/UltimoIMG_4813_%28cropped%29.JPG/250px-UltimoIMG_4813_%28cropped%29.JPG",
+                "position": "4º"
+            },
+            {
+                "artist": "Tananai",
+                "song": "Tango",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tananai_%28Feb_2023%29_%28cropped%29.png/250px-Tananai_%28Feb_2023%29_%28cropped%29.png",
+                "position": "5º"
+            },
+            {
+                "artist": "Giorgia",
+                "song": "Parole dette male",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Giorgia_%28Feb_2025%3B_2%29.png/250px-Giorgia_%28Feb_2025%3B_2%29.png",
+                "position": "6º"
+            },
+            {
+                "artist": "Madame",
+                "song": "Il bene nel male",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Madame_RadioBruno_Festival_di_Sanremo_2023.jpg/330px-Madame_RadioBruno_Festival_di_Sanremo_2023.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Rosa Chemical",
+                "song": "Made in Italy",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Rosa_Chemical_RadioBruno_Sanremo_2023.png/330px-Rosa_Chemical_RadioBruno_Sanremo_2023.png",
+                "position": "8º"
+            },
+            {
+                "artist": "Elodie",
+                "song": "Due",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Elodie-7993.jpg/250px-Elodie-7993.jpg",
+                "position": "9º"
+            },
+            {
+                "artist": "Colapesce Dimartino",
+                "song": "Splash",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Colapesce_Dimartino_RadioBruno_Sanremo_2023.png/330px-Colapesce_Dimartino_RadioBruno_Sanremo_2023.png",
+                "position": "10º"
+            },
+            {
+                "artist": "Modà",
+                "song": "Lasciami",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/I_Mod%C3%A0_in_concerto_nel_2011.jpg/330px-I_Mod%C3%A0_in_concerto_nel_2011.jpg",
+                "position": "11º"
+            },
+            {
+                "artist": "Gianluca Grignani",
+                "song": "Quando ti manca il fiato",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Gianluca_Grignani_-_Fonte_Nuova_31-05-08.JPG/250px-Gianluca_Grignani_-_Fonte_Nuova_31-05-08.JPG",
+                "position": "12º"
+            },
+            {
+                "artist": "Coma_Cose",
+                "song": "L'addio",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Coma_Cose_%28Feb_2025%29_%28cropped%29.png/330px-Coma_Cose_%28Feb_2025%29_%28cropped%29.png",
+                "position": "13º"
+            },
+            {
+                "artist": "Ariete",
+                "song": "Mare di guai",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ariete_Sherwood_2024.png/330px-Ariete_Sherwood_2024.png",
+                "position": "14º"
+            },
+            {
+                "artist": "LDA",
+                "song": "Se poi domani",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/LDA_Funweek.it_2024.png/330px-LDA_Funweek.it_2024.png",
+                "position": "15º"
+            },
+            {
+                "artist": "Articolo 31",
+                "song": "Un bel viaggio",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/9/91/Senza_filtro_%28reupload%29.jpg/330px-Senza_filtro_%28reupload%29.jpg",
+                "position": "16º"
+            },
+            {
+                "artist": "Paola & Chiara",
+                "song": "Furore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/a/a7/Paola_%26_Chiara_-_Festival_di_Sanremo_1997.JPG/330px-Paola_%26_Chiara_-_Festival_di_Sanremo_1997.JPG",
+                "position": "17º"
+            },
+            {
+                "artist": "Leo Gassmann",
+                "song": "Terzo cuore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Leo_Gassmann_Roma_2025.jpg/250px-Leo_Gassmann_Roma_2025.jpg",
+                "position": "18º"
+            },
+            {
+                "artist": "Mara Sattei",
+                "song": "Duemilaminuti",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mara_Sattei_during_an_interview_for_Radio_Bruno_in_2023.png/250px-Mara_Sattei_during_an_interview_for_Radio_Bruno_in_2023.png",
+                "position": "19º"
+            },
+            {
+                "artist": "Colla Zio",
+                "song": "Non mi va",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Colla_Zio_Radio_Bruno_Sanremo_2023.png/330px-Colla_Zio_Radio_Bruno_Sanremo_2023.png",
+                "position": "20º"
+            },
+            {
+                "artist": "I Cugini di Campagna",
+                "song": "Lettera 22",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cugini_di_campagna_estate_2013.jpg/330px-Cugini_di_campagna_estate_2013.jpg",
+                "position": "21º"
+            },
+            {
+                "artist": "Gianmaria",
+                "song": "Mostro",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Gianmaria_RadioBruno_Sanremo_2023.png/330px-Gianmaria_RadioBruno_Sanremo_2023.png",
+                "position": "22º"
+            },
+            {
+                "artist": "Levante",
+                "song": "Vivo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Levante_Radio_Bruno_2024.png/330px-Levante_Radio_Bruno_2024.png",
+                "position": "23º"
+            },
+            {
+                "artist": "Olly",
+                "song": "Polvere",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Olly_%28Feb_2025%3B_02%29.png/250px-Olly_%28Feb_2025%3B_02%29.png",
+                "position": "24º"
+            },
+            {
+                "artist": "Anna Oxa",
+                "song": "Sali (canto dell'anima)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Anna_Oxa_6.jpg/250px-Anna_Oxa_6.jpg",
+                "position": "25º"
+            },
+            {
+                "artist": "Will",
+                "song": "Stupido",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Will_RadioBruno_Sanremo_2023.png/330px-Will_RadioBruno_Sanremo_2023.png",
+                "position": "26º"
+            },
+            {
+                "artist": "Shari",
+                "song": "Egoista",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/20px-Flag_of_Italy.svg.png",
+                "position": "27º"
+            },
+            {
+                "artist": "Sethu",
+                "song": "Cause perse",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sethu_RadioBruno_Sanremo_2023.png/330px-Sethu_RadioBruno_Sanremo_2023.png",
+                "position": "28º"
+            }
+        ]
+    },
+    "2024": {
+        "year": 2024,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/c/c1/Festival_di_Sanremo_2024_logo.png/330px-Festival_di_Sanremo_2024_logo.png",
+        "presenters": [
+            "Amadeus",
+            "Marco Mengoni",
+            "Giorgia",
+            "Teresa Mannino",
+            "Lorella Cuccarini",
+            "Fiorello"
+        ],
+        "artistic director": [
+            "Amadeus"
+        ],
+        "participants": [
+            {
+                "artist": "Angelina Mango",
+                "song": "La noia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Angelina_Mango_01_%28cropped%29.jpg/250px-Angelina_Mango_01_%28cropped%29.jpg",
+                "position": "1º"
+            },
+            {
+                "artist": "Geolier",
+                "song": "I p' me, tu p' te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Geolier_RadioBruno_Sanremo_2024_%282%29.png/330px-Geolier_RadioBruno_Sanremo_2024_%282%29.png",
+                "position": "2º"
+            },
+            {
+                "artist": "Annalisa",
+                "song": "Sinceramente",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg/250px-Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Ghali",
+                "song": "Casa mia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ghali_%28Feb_2024%29_%28cropped%29.png/330px-Ghali_%28Feb_2024%29_%28cropped%29.png",
+                "position": "4º"
+            },
+            {
+                "artist": "Irama",
+                "song": "Tu no",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Irama_%28Feb_2024%29_%28cropped%29.png/330px-Irama_%28Feb_2024%29_%28cropped%29.png",
+                "position": "5º"
+            },
+            {
+                "artist": "Mahmood",
+                "song": "Tuta gold",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mahmood_%28Feb_2024%3B_02%29_%28cropped%29.png/250px-Mahmood_%28Feb_2024%3B_02%29_%28cropped%29.png",
+                "position": "6º"
+            },
+            {
+                "artist": "Loredana Bertè",
+                "song": "Pazza",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Loredana_Bert%C3%A8_Sanremo_1986.jpg/330px-Loredana_Bert%C3%A8_Sanremo_1986.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Il Volo",
+                "song": "Capolavoro",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/20150517_ESC_2015_Il_Volo_0752.jpg/330px-20150517_ESC_2015_Il_Volo_0752.jpg",
+                "position": "8º"
+            },
+            {
+                "artist": "Alessandra Amoroso",
+                "song": "Fino a qui",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Alessandra_Amoroso_-_Amore_Puro_Tour%2C_Firenze_9_aprile_2014_2_%28cropped%29.jpg/250px-Alessandra_Amoroso_-_Amore_Puro_Tour%2C_Firenze_9_aprile_2014_2_%28cropped%29.jpg",
+                "position": "9º"
+            },
+            {
+                "artist": "Alfa",
+                "song": "Vai!",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Alfa_Radio_Bruno_2024.jpg/330px-Alfa_Radio_Bruno_2024.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Gazzelle",
+                "song": "Tutto qui",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gazzelle_%28cropped%29.png/250px-Gazzelle_%28cropped%29.png",
+                "position": "11º"
+            },
+            {
+                "artist": "Il Tre",
+                "song": "Fragili",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Il_Tre_RadioBruno_Sanremo_2024.png/330px-Il_Tre_RadioBruno_Sanremo_2024.png",
+                "position": "12º"
+            },
+            {
+                "artist": "Diodato",
+                "song": "Ti muovi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Diodato_RadioBruno_Festival_di_Sanremo_2024.png/330px-Diodato_RadioBruno_Festival_di_Sanremo_2024.png",
+                "position": "13º"
+            },
+            {
+                "artist": "Emma",
+                "song": "Apnea",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emma_%28Oct_2023%29_%28cropped%29.png/330px-Emma_%28Oct_2023%29_%28cropped%29.png",
+                "position": "14º"
+            },
+            {
+                "artist": "Fiorella Mannoia",
+                "song": "Mariposa",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Fiorella_Mannoia.jpg/250px-Fiorella_Mannoia.jpg",
+                "position": "15º"
+            },
+            {
+                "artist": "The Kolors",
+                "song": "Un ragazzo una ragazza",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/The_Kolors_RadioBruno_Sanremo2024.png/330px-The_Kolors_RadioBruno_Sanremo2024.png",
+                "position": "16º"
+            },
+            {
+                "artist": "Mr. Rain",
+                "song": "Due altalene",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mr_rain_Supereroi_2023.jpg/250px-Mr_rain_Supereroi_2023.jpg",
+                "position": "17º"
+            },
+            {
+                "artist": "Santi Francesi",
+                "song": "L'amore in bocca",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Santi_Francesi_Sanremo.jpg/250px-Santi_Francesi_Sanremo.jpg",
+                "position": "18º"
+            },
+            {
+                "artist": "Negramaro",
+                "song": "Ricominciamo tutto",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Negramaro_2008.jpg/330px-Negramaro_2008.jpg",
+                "position": "19º"
+            },
+            {
+                "artist": "Dargen D'Amico",
+                "song": "Onda alta",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Dargen_D%27Amico_2022.jpg/250px-Dargen_D%27Amico_2022.jpg",
+                "position": "20º"
+            },
+            {
+                "artist": "Ricchi e Poveri",
+                "song": "Ma non tutta la vita",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/71_Ricchi_e_Poveri.jpg/330px-71_Ricchi_e_Poveri.jpg",
+                "position": "21º"
+            },
+            {
+                "artist": "BigMama",
+                "song": "La rabbia non ti basta",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/BigMama_Funweek.it_2024.png/330px-BigMama_Funweek.it_2024.png",
+                "position": "22º"
+            },
+            {
+                "artist": "Rose Villain",
+                "song": "Click boom!",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Rose_Villain_%28Feb_2025%29.png/250px-Rose_Villain_%28Feb_2025%29.png",
+                "position": "23º"
+            },
+            {
+                "artist": "Clara",
+                "song": "Diamanti grezzi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Clara_%28Feb_2025%29.png/250px-Clara_%28Feb_2025%29.png",
+                "position": "24º"
+            },
+            {
+                "artist": "Renga Nek",
+                "song": "Pazzo di te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png/330px-Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png",
+                "position": "25º"
+            },
+            {
+                "artist": "Maninni",
+                "song": "Spettacolare",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Maninni_RadioBruno_Sanremo_2024_%28cropped%29.png/250px-Maninni_RadioBruno_Sanremo_2024_%28cropped%29.png",
+                "position": "26º"
+            },
+            {
+                "artist": "La Sad",
+                "song": "Autodistruttivo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/La_Sad%2C_Trento%2C_2023.jpg/330px-La_Sad%2C_Trento%2C_2023.jpg",
+                "position": "27º"
+            },
+            {
+                "artist": "Bnkr44",
+                "song": "Governo punk",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Bnkr44_Radio_Bruno_Sanremo_2024.png/330px-Bnkr44_Radio_Bruno_Sanremo_2024.png",
+                "position": "28º"
+            },
+            {
+                "artist": "Sangiovanni",
+                "song": "Finiscimi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sangiovanni_during_an_interview_for_Radio_Bruno_in_2022.png/330px-Sangiovanni_during_an_interview_for_Radio_Bruno_in_2022.png",
+                "position": "29º"
+            },
+            {
+                "artist": "Fred De Palma",
+                "song": "Il cielo non ci vuole",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Fred_De_Palma_Funweek.it_2024.png/330px-Fred_De_Palma_Funweek.it_2024.png",
+                "position": "30º"
+            }
+        ]
+    },
+    "2021": {
+        "year": 2021,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/d/d7/Sanremo_2021_-_Logo_%281%29.jpeg/330px-Sanremo_2021_-_Logo_%281%29.jpeg",
+        "presenters": [
+            "Amadeus",
+            "Fiorello",
+            "Matilda De Angelis",
+            "Elodie",
+            "Vittoria Ceretti",
+            "Barbara Palombelli",
+            "Beatrice Venezi"
+        ],
+        "artistic director": [
+            "Amadeus"
+        ],
+        "participants": [
+            {
+                "artist": "Måneskin",
+                "song": "Zitti e buoni",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Maneskin_2018.jpg/330px-Maneskin_2018.jpg",
+                "position": "1º"
+            },
+            {
+                "artist": "Francesca Michielin e Fedez",
+                "song": "Chiamami per nome",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/ESC2016_-_Italy_Meet_%26_Greet_02_-_Francesca_Michielin_%28cropped%29.jpg/250px-ESC2016_-_Italy_Meet_%26_Greet_02_-_Francesca_Michielin_%28cropped%29.jpg",
+                "position": "2º"
+            },
+            {
+                "artist": "Ermal Meta",
+                "song": "Un milione di cose da dirti",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ermal_Meta_2022.jpg/250px-Ermal_Meta_2022.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Colapesce Dimartino",
+                "song": "Musica leggerissima",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Colapesce_Dimartino_RadioBruno_Sanremo_2023.png/330px-Colapesce_Dimartino_RadioBruno_Sanremo_2023.png",
+                "position": "4º"
+            },
+            {
+                "artist": "Irama[34]",
+                "song": "La genesi del tuo colore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Irama_%28Feb_2024%29_%28cropped%29.png/330px-Irama_%28Feb_2024%29_%28cropped%29.png",
+                "position": "5º"
+            },
+            {
+                "artist": "Willie Peyote",
+                "song": "Mai dire mai (la locura)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Willie_Peyote_Radio_Bruno_2021.jpg/250px-Willie_Peyote_Radio_Bruno_2021.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Annalisa",
+                "song": "Dieci",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg/250px-Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Madame",
+                "song": "Voce",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Madame_RadioBruno_Festival_di_Sanremo_2023.jpg/330px-Madame_RadioBruno_Festival_di_Sanremo_2023.jpg",
+                "position": "8º"
+            },
+            {
+                "artist": "Orietta Berti",
+                "song": "Quando ti sei innamorato",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Orietta_Berti_-_SWING_-_2008.jpg/330px-Orietta_Berti_-_SWING_-_2008.jpg",
+                "position": "9º"
+            },
+            {
+                "artist": "Arisa",
+                "song": "Potevi fare di più",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Arisa_concerto_Taormina_08-2025.jpg/250px-Arisa_concerto_Taormina_08-2025.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "La Rappresentante di Lista",
+                "song": "Amare",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/La_Rappresentante_di_Lista_Sherwood.it_2025.png/330px-La_Rappresentante_di_Lista_Sherwood.it_2025.png",
+                "position": "11º"
+            },
+            {
+                "artist": "Extraliscio con Davide Toffolo",
+                "song": "Bianca luce nera",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Extraliscio_credits_manuel_palmieri.jpg/330px-Extraliscio_credits_manuel_palmieri.jpg",
+                "position": "12º"
+            },
+            {
+                "artist": "Lo Stato Sociale",
+                "song": "Combat pop",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Lo_Stato_Sociale_Sherwood_2024.png/330px-Lo_Stato_Sociale_Sherwood_2024.png",
+                "position": "13º"
+            },
+            {
+                "artist": "Noemi",
+                "song": "Glicine",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Noemi-25.jpg/250px-Noemi-25.jpg",
+                "position": "14º"
+            },
+            {
+                "artist": "Malika Ayane",
+                "song": "Ti piaci così",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Malika_Ayane_Funweek.it_2024.png/330px-Malika_Ayane_Funweek.it_2024.png",
+                "position": "15º"
+            },
+            {
+                "artist": "Fulminacci",
+                "song": "Santa Marinella",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Fulminacci_RadioBruno_Sanremo_2021.png/330px-Fulminacci_RadioBruno_Sanremo_2021.png",
+                "position": "16º"
+            },
+            {
+                "artist": "Max Gazzè[36]",
+                "song": "Il farmacista",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Max_Gazz%C3%A9_Live_Caracalla_2018_%28cropped%29.jpg/330px-Max_Gazz%C3%A9_Live_Caracalla_2018_%28cropped%29.jpg",
+                "position": "17º"
+            },
+            {
+                "artist": "Fasma",
+                "song": "Parlami",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Fasma_RadioBruno_Sanremo_2021.png/330px-Fasma_RadioBruno_Sanremo_2021.png",
+                "position": "18º"
+            },
+            {
+                "artist": "Gaia",
+                "song": "Cuore amaro",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gaia_%28Feb_2025%29.png/250px-Gaia_%28Feb_2025%29.png",
+                "position": "19º"
+            },
+            {
+                "artist": "Coma Cose",
+                "song": "Fiamme negli occhi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Coma_Cose_%28Feb_2025%29_%28cropped%29.png/330px-Coma_Cose_%28Feb_2025%29_%28cropped%29.png",
+                "position": "20º"
+            },
+            {
+                "artist": "Ghemon",
+                "song": "Momento perfetto",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ghemon_Radio_Bruno_Festival_di_Sanremo_2019.png/250px-Ghemon_Radio_Bruno_Festival_di_Sanremo_2019.png",
+                "position": "21º"
+            },
+            {
+                "artist": "Francesco Renga",
+                "song": "Quando trovo te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png/330px-Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png",
+                "position": "22º"
+            },
+            {
+                "artist": "Gio Evan",
+                "song": "Arnica",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Gi%C3%B2_Evan_a_Musica_da_Bere_%28cropped%29.jpg/330px-Gi%C3%B2_Evan_a_Musica_da_Bere_%28cropped%29.jpg",
+                "position": "23º"
+            },
+            {
+                "artist": "Bugo",
+                "song": "E invece sì",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Bugo_2018.jpg/330px-Bugo_2018.jpg",
+                "position": "24º"
+            },
+            {
+                "artist": "Aiello",
+                "song": "Ora",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Aiello_RadioBruno_Sanremo_2021.png/330px-Aiello_RadioBruno_Sanremo_2021.png",
+                "position": "25º"
+            },
+            {
+                "artist": "Random",
+                "song": "Torno a te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Random_Radio_Bruno_Festival_di_Sanremo_2021.png/330px-Random_Radio_Bruno_Festival_di_Sanremo_2021.png",
+                "position": "26º"
+            }
+        ]
+    },
+    "2020": {
+        "year": 2020,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/a/a9/Festival_di_Sanremo_2020_logo.jpg/330px-Festival_di_Sanremo_2020_logo.jpg",
+        "presenters": [
+            "Amadeus",
+            "Fiorello",
+            "Rula Jebreal",
+            "Diletta Leotta",
+            "Laura Chimenti",
+            "Emma D'Aquino",
+            "Sabrina Salerno",
+            "Georgina Rodríguez",
+            "Alketa Vejsiu",
+            "Antonella Clerici"
+        ],
+        "artistic director": [
+            "Amadeus"
+        ],
+        "participants": [
+            {
+                "artist": "Diodato",
+                "song": "Fai rumore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Diodato_RadioBruno_Festival_di_Sanremo_2024.png/330px-Diodato_RadioBruno_Festival_di_Sanremo_2024.png",
+                "position": "1º"
+            },
+            {
+                "artist": "Francesco Gabbani",
+                "song": "Viceversa",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Francesco_Gabbani_%28Feb_2025%29.png/250px-Francesco_Gabbani_%28Feb_2025%29.png",
+                "position": "2º"
+            },
+            {
+                "artist": "Pinguini Tattici Nucleari",
+                "song": "Ringo Starr",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Pinguini_Tattici_Nucleari_in_Assago_Forum%2C_2022-07-04_%281%29.jpg/330px-Pinguini_Tattici_Nucleari_in_Assago_Forum%2C_2022-07-04_%281%29.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Le Vibrazioni",
+                "song": "Dov'è",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Le_Vibrazioni_Sanremo_2018.jpg/330px-Le_Vibrazioni_Sanremo_2018.jpg",
+                "position": "4º"
+            },
+            {
+                "artist": "Piero Pelù",
+                "song": "Gigante",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Piero_Pel%C3%B9_Funweek.it_2024.png/330px-Piero_Pel%C3%B9_Funweek.it_2024.png",
+                "position": "5º"
+            },
+            {
+                "artist": "Tosca",
+                "song": "Ho amato tutto",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Tosca-cantante.jpg/330px-Tosca-cantante.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Elodie",
+                "song": "Andromeda",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Elodie-7993.jpg/250px-Elodie-7993.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Achille Lauro",
+                "song": "Me ne frego",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Achille_Lauro_%28Feb_2025%29.png/250px-Achille_Lauro_%28Feb_2025%29.png",
+                "position": "8º"
+            },
+            {
+                "artist": "Irene Grandi",
+                "song": "Finalmente io",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Irene_Grandi_di_Sanremo_-_2020IMG_1849_%28head_shot%29.JPG/250px-Irene_Grandi_di_Sanremo_-_2020IMG_1849_%28head_shot%29.JPG",
+                "position": "9º"
+            },
+            {
+                "artist": "Rancore",
+                "song": "Eden",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Rancore_Radio_Bruno_Festival_di_Sanremo_2020.png/330px-Rancore_Radio_Bruno_Festival_di_Sanremo_2020.png",
+                "position": "10º"
+            },
+            {
+                "artist": "Raphael Gualazzi",
+                "song": "Carioca",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Raphael_Gualazzi_cropped.jpg/250px-Raphael_Gualazzi_cropped.jpg",
+                "position": "11º"
+            },
+            {
+                "artist": "Levante",
+                "song": "Tikibombom",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Levante_Radio_Bruno_2024.png/330px-Levante_Radio_Bruno_2024.png",
+                "position": "12º"
+            },
+            {
+                "artist": "Anastasio",
+                "song": "Rosso di rabbia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Anastasio_Radio_Bruno_Festival_di_Sanremo_2020.png/330px-Anastasio_Radio_Bruno_Festival_di_Sanremo_2020.png",
+                "position": "13º"
+            },
+            {
+                "artist": "Alberto Urso",
+                "song": "Il sole ad est",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Alberto_Urso_Radio_Bruno_Festival_di_Sanremo_2020.png/250px-Alberto_Urso_Radio_Bruno_Festival_di_Sanremo_2020.png",
+                "position": "14º"
+            },
+            {
+                "artist": "Marco Masini",
+                "song": "Il confronto",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Marco_Masini_tour2015.jpg/330px-Marco_Masini_tour2015.jpg",
+                "position": "15º"
+            },
+            {
+                "artist": "Paolo Jannacci",
+                "song": "Voglio parlarti adesso",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Paolo_Jannacci_Radio_Bruno_Festival_di_Sanremo_2020.png/330px-Paolo_Jannacci_Radio_Bruno_Festival_di_Sanremo_2020.png",
+                "position": "16º"
+            },
+            {
+                "artist": "Rita Pavone",
+                "song": "Niente (Resilienza 74)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Rita_Pavone_1965b.jpg/250px-Rita_Pavone_1965b.jpg",
+                "position": "17º"
+            },
+            {
+                "artist": "Michele Zarrillo",
+                "song": "Nell'estasi o nel fango",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Michele_Zarrillo_Live_%28cropped%29.jpg/330px-Michele_Zarrillo_Live_%28cropped%29.jpg",
+                "position": "18º"
+            },
+            {
+                "artist": "Enrico Nigiotti",
+                "song": "Baciami adesso",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Enrico_Nigiotti_D%C3%A9luge.jpg/330px-Enrico_Nigiotti_D%C3%A9luge.jpg",
+                "position": "19º"
+            },
+            {
+                "artist": "Giordana Angi",
+                "song": "Come mia madre",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Giordana_Angi_Radio_Bruno_Festival_di_Sanremo_2020.png/330px-Giordana_Angi_Radio_Bruno_Festival_di_Sanremo_2020.png",
+                "position": "20º"
+            },
+            {
+                "artist": "Elettra Lamborghini",
+                "song": "Musica (e il resto scompare)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Elettra_Miura_Lamborghini_at_82nd_Venice_International_Film_Festival-4_%28cropped%29.jpg/250px-Elettra_Miura_Lamborghini_at_82nd_Venice_International_Film_Festival-4_%28cropped%29.jpg",
+                "position": "21º"
+            },
+            {
+                "artist": "Junior Cally",
+                "song": "No grazie",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Junior_Cally_Funweek.it_2024.png/330px-Junior_Cally_Funweek.it_2024.png",
+                "position": "22º"
+            },
+            {
+                "artist": "Riki",
+                "song": "Lo sappiamo entrambi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Riki_Radio_Bruno.png/250px-Riki_Radio_Bruno.png",
+                "position": "23º"
+            },
+            {
+                "artist": "Bugo e Morgan",
+                "song": "Sincero",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Bugo_2018.jpg/330px-Bugo_2018.jpg",
+                "position": "Squalificati[36]"
+            }
+        ]
+    },
+    "2016": {
+        "year": 2016,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/b/b7/Sanremo_2016.jpg/330px-Sanremo_2016.jpg",
+        "presenters": [
+            "Carlo Conti",
+            "Gabriel Garko",
+            "Virginia Raffaele",
+            "Mădălina Ghenea"
+        ],
+        "artistic director": [
+            "Carlo Conti"
+        ],
+        "participants": [
+            {
+                "artist": "Stadio",
+                "song": "Un giorno mi dirai",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Stadio_%28gruppo_musicale%29.jpg/330px-Stadio_%28gruppo_musicale%29.jpg",
+                "position": "1º"
+            },
+            {
+                "artist": "Francesca Michielin",
+                "song": "Nessun grado di separazione",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/ESC2016_-_Italy_Meet_%26_Greet_02_-_Francesca_Michielin_%28cropped%29.jpg/250px-ESC2016_-_Italy_Meet_%26_Greet_02_-_Francesca_Michielin_%28cropped%29.jpg",
+                "position": "2º"
+            },
+            {
+                "artist": "Giovanni Caccamo e Deborah Iurato",
+                "song": "Via da qui",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Giovanni_Caccamo_2021.jpg/250px-Giovanni_Caccamo_2021.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Enrico Ruggeri",
+                "song": "Il primo amore non si scorda mai",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Enricorouge01.jpg/250px-Enricorouge01.jpg",
+                "position": "4º"
+            },
+            {
+                "artist": "Lorenzo Fragola",
+                "song": "Infinite volte",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Lorenzo_Fragola_%2817264599726%29.jpg/330px-Lorenzo_Fragola_%2817264599726%29.jpg",
+                "position": "5º"
+            },
+            {
+                "artist": "Patty Pravo",
+                "song": "Cieli immensi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Patty_Pravo_2013_retuschiert.jpg/250px-Patty_Pravo_2013_retuschiert.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Clementino",
+                "song": "Quando sono lontano",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Clementino_concerto_Cimitile_%283%29.jpg/250px-Clementino_concerto_Cimitile_%283%29.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Noemi",
+                "song": "La borsa di una donna",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Noemi-25.jpg/250px-Noemi-25.jpg",
+                "position": "8º"
+            },
+            {
+                "artist": "Rocco Hunt",
+                "song": "Wake Up",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Rocco_Hunt_%28Feb_2025%29.png/250px-Rocco_Hunt_%28Feb_2025%29.png",
+                "position": "9º"
+            },
+            {
+                "artist": "Arisa",
+                "song": "Guardando il cielo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Arisa_concerto_Taormina_08-2025.jpg/250px-Arisa_concerto_Taormina_08-2025.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Annalisa",
+                "song": "Il diluvio universale",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg/250px-Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg",
+                "position": "11º"
+            },
+            {
+                "artist": "Elio e le Storie Tese",
+                "song": "Vincere l'odio",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Elio_e_Le_Storie_Tese.jpg/330px-Elio_e_Le_Storie_Tese.jpg",
+                "position": "12º"
+            },
+            {
+                "artist": "Valerio Scanu",
+                "song": "Finalmente piove",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Valerio_Scanu_Live%2C_2011.jpg/330px-Valerio_Scanu_Live%2C_2011.jpg",
+                "position": "13º"
+            },
+            {
+                "artist": "Alessio Bernabei",
+                "song": "Noi siamo infinito",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Alessio_Bernabei_Radio_Bruno_Festival_di_Sanremo_2017.png/330px-Alessio_Bernabei_Radio_Bruno_Festival_di_Sanremo_2017.png",
+                "position": "14º"
+            },
+            {
+                "artist": "Dolcenera",
+                "song": "Ora o mai più (le cose cambiano)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Dolcenera_2008.jpg/250px-Dolcenera_2008.jpg",
+                "position": "15º"
+            },
+            {
+                "artist": "Irene Fornaciari",
+                "song": "Blu",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Irene_Fornaciari.jpg/250px-Irene_Fornaciari.jpg",
+                "position": "16º"
+            },
+            {
+                "artist": "Zero Assoluto",
+                "song": "Di me e di te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Zero_Assoluto_2.jpg/330px-Zero_Assoluto_2.jpg",
+                "position": "NF"
+            },
+            {
+                "artist": "Bluvertigo",
+                "song": "Semplicemente",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Neffa",
+                "song": "Sogni e nostalgia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/0/07/Sogni_e_nostalgia.png/330px-Sogni_e_nostalgia.png",
+                "position": "Neffa"
+            },
+            {
+                "artist": "Dear Jack",
+                "song": "Mezzo respiro",
+                "picture_artist": null,
+                "position": ""
+            }
+        ]
+    },
+    "2017": {
+        "year": 2017,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Logo_Sanremo_Festival_2017.png/330px-Logo_Sanremo_Festival_2017.png",
+        "presenters": [
+            "Carlo Conti",
+            "Maria De Filippi"
+        ],
+        "artistic director": [
+            "Carlo Conti"
+        ],
+        "participants": [
+            {
+                "artist": "Francesco Gabbani",
+                "song": "Occidentali's Karma",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Francesco_Gabbani_%28Feb_2025%29.png/250px-Francesco_Gabbani_%28Feb_2025%29.png",
+                "position": "1º"
+            },
+            {
+                "artist": "Fiorella Mannoia",
+                "song": "Che sia benedetta",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Fiorella_Mannoia.jpg/250px-Fiorella_Mannoia.jpg",
+                "position": "2º"
+            },
+            {
+                "artist": "Ermal Meta",
+                "song": "Vietato morire",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ermal_Meta_2022.jpg/250px-Ermal_Meta_2022.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Michele Bravi",
+                "song": "Il diario degli errori",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Michele_Bravi_RadioBruno_Sanremo_2022.png/330px-Michele_Bravi_RadioBruno_Sanremo_2022.png",
+                "position": "4º"
+            },
+            {
+                "artist": "Paola Turci",
+                "song": "Fatti bella per te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Paola_Turci_%28edited%29.jpg/250px-Paola_Turci_%28edited%29.jpg",
+                "position": "5º"
+            },
+            {
+                "artist": "Sergio Sylvestre",
+                "song": "Con te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SergioSylvestre1032017.jpg/330px-SergioSylvestre1032017.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Fabrizio Moro",
+                "song": "Portami via",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/BlueCarpet2018-071-Italy2-EuroVisionary.jpg/250px-BlueCarpet2018-071-Italy2-EuroVisionary.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Elodie",
+                "song": "Tutta colpa mia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Elodie-7993.jpg/250px-Elodie-7993.jpg",
+                "position": "8º"
+            },
+            {
+                "artist": "Bianca Atzei",
+                "song": "Ora esisti solo tu",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/BiancaAtzeiBortigali.png/250px-BiancaAtzeiBortigali.png",
+                "position": "9º"
+            },
+            {
+                "artist": "Samuel",
+                "song": "Vedrai",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Samuel_-_FRU2010.jpg/250px-Samuel_-_FRU2010.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Michele Zarrillo",
+                "song": "Mani nelle mani",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Michele_Zarrillo_Live_%28cropped%29.jpg/330px-Michele_Zarrillo_Live_%28cropped%29.jpg",
+                "position": "11º"
+            },
+            {
+                "artist": "Lodovica Comello",
+                "song": "Il cielo non mi basta",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lodovica_Comello_on_Radio_Bruno_2017.png/330px-Lodovica_Comello_on_Radio_Bruno_2017.png",
+                "position": "12º"
+            },
+            {
+                "artist": "Marco Masini",
+                "song": "Spostato di un secondo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Marco_Masini_tour2015.jpg/330px-Marco_Masini_tour2015.jpg",
+                "position": "13º"
+            },
+            {
+                "artist": "Chiara",
+                "song": "Nessun posto è casa mia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chiara_Galiazzo_2017.png/330px-Chiara_Galiazzo_2017.png",
+                "position": "14º"
+            },
+            {
+                "artist": "Alessio Bernabei",
+                "song": "Nel mezzo di un applauso",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Alessio_Bernabei_Radio_Bruno_Festival_di_Sanremo_2017.png/330px-Alessio_Bernabei_Radio_Bruno_Festival_di_Sanremo_2017.png",
+                "position": "15º"
+            },
+            {
+                "artist": "Clementino",
+                "song": "Ragazzi fuori[38]",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Clementino_concerto_Cimitile_%283%29.jpg/250px-Clementino_concerto_Cimitile_%283%29.jpg",
+                "position": "16º"
+            },
+            {
+                "artist": "Al Bano",
+                "song": "Di rose e di spine",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Albano_2014.jpg/250px-Albano_2014.jpg",
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Gigi D'Alessio",
+                "song": "La prima stella",
+                "picture_artist": null,
+                "position": "Eliminato"
+            },
+            {
+                "artist": "Ron",
+                "song": "L'ottava meraviglia",
+                "picture_artist": null,
+                "position": "Eliminato"
+            },
+            {
+                "artist": "Giusy Ferreri",
+                "song": "Fa talmente male",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/b/be/Fa_talmente_male.png/330px-Fa_talmente_male.png",
+                "position": "Eliminato"
+            },
+            {
+                "artist": "Nesli & Alice Paba",
+                "song": "Do retta a te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Nesli_int_%28cropped%29.JPG/250px-Nesli_int_%28cropped%29.JPG",
+                "position": "NF (E2)"
+            },
+            {
+                "artist": "Raige e Giulia Luzi",
+                "song": "Togliamoci la voglia",
+                "picture_artist": null,
+                "position": ""
+            }
+        ]
+    },
+    "2018": {
+        "year": 2018,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/e/ef/LogoSanremo2018.jpg/330px-LogoSanremo2018.jpg",
+        "presenters": [
+            "Claudio Baglioni",
+            "Michelle Hunziker",
+            "Pierfrancesco Favino"
+        ],
+        "artistic director": [
+            "Claudio Baglioni"
+        ],
+        "participants": [
+            {
+                "artist": "Ermal Meta e Fabrizio Moro",
+                "song": "Non mi avete fatto niente",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ermal_Meta_2022.jpg/250px-Ermal_Meta_2022.jpg",
+                "position": "1º"
+            },
+            {
+                "artist": "Lo Stato Sociale",
+                "song": "Una vita in vacanza",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Lo_Stato_Sociale_Sherwood_2024.png/330px-Lo_Stato_Sociale_Sherwood_2024.png",
+                "position": "2º"
+            },
+            {
+                "artist": "Annalisa",
+                "song": "Il mondo prima di te",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg/250px-Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Ron",
+                "song": "Almeno pensami",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Ron%2C_alias_Rosalino_Cellamare_02.jpg/330px-Ron%2C_alias_Rosalino_Cellamare_02.jpg",
+                "position": "4º"
+            },
+            {
+                "artist": "Ornella Vanoni con Bungaro e Pacifico",
+                "song": "Imparare ad amarsi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Ornella_Vanoni_1960s.jpg/250px-Ornella_Vanoni_1960s.jpg",
+                "position": "5º"
+            },
+            {
+                "artist": "Max Gazzè",
+                "song": "La leggenda di Cristalda e Pizzomunno",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Max_Gazz%C3%A9_Live_Caracalla_2018_%28cropped%29.jpg/330px-Max_Gazz%C3%A9_Live_Caracalla_2018_%28cropped%29.jpg",
+                "position": "6°"
+            },
+            {
+                "artist": "Luca Barbarossa",
+                "song": "Passame er sale[32]",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/e/ea/Luca_Barbarossa_-_Festival_di_Sanremo_1992.JPG/250px-Luca_Barbarossa_-_Festival_di_Sanremo_1992.JPG",
+                "position": "7º"
+            },
+            {
+                "artist": "Diodato e Roy Paci",
+                "song": "Adesso",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Diodato_RadioBruno_Festival_di_Sanremo_2024.png/330px-Diodato_RadioBruno_Festival_di_Sanremo_2024.png",
+                "position": "8º"
+            },
+            {
+                "artist": "The Kolors",
+                "song": "Frida (mai, mai, mai)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/The_Kolors_RadioBruno_Sanremo2024.png/330px-The_Kolors_RadioBruno_Sanremo2024.png",
+                "position": "9º"
+            },
+            {
+                "artist": "Giovanni Caccamo",
+                "song": "Eterno",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Giovanni_Caccamo_2021.jpg/250px-Giovanni_Caccamo_2021.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Le Vibrazioni",
+                "song": "Così sbagliato",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Le_Vibrazioni_Sanremo_2018.jpg/330px-Le_Vibrazioni_Sanremo_2018.jpg",
+                "position": "11º"
+            },
+            {
+                "artist": "Enzo Avitabile con Peppe Servillo",
+                "song": "Il coraggio di ogni giorno",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Enzo_Avitabile_La_gente_di_Napoli_-_Humans_of_Naples_2021.png/330px-Enzo_Avitabile_La_gente_di_Napoli_-_Humans_of_Naples_2021.png",
+                "position": "12º"
+            },
+            {
+                "artist": "Renzo Rubino",
+                "song": "Custodire",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Renzo_Rubino_Funweek.it_2024.png/330px-Renzo_Rubino_Funweek.it_2024.png",
+                "position": "13º"
+            },
+            {
+                "artist": "Noemi",
+                "song": "Non smettere mai di cercarmi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Noemi-25.jpg/250px-Noemi-25.jpg",
+                "position": "14º"
+            },
+            {
+                "artist": "Red Canzian",
+                "song": "Ognuno ha il suo racconto",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Red_Canzian_2016.jpg/250px-Red_Canzian_2016.jpg",
+                "position": "15º"
+            },
+            {
+                "artist": "Decibel",
+                "song": "Lettera dal Duca",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Decibel1979.jpg/330px-Decibel1979.jpg",
+                "position": "16º"
+            },
+            {
+                "artist": "Nina Zilli",
+                "song": "Senza appartenere",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nina_Zilli_1.jpg/330px-Nina_Zilli_1.jpg",
+                "position": "17º"
+            },
+            {
+                "artist": "Roby Facchinetti e Riccardo Fogli",
+                "song": "Il segreto del tempo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/RobyFacchinetti2024_SilviaColombo.jpg/250px-RobyFacchinetti2024_SilviaColombo.jpg",
+                "position": "18º"
+            },
+            {
+                "artist": "Mario Biondi",
+                "song": "Rivederti",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mario_Biondi_Sun_Tour_2013.jpg/250px-Mario_Biondi_Sun_Tour_2013.jpg",
+                "position": "19º"
+            },
+            {
+                "artist": "Elio e le Storie Tese",
+                "song": "Arrivedorci",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Elio_e_Le_Storie_Tese.jpg/330px-Elio_e_Le_Storie_Tese.jpg",
+                "position": "20º"
+            }
+        ]
+    },
+    "2019": {
+        "year": 2019,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/6/64/Sanremo_2019_tv_intro.png/330px-Sanremo_2019_tv_intro.png",
+        "presenters": [
+            "Claudio Baglioni",
+            "Claudio Bisio",
+            "Virginia Raffaele"
+        ],
+        "artistic director": [
+            "Claudio Baglioni"
+        ],
+        "participants": [
+            {
+                "artist": "Mahmood",
+                "song": "Soldi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mahmood_%28Feb_2024%3B_02%29_%28cropped%29.png/250px-Mahmood_%28Feb_2024%3B_02%29_%28cropped%29.png",
+                "position": "1º"
+            },
+            {
+                "artist": "Ultimo",
+                "song": "I tuoi particolari",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/UltimoIMG_4813_%28cropped%29.JPG/250px-UltimoIMG_4813_%28cropped%29.JPG",
+                "position": "2º"
+            },
+            {
+                "artist": "Il Volo",
+                "song": "Musica che resta",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/20150517_ESC_2015_Il_Volo_0752.jpg/330px-20150517_ESC_2015_Il_Volo_0752.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Loredana Bertè",
+                "song": "Cosa ti aspetti da me",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Loredana_Bert%C3%A8_Sanremo_1986.jpg/330px-Loredana_Bert%C3%A8_Sanremo_1986.jpg",
+                "position": "4º"
+            },
+            {
+                "artist": "Simone Cristicchi",
+                "song": "Abbi cura di me",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Simone_Cristicchi.jpg/250px-Simone_Cristicchi.jpg",
+                "position": "5º"
+            },
+            {
+                "artist": "Daniele Silvestri",
+                "song": "Argentovivo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Daniele_Silvestri%2C_%E2%80%9CFestival_Canzoni_%26_Parole%E2%80%9D%2C_Espace_Jemmapes%2C_Paris%2C_France_%2803-05-2024%29_%C2%B7_%C2%A9_Danilo_Sam%C3%A0.jpg/330px-Daniele_Silvestri%2C_%E2%80%9CFestival_Canzoni_%26_Parole%E2%80%9D%2C_Espace_Jemmapes%2C_Paris%2C_France_%2803-05-2024%29_%C2%B7_%C2%A9_Danilo_Sam%C3%A0.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Irama",
+                "song": "La ragazza con il cuore di latta",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Irama_%28Feb_2024%29_%28cropped%29.png/330px-Irama_%28Feb_2024%29_%28cropped%29.png",
+                "position": "7º"
+            },
+            {
+                "artist": "Arisa",
+                "song": "Mi sento bene",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Arisa_concerto_Taormina_08-2025.jpg/250px-Arisa_concerto_Taormina_08-2025.jpg",
+                "position": "8º"
+            },
+            {
+                "artist": "Achille Lauro",
+                "song": "Rolls Royce",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Achille_Lauro_%28Feb_2025%29.png/250px-Achille_Lauro_%28Feb_2025%29.png",
+                "position": "9º"
+            },
+            {
+                "artist": "Enrico Nigiotti",
+                "song": "Nonno Hollywood",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Enrico_Nigiotti_D%C3%A9luge.jpg/330px-Enrico_Nigiotti_D%C3%A9luge.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Boomdabash",
+                "song": "Per un milione",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Boomdabash_Radio_Bruno_2024.png/330px-Boomdabash_Radio_Bruno_2024.png",
+                "position": "11º"
+            },
+            {
+                "artist": "Ghemon",
+                "song": "Rose viola",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ghemon_Radio_Bruno_Festival_di_Sanremo_2019.png/250px-Ghemon_Radio_Bruno_Festival_di_Sanremo_2019.png",
+                "position": "12º"
+            },
+            {
+                "artist": "Ex-Otago",
+                "song": "Solo una canzone",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ex-Otago_Auguri_2024.png/330px-Ex-Otago_Auguri_2024.png",
+                "position": "13º"
+            },
+            {
+                "artist": "Motta",
+                "song": "Dov'è l'Italia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Motta_-_La_fine_dei_vent%27anni_tour_%28Pisa%29_15.jpg/330px-Motta_-_La_fine_dei_vent%27anni_tour_%28Pisa%29_15.jpg",
+                "position": "14º"
+            },
+            {
+                "artist": "Francesco Renga",
+                "song": "Aspetto che torni",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png/330px-Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png",
+                "position": "15º"
+            },
+            {
+                "artist": "Paola Turci",
+                "song": "L'ultimo ostacolo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Paola_Turci_%28edited%29.jpg/250px-Paola_Turci_%28edited%29.jpg",
+                "position": "16º"
+            },
+            {
+                "artist": "The Zen Circus",
+                "song": "L'amore è una dittatura",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Zen_Circus.jpg/250px-Zen_Circus.jpg",
+                "position": "17º"
+            },
+            {
+                "artist": "Federica Carta e Shade",
+                "song": "Senza farlo apposta",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Federica_Carta_D%C3%A9luge.jpg/330px-Federica_Carta_D%C3%A9luge.jpg",
+                "position": "18º"
+            },
+            {
+                "artist": "Nek",
+                "song": "Mi farò trovare pronto",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Nek_2019.jpg/330px-Nek_2019.jpg",
+                "position": "19º"
+            },
+            {
+                "artist": "Negrita",
+                "song": "I ragazzi stanno bene",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Negrita_HELLdorado_Valsugana.jpg/330px-Negrita_HELLdorado_Valsugana.jpg",
+                "position": "20º"
+            },
+            {
+                "artist": "Patty Pravo con Briga",
+                "song": "Un po' come la vita",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Patty_Pravo_2013_retuschiert.jpg/250px-Patty_Pravo_2013_retuschiert.jpg",
+                "position": "21º"
+            },
+            {
+                "artist": "Anna Tatangelo",
+                "song": "Le nostre anime di notte",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/LiveAnnaTatangeloLuglio2024.jpeg/330px-LiveAnnaTatangeloLuglio2024.jpeg",
+                "position": "22º"
+            },
+            {
+                "artist": "Einar",
+                "song": "Parole nuove",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Einar_Radio_Bruno_Festival_di_Sanremo_2019.png/330px-Einar_Radio_Bruno_Festival_di_Sanremo_2019.png",
+                "position": "23º"
+            },
+            {
+                "artist": "Nino D'Angelo e Livio Cori",
+                "song": "Un'altra luce",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Nino_D%27Angelo_at_82nd_Venice_International_Film_Festival_%281_of_1%29.jpg/250px-Nino_D%27Angelo_at_82nd_Venice_International_Film_Festival_%281_of_1%29.jpg",
+                "position": "24º"
+            }
+        ]
+    },
+    "2010": {
+        "year": 2010,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/6/6f/Sanremo-2010_logo.jpg/330px-Sanremo-2010_logo.jpg",
+        "presenters": [
+            "Antonella Clerici"
+        ],
+        "artistic director": [
+            "Gianmarco Mazzi"
+        ],
+        "participants": [
+            {
+                "artist": "Valerio Scanu",
+                "song": "Per tutte le volte che...",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Valerio_Scanu_Live%2C_2011.jpg/330px-Valerio_Scanu_Live%2C_2011.jpg",
+                "position": "1º"
+            },
+            {
+                "artist": "Pupo ed Emanuele Filiberto con Luca Canonici",
+                "song": "Italia amore mio",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Pupo_2016.png/330px-Pupo_2016.png",
+                "position": "2º"
+            },
+            {
+                "artist": "Marco Mengoni",
+                "song": "Credimi ancora",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Marco_Mengoni_presenta_%27Due_vite%27_%282023%29_%28cropped%29.png/330px-Marco_Mengoni_presenta_%27Due_vite%27_%282023%29_%28cropped%29.png",
+                "position": "3º"
+            },
+            {
+                "artist": "Noemi",
+                "song": "Per tutta la vita",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Noemi-25.jpg/250px-Noemi-25.jpg",
+                "position": "F (4º)[22]"
+            },
+            {
+                "artist": "Malika Ayane",
+                "song": "Ricomincio da qui",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Malika_Ayane_Funweek.it_2024.png/330px-Malika_Ayane_Funweek.it_2024.png",
+                "position": "F (5º)[23]"
+            },
+            {
+                "artist": "Irene Fornaciari feat. Nomadi",
+                "song": "Il mondo piange",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Irene_Fornaciari.jpg/250px-Irene_Fornaciari.jpg",
+                "position": "F (6º)[24]"
+            },
+            {
+                "artist": "Simone Cristicchi",
+                "song": "Meno male",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Simone_Cristicchi.jpg/250px-Simone_Cristicchi.jpg",
+                "position": "F (7º)[25]"
+            },
+            {
+                "artist": "Irene Grandi",
+                "song": "La cometa di Halley",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Irene_Grandi_di_Sanremo_-_2020IMG_1849_%28head_shot%29.JPG/250px-Irene_Grandi_di_Sanremo_-_2020IMG_1849_%28head_shot%29.JPG",
+                "position": "F (8º)[26]"
+            },
+            {
+                "artist": "Arisa",
+                "song": "Malamorenò",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Arisa_concerto_Taormina_08-2025.jpg/250px-Arisa_concerto_Taormina_08-2025.jpg",
+                "position": "F (9º)[27]"
+            },
+            {
+                "artist": "Povia",
+                "song": "La verità",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Povia_a_Sanremo_2009.jpg/330px-Povia_a_Sanremo_2009.jpg",
+                "position": "F (10º)[28]"
+            },
+            {
+                "artist": "Enrico Ruggeri",
+                "song": "La notte delle fate",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Enricorouge01.jpg/250px-Enricorouge01.jpg",
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Non è una canzone",
+                "song": "Fabrizio Moro",
+                "picture_artist": null,
+                "position": " "
+            },
+            {
+                "artist": "Sonohra",
+                "song": "Baby",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/2010_sonohra.jpg/330px-2010_sonohra.jpg",
+                "position": "NF (E2)"
+            },
+            {
+                "artist": "Nino D'Angelo con Maria Nazionale",
+                "song": "Jammo jà",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Nino_D%27Angelo_at_82nd_Venice_International_Film_Festival_%281_of_1%29.jpg/250px-Nino_D%27Angelo_at_82nd_Venice_International_Film_Festival_%281_of_1%29.jpg",
+                "position": "NF (E1)"
+            },
+            {
+                "artist": "Aeroplani",
+                "song": "Toto Cutugno",
+                "picture_artist": null,
+                "position": ""
+            }
+        ]
+    },
+    "2011": {
+        "year": 2011,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/e/e4/Logo_Sanremo_2011.jpg/330px-Logo_Sanremo_2011.jpg",
+        "presenters": [
+            "Gianni Morandi",
+            "Belén Rodríguez",
+            "Elisabetta Canalis",
+            "Luca e Paolo"
+        ],
+        "artistic director": [
+            "Gianmarco Mazzi"
+        ],
+        "participants": [
+            {
+                "artist": "Roberto Vecchioni",
+                "song": "Chiamami ancora amore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Roberto_Vecchioni_-_Teatro_Romano%2C_Verona_-_29_maggio_2011_%285782220109%29.jpg/330px-Roberto_Vecchioni_-_Teatro_Romano%2C_Verona_-_29_maggio_2011_%285782220109%29.jpg",
+                "position": "1º"
+            },
+            {
+                "artist": "Modà con Emma",
+                "song": "Arriverà",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/I_Mod%C3%A0_in_concerto_nel_2011.jpg/330px-I_Mod%C3%A0_in_concerto_nel_2011.jpg",
+                "position": "2º"
+            },
+            {
+                "artist": "Al Bano",
+                "song": "Amanda è libera",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Albano_2014.jpg/250px-Albano_2014.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Davide Van De Sfroos",
+                "song": "Yanez[22]",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Davide_Van_de_Sfroos.jpg/250px-Davide_Van_de_Sfroos.jpg",
+                "position": "4º"
+            },
+            {
+                "artist": "Luca Madonia con Franco Battiato",
+                "song": "L'alieno",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Luca_Madonia_01.jpg/330px-Luca_Madonia_01.jpg",
+                "position": "5º"
+            },
+            {
+                "artist": "La Crus",
+                "song": "Io confesso",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/La_Crus-Settimo_Torinese.jpg/330px-La_Crus-Settimo_Torinese.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Nathalie",
+                "song": "Vivo sospesa",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Nathalie_in_Auditorium_di_Roma%2C_2014_%282014-12-14_22.31.33_by_taymtaym%29_-_Crop_%282%29.jpg/250px-Nathalie_in_Auditorium_di_Roma%2C_2014_%282014-12-14_22.31.33_by_taymtaym%29_-_Crop_%282%29.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Luca Barbarossa e Raquel del Rosario",
+                "song": "Fino in fondo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/e/ea/Luca_Barbarossa_-_Festival_di_Sanremo_1992.JPG/250px-Luca_Barbarossa_-_Festival_di_Sanremo_1992.JPG",
+                "position": "8º"
+            },
+            {
+                "artist": "Anna Tatangelo",
+                "song": "Bastardo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/LiveAnnaTatangeloLuglio2024.jpeg/330px-LiveAnnaTatangeloLuglio2024.jpeg",
+                "position": "9º"
+            },
+            {
+                "artist": "Giusy Ferreri",
+                "song": "Il mare immenso",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Giusy_Ferreri_%40_Wind_Music_Awards_2016_07_%28cropped%29.jpg/330px-Giusy_Ferreri_%40_Wind_Music_Awards_2016_07_%28cropped%29.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Max Pezzali",
+                "song": "Il mio secondo tempo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Max_Pezzali_at_Cartoomics_2013-1_%28cropped%29.jpg/250px-Max_Pezzali_at_Cartoomics_2013-1_%28cropped%29.jpg",
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Tricarico",
+                "song": "Tre colori",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "La mia anima d'uomo",
+                "song": "Anna Oxa",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Anna_Oxa_6.jpg/250px-Anna_Oxa_6.jpg",
+                "position": "NF (E3)"
+            },
+            {
+                "artist": "Patty Pravo",
+                "song": "Il vento e le rose",
+                "picture_artist": null,
+                "position": ""
+            }
+        ]
+    },
+    "2012": {
+        "year": 2012,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/e/e6/Logo_Sanremo_2012.jpg/330px-Logo_Sanremo_2012.jpg",
+        "presenters": [
+            "Gianni Morandi",
+            "Rocco Papaleo",
+            "Ivana Mrázová"
+        ],
+        "artistic director": [
+            "Gianmarco Mazzi"
+        ],
+        "participants": [
+            {
+                "artist": "Emma",
+                "song": "Non è l'inferno",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emma_%28Oct_2023%29_%28cropped%29.png/330px-Emma_%28Oct_2023%29_%28cropped%29.png",
+                "position": "1º"
+            },
+            {
+                "artist": "Arisa",
+                "song": "La notte",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Arisa_concerto_Taormina_08-2025.jpg/250px-Arisa_concerto_Taormina_08-2025.jpg",
+                "position": "2º"
+            },
+            {
+                "artist": "Noemi",
+                "song": "Sono solo parole",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Noemi-25.jpg/250px-Noemi-25.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Gigi D'Alessio e Loredana Bertè",
+                "song": "Respirare",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Gigi_dAlessio.jpg/250px-Gigi_dAlessio.jpg",
+                "position": "4º"
+            },
+            {
+                "artist": "Pierdavide Carone e Lucio Dalla",
+                "song": "Nanì",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/PierdavideCarone.jpg/330px-PierdavideCarone.jpg",
+                "position": "5º"
+            },
+            {
+                "artist": "Dolcenera",
+                "song": "Ci vediamo a casa",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Dolcenera_2008.jpg/250px-Dolcenera_2008.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Nina Zilli",
+                "song": "Per sempre",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nina_Zilli_1.jpg/330px-Nina_Zilli_1.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Francesco Renga",
+                "song": "La tua bellezza",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png/330px-Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png",
+                "position": "8º"
+            },
+            {
+                "artist": "Samuele Bersani",
+                "song": "Un pallone",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Samuele_Bersani_1_May_2012_%287141386895%29.jpg/250px-Samuele_Bersani_1_May_2012_%287141386895%29.jpg",
+                "position": "9º"
+            },
+            {
+                "artist": "Eugenio Finardi",
+                "song": "E tu lo chiami Dio",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eugenio_Finardi.jpg/330px-Eugenio_Finardi.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Matia Bazar",
+                "song": "Sei tu",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/8/83/Matia_Bazar_-_Festival_di_Sanremo_1978.jpg/250px-Matia_Bazar_-_Festival_di_Sanremo_1978.jpg",
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Al posto del mondo",
+                "song": "C. Civello e D. Tejera",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/9/94/ChiaraCivelloAlPostoDelMondo.jpg/330px-ChiaraCivelloAlPostoDelMondo.jpg",
+                "position": "Chiara Civello"
+            },
+            {
+                "artist": "Irene Fornaciari",
+                "song": "Grande mistero",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Irene_Fornaciari.jpg/250px-Irene_Fornaciari.jpg",
+                "position": "NF (E3)"
+            },
+            {
+                "artist": "Canzone per un figlio",
+                "song": "C. Godano, R. Tesio e L. Bergia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/8/89/Marlene_Kuntz_-_Canzone_per_un_figlio.jpg/330px-Marlene_Kuntz_-_Canzone_per_un_figlio.jpg",
+                "position": "Marlene Kuntz"
+            }
+        ]
+    },
+    "2013": {
+        "year": 2013,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/b/b7/Sanremo_2013.png/330px-Sanremo_2013.png",
+        "presenters": [
+            "Fabio Fazio",
+            "Luciana Littizzetto"
+        ],
+        "artistic director": [
+            "Fabio Fazio"
+        ],
+        "participants": [
+            {
+                "artist": "Marco Mengoni",
+                "song": "L'essenziale",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Marco_Mengoni_presenta_%27Due_vite%27_%282023%29_%28cropped%29.png/330px-Marco_Mengoni_presenta_%27Due_vite%27_%282023%29_%28cropped%29.png",
+                "position": "1º"
+            },
+            {
+                "artist": "Elio e le Storie Tese",
+                "song": "La canzone mononota",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Elio_e_Le_Storie_Tese.jpg/330px-Elio_e_Le_Storie_Tese.jpg",
+                "position": "2º"
+            },
+            {
+                "artist": "Modà",
+                "song": "Se si potesse non morire",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/I_Mod%C3%A0_in_concerto_nel_2011.jpg/330px-I_Mod%C3%A0_in_concerto_nel_2011.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Malika Ayane",
+                "song": "E se poi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Malika_Ayane_Funweek.it_2024.png/330px-Malika_Ayane_Funweek.it_2024.png",
+                "position": "4º"
+            },
+            {
+                "artist": "Raphael Gualazzi",
+                "song": "Sai (ci basta un sogno)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Raphael_Gualazzi_cropped.jpg/250px-Raphael_Gualazzi_cropped.jpg",
+                "position": "5º"
+            },
+            {
+                "artist": "Daniele Silvestri",
+                "song": "A bocca chiusa",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Daniele_Silvestri%2C_%E2%80%9CFestival_Canzoni_%26_Parole%E2%80%9D%2C_Espace_Jemmapes%2C_Paris%2C_France_%2803-05-2024%29_%C2%B7_%C2%A9_Danilo_Sam%C3%A0.jpg/330px-Daniele_Silvestri%2C_%E2%80%9CFestival_Canzoni_%26_Parole%E2%80%9D%2C_Espace_Jemmapes%2C_Paris%2C_France_%2803-05-2024%29_%C2%B7_%C2%A9_Danilo_Sam%C3%A0.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Max Gazzè",
+                "song": "Sotto casa",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Max_Gazz%C3%A9_Live_Caracalla_2018_%28cropped%29.jpg/330px-Max_Gazz%C3%A9_Live_Caracalla_2018_%28cropped%29.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Chiara",
+                "song": "Il futuro che sarà",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chiara_Galiazzo_2017.png/330px-Chiara_Galiazzo_2017.png",
+                "position": "8º"
+            },
+            {
+                "artist": "Annalisa",
+                "song": "Scintille",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg/250px-Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg",
+                "position": "9º"
+            },
+            {
+                "artist": "Maria Nazionale",
+                "song": "È colpa mia",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/20px-Flag_of_Italy.svg.png",
+                "position": "10º"
+            },
+            {
+                "artist": "Simone Cristicchi",
+                "song": "La prima volta (che sono morto)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Simone_Cristicchi.jpg/250px-Simone_Cristicchi.jpg",
+                "position": "11º"
+            },
+            {
+                "artist": "Marta sui Tubi",
+                "song": "Vorrei",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Marta_sui_Tubi_live.jpg/330px-Marta_sui_Tubi_live.jpg",
+                "position": "12º"
+            },
+            {
+                "artist": "Simona Molinari con Peter Cincotti",
+                "song": "La felicità",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/SimonaMolinariTeatroFenaroliLanciano.jpg/330px-SimonaMolinariTeatroFenaroliLanciano.jpg",
+                "position": "13º"
+            },
+            {
+                "artist": "Almamegretta",
+                "song": "Mamma non lo sa",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ALMA_-_06.jpg/330px-ALMA_-_06.jpg",
+                "position": "14º"
+            },
+            {
+                "artist": "Marco Mengoni",
+                "song": "Bellissimo",
+                "picture_artist": null,
+                "position": "NF"
+            },
+            {
+                "artist": "Modà",
+                "song": "Come l'acqua dentro il mare",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Elio e le Storie Tese",
+                "song": "Dannati forever",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/c/c5/Dannati_forever.jpg/330px-Dannati_forever.jpg",
+                "position": ""
+            },
+            {
+                "artist": "Marta sui tubi",
+                "song": "Dispari",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Simona Molinari con Peter Cincotti",
+                "song": "Dr. Jekyll Mr. Hyde",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/5/5f/Simona_Molinari_Dr_Jekyll_Mr_Hyde.jpg/330px-Simona_Molinari_Dr_Jekyll_Mr_Hyde.jpg",
+                "position": ""
+            },
+            {
+                "artist": "Max Gazzè",
+                "song": "I tuoi maledettissimi impegni",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/7/76/Max_Gazz%C3%A8_I_tuoi_maledettissimi_impegni.jpg/330px-Max_Gazz%C3%A8_I_tuoi_maledettissimi_impegni.jpg",
+                "position": ""
+            },
+            {
+                "artist": "Daniele Silvestri",
+                "song": "Il bisogno di te (ricatto d'onor)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/e/e8/Daniele_Silvestri_il_bisogno_di_te_.jpg/330px-Daniele_Silvestri_il_bisogno_di_te_.jpg",
+                "position": ""
+            },
+            {
+                "artist": "Chiara",
+                "song": "L'esperienza dell'amore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/d/d0/Chiara_L%27esperienza_dell%27amore.jpg/330px-Chiara_L%27esperienza_dell%27amore.jpg",
+                "position": ""
+            },
+            {
+                "artist": "Simone Cristicchi",
+                "song": "Mi manchi",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Malika Ayane",
+                "song": "Niente",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/e/ef/Niente_-_Malika_Ayane.JPG/330px-Niente_-_Malika_Ayane.JPG",
+                "position": ""
+            },
+            {
+                "artist": "Annalisa",
+                "song": "Non so ballare",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Almamegretta",
+                "song": "Onda che vai",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Maria Nazionale",
+                "song": "Quando non parlo",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Raphael Gualazzi",
+                "song": "Senza ritegno",
+                "picture_artist": null,
+                "position": ""
+            }
+        ]
+    },
+    "2014": {
+        "year": 2014,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/4/4a/Sanremo_2014_logo.jpg/330px-Sanremo_2014_logo.jpg",
+        "presenters": [
+            "Fabio Fazio",
+            "Luciana Littizzetto"
+        ],
+        "artistic director": [
+            "Fabio Fazio"
+        ],
+        "participants": [
+            {
+                "artist": "Arisa",
+                "song": "Controvento",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Arisa_concerto_Taormina_08-2025.jpg/250px-Arisa_concerto_Taormina_08-2025.jpg",
+                "position": "1º"
+            },
+            {
+                "artist": "Raphael Gualazzi & The Bloody Beetroots",
+                "song": "Liberi o no",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Raphael_Gualazzi_cropped.jpg/250px-Raphael_Gualazzi_cropped.jpg",
+                "position": "2º"
+            },
+            {
+                "artist": "Renzo Rubino",
+                "song": "Ora",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Renzo_Rubino_Funweek.it_2024.png/330px-Renzo_Rubino_Funweek.it_2024.png",
+                "position": "3º"
+            },
+            {
+                "artist": "Francesco Renga",
+                "song": "Vivendo adesso",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png/330px-Francesco_Renga_Radio_Bruno_Festival_di_Sanremo_2019.png",
+                "position": "4º"
+            },
+            {
+                "artist": "Noemi",
+                "song": "Bagnati dal sole",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Noemi-25.jpg/250px-Noemi-25.jpg",
+                "position": "5º"
+            },
+            {
+                "artist": "Perturbazione",
+                "song": "L'unica",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Perturbazione.jpg/330px-Perturbazione.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Cristiano De André",
+                "song": "Il cielo è vuoto",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Cristiano_De_Andr%C3%A8_-_Woodstock_5_Stelle.jpg/330px-Cristiano_De_Andr%C3%A8_-_Woodstock_5_Stelle.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Frankie hi-nrg mc",
+                "song": "Pedala",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Frankie_Hi_Nrg.jpg/250px-Frankie_Hi_Nrg.jpg",
+                "position": "8º"
+            },
+            {
+                "artist": "Giusy Ferreri",
+                "song": "Ti porto a cena con me",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Giusy_Ferreri_%40_Wind_Music_Awards_2016_07_%28cropped%29.jpg/330px-Giusy_Ferreri_%40_Wind_Music_Awards_2016_07_%28cropped%29.jpg",
+                "position": "9º"
+            },
+            {
+                "artist": "Francesco Sarcina",
+                "song": "Nel tuo sorriso",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Le_Vibrazioni_in_concerto.jpg/250px-Le_Vibrazioni_in_concerto.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Giuliano Palma",
+                "song": "Così lontano",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Giuliano_Palma_cropped.jpg/250px-Giuliano_Palma_cropped.jpg",
+                "position": "11º"
+            },
+            {
+                "artist": "Antonella Ruggiero",
+                "song": "Da lontano",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Antonella_Ruggiero_-_Mosca_20_Maggio_2015_%283%29.jpg/330px-Antonella_Ruggiero_-_Mosca_20_Maggio_2015_%283%29.jpg",
+                "position": "12º"
+            },
+            {
+                "artist": "Ron",
+                "song": "Sing in the rain",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Ron%2C_alias_Rosalino_Cellamare_02.jpg/330px-Ron%2C_alias_Rosalino_Cellamare_02.jpg",
+                "position": "13º"
+            },
+            {
+                "artist": "Riccardo Sinigallia",
+                "song": "Prima di andare via",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Sinigallia1.jpg/330px-Sinigallia1.jpg",
+                "position": "Escluso"
+            },
+            {
+                "artist": "Francesco Renga",
+                "song": "A un isolato da te",
+                "picture_artist": null,
+                "position": "NF"
+            },
+            {
+                "artist": "Francesco Sarcina",
+                "song": "In questa città",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Cristiano De André",
+                "song": "Invisibili",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Giusy Ferreri",
+                "song": "L'amore possiede il bene",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Perturbazione",
+                "song": "L'Italia vista dal bar",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Arisa",
+                "song": "Lentamente (Il primo che passa)",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Renzo Rubino",
+                "song": "Per sempre e poi basta",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Antonella Ruggiero",
+                "song": "Quando balliamo",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Raphael Gualazzi & The Bloody Beetroots",
+                "song": "Tanto ci sei",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Giuliano Palma",
+                "song": " Un bacio crudele",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Noemi",
+                "song": "Un uomo è un albero",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Frankie hi-nrg",
+                "song": "Un uomo è vivo",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Ron",
+                "song": "Un abbraccio unico",
+                "picture_artist": null,
+                "position": "Rn"
+            },
+            {
+                "artist": "Riccardo Sinigallia",
+                "song": "Una rigenerazione",
+                "picture_artist": null,
+                "position": ""
+            }
+        ]
+    },
+    "2015": {
+        "year": 2015,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/4/46/Sanremo15.png/330px-Sanremo15.png",
+        "presenters": [
+            "Carlo Conti",
+            "Arisa",
+            "Emma Marrone",
+            "Rocío Muñoz Morales"
+        ],
+        "artistic director": [
+            "Carlo Conti"
+        ],
+        "participants": [
+            {
+                "artist": "Il Volo",
+                "song": "Grande amore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/20150517_ESC_2015_Il_Volo_0752.jpg/330px-20150517_ESC_2015_Il_Volo_0752.jpg",
+                "position": "1º"
+            },
+            {
+                "artist": "Nek",
+                "song": "Fatti avanti amore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Nek_2019.jpg/330px-Nek_2019.jpg",
+                "position": "2º"
+            },
+            {
+                "artist": "Malika Ayane",
+                "song": "Adesso e qui (nostalgico presente)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Malika_Ayane_Funweek.it_2024.png/330px-Malika_Ayane_Funweek.it_2024.png",
+                "position": "3º"
+            },
+            {
+                "artist": "Annalisa",
+                "song": "Una finestra tra le stelle",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg/250px-Annalisa_mentre_canta_Stelle_in_uno_showcase_di_RDS.jpg",
+                "position": "4º"
+            },
+            {
+                "artist": "Chiara",
+                "song": "Straordinario",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chiara_Galiazzo_2017.png/330px-Chiara_Galiazzo_2017.png",
+                "position": "5º"
+            },
+            {
+                "artist": "Marco Masini",
+                "song": "Che giorno è",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Marco_Masini_tour2015.jpg/330px-Marco_Masini_tour2015.jpg",
+                "position": "6º"
+            },
+            {
+                "artist": "Dear Jack",
+                "song": "Il mondo esplode tranne noi",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dear_Jack_2015_Radio_Bruno.png/330px-Dear_Jack_2015_Radio_Bruno.png",
+                "position": "7º"
+            },
+            {
+                "artist": "Gianluca Grignani",
+                "song": "Sogni infranti",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Gianluca_Grignani_-_Fonte_Nuova_31-05-08.JPG/250px-Gianluca_Grignani_-_Fonte_Nuova_31-05-08.JPG",
+                "position": "8º"
+            },
+            {
+                "artist": "Nina Zilli",
+                "song": "Sola",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nina_Zilli_1.jpg/330px-Nina_Zilli_1.jpg",
+                "position": "9º"
+            },
+            {
+                "artist": "Lorenzo Fragola",
+                "song": "Siamo uguali",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Lorenzo_Fragola_%2817264599726%29.jpg/330px-Lorenzo_Fragola_%2817264599726%29.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Alex Britti",
+                "song": "Un attimo importante",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alex-Britti.jpg/250px-Alex-Britti.jpg",
+                "position": "11º"
+            },
+            {
+                "artist": "Irene Grandi",
+                "song": "Un vento senza nome",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Irene_Grandi_di_Sanremo_-_2020IMG_1849_%28head_shot%29.JPG/250px-Irene_Grandi_di_Sanremo_-_2020IMG_1849_%28head_shot%29.JPG",
+                "position": "12º"
+            },
+            {
+                "artist": "Nesli",
+                "song": "Buona fortuna amore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Nesli_int_%28cropped%29.JPG/250px-Nesli_int_%28cropped%29.JPG",
+                "position": "13º"
+            },
+            {
+                "artist": "Bianca Atzei",
+                "song": "Il solo al mondo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/BiancaAtzeiBortigali.png/250px-BiancaAtzeiBortigali.png",
+                "position": "14º"
+            },
+            {
+                "artist": "Moreno",
+                "song": "Oggi ti parlo così",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/MorenoMTVMusicAwardsFirenze2013.jpg/250px-MorenoMTVMusicAwardsFirenze2013.jpg",
+                "position": "15º"
+            },
+            {
+                "artist": "Grazia Di Michele e Mauro Coruzzi",
+                "song": "Io sono una finestra",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Grazia_Di_Michele%2C_Viterbo_2_luglio_2005.jpg/330px-Grazia_Di_Michele%2C_Viterbo_2_luglio_2005.jpg",
+                "position": "16º"
+            },
+            {
+                "artist": "Raf",
+                "song": "Come una favola",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Raffaele_Riefoli.jpg/250px-Raffaele_Riefoli.jpg",
+                "position": "NF"
+            },
+            {
+                "artist": "Biggio e Mandelli",
+                "song": "Vita d'inferno",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Anna Tatangelo",
+                "song": "Libera",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/a/a5/Anna_Tatangelo_Libera.jpg/330px-Anna_Tatangelo_Libera.jpg",
+                "position": ""
+            },
+            {
+                "artist": "Lara Fabian",
+                "song": "Voce",
+                "picture_artist": null,
+                "position": ""
+            }
+        ]
+    },
+    "2000": {
+        "year": 2000,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/2/2a/Sanremo2000.jpg/330px-Sanremo2000.jpg",
+        "presenters": [
+            "Fabio Fazio",
+            "Luciano Pavarotti",
+            "Teo Teocoli",
+            "Inés Sastre"
+        ],
+        "artistic director": [
+            "Mario Maffucci"
+        ],
+        "participants": [
+            {
+                "artist": "Piccola Orchestra Avion Travel",
+                "song": "Sentimento",
+                "picture_artist": null,
+                "position": "1º"
+            },
+            {
+                "artist": "Irene Grandi",
+                "song": "La tua ragazza sempre",
+                "picture_artist": null,
+                "position": "2º"
+            },
+            {
+                "artist": "Gianni Morandi",
+                "song": "Innamorato",
+                "picture_artist": null,
+                "position": "3º"
+            },
+            {
+                "artist": "Max Gazzè",
+                "song": "Il timido ubriaco",
+                "picture_artist": null,
+                "position": "4º"
+            },
+            {
+                "artist": "Samuele Bersani",
+                "song": "Replay",
+                "picture_artist": null,
+                "position": "5º"
+            },
+            {
+                "artist": "Gerardina Trovato",
+                "song": "Gechi e vampiri",
+                "picture_artist": null,
+                "position": "6º"
+            },
+            {
+                "artist": "Carmen Consoli",
+                "song": "In bianco e nero",
+                "picture_artist": null,
+                "position": "7º"
+            },
+            {
+                "artist": "Matia Bazar",
+                "song": "Brivido caldo",
+                "picture_artist": null,
+                "position": "8º"
+            },
+            {
+                "artist": "Alice",
+                "song": "Il giorno dell'indipendenza",
+                "picture_artist": null,
+                "position": "9º"
+            },
+            {
+                "artist": "Gigi D'Alessio",
+                "song": "Non dirgli mai",
+                "picture_artist": null,
+                "position": "10º"
+            },
+            {
+                "artist": "Subsonica",
+                "song": "Tutti i miei sbagli",
+                "picture_artist": null,
+                "position": "11º"
+            },
+            {
+                "artist": "Ivana Spagna",
+                "song": "Con il tuo nome",
+                "picture_artist": null,
+                "position": "12º"
+            },
+            {
+                "artist": "Mietta",
+                "song": "Fare l'amore",
+                "picture_artist": null,
+                "position": "13º"
+            },
+            {
+                "artist": "Mariella Nava e Amedeo Minghi",
+                "song": "Futuro come te",
+                "picture_artist": null,
+                "position": "14º"
+            },
+            {
+                "artist": "Marco Masini",
+                "song": "Raccontami di te",
+                "picture_artist": null,
+                "position": "15º"
+            },
+            {
+                "artist": "Umberto Tozzi",
+                "song": "Un'altra vita",
+                "picture_artist": null,
+                "position": "16º"
+            }
+        ]
+    },
+    "2001": {
+        "year": 2001,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/9/93/Sanremo_2001.jpg/300px-Sanremo_2001.jpg",
+        "presenters": [
+            "Raffaella Carrà",
+            "Megan Gale",
+            "Massimo Ceccherini",
+            "Enrico Papi",
+            "Piero Chiambretti"
+        ],
+        "artistic director": [
+            "Mario Maffucci"
+        ],
+        "participants": [
+            {
+                "artist": "Elisa",
+                "song": "Luce (tramonti a nord est)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Elisa-5292-Adriana.Tedeschi.jpg/250px-Elisa-5292-Adriana.Tedeschi.jpg",
+                "position": "1º"
+            },
+            {
+                "artist": "Giorgia",
+                "song": "Di sole e d'azzurro",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Giorgia_%28Feb_2025%3B_2%29.png/250px-Giorgia_%28Feb_2025%3B_2%29.png",
+                "position": "2º"
+            },
+            {
+                "artist": "Matia Bazar",
+                "song": "Questa nostra grande storia d'amore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/8/83/Matia_Bazar_-_Festival_di_Sanremo_1978.jpg/250px-Matia_Bazar_-_Festival_di_Sanremo_1978.jpg",
+                "position": "3º"
+            },
+            {
+                "artist": "Michele Zarrillo",
+                "song": "L'acrobata",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Michele_Zarrillo_Live_%28cropped%29.jpg/330px-Michele_Zarrillo_Live_%28cropped%29.jpg",
+                "position": "4º"
+            },
+            {
+                "artist": "Paola Turci",
+                "song": "Saluto l'inverno",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Paola_Turci_%28edited%29.jpg/250px-Paola_Turci_%28edited%29.jpg",
+                "position": "5º"
+            },
+            {
+                "artist": "Jenny B",
+                "song": "Anche tu",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Jenny_B_002.JPG/250px-Jenny_B_002.JPG",
+                "position": "6º"
+            },
+            {
+                "artist": "Alex Britti",
+                "song": "Sono contento",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alex-Britti.jpg/250px-Alex-Britti.jpg",
+                "position": "7º"
+            },
+            {
+                "artist": "Gigi D'Alessio",
+                "song": "Tu che ne sai",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Gigi_dAlessio.jpg/250px-Gigi_dAlessio.jpg",
+                "position": "8º"
+            },
+            {
+                "artist": "Fabio Concato",
+                "song": "Ciao Ninìn",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Fabio_Concato_concerto.jpg/250px-Fabio_Concato_concerto.jpg",
+                "position": "9º"
+            },
+            {
+                "artist": "Anna Oxa",
+                "song": "L'eterno movimento",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Anna_Oxa_6.jpg/250px-Anna_Oxa_6.jpg",
+                "position": "10º"
+            },
+            {
+                "artist": "Peppino di Capri",
+                "song": "Pioverà (Habibi ené)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Peppino_Di_Capri_a_Torino%2C_dopo_il_concerto_al_Teatro_Alfieri_del_20_ottobre_2008.jpg/330px-Peppino_Di_Capri_a_Torino%2C_dopo_il_concerto_al_Teatro_Alfieri_del_20_ottobre_2008.jpg",
+                "position": "11º"
+            },
+            {
+                "artist": "Gianni Bella",
+                "song": "Il profumo del mare",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Gianni_Bella_crop.jpg/208px-Gianni_Bella_crop.jpg",
+                "position": "12º"
+            },
+            {
+                "artist": "Syria",
+                "song": "Fantasticamenteamore",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Syria2025.jpg/250px-Syria2025.jpg",
+                "position": "13º"
+            },
+            {
+                "artist": "Sottotono",
+                "song": "Mezze verità",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/20px-Flag_of_Italy.svg.png",
+                "position": "14º"
+            },
+            {
+                "artist": "Quintorigo",
+                "song": "Bentivoglio Angelina (Kon tutto il mio amaro)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Valentino_Bianchi_Asti_2012_1.jpg/250px-Valentino_Bianchi_Asti_2012_1.jpg",
+                "position": "15º"
+            },
+            {
+                "artist": "Bluvertigo",
+                "song": "L'assenzio (The Power of Nothing)",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bluvertigo.jpg/330px-Bluvertigo.jpg",
+                "position": "16º"
+            }
+        ]
+    },
+    "2002": {
+        "year": 2002,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/b/b6/Sanremo_2002.png/330px-Sanremo_2002.png",
+        "presenters": [
+            "Pippo Baudo",
+            "Manuela Arcuri",
+            "Vittoria Belvedere"
+        ],
+        "artistic director": [
+            "Pippo Baudo"
+        ],
+        "participants": [
+            {
+                "artist": "Matia Bazar",
+                "song": "Messaggio d'amore",
+                "picture_artist": null,
+                "position": "1º"
+            },
+            {
+                "artist": "Alexia",
+                "song": "Dimmi come...",
+                "picture_artist": null,
+                "position": "2º"
+            },
+            {
+                "artist": "Gino Paoli",
+                "song": "Un altro amore",
+                "picture_artist": null,
+                "position": "3º"
+            },
+            {
+                "artist": "Fausto Leali e Luisa Corna",
+                "song": "Ora che ho bisogno di te",
+                "picture_artist": null,
+                "position": "4º"
+            },
+            {
+                "artist": "Enrico Ruggeri",
+                "song": "Primavera a Sarajevo",
+                "picture_artist": null,
+                "position": "5º"
+            },
+            {
+                "artist": "Mariella Nava",
+                "song": "Il cuore mio",
+                "picture_artist": null,
+                "position": "6º"
+            },
+            {
+                "artist": "Filippa Giordano",
+                "song": "Amarti sì",
+                "picture_artist": null,
+                "position": "7º"
+            },
+            {
+                "artist": "Francesco Renga",
+                "song": "Tracce di te",
+                "picture_artist": null,
+                "position": "8º"
+            },
+            {
+                "artist": "Fiordaliso",
+                "song": "Accidenti a te",
+                "picture_artist": null,
+                "position": "9º"
+            },
+            {
+                "artist": "Gazosa",
+                "song": "Ogni giorno di più",
+                "picture_artist": null,
+                "position": "10º"
+            },
+            {
+                "artist": "Michele Zarrillo",
+                "song": "Gli angeli",
+                "picture_artist": null,
+                "position": "11º"
+            },
+            {
+                "artist": "Gianluca Grignani",
+                "song": "Lacrime dalla Luna",
+                "picture_artist": null,
+                "position": "12º"
+            },
+            {
+                "artist": "Alessandro Safina",
+                "song": "Del perduto amore",
+                "picture_artist": null,
+                "position": "13º"
+            },
+            {
+                "artist": "Daniele Silvestri",
+                "song": "Salirò",
+                "picture_artist": null,
+                "position": "14º"
+            },
+            {
+                "artist": "Nino D'Angelo",
+                "song": "Marì",
+                "picture_artist": null,
+                "position": "15º"
+            },
+            {
+                "artist": "Patty Pravo",
+                "song": "L'immenso",
+                "picture_artist": null,
+                "position": "16º"
+            },
+            {
+                "artist": "Loredana Bertè",
+                "song": "Dimmi che mi ami",
+                "picture_artist": null,
+                "position": "17º"
+            },
+            {
+                "artist": "Mino Reitano",
+                "song": "La mia canzone",
+                "picture_artist": null,
+                "position": "18º"
+            },
+            {
+                "artist": "Lollipop",
+                "song": "Batte forte",
+                "picture_artist": null,
+                "position": "19º"
+            },
+            {
+                "artist": "Timoria",
+                "song": "Casa mia",
+                "picture_artist": null,
+                "position": "20º"
+            }
+        ]
+    },
+    "2003": {
+        "year": 2003,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/2/2d/Sanremo_2003.jpg/300px-Sanremo_2003.jpg",
+        "presenters": [
+            "Pippo Baudo",
+            "Serena Autieri",
+            "Claudia Gerini"
+        ],
+        "artistic director": [
+            "Pippo Baudo"
+        ],
+        "participants": [
+            {
+                "artist": "Alexia",
+                "song": "Per dire di no",
+                "picture_artist": null,
+                "position": "1º"
+            },
+            {
+                "artist": "Alex Britti",
+                "song": "7000 caffè",
+                "picture_artist": null,
+                "position": "2º"
+            },
+            {
+                "artist": "Sergio Cammariere",
+                "song": "Tutto quello che un uomo",
+                "picture_artist": null,
+                "position": "3º"
+            },
+            {
+                "artist": "Enrico Ruggeri e Andrea Mirò",
+                "song": "Nessuno tocchi Caino",
+                "picture_artist": null,
+                "position": "4º"
+            },
+            {
+                "artist": "Syria",
+                "song": "L'amore è",
+                "picture_artist": null,
+                "position": "5º"
+            },
+            {
+                "artist": "Lisa",
+                "song": "Oceano",
+                "picture_artist": null,
+                "position": "6º"
+            },
+            {
+                "artist": "Giuni Russo",
+                "song": "Morirò d'amore",
+                "picture_artist": null,
+                "position": "7º"
+            },
+            {
+                "artist": "Silvia Salemi",
+                "song": "Nel cuore delle donne",
+                "picture_artist": null,
+                "position": "8º"
+            },
+            {
+                "artist": "Antonella Ruggiero",
+                "song": "Di un amore",
+                "picture_artist": null,
+                "position": "9º"
+            },
+            {
+                "artist": "Luca Barbarossa",
+                "song": "Fortuna",
+                "picture_artist": null,
+                "position": "10º"
+            },
+            {
+                "artist": "Nino D'Angelo",
+                "song": "'A storia 'e nisciuno",
+                "picture_artist": null,
+                "position": "11º"
+            },
+            {
+                "artist": "Cristiano De André",
+                "song": "Un giorno nuovo",
+                "picture_artist": null,
+                "position": "12º"
+            },
+            {
+                "artist": "Fausto Leali",
+                "song": "Eri tu",
+                "picture_artist": null,
+                "position": "13º"
+            },
+            {
+                "artist": "Anna Oxa",
+                "song": "Cambierò",
+                "picture_artist": null,
+                "position": "14º"
+            },
+            {
+                "artist": "Eiffel 65",
+                "song": "Quelli che non hanno età",
+                "picture_artist": null,
+                "position": "15º"
+            },
+            {
+                "artist": "Bobby Solo e Little Tony",
+                "song": "Non si cresce mai",
+                "picture_artist": null,
+                "position": "16º"
+            },
+            {
+                "artist": "Anna Tatangelo e Federico Stragà",
+                "song": "Volere volare",
+                "picture_artist": null,
+                "position": "17º"
+            },
+            {
+                "artist": "Negrita",
+                "song": "Tonight",
+                "picture_artist": null,
+                "position": "18º"
+            },
+            {
+                "artist": "Amedeo Minghi",
+                "song": "Sarà una canzone",
+                "picture_artist": null,
+                "position": "19º"
+            },
+            {
+                "artist": "Iva Zanicchi",
+                "song": "Fossi un tango",
+                "picture_artist": null,
+                "position": "20º"
+            }
+        ]
+    },
+    "2004": {
+        "year": 2004,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/9/9e/Sanremo_2004.jpeg/330px-Sanremo_2004.jpeg",
+        "presenters": [
+            "Simona Ventura",
+            "Gene Gnocchi",
+            "Paola Cortellesi",
+            "Maurizio Crozza"
+        ],
+        "artistic director": [
+            "Tony Renis"
+        ],
+        "participants": [
+            {
+                "artist": "Marco Masini",
+                "song": "L'uomo volante",
+                "picture_artist": null,
+                "position": "1º"
+            },
+            {
+                "artist": "Mario Rosini",
+                "song": "Sei la vita mia",
+                "picture_artist": null,
+                "position": "2º"
+            },
+            {
+                "artist": "Linda",
+                "song": "Aria, sole, terra e mare",
+                "picture_artist": null,
+                "position": "3º"
+            },
+            {
+                "artist": "Paolo Meneguzzi",
+                "song": "Guardami negli occhi (prego)",
+                "picture_artist": null,
+                "position": "4º"
+            },
+            {
+                "artist": "Bungaro",
+                "song": "Guardastelle",
+                "picture_artist": null,
+                "position": "5º"
+            },
+            {
+                "artist": "Massimo Modugno e Gipsy Kings",
+                "song": "Quando l'aria mi sfiora",
+                "picture_artist": null,
+                "position": "6º"
+            },
+            {
+                "artist": "Stefano Picchi",
+                "song": "Generale Kamikaze",
+                "picture_artist": null,
+                "position": "7º"
+            },
+            {
+                "artist": "Morris Albert e Mietta",
+                "song": "Cuore",
+                "picture_artist": null,
+                "position": "8º"
+            },
+            {
+                "artist": "Neffa",
+                "song": "Le ore piccole",
+                "picture_artist": null,
+                "position": "9º"
+            },
+            {
+                "artist": "Mario Venuti",
+                "song": "Crudele",
+                "picture_artist": null,
+                "position": "10º"
+            },
+            {
+                "artist": "DJ Francesco",
+                "song": "Era bellissimo",
+                "picture_artist": null,
+                "position": "11º"
+            },
+            {
+                "artist": "Simone Tomassini",
+                "song": "È stato tanto tempo fa",
+                "picture_artist": null,
+                "position": "12º"
+            },
+            {
+                "artist": "DB Boulevard e Bill Wyman",
+                "song": "Basterà",
+                "picture_artist": null,
+                "position": "13º"
+            },
+            {
+                "artist": "Andrea Mingardi e The Blues Brothers Band",
+                "song": "È la musica",
+                "picture_artist": null,
+                "position": "14º"
+            },
+            {
+                "artist": "Omar Pedrini",
+                "song": "Lavoro inutile",
+                "picture_artist": null,
+                "position": "15º"
+            },
+            {
+                "artist": "Daniele Groff",
+                "song": "Sei un miracolo",
+                "picture_artist": null,
+                "position": "16º"
+            },
+            {
+                "artist": "Adriano Pappalardo",
+                "song": "Nessun consiglio",
+                "picture_artist": null,
+                "position": "17º"
+            },
+            {
+                "artist": "Veruska",
+                "song": "Un angelo legato a un palo",
+                "picture_artist": null,
+                "position": "18º"
+            },
+            {
+                "artist": "Andrè",
+                "song": "Il nostro amore",
+                "picture_artist": null,
+                "position": "19º"
+            },
+            {
+                "artist": "Danny Losito e Las Ketchup",
+                "song": "Single",
+                "picture_artist": null,
+                "position": "20º"
+            },
+            {
+                "artist": "Pacifico",
+                "song": "Solo un sogno",
+                "picture_artist": null,
+                "position": "21º"
+            },
+            {
+                "artist": "Piotta",
+                "song": "Ladro di te",
+                "picture_artist": null,
+                "position": "22º"
+            }
+        ]
+    },
+    "2005": {
+        "year": 2005,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/c/cc/San2005.PNG/330px-San2005.PNG",
+        "presenters": [
+            "Paolo Bonolis"
+        ],
+        "artistic director": [
+            "Paolo Bonolis"
+        ],
+        "participants": [
+            {
+                "artist": "Francesco Renga",
+                "song": "Angelo",
+                "picture_artist": null,
+                "position": "1"
+            },
+            {
+                "artist": "Toto Cutugno con Annalisa Minetti",
+                "song": "Come noi nessuno al mondo",
+                "picture_artist": null,
+                "position": "2"
+            },
+            {
+                "artist": "Antonella Ruggiero",
+                "song": "Echi d'infinito",
+                "picture_artist": null,
+                "position": "3"
+            },
+            {
+                "artist": "Nicky Nicolai e Stefano Di Battista Jazz Quartet",
+                "song": "Che mistero è l'amore",
+                "picture_artist": null,
+                "position": "4"
+            },
+            {
+                "artist": "Laura Bono",
+                "song": "Non credo nei miracoli",
+                "picture_artist": null,
+                "position": "5"
+            },
+            {
+                "artist": "Marcella Bella",
+                "song": "Uomo bastardo",
+                "picture_artist": null,
+                "position": "6"
+            },
+            {
+                "artist": "Anna Tatangelo",
+                "song": "Ragazza di periferia",
+                "picture_artist": null,
+                "position": "7"
+            },
+            {
+                "artist": "Alexia",
+                "song": "Da grande",
+                "picture_artist": null,
+                "position": "8"
+            },
+            {
+                "artist": "Matia Bazar",
+                "song": "Grido d'amore",
+                "picture_artist": null,
+                "position": "9"
+            },
+            {
+                "artist": "Gigi D'Alessio",
+                "song": "L'amore che non c'è",
+                "picture_artist": null,
+                "position": "10"
+            },
+            {
+                "artist": "Veronica Ventavoli",
+                "song": "L'immaginario",
+                "picture_artist": null,
+                "position": "11"
+            },
+            {
+                "artist": "Peppino di Capri",
+                "song": "La panchina",
+                "picture_artist": null,
+                "position": "12"
+            },
+            {
+                "artist": "Marco Masini",
+                "song": "Nel mondo dei sogni",
+                "picture_artist": null,
+                "position": "13"
+            },
+            {
+                "artist": "Le Vibrazioni",
+                "song": "Ovunque andrò",
+                "picture_artist": null,
+                "position": "14"
+            },
+            {
+                "artist": "La Differenza",
+                "song": "Che farò",
+                "picture_artist": null,
+                "position": "15"
+            },
+            {
+                "artist": "DJ Francesco Band",
+                "song": "Francesca",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Paolo Meneguzzi",
+                "song": "Non capiva che l'amavo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/3/3b/PaoloMeneguzziNonCapivaCheLAmavo.jpg/330px-PaoloMeneguzziNonCapivaCheLAmavo.jpg",
+                "position": ""
+            },
+            {
+                "artist": "Marina Rei",
+                "song": "Fammi entrare",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Nicola Arigliano",
+                "song": "Colpevole",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Giovanna D'Angi",
+                "song": "Fammi respirare",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Max De Angelis",
+                "song": "Sono qui per questo",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Equ",
+                "song": "L'idea",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Franco Califano",
+                "song": "Non escludo il ritorno",
+                "picture_artist": null,
+                "position": "NF (E3)"
+            },
+            {
+                "artist": "Velvet",
+                "song": "Dovevo dirti molte cose",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Christian Lo Zito",
+                "song": "Segui il tuo cuore",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Sabrina Guida",
+                "song": "Vorrei",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Modà",
+                "song": "Riesci a innamorarmi",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Paola & Chiara",
+                "song": "A modo mio",
+                "picture_artist": null,
+                "position": "NF (E2)"
+            },
+            {
+                "artist": "Umberto Tozzi",
+                "song": "Concido",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Concido",
+                "song": "Ci vuole k...",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Enrico Boccadoro",
+                "song": "Dov'è la terra capitano",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Negramaro",
+                "song": "Mentre tutto scorre",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/7/73/Mentre_tutto_scorre.png/330px-Mentre_tutto_scorre.png",
+                "position": ""
+            }
+        ]
+    },
+    "2008": {
+        "year": 2008,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/3/37/Sanremo_2008.png/321px-Sanremo_2008.png",
+        "presenters": [
+            "Pippo Baudo",
+            "Piero Chiambretti",
+            "Bianca Guaccero",
+            "Andrea Osvárt"
+        ],
+        "artistic director": [
+            "Pippo Baudo"
+        ],
+        "participants": [
+            {
+                "artist": "Giò Di Tonno e Lola Ponce",
+                "song": "Colpo di fulmine",
+                "picture_artist": null,
+                "position": "1º"
+            },
+            {
+                "artist": "Anna Tatangelo",
+                "song": "Il mio amico",
+                "picture_artist": null,
+                "position": "2º"
+            },
+            {
+                "artist": "Fabrizio Moro",
+                "song": "Eppure mi hai cambiato la vita",
+                "picture_artist": null,
+                "position": "3º"
+            },
+            {
+                "artist": "Toto Cutugno",
+                "song": "Un falco chiuso in gabbia",
+                "picture_artist": null,
+                "position": "4º"
+            },
+            {
+                "artist": "Finley",
+                "song": "Ricordi",
+                "picture_artist": null,
+                "position": "5º"
+            },
+            {
+                "artist": "Paolo Meneguzzi",
+                "song": "Grande",
+                "picture_artist": null,
+                "position": "6º"
+            },
+            {
+                "artist": "Sergio Cammariere",
+                "song": "L'amore non si spiega",
+                "picture_artist": null,
+                "position": "7º"
+            },
+            {
+                "artist": "Gianluca Grignani",
+                "song": "Cammina nel sole",
+                "picture_artist": null,
+                "position": "8º"
+            },
+            {
+                "artist": "Little Tony",
+                "song": "Non finisce qui",
+                "picture_artist": null,
+                "position": "9º"
+            },
+            {
+                "artist": "Eugenio Bennato",
+                "song": "Grande sud",
+                "picture_artist": null,
+                "position": "10º"
+            },
+            {
+                "artist": "Mietta",
+                "song": "Baciami adesso",
+                "picture_artist": null,
+                "position": "11º"
+            },
+            {
+                "artist": "Max Gazzè",
+                "song": "Il solito sesso",
+                "picture_artist": null,
+                "position": "12º"
+            },
+            {
+                "artist": "L'Aura",
+                "song": "Basta!",
+                "picture_artist": null,
+                "position": "13º"
+            },
+            {
+                "artist": "Frankie hi-nrg mc",
+                "song": "Rivoluzione",
+                "picture_artist": null,
+                "position": "14º"
+            },
+            {
+                "artist": "Michele Zarrillo",
+                "song": "L'ultimo film insieme",
+                "picture_artist": null,
+                "position": "15º"
+            },
+            {
+                "artist": "Tricarico",
+                "song": "Vita tranquilla",
+                "picture_artist": null,
+                "position": "16º"
+            },
+            {
+                "artist": "Tiromancino",
+                "song": "Il rubacuori",
+                "picture_artist": null,
+                "position": "17º"
+            },
+            {
+                "artist": "Amedeo Minghi",
+                "song": "Cammina cammina",
+                "picture_artist": null,
+                "position": "18º"
+            },
+            {
+                "artist": "Mario Venuti",
+                "song": "A ferro e fuoco",
+                "picture_artist": null,
+                "position": "19º"
+            },
+            {
+                "artist": "Loredana Bertè",
+                "song": "Musica e parole",
+                "picture_artist": null,
+                "position": "Squalificata[4]"
+            }
+        ]
+    },
+    "2009": {
+        "year": 2009,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/4/49/Sanremo_2009.png/330px-Sanremo_2009.png",
+        "presenters": [
+            "Paolo Bonolis",
+            "Luca Laurenti",
+            "Alessia Piovan",
+            "Paul Sculfor",
+            "Nir Lavi",
+            "Eleonora Abbagnato",
+            "Thyago Alves",
+            "Gabriella Pession",
+            "Ivan Olita",
+            "David Gandy",
+            "Maria De Filippi"
+        ],
+        "artistic director": [
+            "Paolo Bonolis"
+        ],
+        "participants": [
+            {
+                "artist": "Marco Carta",
+                "song": "La forza mia",
+                "picture_artist": null,
+                "position": "1º"
+            },
+            {
+                "artist": "Povia",
+                "song": "Luca era gay",
+                "picture_artist": null,
+                "position": "2º"
+            },
+            {
+                "artist": "Sal Da Vinci",
+                "song": "Non riesco a farti innamorare",
+                "picture_artist": null,
+                "position": "3º"
+            },
+            {
+                "artist": "Francesco Renga",
+                "song": "Uomo senza età",
+                "picture_artist": null,
+                "position": "F"
+            },
+            {
+                "artist": "Fausto Leali",
+                "song": "Una piccola parte di te",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Marco Masini",
+                "song": "L'Italia",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Patty Pravo",
+                "song": "E io verrò un giorno là",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Alexia e Mario Lavezzi",
+                "song": "Biancaneve",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Al Bano",
+                "song": "L'amore è sempre amore",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Pupo, Paolo Belli e Youssou N'Dour",
+                "song": "L'opportunità",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Dolcenera",
+                "song": "Il mio amore unico",
+                "picture_artist": null,
+                "position": "NF"
+            },
+            {
+                "artist": "Gemelli DiVersi",
+                "song": "Vivi per un miracolo",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/9/9a/Gemelli_DiVersi_-_Vivi_per_un_miracolo.png/330px-Gemelli_DiVersi_-_Vivi_per_un_miracolo.png",
+                "position": ""
+            },
+            {
+                "artist": "Nicky Nicolai e Stefano Di Battista",
+                "song": "Più sole",
+                "picture_artist": null,
+                "position": ""
+            },
+            {
+                "artist": "Afterhours",
+                "song": "Il paese è reale",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/4/4f/Afterhours_Il_paese_%C3%A8_reale.jpg/330px-Afterhours_Il_paese_%C3%A8_reale.jpg",
+                "position": ""
+            },
+            {
+                "artist": "Tricarico",
+                "song": "Il bosco delle fragole",
+                "picture_artist": "https://upload.wikimedia.org/wikipedia/it/thumb/2/20/Boscofragole.png/330px-Boscofragole.png",
+                "position": ""
+            },
+            {
+                "artist": "Iva Zanicchi",
+                "song": "Ti voglio senza amore",
+                "picture_artist": null,
+                "position": ""
+            }
+        ]
+    },
+    "2006": {
+        "year": 2006,
+        "logo": "https://upload.wikimedia.org/wikipedia/it/thumb/f/f5/Sanremo_2006.jpg/305px-Sanremo_2006.jpg",
+        "presenter": [
+            "Giorgio Panariello",
+            "Ilary Blasi",
+            "Victoria Cabello"
+        ],
+        "artistic director": [
+            "Giorgio Panariello"
+        ],
+        "participants": [
+            {
+                "artist": "Povia",
+                "song": "Vorrei avere il becco",
+                "picture_artist": null,
+                "position": "1"
+            },
+            {
+                "artist": "Nomadi",
+                "song": "Dove si va",
+                "picture_artist": null,
+                "position": "2"
+            },
+            {
+                "artist": "Anna Tatangelo",
+                "song": "Essere una donna",
+                "picture_artist": null,
+                "position": "3"
+            },
+            {
+                "artist": "Riccardo Maffoni",
+                "song": "Sole negli occhi",
+                "picture_artist": null,
+                "position": "4"
+            },
+            {
+                "artist": "Simone Cristicchi",
+                "song": "Che bella gente",
+                "picture_artist": null,
+                "position": "F"
+            },
+            {
+                "artist": "Dolcenera",
+                "song": "Com'è straordinaria la vita",
+                "picture_artist": null,
+                "position": "F"
+            },
+            {
+                "artist": "Michele Zarrillo",
+                "song": "L'alfabeto degli amanti",
+                "picture_artist": null,
+                "position": "F"
+            },
+            {
+                "artist": "Zero Assoluto",
+                "song": "Svegliarsi la mattina",
+                "picture_artist": null,
+                "position": "F"
+            },
+            {
+                "artist": "Simona Bencini",
+                "song": "Tempesta",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Nicky Nicolai",
+                "song": "Lei ha la notte",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Ron",
+                "song": "L'uomo delle stelle",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Alex Britti",
+                "song": "Solo con te",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "I Ragazzi di Scampia con Gigi Finizio",
+                "song": "Musica e speranza",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Sugarfree",
+                "song": "Solo lei mi dà",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Monia Russo",
+                "song": "Un mondo senza parole",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "L'Aura",
+                "song": "Irraggiungibile",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Helena Hellwig",
+                "song": "Di luna morirei",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Tiziano Orecchio",
+                "song": "Preda innocente",
+                "picture_artist": null,
+                "position": "NF (E4)"
+            },
+            {
+                "artist": "Noa, Carlo Fava & Solis String Quartet",
+                "song": "Un discorso in generale",
+                "picture_artist": null,
+                "position": "NF (E3)"
+            },
+            {
+                "artist": "Ivana Spagna",
+                "song": "Noi non possiamo cambiare",
+                "picture_artist": null,
+                "position": "NF (E3)"
+            },
+            {
+                "artist": "Luca Dirisio",
+                "song": "Sparirò",
+                "picture_artist": null,
+                "position": "NF (E3)"
+            },
+            {
+                "artist": "Andrea Ori",
+                "song": "Nel tuo mare",
+                "picture_artist": null,
+                "position": "NF (E3)"
+            },
+            {
+                "artist": "Ameba 4",
+                "song": "Rido... forse mi sbaglio",
+                "picture_artist": null,
+                "position": "NF (E3)"
+            },
+            {
+                "artist": "Ivan Segreto",
+                "song": "Con un gesto",
+                "picture_artist": null,
+                "position": "NF (E3)"
+            },
+            {
+                "artist": "Anna Oxa",
+                "song": "Processo a me stessa",
+                "picture_artist": null,
+                "position": "NF (E2)"
+            },
+            {
+                "artist": "Mario Venuti e Arancia Sonora",
+                "song": "Un altro posto nel mondo",
+                "picture_artist": null,
+                "position": "NF (E2)"
+            },
+            {
+                "artist": "Gianluca Grignani",
+                "song": "Liberi di sognare",
+                "picture_artist": null,
+                "position": "NF (E2)"
+            },
+            {
+                "artist": "Antonello",
+                "song": "Capirò crescerai",
+                "picture_artist": null,
+                "position": "NF (E2)"
+            },
+            {
+                "artist": "Deasonika",
+                "song": "Non dimentico più...",
+                "picture_artist": null,
+                "position": "NF (E2)"
+            },
+            {
+                "artist": "Virginio",
+                "song": "Davvero",
+                "picture_artist": null,
+                "position": "NF (E2)"
+            }
+        ]
+    }
+}

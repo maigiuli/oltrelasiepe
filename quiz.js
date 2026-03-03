@@ -17,7 +17,6 @@ const MODALITA = {
     ATTRIBUTI_DA_SANTO: "attributi_da_santo"
 };
 
-// 3. FUNZIONI
 function santoCasuale(santi) {
     const index = Math.floor(Math.random() * santi.length);
     return santi[index];
@@ -107,7 +106,6 @@ function nuovaDomanda(santi, modalita) {
 
 
 
-// === TEST QUIZ BASE ===
 
 function mescolaArray(array) {
     const arr = [...array];
@@ -281,19 +279,19 @@ function iniziaQuiz() {
     avviaQuiz();
 }
 function ricominciaQuiz() {
-    // Nascondi risultati
+    
     document.getElementById("risultatiFinali").style.display = "none";
 
-    // Mostra la prima schermata: scelta numero domande
+    
     document.getElementById("wrapperNumeroDomande").style.display = "flex";
 
-    // Nascondi tutte le altre sezioni
+   
     document.getElementById("wrapperModalita").style.display = "none";
     document.getElementById("wrapperQuiz").style.display = "none";
 
-    // Reset variabili
+    
     numeroDomanda = 0;
-    totaleDomande = 10; // default
+    totaleDomande = 10; 
     risultati = [];
 }
 
